@@ -1,0 +1,682 @@
+{
+  "total": 120,
+  "valid": 120,
+  "invalid": 0,
+  "errors": {},
+  "warnings": {
+    "MOL-000001": [
+      "SMILES not canonical. Got: CC(=O)OC1=CC=CC=C1C(=O)O, Expected: CC(=O)Oc1ccccc1C(=O)O",
+      "HBA difference (PubChem=4, RDKit=3)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000002": [
+      "SMILES not canonical. Got: CC(C)CC1=CC=C(C=C1)C(C)C(=O)O, Expected: CC(C)Cc1ccc(C(C)C(=O)O)cc1",
+      "HBA difference (PubChem=2, RDKit=1)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000003": [
+      "SMILES not canonical. Got: CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O, Expected: COc1ccc2cc(C(C)C(=O)O)ccc2c1",
+      "HBA difference (PubChem=3, RDKit=2)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000004": [
+      "SMILES not canonical. Got: C1=CC=C(C(=C1)CC(=O)O)NC2=C(C=CC=C2Cl)Cl, Expected: O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl",
+      "Molecular weight difference (PubChem vs RDKit): record=296.1, calculated=295.02",
+      "HBA difference (PubChem=3, RDKit=2)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000005": [
+      "SMILES not canonical. Got: CC1=CC=C(C=C1)C2=CC(=NN2C3=CC=C(C=C3)S(=O)(=O)N)C(F)(F)F, Expected: Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1",
+      "HBA difference (PubChem=7, RDKit=3)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000006": [
+      "SMILES not canonical. Got: CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O, Expected: COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1",
+      "HBA difference (PubChem=4, RDKit=3)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000007": [
+      "SMILES not canonical. Got: CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)NC(=O)CC3=CC=CC=C3)C(=O)O)C, Expected: CC1(C)S[C@@H]2[C@H](NC(=O)Cc3ccccc3)C(=O)N2[C@H]1C(=O)O",
+      "HBA difference (PubChem=5, RDKit=4)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000008": [
+      "SMILES not canonical. Got: CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)NC(=O)[C@@H](C3=CC=C(C=C3)O)N)C(=O)O)C, Expected: CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccc(O)cc3)C(=O)N2[C@H]1C(=O)O",
+      "HBA difference (PubChem=7, RDKit=6)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000009": [
+      "SMILES not canonical. Got: C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O, Expected: O=C(O)c1cn(C2CC2)c2cc(N3CCNCC3)c(F)cc2c1=O",
+      "HBA difference (PubChem=7, RDKit=4)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000010": [
+      "SMILES not canonical. Got: C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O, Expected: C[C@H]1c2cccc(O)c2C(O)=C2C(=O)[C@]3(O)C(O)=C(C(N)=O)C(=O)[C@@H](N(C)C)[C@@H]3[C@@H](O)[C@@H]21",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000011": [
+      "SMILES not canonical. Got: CC[C@@H]1[C@@]([C@@H]([C@H](N(C[C@@H](C[C@@]([C@@H]([C@H]([C@@H]([C@H](C(=O)O1)C)O[C@H]2C[C@@]([C@H]([C@@H](O2)C)O)(C)OC)C)O[C@H]3[C@@H]([C@H](C[C@H](O3)C)N(C)C)O)(C)O)C)C)C)O)(C)O, Expected: CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)CN(C)[C@H](C)[C@@H](O)[C@]1(C)O",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000012": [
+      "SMILES not canonical. Got: C[C@H]1[C@H]([C@@](C[C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H](O[C@H]2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)[C@H]([C@H](C(=O)N[C@H](C(=O)N[C@H]5C(=O)N[C@@H]7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)[C@H](NC(=O)[C@H]([C@@H](C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)[C@@H](CC(C)C)NC)O)Cl)CO)O)O)(C)N)O, Expected: CN[C@H](CC(C)C)C(=O)N[C@H]1C(=O)N[C@@H](CC(N)=O)C(=O)N[C@H]2C(=O)N[C@H]3C(=O)N[C@H](C(=O)N[C@H](C(=O)O)c4cc(O)cc(O)c4-c4cc3ccc4O)[C@H](O)c3ccc(c(Cl)c3)Oc3cc2cc(c3O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O[C@H]2C[C@](C)(N)[C@H](O)[C@H](C)O2)Oc2ccc(cc2Cl)[C@H]1O",
+      "Molecular weight difference (PubChem vs RDKit): record=1449.2, calculated=1447.43",
+      "HBA difference (PubChem=26, RDKit=25)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000013": [
+      "SMILES not canonical. Got: CC(C1CCC(C(O1)OC2C(CC(C(C2O)OC3C(C(C(CO3)(C)O)NC)O)N)N)N)NC, Expected: CNC(C)C1CCC(N)C(OC2C(N)CC(N)C(OC3OCC(C)(O)C(NC)C3O)C2O)O1",
+      "No text descriptions provided",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000014": [
+      "SMILES not canonical. Got: CC1=NC=C(N1CCO)[N+](=O)[O-], Expected: Cc1ncc([N+](=O)[O-])n1CCO",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000015": [
+      "SMILES not canonical. Got: C1=CC=C(C=C1)NC2=CC(=O)C3=C(C2=O)C=CC=N3, Expected: O=C1C(Nc2ccccc2)=CC(=O)c2ncccc21",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000016": [
+      "SMILES not canonical. Got: CCC(CC)O[C@@H]1C=C(C[C@@H]([C@H]1NC(=O)C)N)C(=O)OCC, Expected: CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@H](NC(C)=O)[C@@H](N)C1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000017": [
+      "SMILES not canonical. Got: C1=NC2=C(N1COCCO)NC(=NC2=O)N, Expected: Nc1nc(=O)c2ncn(COCCO)c2[nH]1",
+      "HBA difference (PubChem=4, RDKit=6)",
+      "No text descriptions provided",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000018": [
+      "SMILES not canonical. Got: CCC(CC)COC(=O)[C@H](C)N[P@](=O)(OC[C@@H]1[C@H]([C@H]([C@](O1)(C#N)C2=CC=C3N2N=CN=C3N)O)O)OC4=CC=CC=C4, Expected: CCC(CC)COC(=O)[C@H](C)N[P@](=O)(OC[C@H]1O[C@@](C#N)(c2ccc3c(N)ncnn23)[C@H](O)[C@@H]1O)Oc1ccccc1",
+      "HBA difference (PubChem=13, RDKit=12)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000019": [
+      "SMILES not canonical. Got: CC1=CN(C(=O)NC1=O)[C@H]2C[C@@H]([C@H](O2)CO)N=[N+]=[N-], Expected: Cc1cn([C@H]2C[C@H](N=[N+]=[N-])[C@@H](CO)O2)c(=O)[nH]c1=O",
+      "HBA difference (PubChem=6, RDKit=5)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000020": [
+      "SMILES not canonical. Got: CC/C(=C(\\C1=CC=CC=C1)/C2=CC=C(C=C2)OCCN(C)C)/C3=CC=CC=C3, Expected: CC/C(=C(\\c1ccccc1)c1ccc(OCCN(C)C)cc1)c1ccccc1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000021": [
+      "SMILES not canonical. Got: CC1=C2[C@H](C(=O)[C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)[C@@H]([C@H](C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C, Expected: CC(=O)O[C@H]1C(=O)[C@@]2(C)[C@H]([C@H](OC(=O)c3ccccc3)[C@]3(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)c4ccccc4)c4ccccc4)C(C)=C1C3(C)C)[C@]1(OC(C)=O)CO[C@@H]1C[C@@H]2O",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000022": [
+      "SMILES not canonical. Got: CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)N[C@@H](CCC(=O)O)C(=O)O, Expected: CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1",
+      "HBA difference (PubChem=12, RDKit=10)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000023": [
+      "SMILES not canonical. Got: C[C@H]1[C@H]([C@H](C[C@@H](O1)O[C@H]2C[C@@](CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)CO)O)N)O, Expected: COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000024": [
+      "SMILES not canonical. Got: N.N.Cl[Pt]Cl, Expected: N.N.[Cl][Pt][Cl]",
+      "Molecular weight difference (PubChem vs RDKit): record=300.05, calculated=298.96",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000025": [
+      "SMILES not canonical. Got: C1=C(C(=O)NC(=O)N1)F, Expected: O=c1[nH]cc(F)c(=O)[nH]1",
+      "HBA difference (PubChem=3, RDKit=2)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000026": [
+      "SMILES not canonical. Got: CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5, Expected: Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000027": [
+      "SMILES not canonical. Got: C1CNP(=O)(OC1)N(CCCl)CCCl, Expected: O=P1(N(CCCl)CCCl)NCCCO1",
+      "Molecular weight difference (PubChem vs RDKit): record=261.08, calculated=260.02",
+      "HBA difference (PubChem=4, RDKit=2)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000028": [
+      "SMILES not canonical. Got: COC1=C(C=C2C(=C1)N=CN=C2NC3=CC(=C(C=C3)F)Cl)OCCCN4CCOCC4, Expected: COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1",
+      "HBA difference (PubChem=8, RDKit=7)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000029": [
+      "SMILES not canonical. Got: COCCOC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC=CC(=C3)C#C)OCCOC, Expected: C#Cc1cccc(Nc2ncnc3cc(OCCOC)c(OCCOC)cc23)c1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000030": [
+      "SMILES not canonical. Got: CNC(=O)C1=NC=CC(=C1)OC2=CC=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F, Expected: CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1",
+      "HBA difference (PubChem=7, RDKit=4)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000031": [
+      "SMILES not canonical. Got: CCN(CC)CCNC(=O)C1=C(NC(=C1C)/C=C\\2/C3=C(C=CC(=C3)F)NC2=O)C, Expected: CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\\C(=O)Nc3ccc(F)cc32)c1C",
+      "HBA difference (PubChem=4, RDKit=3)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000032": [
+      "SMILES not canonical. Got: C[C@H](C1=C(C=CC(=C1Cl)F)Cl)OC2=C(N=CC(=C2)C3=CN(N=C3)C4CCNCC4)N, Expected: C[C@@H](Oc1cc(-c2cnn(C3CCNCC3)c2)cnc1N)c1c(Cl)ccc(F)c1Cl",
+      "Molecular weight difference (PubChem vs RDKit): record=450.3, calculated=449.12",
+      "HBA difference (PubChem=6, RDKit=5)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000033": [
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000034": [
+      "SMILES not canonical. Got: COC1=C(C=C(C=C1)Cl)C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)NC3CCCCC3, Expected: COc1ccc(Cl)cc1C(=O)NCCc1ccc(S(=O)(=O)NC(=O)NC2CCCCC2)cc1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000035": [
+      "SMILES not canonical. Got: C1CN2C(=NN=C2C(F)(F)F)CN1C(=O)C[C@@H](CC3=CC(=C(C=C3F)F)F)N, Expected: N[C@@H](CC(=O)N1CCn2c(nnc2C(F)(F)F)C1)Cc1cc(F)c(F)cc1F",
+      "HBA difference (PubChem=10, RDKit=4)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000036": [
+      "SMILES not canonical. Got: CCC1=CN=C(C=C1)CCOC2=CC=C(C=C2)CC3C(=O)NC(=O)S3, Expected: CCc1ccc(CCOc2ccc(CC3SC(=O)NC3=O)cc2)nc1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000037": [
+      "SMILES not canonical. Got: C1COC[C@H]1OC2=CC=C(C=C2)CC3=C(C=CC(=C3)[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)Cl, Expected: OC[C@H]1O[C@@H](c2ccc(Cl)c(Cc3ccc(O[C@H]4CCOC4)cc3)c2)[C@H](O)[C@@H](O)[C@@H]1O",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000038": [
+      "SMILES not canonical. Got: CNCCC(C1=CC=CC=C1)OC2=CC=C(C=C2)C(F)(F)F, Expected: CNCCC(Oc1ccc(C(F)(F)F)cc1)c1ccccc1",
+      "HBA difference (PubChem=5, RDKit=2)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000039": [
+      "SMILES not canonical. Got: CN[C@H]1CC[C@H](C2=CC=CC=C12)C3=CC(=C(C=C3)Cl)Cl, Expected: CN[C@H]1CC[C@@H](c2ccc(Cl)c(Cl)c2)c2ccccc21",
+      "Molecular weight difference (PubChem vs RDKit): record=306.2, calculated=305.07",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000040": [
+      "SMILES not canonical. Got: C1CNC[C@H]([C@@H]1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4, Expected: Fc1ccc([C@@H]2CCNC[C@H]2COc2ccc3c(c2)OCO3)cc1",
+      "HBA difference (PubChem=5, RDKit=4)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000041": [
+      "SMILES not canonical. Got: CN(C)CC(C1=CC=C(C=C1)OC)C2(CCCCC2)O, Expected: COc1ccc(C(CN(C)C)C2(O)CCCCC2)cc1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000042": [
+      "SMILES not canonical. Got: CN(C)CCC=C1C2=CC=CC=C2CCC3=CC=CC=C31, Expected: CN(C)CCC=C1c2ccccc2CCc2ccccc21",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000043": [
+      "SMILES not canonical. Got: CN(C)CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F, Expected: CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21",
+      "HBA difference (PubChem=4, RDKit=3)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000044": [
+      "SMILES not canonical. Got: C1C[C@H](N(C1)C(=O)[C@H](CCCCN)N[C@@H](CCC2=CC=CC=C2)C(=O)O)C(=O)O, Expected: NCCCC[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N1CCC[C@H]1C(=O)O",
+      "HBA difference (PubChem=7, RDKit=5)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000045": [
+      "SMILES not canonical. Got: CCCCC1=NC(=C(N1CC2=CC=C(C=C2)C3=CC=CC=C3C4=NNN=N4)CO)Cl, Expected: CCCCc1nc(Cl)c(CO)n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000046": [
+      "SMILES not canonical. Got: CCOC(=O)C1=C(NC(=C(C1C2=CC=CC=C2Cl)C(=O)OC)C)COCCN, Expected: CCOC(=O)C1=C(COCCN)NC(C)=C(C(=O)OC)C1c1ccccc1Cl",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000047": [
+      "SMILES not canonical. Got: CCOC(=O)[C@H](CCC1=CC=CC=C1)N[C@@H](C)C(=O)N2CCC[C@H]2C(=O)O, Expected: CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N1CCC[C@H]1C(=O)O",
+      "HBA difference (PubChem=6, RDKit=5)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000048": [
+      "SMILES not canonical. Got: CCCCC(=O)N(CC1=CC=C(C=C1)C2=CC=CC=C2C3=NNN=N3)[C@@H](C(C)C)C(=O)O, Expected: CCCCC(=O)N(Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1)[C@H](C(=O)O)C(C)C",
+      "HBA difference (PubChem=6, RDKit=5)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000049": [
+      "SMILES not canonical. Got: CC(C)NCC(COC1=CC=C(C=C1)CCOC)O, Expected: COCCc1ccc(OCC(O)CNC(C)C)cc1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000050": [
+      "SMILES not canonical. Got: CC(C)C1=C(C(=C(N1CC[C@H](C[C@H](CC(=O)O)O)O)C2=CC=C(C=C2)F)C3=CC=CC=C3)C(=O)NC4=CC=CC=C4, Expected: CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CC[C@@H](O)C[C@@H](O)CC(=O)O",
+      "HBA difference (PubChem=6, RDKit=4)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000051": [
+      "SMILES not canonical. Got: CCC(C)(C)C(=O)O[C@H]1C[C@H](C=C2[C@H]1[C@H]([C@H](C=C2)C)CC[C@@H]3C[C@H](CC(=O)O3)O)C, Expected: CCC(C)(C)C(=O)O[C@H]1C[C@@H](C)C=C2C=C[C@H](C)[C@H](CC[C@@H]3C[C@@H](O)CC(=O)O3)[C@H]21",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000052": [
+      "SMILES not canonical. Got: CC(C)C1=NC(=NC(=C1/C=C/[C@H](C[C@H](CC(=O)O)O)O)C2=CC=C(C=C2)F)N(C)S(=O)(=O)C, Expected: CC(C)c1nc(N(C)S(C)(=O)=O)nc(-c2ccc(F)cc2)c1/C=C/[C@@H](O)C[C@@H](O)CC(=O)O",
+      "HBA difference (PubChem=10, RDKit=7)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000053": [
+      "SMILES not canonical. Got: CC[C@H](C)C(=O)O[C@H]1C[C@@H](C=C2[C@H]1[C@H]([C@H](C=C2)C)CC[C@H](C[C@H](CC(=O)O)O)O)O, Expected: CC[C@H](C)C(=O)O[C@H]1C[C@H](O)C=C2C=C[C@H](C)[C@H](CC[C@@H](O)C[C@@H](O)CC(=O)O)[C@H]21",
+      "HBA difference (PubChem=7, RDKit=6)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000054": [
+      "SMILES not canonical. Got: C1CN(CCN1CCOCC(=O)O)C(C2=CC=CC=C2)C3=CC=C(C=C3)Cl, Expected: O=C(O)COCCN1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1",
+      "HBA difference (PubChem=5, RDKit=4)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000055": [
+      "SMILES not canonical. Got: CCOC(=O)N1CCC(=C2C3=C(CCC4=C2N=CC=C4)C=C(C=C3)Cl)CC1, Expected: CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000056": [
+      "SMILES not canonical. Got: CC(C)(C1=CC=C(C=C1)C(CCCN2CCC(CC2)C(C3=CC=CC=C3)(C4=CC=CC=C4)O)O)C(=O)O, Expected: CC(C)(C(=O)O)c1ccc(C(O)CCCN2CCC(C(O)(c3ccccc3)c3ccccc3)CC2)cc1",
+      "HBA difference (PubChem=5, RDKit=4)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000057": [
+      "SMILES not canonical. Got: CN(C)CCOC(C1=CC=CC=C1)C2=CC=CC=C2, Expected: CN(C)CCOC(c1ccccc1)c1ccccc1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000058": [
+      "SMILES not canonical. Got: CN1CC[C@]23[C@@H]4[C@H]1CC5=C2C(=C(C=C5)O)O[C@H]3[C@H](C=C4)O, Expected: CN1CC[C@]23c4c5ccc(O)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000059": [
+      "SMILES not canonical. Got: CN1CC[C@]23[C@@H]4[C@H]1CC5=C2C(=C(C=C5)OC)O[C@H]3[C@H](C=C4)O, Expected: COc1ccc2c3c1O[C@H]1[C@@H](O)C=C[C@H]4[C@@H](C2)N(C)CC[C@@]341",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000060": [
+      "SMILES not canonical. Got: CCC(=O)N(C1CCN(CC1)CCC2=CC=CC=C2)C3=CC=CC=C3, Expected: CCC(=O)N(c1ccccc1)C1CCN(CCc2ccccc2)CC1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000061": [
+      "SMILES not canonical. Got: CN(C)C[C@H]1CCCC[C@@]1(C2=CC(=CC=C2)OC)O, Expected: COc1cccc([C@@]2(O)CCCC[C@@H]2CN(C)C)c1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000062": [
+      "SMILES not canonical. Got: CC(C)(C)NCC(C1=CC(=C(C=C1)O)CO)O, Expected: CC(C)(C)NCC(O)c1ccc(O)c(CO)c1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000063": [
+      "SMILES not canonical. Got: CC(C)NCC(C1=CC=C(C=C1)NS(=O)(=O)C)O, Expected: CC(C)NCC(O)c1ccc(NS(C)(=O)=O)cc1",
+      "HBA difference (PubChem=5, RDKit=4)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000064": [
+      "SMILES not canonical. Got: CC(C)(C1=CC=CC=C1CC[C@H](C2=CC=CC(=C2)/C=C/C3=NC4=C(C=CC(=C4)Cl)C=C3)SCC5(CC5)CC(=O)O)O, Expected: CC(C)(O)c1ccccc1CC[C@@H](SCC1(CC(=O)O)CC1)c1cccc(/C=C/c2ccc3ccc(Cl)cc3n2)c1",
+      "HBA difference (PubChem=5, RDKit=4)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000065": [
+      "SMILES not canonical. Got: CC(=O)CC(C1=CC=CC=C1)C2=C(C3=CC=CC=C3OC2=O)O, Expected: CC(=O)CC(c1ccccc1)c1c(O)c2ccccc2oc1=O",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000066": [
+      "SMILES not canonical. Got: CC(=O)NC1C(C(C(OC1O)COS(=O)(=O)O)OC2C(C(C(C(O2)C(=O)O)OC3C(C(C(C(O3)CO)OC4C(C(C(C(O4)C(=O)O)O)O)OS(=O)(=O)O)OS(=O)(=O)O)NS(=O)(=O)O)O)OS(=O)(=O)O)O, Expected: CC(=O)NC1C(O)OC(COS(=O)(=O)O)C(OC2OC(C(=O)O)C(OC3OC(CO)C(OC4OC(C(=O)O)C(O)C(O)C4OS(=O)(=O)O)C(OS(=O)(=O)O)C3NS(=O)(=O)O)C(O)C2OS(=O)(=O)O)C1O",
+      "HBA difference (PubChem=38, RDKit=30)",
+      "No text descriptions provided",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000067": [
+      "SMILES not canonical. Got: C1COCC(=O)N1C2=CC=C(C=C2)N3CC(OC3=O)CNC(=O)C4=CC=C(S4)Cl, Expected: O=C(NCC1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1",
+      "No text descriptions provided",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000068": [
+      "SMILES not canonical. Got: CC[C@H]1C(=O)N(CC(=O)N([C@H](C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N([C@H](C(=O)N([C@H](C(=O)N([C@H](C(=O)N([C@H](C(=O)N1)[C@@H]([C@H](C)C/C=C/C)O)C)C(C)C)C)CC(C)C)C)CC(C)C)C)C)C)CC(C)C)C)C(C)C)CC(C)C)C)C, Expected: C/C=C/C[C@@H](C)[C@@H](O)[C@H]1C(=O)N[C@@H](CC)C(=O)N(C)CC(=O)N(C)[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@H](C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N(C)[C@@H](C(C)C)C(=O)N1C",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000069": [
+      "SMILES not canonical. Got: C[C@@H]1C[C@@H]([C@@H]2[C@H](C[C@H]([C@@](O2)(C(=O)C(=O)N3CCCC[C@H]3C(=O)O[C@@H]([C@@H]([C@H](CC(=O)[C@@H](/C=C(/C1)\\C)CC=C)O)C)/C(=C/[C@@H]4CC[C@H]([C@@H](C4)OC)O)/C)O)C)OC)OC, Expected: C=CC[C@@H]1/C=C(\\C)C[C@H](C)C[C@H](OC)[C@H]2O[C@@](O)(C(=O)C(=O)N3CCCC[C@H]3C(=O)O[C@H](/C(C)=C/[C@@H]3CC[C@@H](O)[C@H](OC)C3)[C@H](C)[C@@H](O)CC1=O)[C@H](C)C[C@@H]2OC",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000070": [
+      "SMILES not canonical. Got: CC1=C2COC(=O)C2=C(C(=C1OC)C/C=C(\\C)/CCC(=O)OCCN3CCOCC3)O, Expected: COc1c(C)c2c(c(O)c1C/C=C(\\C)CCC(=O)OCCN1CCOCC1)C(=O)OC2",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000071": [
+      "SMILES not canonical. Got: C[C@@H]1CC[C@H]2C[C@@H](/C(=C/C=C/C=C/[C@H](C[C@H](C(=O)[C@@H]([C@@H](/C(=C/[C@H](C(=O)C[C@H](OC(=O)[C@@H]3CCCCN3C(=O)C(=O)[C@@]1(O2)O)[C@H](C)C[C@@H]4CC[C@H]([C@@H](C4)OC)O)C)/C)O)OC)C)C)/C)OC, Expected: CO[C@H]1C[C@@H]2CC[C@@H](C)[C@@](O)(O2)C(=O)C(=O)N2CCCC[C@H]2C(=O)O[C@H]([C@H](C)C[C@@H]2CC[C@@H](O)[C@H](OC)C2)CC(=O)[C@H](C)/C=C(\\C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)/C=C/C=C/C=C/1C",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000072": [
+      "SMILES not canonical. Got: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O, Expected: OC(Cn1cncn1)(Cn1cncn1)c1ccc(F)cc1F",
+      "HBA difference (PubChem=7, RDKit=5)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000073": [
+      "SMILES not canonical. Got: C[C@H]1/C=C/C=C/C=C/C=C/C=C/C=C/C=C/[C@@H](C[C@H]2[C@@H]([C@H](C[C@](O2)(C[C@H](C[C@H]([C@@H](CC[C@H](C[C@H](CC(=O)O[C@H]([C@@H]([C@@H]1O)C)C)O)O)O)O)O)O)O)C(=O)O)O[C@H]3[C@H]([C@H]([C@@H]([C@H](O3)C)O)N)O, Expected: C[C@@H]1[C@H](O)[C@@H](C)/C=C/C=C/C=C/C=C/C=C/C=C/C=C/[C@H](O[C@@H]2O[C@H](C)[C@@H](O)[C@H](N)[C@@H]2O)C[C@@H]2O[C@](O)(C[C@@H](O)C[C@@H](O)[C@H](O)CC[C@@H](O)C[C@@H](O)CC(=O)O[C@H]1C)C[C@H](O)[C@H]2C(=O)O",
+      "HBA difference (PubChem=18, RDKit=17)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000074": [
+      "SMILES not canonical. Got: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OC[C@@H]3CO[C@@](O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl, Expected: CC(=O)N1CCN(c2ccc(OC[C@@H]3CO[C@@](Cn4ccnc4)(c4ccc(Cl)cc4Cl)O3)cc2)CC1",
+      "Molecular weight difference (PubChem vs RDKit): record=531.4, calculated=530.15",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000075": [
+      "SMILES not canonical. Got: CN1CCN(CC1CC2=CNC3=CC=CC=C32)CCCC(=O)C4=CC=C(C=C4)F, Expected: CN1CCN(CCCC(=O)c2ccc(F)cc2)CC1Cc1c[nH]c2ccccc12",
+      "HBA difference (PubChem=4, RDKit=3)",
+      "No text descriptions provided",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000076": [
+      "SMILES not canonical. Got: CCN(CC)CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl, Expected: CCN(CC)CCCC(C)Nc1ccnc2cc(Cl)ccc12",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000077": [
+      "SMILES not canonical. Got: C[C@@H]1CC[C@H]2[C@H](C(=O)O[C@H]3[C@@]24[C@H]1CC[C@](O3)(OO4)C)C, Expected: C[C@@H]1CC[C@H]2[C@@H](C)C(=O)O[C@@H]3O[C@@]4(C)CC[C@@H]1[C@]32OO4",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000078": [
+      "SMILES not canonical. Got: COC1=CC2=C(C=CN=C2C=C1)[C@H]([C@@H]3C[C@@H]4CCN3C[C@@H]4C=C)O, Expected: C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000079": [
+      "SMILES not canonical. Got: C1=CC=C(C(=C1)C2=C3C=C(C(=O)C=C3OC4=C(C(=C(C=C24)Br)O)[Hg])Br)C(=O)O, Expected: O=C(O)c1ccccc1-c1c2cc(Br)c(=O)cc-2oc2[c]([Hg])c(O)c(Br)cc12",
+      "HBA difference (PubChem=5, RDKit=4)",
+      "No text descriptions provided",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000080": [
+      "SMILES not canonical. Got: COC1=C(C=CC(=C1)/C=C/C(=O)CC(=O)/C=C/C2=CC(=C(C=C2)O)OC)O, Expected: COc1cc(/C=C/C(=O)CC(=O)/C=C/c2ccc(O)c(OC)c2)ccc1O",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000081": [
+      "SMILES not canonical. Got: C1=CC(=CC=C1/C=C/C2=CC(=CC(=C2)O)O)O, Expected: Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000082": [
+      "SMILES not canonical. Got: C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O, Expected: O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000083": [
+      "SMILES not canonical. Got: C1[C@H]([C@H](OC2=CC(=CC(=C21)O)O)C3=CC(=C(C(=C3)O)O)O)OC(=O)C4=CC(=C(C(=C4)O)O)O, Expected: O=C(O[C@@H]1Cc2c(O)cc(O)cc2O[C@@H]1c1cc(O)c(O)c(O)c1)c1cc(O)c(O)c(O)c1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000084": [
+      "SMILES not canonical. Got: COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC5=C(C=C4CC3)OCO5)OC, Expected: COc1ccc2cc3[n+](cc2c1OC)CCc1cc2c(cc1-3)OCO2",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000085": [
+      "SMILES not canonical. Got: C1=CC(=CC=C1C2=COC3=CC(=CC(=C3C2=O)O)O)O, Expected: O=c1c(-c2ccc(O)cc2)coc2cc(O)cc(O)c12",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000086": [
+      "SMILES not canonical. Got: C1=CC(=C(C=C1CCN)O)O, Expected: NCCc1ccc(O)c(O)c1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000087": [
+      "SMILES not canonical. Got: C1=CC2=C(C=C1O)C(=CN2)CCN, Expected: NCCc1c[nH]c2ccc(O)cc12",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000088": [
+      "SMILES not canonical. Got: C1=CC(=C(C=C1[C@H](CN)O)O)O, Expected: NC[C@H](O)c1ccc(O)c(O)c1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000089": [
+      "SMILES not canonical. Got: C(CC(=O)O)CN, Expected: NCCCC(=O)O",
+      "HBA difference (PubChem=3, RDKit=2)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000090": [
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000091": [
+      "SMILES not canonical. Got: C(CC(=O)O)[C@@H](C(=O)O)N, Expected: N[C@@H](CCC(=O)O)C(=O)O",
+      "HBA difference (PubChem=5, RDKit=3)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000092": [
+      "SMILES not canonical. Got: C1=C(NC=N1)CCN, Expected: NCCc1cnc[nH]1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000093": [
+      "SMILES not canonical. Got: CC[C@H](C)[C@@H](C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CS)C(=O)N[C@@H](CS)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CO)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CS)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC1=CC=C(C=C1)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N[C@@H](CS)C(=O)N[C@@H](CC(=O)N)C(=O)O)NC(=O)CN.C[C@H]([C@@H](C(=O)N[C@@H](CCCCN)C(=O)N1CCC[C@H]1C(=O)N[C@@H]([C@@H](C)O)C(=O)O)NC(=O)[C@H](CC2=CC=C(C=C2)O)NC(=O)[C@H](CC3=CC=CC=C3)NC(=O)[C@H](CC4=CC=CC=C4)NC(=O)CNC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CCC(=O)O)NC(=O)CNC(=O)[C@H](CS)NC(=O)[C@H](C(C)C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC5=CC=C(C=C5)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](C)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](C(C)C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC6=CN=CN6)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CS)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC7=CN=CN7)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H](C(C)C)NC(=O)[C@H](CC8=CC=CC=C8)N)O, Expected: CC(C)C[C@H](NC(=O)[C@H](C)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](Cc1cnc[nH]1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CS)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](Cc1cnc[nH]1)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](CC(N)=O)NC(=O)[C@@H](NC(=O)[C@@H](N)Cc1ccccc1)C(C)C)C(C)C)C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CS)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)NCC(=O)N[C@@H](Cc1ccccc1)C(=O)N[C@@H](Cc1ccccc1)C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N1CCC[C@H]1C(=O)N[C@H](C(=O)O)[C@@H](C)O)[C@@H](C)O)C(C)C.CC[C@H](C)[C@H](NC(=O)CN)C(=O)N[C@H](C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CS)C(=O)N[C@@H](CS)C(=O)N[C@H](C(=O)N[C@@H](CO)C(=O)N[C@H](C(=O)N[C@@H](CS)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)N[C@@H](CS)C(=O)N[C@@H](CC(N)=O)C(=O)O)[C@@H](C)CC)[C@@H](C)O)C(C)C",
+      "Molecular weight difference (PubChem vs RDKit): record=5814.0, calculated=5809.68",
+      "HBA difference (PubChem=89, RDKit=83)",
+      "No text descriptions provided",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000094": [
+      "SMILES not canonical. Got: C[C@]12CCC(=O)C=C1CC[C@@H]3[C@@H]2[C@H](C[C@]4([C@H]3CC[C@@]4(C(=O)CO)O)C)O, Expected: C[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2[C@@H](O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000095": [
+      "SMILES not canonical. Got: C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)CCC4=CC(=O)CC[C@]34C, Expected: C[C@]12CC[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2O",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000096": [
+      "SMILES not canonical. Got: C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)CCC4=C3C=CC(=C4)O, Expected: C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000097": [
+      "SMILES not canonical. Got: C1=C(C=C(C(=C1I)OC2=CC(=C(C(=C2)I)O)I)I)C[C@@H](C(=O)O)N, Expected: N[C@@H](Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(=O)O",
+      "HBA difference (PubChem=5, RDKit=4)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000098": [
+      "SMILES not canonical. Got: CC(=O)NCCC1=CNC2=C1C=C(C=C2)OC, Expected: COc1ccc2[nH]cc(CCNC(C)=O)c2c1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000099": [
+      "SMILES not canonical. Got: CC(=O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CCC4=CC(=O)CC[C@]34C)C, Expected: CC(=O)[C@H]1CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000100": [
+      "SMILES not canonical. Got: C([C@@H]([C@@H]1C(=C(C(=O)O1)O)O)O)O, Expected: O=C1O[C@H]([C@@H](O)CO)C(O)=C1O",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000101": [
+      "SMILES not canonical. Got: CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/CO)/C)/C, Expected: CC1=C(/C=C/C(C)=C/C=C/C(C)=C/CO)C(C)(C)CCC1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000102": [
+      "SMILES not canonical. Got: CC1=C(C=C2CCC(OC2=C1C)(C)CCCC(C)CCCC(C)CCCC(C)C)O, Expected: Cc1c(O)cc2c(c1C)OC(C)(CCCC(C)CCCC(C)CCCC(C)C)CC2",
+      "No text descriptions provided",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000103": [
+      "SMILES not canonical. Got: CC1=C(SC=[N+]1CC2=CN=C(N=C2N)C)CCO, Expected: Cc1ncc(C[n+]2csc(CCO)c2C)c(N)n1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000104": [
+      "SMILES not canonical. Got: CC1=CC2=C(C=C1C)N(C3=NC(=O)NC(=O)C3=N2)C[C@@H]([C@@H]([C@@H](CO)O)O)O, Expected: Cc1cc2nc3c(=O)[nH]c(=O)nc-3n(C[C@H](O)[C@H](O)[C@H](O)CO)c2cc1C",
+      "HBA difference (PubChem=7, RDKit=8)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000105": [
+      "SMILES not canonical. Got: CCN(CC)CC(=O)NC1=C(C=CC=C1C)C, Expected: CCN(CC)CC(=O)Nc1c(C)cccc1C",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000106": [
+      "SMILES not canonical. Got: CC(C)C1=C(C(=CC=C1)C(C)C)O, Expected: CC(C)c1cccc(C(C)C)c1O",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000107": [
+      "SMILES not canonical. Got: CNC1(CCCCC1=O)C2=CC=CC=C2Cl, Expected: CNC1(c2ccccc2Cl)CCCCC1=O",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000108": [
+      "SMILES not canonical. Got: C(C(F)(F)F)(OC(F)F)Cl, Expected: FC(F)OC(Cl)C(F)(F)F",
+      "HBA difference (PubChem=6, RDKit=1)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000109": [
+      "SMILES not canonical. Got: CN1C=NC2=C1C(=O)N(C(=O)N2C)C, Expected: Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000110": [
+      "SMILES not canonical. Got: COC(=O)C(C1CCCCN1)C2=CC=CC=C2.Cl, Expected: COC(=O)C(c1ccccc1)C1CCCCN1.Cl",
+      "HBD difference (PubChem=2, RDKit=1)",
+      "No text descriptions provided",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000111": [
+      "SMILES not canonical. Got: C1=CC=C(C=C1)C(C2=CC=CC=C2)S(=O)CC(=O)N, Expected: NC(=O)CS(=O)C(c1ccccc1)c1ccccc1",
+      "HBA difference (PubChem=3, RDKit=2)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000112": [
+      "SMILES not canonical. Got: C[C@]12CC(=O)[C@H]3[C@H]([C@@H]1CC[C@@]2(C(=O)CO)O)CCC4=CC(=O)C=C[C@]34C, Expected: C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2C(=O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000113": [
+      "SMILES not canonical. Got: C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CO)O)C)O)F)C, Expected: C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)CO",
+      "HBA difference (PubChem=6, RDKit=5)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000114": [
+      "SMILES not canonical. Got: C[C@]12CCC(=O)C=C1CC[C@@H]3[C@@H]2[C@H](C[C@]4([C@H]3CC[C@@]4(C(=O)CO)O)C)O, Expected: C[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2[C@@H](O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000115": [
+      "SMILES not canonical. Got: CCCC1O[C@@H]2C[C@H]3[C@@H]4CCC5=CC(=O)C=C[C@@]5([C@H]4[C@H](C[C@@]3([C@@]2(O1)C(=O)CO)C)O)C, Expected: CCCC1O[C@@H]2C[C@H]3[C@@H]4CCC5=CC(=O)C=C[C@]5(C)[C@H]4[C@@H](O)C[C@]3(C)[C@]2(C(=O)CO)O1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000116": [
+      "SMILES not canonical. Got: CC1=CN=C(C(=C1OC)C)CS(=O)C2=NC3=C(N2)C=C(C=C3)OC, Expected: COc1ccc2nc(S(=O)Cc3ncc(C)c(OC)c3C)[nH]c2c1",
+      "HBA difference (PubChem=6, RDKit=5)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000117": [
+      "SMILES not canonical. Got: COC1=C(C(=NC=C1)CS(=O)C2=NC3=C(N2)C=C(C=C3)OC(F)F)OC, Expected: COc1ccnc(CS(=O)c2nc3ccc(OC(F)F)cc3[nH]2)c1OC",
+      "HBA difference (PubChem=9, RDKit=6)",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000118": [
+      "SMILES not canonical. Got: CN/C(=C\\[N+](=O)[O-])/NCCSCC1=CC=C(O1)CN(C)C, Expected: CN/C(=C\\[N+](=O)[O-])NCCSCc1ccc(CN(C)C)o1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000119": [
+      "SMILES not canonical. Got: C1=C2C(=NC=NC2=O)NN1, Expected: O=c1ncnc2[nH][nH]cc1-2",
+      "HBA difference (PubChem=2, RDKit=3)",
+      "No text descriptions provided",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ],
+    "MOL-000120": [
+      "SMILES not canonical. Got: CC(=O)NC1=CC=C(C=C1)O, Expected: CC(=O)Nc1ccc(O)cc1",
+      "No paper-sourced structure image (optional)",
+      "No MinerU usage recorded"
+    ]
+  },
+  "statistics": {
+    "avg_descriptions": 0.9,
+    "avg_relations": 0.0,
+    "with_paper_image": 0,
+    "with_experimental_data": 0,
+    "mineru_used_count": 0
+  }
+}

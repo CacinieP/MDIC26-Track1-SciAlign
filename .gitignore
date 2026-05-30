@@ -10,17 +10,15 @@ build/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data (large files)
+# Data (large files - raw PDFs)
 data/raw/*.pdf
 data/raw/*.zip
-data/processed/*.jsonl
-*.parquet
-*.csv
 
-# Keep samples and structure
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!data/samples/.gitkeep
+# Keep all generated data (processed dataset, samples, images, models)
+# These are part of the dataset deliverable
+
+# Environment
+.env
 
 # Environment
 .env
@@ -35,6 +33,9 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Models (local)
-models/
+# Models (local, large)
 checkpoints/
+
+# Logs
+pipeline.log
+*.log

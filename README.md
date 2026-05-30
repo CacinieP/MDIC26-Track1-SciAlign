@@ -24,24 +24,33 @@ MolAlign 是一个面向药物化学与分子科学领域的**多模态对齐数
 ```
 MolAlign/
 ├── data/
-│   ├── samples/                    # 样例数据集 (12条完整记录)
-│   │   ├── sample_dataset.jsonl    # JSONL 格式
-│   │   └── sample_dataset.json     # JSON 格式
-│   ├── raw/                        # 原始数据
-│   └── processed/                  # 处理后数据
+│   ├── processed/                    # 完整数据集 (120条)
+│   │   ├── molalign_dataset.jsonl    # JSONL 格式 (主文件)
+│   │   ├── molalign_dataset.json     # JSON 格式
+│   │   ├── dataset_stats.json        # 数据集统计
+│   │   ├── validation_report.json    # 验证报告
+│   │   ├── images/2d/                # 120 张 2D 分子结构图 (PNG)
+│   │   └── models/3d/                # 119 个 3D 分子构象 (SDF)
+│   ├── samples/                      # 精选样例 (12条，含完整实体关系)
+│   │   ├── sample_dataset.jsonl
+│   │   └── sample_dataset.json
+│   └── raw/                          # 原始数据
 ├── src/
-│   ├── schema.py                   # JSON Schema 定义
-│   ├── molecule_processor.py       # 分子数据处理器 (RDKit + PubChem)
-│   ├── alignment_validator.py      # 跨模态对齐验证器
-│   └── mineru_client.py            # MinerU API 客户端
+│   ├── schema.py                     # JSON Schema 定义
+│   ├── molecule_processor.py         # 分子数据处理器 (RDKit + PubChem)
+│   ├── alignment_validator.py        # 跨模态对齐验证器
+│   ├── mineru_client.py              # MinerU API 客户端
+│   └── pipeline.py                   # Pipeline 主脚本
 ├── scripts/
-│   ├── build_sample_dataset.py     # 动态样例构建脚本
-│   └── build_static_samples.py     # 静态样例生成脚本
+│   ├── molecule_db.py                # 120 分子目标数据库
+│   ├── build_full_dataset.py         # 全量数据集构建脚本
+│   ├── build_static_samples.py       # 精选样例生成
+│   ├── build_sample_dataset.py       # 动态样例构建
+│   └── validate_dataset.py           # 数据集验证脚本
 ├── docs/
-│   └── technical_report.md         # 技术报告文档
-├── notebooks/                      # Jupyter 分析笔记
-├── requirements.txt                # Python 依赖
-├── LICENSE                         # CC-BY-4.0
+│   └── technical_report.md           # 技术报告文档
+├── requirements.txt
+├── LICENSE                           # CC-BY-4.0
 └── README.md
 ```
 
@@ -62,11 +71,14 @@ pip install -r requirements.txt
 ### 生成样例数据
 
 ```bash
-# 静态样例（无需网络，无需 RDKit）
+# 全量数据集构建（120个分子，需要 RDKit + 网络连接 PubChem）
+python scripts/build_full_dataset.py --output-dir data/processed
+
+# 精选样例（12个分子，含完整实体关系和 MinerU 记录）
 python scripts/build_static_samples.py
 
-# 动态样例（需要 RDKit + 网络连接 PubChem）
-python scripts/build_sample_dataset.py --output data/samples/sample_dataset.jsonl
+# 验证数据集
+python scripts/validate_dataset.py --input data/processed/molalign_dataset.jsonl
 ```
 
 ### 使用数据集
@@ -100,14 +112,14 @@ print(records[0]["smiles"]["canonical"])    # CC(=O)Oc1ccccc1C(=O)O
 
 ## 📊 数据集统计
 
-| 指标 | 当前 (样例) | 目标 |
-|------|------------|------|
-| 记录数 | 12 | 1000-5000 |
-| 覆盖类别 | 10 类药物分子 | 扩展至 20+ 类 |
-| 平均文本描述 | 2.2 条/分子 | ≥3 条/分子 |
-| 平均实体关系 | 4.8 条/分子 | ≥5 条/分子 |
-| 含论文图片 | 50% | ≥80% |
-| 含 MinerU 使用记录 | 50% | 100% |
+| 指标 | 数值 |
+|------|------|
+| 总记录数 | **120** |
+| 覆盖类别 | **26** (NSAID、抗生素、抗癌药、神经递质、激素、维生素等) |
+| 2D 分子结构图 | **120** (100%) |
+| 3D 分子构象 | **119** (99.2%) |
+| PubChem 文本描述 | **110** (91.7%) |
+| 验证通过率 | **100%** |
 
 ## 📖 文档
 
