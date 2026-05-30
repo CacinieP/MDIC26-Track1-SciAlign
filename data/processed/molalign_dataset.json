@@ -353,6 +353,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "萘普生是一种丙酸类非甾体抗炎药，通过抑制环氧化酶减少前列腺素合成，用于治疗关节炎、痛经和急性疼痛。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 1302",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -476,6 +487,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "双氯芬酸是一种强效的非甾体抗炎药，对COX-2的抑制作用强于COX-1，广泛用于治疗类风湿性关节炎和骨关节炎。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3033",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -593,6 +615,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "塞来昔布是选择性COX-2抑制剂，通过特异性靶向COX-2酶来减少胃肠道副作用，用于治疗骨关节炎和类风湿性关节炎。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 2662",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -710,6 +743,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "吲哚美辛是非甾体抗炎药，通过抑制环氧化酶减少前列腺素合成，具有强效的抗炎和镇痛作用。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3715",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -961,6 +1005,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "阿莫西林是一种广谱β-内酰胺类抗生素，通过抑制细菌细胞壁合成中的青霉素结合蛋白发挥杀菌作用，是临床最常用的口服抗生素之一。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 33613",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -1078,6 +1133,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "环丙沙星是氟喹诺酮类抗生素，通过抑制细菌DNA旋转酶（拓扑异构酶II）和拓扑异构酶IV来阻断DNA复制，具有广谱抗菌活性。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 2764",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -1201,6 +1267,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "多西环素是四环素类抗生素，通过与细菌30S核糖体亚基结合来抑制蛋白质合成，具有广谱抗菌活性。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 54671203",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -1324,6 +1401,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "阿奇霉素是大环内酯类抗生素，通过与细菌50S核糖体亚基结合来抑制蛋白质合成，对呼吸道和泌尿生殖道感染特别有效。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 447043",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -1447,6 +1535,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "万古霉素是糖肽类抗生素，通过与细菌细胞壁前体肽聚糖末端的D-Ala-D-Ala结合来阻断细胞壁合成，是治疗耐甲氧西林金黄色葡萄球菌（MRSA）感染的最后防线药物。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 14969",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -1547,7 +1646,19 @@
       },
       "experimental": null
     },
-    "text_descriptions": [],
+    "text_descriptions": [
+      {
+        "type": "general_description",
+        "content": "庆大霉素是氨基糖苷类抗生素，通过与细菌30S核糖体亚基结合导致mRNA误读来抑制蛋白质合成。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3467",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
+      }
+    ],
     "entity_relations": [
       {
         "subject": "Gentamicin",
@@ -1663,6 +1774,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "甲硝唑是硝基咪唑类抗菌药，通过其硝基在厌氧环境下还原产生细胞毒性自由基来杀灭厌氧菌和原虫。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 4173",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -1914,6 +2036,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "奥司他韦（达菲）是神经氨酸酶抑制剂，通过抑制流感病毒表面的神经氨酸酶来阻止新病毒颗粒从感染细胞中释放，是流感的首选治疗药物。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 65028",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -2004,7 +2137,19 @@
       },
       "experimental": null
     },
-    "text_descriptions": [],
+    "text_descriptions": [
+      {
+        "type": "general_description",
+        "content": "阿昔洛韦是核苷类似物抗病毒药，被病毒胸苷激酶磷酸化后抑制病毒DNA聚合酶，是治疗单纯疱疹病毒和带状疱疹病毒感染的首选药物。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 2022",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
+      }
+    ],
     "entity_relations": [
       {
         "subject": "Acyclovir",
@@ -2120,6 +2265,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "瑞德西韦是核苷类似物抗病毒药，通过抑制RNA依赖的RNA聚合酶来阻断病毒RNA复制，曾用于治疗埃博拉病毒和COVID-19。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 121304016",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -2231,6 +2387,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "齐多夫定是核苷逆转录酶抑制剂（NRTI），是首个获批治疗HIV感染的药物，通过竞争性抑制HIV逆转录酶来阻断病毒DNA合成。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 35370",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -2610,6 +2777,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "甲氨蝶呤是抗叶酸类抗肿瘤药和免疫抑制剂，通过竞争性抑制二氢叶酸还原酶（DHFR）来耗竭四氢叶酸池，阻断嘌呤和胸苷酸合成。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 126941",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -2727,6 +2905,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "多柔比星（阿霉素）是蒽环类抗肿瘤抗生素，通过嵌入DNA碱基对之间和抑制拓扑异构酶II来干扰DNA复制和转录，广泛用于多种实体瘤和血液肿瘤。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 31703",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -2850,6 +3039,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "顺铂是无机铂配合物抗癌药，通过与DNA形成链内和链间交联来阻断DNA复制和转录，是治疗睾丸癌、卵巢癌和肺癌的一线药物。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5702198",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -2961,6 +3161,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "5-氟尿嘧啶（5-FU）是氟代嘧啶类抗代谢药，通过抑制胸苷酸合成酶来阻断胸苷酸合成，是结直肠癌和头颈部肿瘤的基础化疗药物。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3385",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -3078,6 +3289,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "伊马替尼（格列卫）是首个成功的靶向抗癌药物，通过选择性抑制BCR-ABL融合蛋白的酪氨酸激酶活性来治疗慢性粒细胞白血病（CML），开创了分子靶向治疗时代。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5291",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -3195,6 +3417,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "环磷酰胺是烷化剂类抗肿瘤药，在体内经肝药酶活化后产生磷酰胺氮芥，与DNA形成交联来阻断DNA复制，是最常用的化疗药物之一。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 2907",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -3312,6 +3545,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "吉非替尼（易瑞沙）是EGFR酪rosine激酶抑制剂，通过竞争性结合EGFR的ATP结合位点来阻断下游MAPK、PI3K/AKT和STAT信号通路，是EGFR突变型非小细胞肺癌的一线治疗药物。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 123631",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -3429,6 +3673,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "厄洛替尼是EGFR酪氨酸激酶抑制剂，通过结合EGFR激酶结构域的ATP结合位点来抑制肿瘤细胞增殖，用于非小细胞肺癌和胰腺癌的治疗。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 176870",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -3546,6 +3801,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "索拉非尼是多靶点酪氨酸激酶抑制剂，同时抑制RAF激酶、VEGFR和PDGFR，具有抗肿瘤和抗血管生成双重作用。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 216239",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -3663,6 +3929,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "舒尼替尼是多靶点酪氨酸激酶抑制剂，主要抑制VEGFR2和PDGFR，通过阻断肿瘤血管生成来抑制肿瘤生长。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5329102",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -3780,6 +4057,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "克唑替尼是ALK/ROS1/MET酪氨酸激酶抑制剂，用于治疗ALK重排阳性的非小细胞肺癌。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 11626560",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -4031,6 +4319,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "格列本脲是磺脲类降糖药，通过结合胰腺β细胞表面的磺脲类受体来促进胰岛素分泌。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3488",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -4148,6 +4447,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "西格列汀是DPP-4抑制剂，通过抑制二肽基肽酶-4来延长内源性GLP-1的半衰期，促进葡萄糖依赖的胰岛素分泌。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 4369359",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -4259,6 +4569,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "吡格列酮是噻唑烷二酮类降糖药，通过激活过氧化物酶体增殖物激活受体γ（PPARγ）来改善胰岛素敏感性。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 4829",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -4376,6 +4697,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "恩格列净是SGLT2抑制剂，通过抑制肾脏近端小管的钠-葡萄糖共转运蛋白2来促进尿糖排泄，具有降糖和心血管保护双重获益。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 11949646",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -4487,6 +4819,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "氟西汀（百忧解）是选择性5-羟色胺再摄取抑制剂（SSRI），通过阻断突触前膜5-HT转运体来增加突触间隙5-羟色胺浓度，是最常用的抗抑郁药之一。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3386",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -4604,6 +4947,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "舍曲林是SSRI类抗抑郁药，通过选择性抑制5-羟色胺再摄取来治疗抑郁症、强迫症和创伤后应激障碍。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 68617",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -4715,6 +5069,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "帕罗西汀是SSRI类抗抑郁药，对5-HT转运体的选择性最高，用于治疗抑郁症、焦虑症和强迫症。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 43815",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -4826,6 +5191,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "文拉法辛是5-HT和NE再摄取抑制剂（SNRI），通过同时抑制5-羟色胺和去甲肾上腺素的再摄取来治疗抑郁症和广泛性焦虑症。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5656",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -4943,6 +5319,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "阿米替林是三环类抗抑郁药，通过抑制5-HT和NE的再摄取以及阻断毒蕈碱型乙酰胆碱受体来发挥抗抑郁和镇痛作用。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 2160",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -5060,6 +5447,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "西酞普兰是SSRI类抗抑郁药，通过高选择性抑制5-羟色胺再摄取来治疗抑郁症，药物相互作用较少。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 2771",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -5177,6 +5575,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "赖诺普利是ACE抑制剂，通过抑制血管紧张素转换酶来减少血管紧张素II的生成，降低血压和心脏后负荷。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5362119",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -5288,6 +5697,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "氯沙坦是血管紧张素II受体拮抗剂（ARB），通过阻断AT1受体来降低血压，是高血压一线治疗药物。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3961",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -5399,6 +5819,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "氨氯地平是二氢吡啶类钙通道阻滞剂，通过抑制血管平滑肌L型钙通道来松弛血管、降低血压。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 2162",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -5510,6 +5941,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "依那普利是ACE抑制剂的前药，在体内水解为依那普利拉后抑制血管紧张素转换酶，用于高血压和心力衰竭治疗。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5388962",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -5627,6 +6069,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "缬沙坦是ARB类降压药，通过选择性阻断AT1受体来降低血压和保护心肾功能。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 60846",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -5744,6 +6197,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "美托洛尔是选择性β1受体阻滞剂，通过阻断心脏β1受体来降低心率和心输出量，用于高血压、心绞痛和心律失常。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 4171",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -5977,6 +6441,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "辛伐他汀是他汀类降脂药，是洛伐他汀的半合成衍生物，通过抑制HMG-CoA还原酶来降低胆固醇。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 54454",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -6088,6 +6563,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "瑞舒伐他汀是高强度他汀类药物，通过抑制HMG-CoA还原酶来大幅降低LDL-C水平。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 446157",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -6205,6 +6691,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "普伐他汀是天然来源的他汀类降脂药，不经CYP3A4代谢，药物相互作用较少。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 54687",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -6322,6 +6819,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "西替利嗪是第二代抗组胺药，通过选择性阻断外周H1受体来缓解过敏症状，中枢镇静作用小。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 2678",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -6439,6 +6947,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "氯雷他定是第二代抗组胺药，通过选择性阻断外周H1受体来治疗过敏性鼻炎和荨麻疹。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3957",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -6556,6 +7075,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "非索非那定是第二代抗组胺药，是特非那定的活性代谢产物，无心脏毒性。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3348",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -6667,6 +7197,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "苯海拉明是第一代抗组胺药，通过阻断H1受体来治疗过敏，同时具有镇静和抗胆碱作用。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3100",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -6784,6 +7325,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "吗啡是从罂粟中提取的阿片类镇痛药，通过与μ-阿片受体结合来激活下游镇痛通路，是最强的镇痛药之一。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5288826",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -6901,6 +7453,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "可待因是弱阿片类镇痛药，在体内经CYP2D6代谢为吗啡发挥镇痛作用。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5284371",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -7018,6 +7581,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "芬太尼是合成阿片类镇痛药，其镇痛效力是吗啡的100倍，通过与μ-阿片受体结合来发挥强效镇痛作用。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3345",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -7129,6 +7703,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "曲马多是中枢性镇痛药，同时具有μ-阿片受体激动和5-HT/NE再摄取抑制双重机制。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 33741",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -7246,6 +7831,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "沙丁胺醇（万托林）是短效β2受体激动剂，通过激活气道平滑肌β2受体来松弛支气管，是哮喘急性发作的首选缓解药物。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 2083",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -7363,6 +7959,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "沙美特罗是长效β2受体激动剂（LABA），通过持续激活气道β2受体来维持支气管扩张。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5253",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -7480,6 +8087,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "孟鲁司特是白三烯受体拮抗剂，通过阻断半胱氨酰白三烯受体来抑制气道炎症和支气管收缩。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5281040",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -7591,6 +8209,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "华法林是口服抗凝血药，通过抑制维生素K环氧化物还原酶来减少凝血因子II、VII、IX、X的合成。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 54678486",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -7697,7 +8326,19 @@
       },
       "experimental": null
     },
-    "text_descriptions": [],
+    "text_descriptions": [
+      {
+        "type": "general_description",
+        "content": "肝素是天然多糖类抗凝血药，通过增强抗凝血酶III的活性来灭活凝血酶和因子Xa。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 772",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
+      }
+    ],
     "entity_relations": [
       {
         "subject": "Heparin",
@@ -7796,7 +8437,19 @@
       },
       "experimental": null
     },
-    "text_descriptions": [],
+    "text_descriptions": [
+      {
+        "type": "general_description",
+        "content": "利伐沙班是直接口服抗凝药（DOAC），通过直接抑制因子Xa来阻断凝血级联反应。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 6433119",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
+      }
+    ],
     "entity_relations": [
       {
         "subject": "Rivaroxaban",
@@ -7906,6 +8559,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "环孢素是从真菌中提取的环状肽类免疫抑制剂，通过与环亲和素结合形成复合物来抑制钙调磷酸酶，阻断T细胞活化所需的IL-2转录。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5284373",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -8023,6 +8687,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "他克莫司（FK506）是大环内酯类免疫抑制剂，通过与FKBP12结合来抑制钙调磷酸酶，免疫抑制效力是环孢素的100倍。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 445643",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -8140,6 +8815,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "吗替麦考酚酯是免疫抑制剂，在体内水解为麦考酚酸后抑制次黄嘌呤核苷酸脱氢酶来阻断嘌呤从头合成。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5281078",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -8257,6 +8943,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "西罗莫司（雷帕霉素）是mTOR抑制剂，通过与FKBP12结合来抑制mTORC1信号通路，阻断T细胞增殖。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5284616",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -8368,6 +9065,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "氟康唑是三唑类抗真菌药，通过抑制真菌羊毛甾醇14-α脱甲基酶（CYP51）来阻断麦角固醇合成。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3365",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -8485,6 +9193,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "两性霉素B是多烯类抗真菌药，通过与真菌细胞膜上的麦角固醇结合形成孔道来导致细胞内容物泄漏。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5280965",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -8596,6 +9315,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "酮康唑是咪唑类抗真菌药，通过抑制真菌CYP51来阻断麦角固醇合成，也可用于抑制人体皮质醇合成。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 47576",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -8693,7 +9423,19 @@
       },
       "experimental": null
     },
-    "text_descriptions": [],
+    "text_descriptions": [
+      {
+        "type": "general_description",
+        "content": "伊曲康唑是三唑类广谱抗真菌药，通过抑制麦角固醇合成来治疗深部真菌感染。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 55183",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
+      }
+    ],
     "entity_relations": [
       {
         "subject": "Itraconazole",
@@ -8809,6 +9551,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "氯喹是4-氨基喹啉类抗疟药，通过在疟原虫食物泡中积累并抑制血红素聚合酶来杀灭红细胞内期疟原虫。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 2719",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -8920,6 +9673,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "青蒿素是中国科学家屠呦呦从青蒿中分离的倍半萜内酯类抗疟药，其内过氧化物桥在铁催化下产生自由基来杀灭疟原虫。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 68827",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -9037,6 +9801,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "奎宁是从金鸡纳树皮中提取的喹啉类生物碱，是最早的抗疟药，通过干扰疟原虫DNA合成来发挥抗疟作用。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3034034",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -9129,7 +9904,19 @@
       },
       "experimental": null
     },
-    "text_descriptions": [],
+    "text_descriptions": [
+      {
+        "type": "general_description",
+        "content": "甲氟喹是喹啉甲醇类抗疟药，通过干扰疟原虫细胞膜功能来杀灭红细胞内期疟原虫。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 4069",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
+      }
+    ],
     "entity_relations": [
       {
         "subject": "Mefloquine",
@@ -9373,6 +10160,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "白藜芦醇是存在于葡萄皮和红酒中的茋类多酚天然产物，通过激活SIRT1去乙酰化酶来发挥抗衰老、抗氧化和心血管保护作用。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 445154",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -9490,6 +10288,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "槲皮素是分布最广泛的黄酮类天然产物，具有强抗氧化活性，通过清除自由基和调节多条信号通路来发挥抗炎和抗肿瘤作用。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5280343",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -9607,6 +10416,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "表没食子儿茶素没食子酸酯（EGCG）是绿茶中含量最高的儿茶素类多酚，是绿茶抗氧化活性的主要贡献者。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 65064",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -9724,6 +10544,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "小檗碱（黄连素）是从黄连中提取的异喹啉生物碱，具有抗菌、抗炎和降糖作用。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 2353",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -9841,6 +10672,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "染料木素是大豆中含量最高的异黄酮类天然产物，具有弱雌激素活性，被称为植物雌激素。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5280961",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -10232,6 +11074,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "去甲肾上腺素是儿茶酚胺类神经递质和激素，在交感神经系统中调节战斗或逃跑反应，在中枢神经系统中调节注意力和警觉。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 439260",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -10349,6 +11202,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "γ-氨基丁酸（GABA）是中枢神经系统最主要的抑制性神经递质，通过激活GABA-A和GABA-B受体来降低神经元兴奋性。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 119",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -10466,6 +11330,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "乙酰胆碱是胆碱能神经递质，在神经肌肉接头处激活烟碱型受体，在自主神经系统中激活毒蕈碱型受体。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 187",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -10583,6 +11458,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "谷氨酸是中枢神经系统最主要的兴奋性神经递质，通过激活AMPA、NMDA和海人藻酸受体来介导快速突触传递。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 33032",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -10694,6 +11580,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "组胺是咪唑胺类生物胺，在过敏反应中由肥大细胞释放，在中枢神经系统中调节觉醒和注意力。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 774",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -10800,7 +11697,19 @@
       },
       "experimental": null
     },
-    "text_descriptions": [],
+    "text_descriptions": [
+      {
+        "type": "general_description",
+        "content": "胰岛素是多肽类激素，由胰腺β细胞分泌，通过激活胰岛素受体酪氨酸激酶来促进葡萄糖摄取和糖原合成，是调节血糖的关键激素。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 16132438",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
+      }
+    ],
     "entity_relations": [
       {
         "subject": "Insulin (human)",
@@ -10910,6 +11819,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "皮质醇（氢化可的松）是主要的糖皮质激素，由肾上腺皮质束状带分泌，通过激活糖皮质激素受体来调节糖代谢、免疫反应和应激反应。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5754",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -11027,6 +11947,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "睾酮是主要的雄性激素，由睾丸间质细胞分泌，通过激活雄激素受体来调节男性性征发育、肌肉生长和骨密度。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 6013",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -11144,6 +12075,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "雌二醇是最强效的内源性雌激素，由卵巢分泌，通过激活雌激素受体α和β来调节女性生殖系统和骨代谢。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5757",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -11261,6 +12203,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "甲状腺素（T4）是甲状腺分泌的主要激素，在组织中转化为三碘甲状腺原氨酸（T3）后通过甲状腺激素受体调节基础代谢率。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5819",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -11372,6 +12325,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "褪黑素是松果体分泌的吲哚胺类激素，通过激活MT1和MT2受体来调节昼夜节律和睡眠-觉醒周期。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 896",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -11489,6 +12453,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "孕酮是黄体分泌的甾体激素，通过激活孕酮受体来调节月经周期和维持妊娠。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5994",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -11606,6 +12581,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "抗坏血酸（维生素C）是必需的水溶性维生素，作为胶原脯氨酸羟化酶的辅因子参与胶原合成，同时也是重要的抗氧化剂。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 54670067",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -11723,6 +12709,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "视黄醇（维生素A）是脂溶性维生素，在视网膜中转化为视黄醛参与视觉循环，同时作为RAR/RXR受体的配体调节基因表达。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 445354",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -11829,7 +12826,19 @@
       },
       "experimental": null
     },
-    "text_descriptions": [],
+    "text_descriptions": [
+      {
+        "type": "general_description",
+        "content": "生育酚（维生素E）是脂溶性抗氧化维生素，通过清除脂质过氧化自由基来保护细胞膜免受氧化损伤。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 14986",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
+      }
+    ],
     "entity_relations": [
       {
         "subject": "Tocopherol",
@@ -11945,6 +12954,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "硫胺素（维生素B1）是水溶性维生素，作为丙酮酸脱氢酶和α-酮戊二酸脱氢酶的辅因子参与能量代谢。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 1130",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -12062,6 +13082,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "核黄素（维生素B2）是水溶性维生素，作为FAD和FMN的前体参与多种氧化还原反应。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 493570",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -12179,6 +13210,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "利多卡因是酰胺类局部麻醉药和Ib类抗心律失常药，通过阻断电压门控钠通道来抑制神经冲动传导。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3676",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -12290,6 +13332,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "丙泊酚是静脉全身麻醉药，通过增强GABA-A受体活性来产生镇静和麻醉作用。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 4943",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -12407,6 +13460,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "氯胺酮是NMDA受体拮抗剂，产生分离麻醉状态，同时具有快速抗抑郁作用。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3821",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -12518,6 +13582,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "异氟烷是吸入性全身麻醉药，通过增强GABA-A受体和抑制NMDA受体来产生全身麻醉。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3763",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -12629,6 +13704,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "咖啡因是甲基黄嘌呤类中枢神经刺激剂，通过拮抗腺苷A1和A2A受体来提高警觉性，是全球使用最广泛的精神活性物质。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 2519",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -12735,7 +13821,19 @@
       },
       "experimental": null
     },
-    "text_descriptions": [],
+    "text_descriptions": [
+      {
+        "type": "general_description",
+        "content": "哌甲酯（利他林）是中枢神经刺激剂，通过阻断多巴胺和去甲肾上腺素再摄取转运体来治疗注意力缺陷多动障碍（ADHD）。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 9280",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
+      }
+    ],
     "entity_relations": [
       {
         "subject": "Methylphenidate",
@@ -12851,6 +13949,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "莫达非尼是促醒剂，通过增加下丘脑组胺能和食欲素能神经传递来治疗发作性睡病。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 4236",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -12968,6 +14077,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "泼尼松是合成的糖皮质激素，在体内转化为泼尼松龙后激活糖皮质激素受体，用于抗炎和免疫抑制治疗。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5865",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -13085,6 +14205,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "地塞米松是强效合成糖皮质激素，抗炎效力是皮质醇的25-30倍，用于治疗严重炎症和过敏反应。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5743",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -13196,6 +14327,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "皮质醇（氢化可的松）是主要的糖皮质激素，由肾上腺皮质束状带分泌，通过激活糖皮质激素受体来调节糖代谢、免疫反应和应激反应。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5754",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -13313,6 +14455,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "布地奈德是吸入性糖皮质激素，在呼吸道局部发挥强效抗炎作用，是哮喘维持治疗的一线药物。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5281004",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -13558,6 +14711,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "泮托拉唑是质子泵抑制剂，通过抑制胃壁细胞质子泵来治疗消化性溃疡和胃食管反流病。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 4679",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -13675,6 +14839,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "雷尼替丁是H2受体拮抗剂，通过阻断胃壁细胞组胺H2受体来减少胃酸分泌。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3001055",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
@@ -13765,7 +14940,19 @@
       },
       "experimental": null
     },
-    "text_descriptions": [],
+    "text_descriptions": [
+      {
+        "type": "general_description",
+        "content": "别嘌呤醇是黄嘌呤氧化酶抑制剂，通过减少尿酸合成来治疗痛风和高尿酸血症。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 2094",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
+      }
+    ],
     "entity_relations": [
       {
         "subject": "Allopurinol",
@@ -13881,6 +15068,17 @@
           "mineru_parsed": false
         },
         "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "对乙酰氨基酚（扑热息痛）是最常用的解热镇痛药，镇痛机制涉及COX-3抑制和内源性大麻素系统调节。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 1983",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
       }
     ],
     "entity_relations": [
