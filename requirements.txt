@@ -1,0 +1,33 @@
+# Molecular Cross-Modal Alignment Dataset - Dependencies
+# ==========================================
+
+# Core Chemistry
+rdkit-pypi>=2023.9.1          # 分子结构处理、属性计算、2D/3D 生成
+
+# Data Fetching
+requests>=2.31.0              # PubChem REST API 调用
+
+# MinerU Integration
+magic-pdf[full]>=0.6.0        # MinerU 开源 PDF 解析器
+
+# Molecular Image Recognition (optional - for paper image → SMILES)
+# molscribe>=0.1.0            # 分子结构图识别 (高精度)
+# decimer>=3.0.0              # 分子结构图识别 (易用)
+
+# Chemical NER (optional - for text entity extraction)
+# chemdataextractor>=2.0.0    # 化学命名实体识别
+
+# Data Processing
+pandas>=2.0.0                 # 数据表格处理
+Pillow>=10.0.0                # 图片处理
+
+# Validation & Schema
+jsonschema>=4.17.0            # JSON Schema 验证
+
+# Visualization (optional)
+matplotlib>=3.7.0             # 数据可视化
+seaborn>=0.12.0               # 统计可视化
+
+# Utilities
+tqdm>=4.65.0                  # 进度条
+python-dotenv>=1.0.0          # 环境变量管理

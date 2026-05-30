@@ -1,39 +1,133 @@
-# AGI4S 前沿语料赛道 - MinerU Track 1
+# MolAlign: 分子跨模态对齐数据集
 
-## 赛道信息
+[![License: CC-BY-4.0](https://img.shields.io/badge/License-CC--BY--4.0-green.svg)](LICENSE)
+[![AGI4S Track 1](https://img.shields.io/badge/Competition-AGI4S%20Track%201-blue)]()
 
-- **赛道名称**: 语料筑基·AGI4S 前沿语料赛道
-- **截止日期**: 2026年5月31日
-- **数据范式**: Sci-Align (科学对齐) / Sci-Evo (科学演化)
+> **语料筑基·AGI4S 前沿语料赛道** — Sci-Align 科学对齐数据
 
-## 项目结构
+## 📋 项目简介
+
+MolAlign 是一个面向药物化学与分子科学领域的**多模态对齐数据集**。围绕每个分子实体，构建**五类模态的跨模态对齐**，使大语言模型能够准确理解分子的多维科学表征。
+
+### 五类模态对齐
+
+| 模态 | 描述 | 示例 |
+|------|------|------|
+| 🖼️ **分子结构图** | 2D/3D 分子结构可视化 | PNG 图像、SDF 文件 |
+| 🔬 **分子标识符** | SMILES、InChI | `CC(=O)Oc1ccccc1C(=O)O` |
+| 📛 **分子命名** | IUPAC、通用名、同义词 | Aspirin / 2-acetyloxybenzoic acid |
+| 📊 **分子属性** | 物化参数、类药性、实验数据 | MW=180.16, LogP=1.19 |
+| 📝 **科学文本** | 合成、作用机制、临床应用 | "Aspirin inhibits COX-1..." |
+
+## 🗂️ 项目结构
 
 ```
+MolAlign/
 ├── data/
-│   ├── raw/              # 原始数据/样例
-│   ├── processed/        # 处理后数据集
-│   └── samples/          # 数据样例 (≥10条完整样例)
+│   ├── samples/                    # 样例数据集 (12条完整记录)
+│   │   ├── sample_dataset.jsonl    # JSONL 格式
+│   │   └── sample_dataset.json     # JSON 格式
+│   ├── raw/                        # 原始数据
+│   └── processed/                  # 处理后数据
+├── src/
+│   ├── schema.py                   # JSON Schema 定义
+│   ├── molecule_processor.py       # 分子数据处理器 (RDKit + PubChem)
+│   ├── alignment_validator.py      # 跨模态对齐验证器
+│   └── mineru_client.py            # MinerU API 客户端
+├── scripts/
+│   ├── build_sample_dataset.py     # 动态样例构建脚本
+│   └── build_static_samples.py     # 静态样例生成脚本
 ├── docs/
-│   └── technical_report/ # 技术报告文档
-├── scripts/              # 数据处理脚本
-├── src/                  # 核心代码
-├── notebooks/            # Jupyter notebooks (分析/可视化)
+│   └── technical_report.md         # 技术报告文档
+├── notebooks/                      # Jupyter 分析笔记
+├── requirements.txt                # Python 依赖
+├── LICENSE                         # CC-BY-4.0
 └── README.md
 ```
 
-## MinerU 工具链使用
+## 🚀 快速开始
 
-本项目中使用到的 MinerU 工具链组件：
+### 环境配置
 
-- [ ] MinerU Skills
-- [ ] MinerU API
-- [ ] MinerU 开源项目
-- [ ] MinerU 在线使用
+```bash
+# 创建虚拟环境
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate   # Windows
 
-## 开源协议
+# 安装依赖
+pip install -r requirements.txt
+```
 
-CC-BY-4.0
+### 生成样例数据
 
-## 团队
+```bash
+# 静态样例（无需网络，无需 RDKit）
+python scripts/build_static_samples.py
 
-> 待填写团队信息
+# 动态样例（需要 RDKit + 网络连接 PubChem）
+python scripts/build_sample_dataset.py --output data/samples/sample_dataset.jsonl
+```
+
+### 使用数据集
+
+```python
+import json
+
+# 加载 JSONL
+records = []
+with open("data/samples/sample_dataset.jsonl", "r", encoding="utf-8") as f:
+    for line in f:
+        records.append(json.loads(line))
+
+# 查看第一条记录
+print(records[0]["names"]["common_name"])  # Aspirin
+print(records[0]["smiles"]["canonical"])    # CC(=O)Oc1ccccc1C(=O)O
+```
+
+## 🔧 MinerU 工具链使用
+
+本数据集构建过程中使用了 MinerU 工具链的四种模式：
+
+| 工具 | 用途 |
+|------|------|
+| **MinerU Open Source** | 本地解析论文 PDF，提取分子结构图和表格 |
+| **MinerU API** | 批量处理大量论文，自动化解析 |
+| **MinerU Skills** | 化学结构提取技能，分子图识别 |
+| **MinerU Online** | 网页端快速解析特定论文 |
+
+详见 [技术报告 §5-§6](docs/technical_report.md)
+
+## 📊 数据集统计
+
+| 指标 | 当前 (样例) | 目标 |
+|------|------------|------|
+| 记录数 | 12 | 1000-5000 |
+| 覆盖类别 | 10 类药物分子 | 扩展至 20+ 类 |
+| 平均文本描述 | 2.2 条/分子 | ≥3 条/分子 |
+| 平均实体关系 | 4.8 条/分子 | ≥5 条/分子 |
+| 含论文图片 | 50% | ≥80% |
+| 含 MinerU 使用记录 | 50% | 100% |
+
+## 📖 文档
+
+- [技术报告](docs/technical_report.md) — 完整的数据集设计、构建和使用说明
+- [JSON Schema](src/schema.py) — 数据集的 JSON Schema 定义
+
+## 🏆 赛事信息
+
+- **赛事**: 语料筑基·AGI4S 前沿语料赛道
+- **赛道**: 赛道一 — Sci-Align 科学对齐数据
+- **截止日期**: 2026年5月31日
+
+## 📄 开源协议
+
+- **数据集**: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
+- **代码**: [MIT License](LICENSE)
+
+## 🙏 致谢
+
+- [MinerU](https://github.com/opendatalab/MinerU) — 高精度文档解析引擎
+- [RDKit](https://github.com/rdkit/rdkit) — 开源化学信息学工具包
+- [PubChem](https://pubchem.ncbi.nlm.nih.gov/) — 公共化合物数据库
+- [MolScribe](https://github.com/thomas0809/MolScribe) — 分子结构图识别
