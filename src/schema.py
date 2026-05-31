@@ -272,7 +272,7 @@ DATASET_SCHEMA = {
                             "task": {"type": "string", "description": "具体任务描述"},
                             "input": {"type": "string", "description": "输入文件/数据"},
                             "output": {"type": "string", "description": "输出文件/数据"},
-                            "template": {"type": "boolean", "description": "是否为模板生成的记录（非真实 MinerU 使用）"}
+                            "detail": {"type": "string", "description": "任务详细描述"}
                         }
                     }
                 },
@@ -303,8 +303,9 @@ VALID_RELATION_TYPES = {
     "inhibits", "activates", "binds_to", "metabolized_to",
     "has_substructure", "derivative_of", "isomer_of",
     "co-administered_with", "contraindicated_with",
-    "targets", "regulated_by", "synthesized_from",
+    "targets", "regulated_by", "regulates", "synthesized_from",
     "catalyzes", "substrate_of", "competes_with",
     "stabilizes", "destabilizes", "interacts_with",
-    "intercalates", "generates", "cofactor_of"
+    "intercalates", "generates", "cofactor_of",
+    "used_as", "modulates"
 }

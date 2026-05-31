@@ -38,6 +38,16 @@ CATEGORY_ZH = {
     "Gastrointestinal Drug": "胃肠药",
     "Antigout Drug": "抗痛风药",
     "Analgesic": "解热镇痛药",
+    # 新增类别
+    "Diuretic": "利尿剂",
+    "Anti-epileptic Drug": "抗癫痫药",
+    "Anti-Parkinson Drug": "抗帕金森药",
+    "Amino Acid": "氨基酸",
+    "Antihyperlipidemic": "降血脂药",
+    "Muscle Relaxant": "肌肉松弛剂",
+    "Anti-osteoporosis Drug": "抗骨质疏松药",
+    "Diagnostic Agent": "诊断试剂",
+    "Chemical Reagent": "化学试剂",
 }
 
 # 120 个分子的中文描述

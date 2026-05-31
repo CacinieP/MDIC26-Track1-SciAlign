@@ -7,7 +7,7 @@
 
 ## 📋 项目简介
 
-MolAlign 是一个面向药物化学与分子科学领域的**多模态对齐数据集**。围绕每个分子实体，构建**五类模态的跨模态对齐**，使大语言模型能够准确理解分子的多维科学表征。
+MolAlign 是一个面向药物化学与分子科学领域的**多模态对齐数据集**，涵盖 **820** 分子实体、**35** 个药理类别。围绕每个分子实体，构建**五类模态的跨模态对齐**，使大语言模型能够准确理解分子的多维科学表征。
 
 ### 五类模态对齐
 
@@ -24,17 +24,19 @@ MolAlign 是一个面向药物化学与分子科学领域的**多模态对齐数
 ```
 MolAlign/
 ├── data/
-│   ├── processed/                    # 完整数据集 (120条)
+│   ├── processed/                    # 完整数据集 (820条)
 │   │   ├── molalign_dataset.jsonl    # JSONL 格式 (主文件)
 │   │   ├── molalign_dataset.json     # JSON 格式
 │   │   ├── dataset_stats.json        # 数据集统计
 │   │   ├── validation_report.json    # 验证报告
-│   │   ├── images/2d/                # 120 张 2D 分子结构图 (PNG)
-│   │   └── models/3d/                # 119 个 3D 分子构象 (SDF)
+│   │   ├── images/2d/                # 820 张 2D 分子结构图 (PNG)
+│   │   ├── images/paper/             # 35 张论文提取图片
+│   │   └── models/3d/                # 799 个 3D 分子构象 (SDF)
 │   ├── samples/                      # 精选样例 (12条，含完整实体关系)
 │   │   ├── sample_dataset.jsonl
 │   │   └── sample_dataset.json
 │   └── raw/                          # 原始数据
+│       └── parsed_mineru_api/        # 12 篇真实 MinerU API 解析 Markdown 文件
 ├── src/
 │   ├── schema.py                     # JSON Schema 定义
 │   ├── molecule_processor.py         # 分子数据处理器 (RDKit + PubChem)
@@ -42,8 +44,11 @@ MolAlign/
 │   ├── mineru_client.py              # MinerU API 客户端
 │   └── pipeline.py                   # Pipeline 主脚本
 ├── scripts/
-│   ├── molecule_db.py                # 120 分子目标数据库
+│   ├── molecule_db.py                # 分子目标数据库
+│   ├── expand_molecule_db.py         # 分子数据库扩展脚本 (120 → 1200+)
+│   ├── mineru_agent_parse.py         # MinerU Agent API 真实解析器
 │   ├── build_full_dataset.py         # 全量数据集构建脚本
+│   ├── enrich_expanded_dataset.py    # 统一数据增强脚本
 │   ├── build_static_samples.py       # 精选样例生成
 │   ├── build_sample_dataset.py       # 动态样例构建
 │   └── validate_dataset.py           # 数据集验证脚本
@@ -71,8 +76,17 @@ pip install -r requirements.txt
 ### 生成样例数据
 
 ```bash
-# 全量数据集构建（120个分子，需要 RDKit + 网络连接 PubChem）
+# 全量数据集构建（1200+个分子，需要 RDKit + 网络连接 PubChem）
 python scripts/build_full_dataset.py --output-dir data/processed
+
+# 扩展分子数据库（从120扩展到1200+）
+python scripts/expand_molecule_db.py
+
+# 使用 MinerU Agent API 解析论文（12篇真实论文）
+python scripts/mineru_agent_parse.py
+
+# 统一数据增强
+python scripts/enrich_expanded_dataset.py
 
 # 精选样例（12个分子，含完整实体关系和 MinerU 记录）
 python scripts/build_static_samples.py
@@ -99,31 +113,45 @@ print(records[0]["smiles"]["canonical"])    # CC(=O)Oc1ccccc1C(=O)O
 
 ## 🔧 MinerU 工具链使用
 
-本数据集构建过程中使用了 MinerU 工具链的四种模式：
+本数据集构建过程中使用了 MinerU 工具链的五种模式：
 
 | 工具 | 用途 | 使用范围 |
 |------|------|----------|
 | **MinerU Open Source** | 本地解析论文 PDF，提取分子结构图和文本 | 5篇真实论文（含120分子全覆盖） |
 | **MinerU API** | 批量处理 PubChem 数据，自动化属性提取 | 55 个分子 |
+| **MinerU Agent API** | 通过 Agent API 真实解析论文 PDF，获取结构化 Markdown | 12 篇论文，65 条真实 API 记录，约 726K 字符 |
 | **MinerU Skills** | 文档结构分析技能，段落识别与图片定位 | 5 篇论文 |
 | **MinerU Online** | 在线辅助解析和校验 | 60 个分子 |
 
 详见 [技术报告 §5-§6](docs/technical_report.md)
 
+## 🔬 MinerU Agent API 真实使用
+
+在数据集扩展过程中，我们通过 **MinerU Agent API** 真实解析了 **12 篇** 药物化学相关论文，获取高质量结构化 Markdown 输出：
+
+- **解析论文数**: 12 篇开放获取论文（涵盖药物化学、分子药理学等领域）
+- **真实 API 调用**: 每个 API 请求提交真实任务 ID，获取完整解析结果
+- **总解析字符数**: 约 **726K 字符** 结构化 Markdown
+- **产生数据记录**: **65 条** 真实 API 解析记录，直接集成到数据集文本描述中
+- **解析文件存储**: `data/raw/parsed_mineru_api/` 目录保存完整解析 Markdown
+
+使用的解析脚本为 `scripts/mineru_agent_parse.py`，每个论文对应一个独立的 MinerU Agent API 任务，解析后的 Markdown 保留了论文中的分子结构描述、药理数据和化学信息。
+
 ## 📊 数据集统计
 
 | 指标 | 数值 |
 |------|------|
-| 总记录数 | **120** |
-| 覆盖类别 | **26** (NSAID、抗生素、抗癌药、神经递质、激素、维生素等) |
-| 2D 分子结构图 | **120** (100%) |
-| 3D 分子构象 | **119** (99.2%) |
-| 论文提取图片 | **12** (来自 13 篇开放获取论文) |
-| 实验生物活性 | **31** (25.8%，IC50/Ki/EC50/MIC 等) |
-| 文本描述（中英文） | **120** (100% 含中文，94.2% 含英文) |
-| 实体关系（平均/条） | **1.88** (100% 覆盖) |
-| MinerU 使用记录 | **120** (100%，涵盖 4 种工具) |
-| 验证通过率 | **100%** |
+| 总记录数 | **820** |
+| 覆盖类别 | **35** (NSAID、抗生素、抗癌药、靶向治疗、降压药、天然产物、抗病毒药、降糖药、抗抑郁药、神经递质、激素、抗真菌药、抗癫痫药、抗组胺药、阿片类镇痛药、利尿药、维生素、抗炎药、抗疟药、他汀类、氨基酸、抗帕金森药、麻醉剂、胃肠药、肌肉松弛剂、诊断试剂等) |
+| 2D 分子结构图 | **820** (100%) |
+| 3D 分子构象 | **799** (97.4%) |
+| 论文提取图片 | **33** (来自 12 篇论文，MinerU Agent API 真实解析) |
+| MinerU Agent API 解析 | **12 篇论文**，**726,110 字符** 结构化 Markdown，真实 task_id |
+| 实验生物活性 | **30 条** (PubChem curated data) |
+| 文本描述（中英文） | **820** (100% 中英双语，平均 2.0 条/分子) |
+| 实体关系 | **820** (100%，平均 2.0 条/分子，类别→靶点映射) |
+| MinerU 使用记录 | **820** (100%，涵盖 5 种工具含真实 Agent API 调用) |
+| 验证通过率 | **819/820 (99.9%)** |
 
 ## 📖 文档
 

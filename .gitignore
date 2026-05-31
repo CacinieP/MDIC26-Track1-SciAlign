@@ -10,12 +10,27 @@ build/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data (large files - raw PDFs)
-data/raw/*.pdf
-data/raw/*.zip
+# Data (large files - raw PDFs in any subdir)
+data/raw/**/*.pdf
+data/raw/**/*.zip
 
-# Keep all generated data (processed dataset, samples, images, models)
-# These are part of the dataset deliverable
+# Parsed markdown outputs (744K total, not code)
+data/raw/parsed_mineru_api/*.md
+# BUT keep the parsing log
+!data/raw/parsed_mineru_api/parsing_log.json
+
+# Parsed paper outputs (images + intermediate JSON, 24MB)
+data/raw/parsed/*/images/
+data/raw/parsed/*/*.json
+!data/raw/parsed/*/parsing_log.json
+
+# Processed binary assets (too many files for git)
+data/processed/images/2d/*.png
+data/processed/models/3d/*.sdf
+
+# Keep processed JSON/JSONL deliverables tracked:
+#   data/processed/*.json
+#   data/processed/*.jsonl
 
 # Environment
 .env

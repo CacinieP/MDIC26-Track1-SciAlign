@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-05-31T19:14:41",
+  "papers_submitted": 12,
+  "results": {
+    "acetaminophen_pharmacology.pdf": {
+      "task_id": "31984e49-0e05-4531-82cd-b09e373b683f09",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-05-31/670b07f6-3044-4d4b-91ad-22bb8bae8c16/full.md",
+      "content_length": 75552
+    },
+    "caffeine_molecules.pdf": {
+      "task_id": "db1a6b1e-5820-4650-ae1b-bab18a33f0a109",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-05-31/009bed55-cfb4-4b5b-a377-b1677e459cd8/full.md",
+      "content_length": 48955
+    },
+    "curcumin_pharmacology.pdf": {
+      "task_id": "322f9eed-649b-4503-9558-0a317edf9e8809",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-05-31/4366218f-b296-473c-b7c8-0094d7bdeb62/full.md",
+      "content_length": 50732
+    },
+    "dopamine_neuroscience.pdf": {
+      "task_id": "fd2f1298-04ea-40bc-ba56-358fb4e55fff09",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-05-31/16f1472c-7f40-40dd-9868-71f0554c2b55/full.md",
+      "content_length": 78187
+    },
+    "doxorubicin_anticancer.pdf": {
+      "task_id": "868f2593-6da8-4845-88b6-dd0fe24b881209",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-05-31/ca21475a-2a04-452d-9820-d178349f92f3/full.md",
+      "content_length": 51366
+    },
+    "fluoxetine_ijms.pdf": {
+      "task_id": "658a83d5-76d6-4fbf-94f8-106d51067b1a09",
+      "markdown_url": null,
+      "content_length": 0
+    },
+    "ibuprofen_pharmacology.pdf": {
+      "task_id": "4cb5fba7-6ac0-44e1-80e9-4fe875ef263b09",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-05-31/0a4d2ef3-c2cf-4ed2-8cfd-652aa80f9ad8/full.md",
+      "content_length": 76905
+    },
+    "metformin_frontiers.pdf": {
+      "task_id": "b5eec853-2d47-4d82-9df3-3f3e5f20420d09",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-05-31/daa94d0f-fe6c-4f7c-929b-36b29480a6f3/full.md",
+      "content_length": 66535
+    },
+    "metformin_pharmaceutics.pdf": {
+      "task_id": "169780f7-869a-43d3-9234-dac6d584fd9409",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-05-31/28444f77-eda5-4a3e-8dfd-54c9588838ed/full.md",
+      "content_length": 45244
+    },
+    "morphine_opioid.pdf": {
+      "task_id": "1aed079e-5391-42ee-a918-5c92febe7d0d09",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-05-31/9e345d3b-72c4-4984-bbec-d4b28ae0eda2/full.md",
+      "content_length": 58078
+    },
+    "paclitaxel_pharmacology.pdf": {
+      "task_id": "cf999197-b775-45b4-939c-de1a1702367509",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-05-31/cce9d4db-a61a-43d0-8aef-7ace2afeac62/full.md",
+      "content_length": 45900
+    },
+    "vitamins_pharmaceuticals.pdf": {
+      "task_id": "a7d22358-f60b-4861-8073-f271cc9318f209",
+      "markdown_url": null,
+      "content_length": 0
+    }
+  }
+}

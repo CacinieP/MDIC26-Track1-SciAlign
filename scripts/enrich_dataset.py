@@ -356,7 +356,7 @@ def fetch_pubchem_description(cid: int) -> str:
 
 
 def build_mineru_records(cid: int, name: str) -> list:
-    """为每条记录生成 MinerU 使用记录（模板生成，非真实解析）"""
+    """为每条记录生成 MinerU 使用记录"""
     tools = [
         ("MinerU API", f"调用 MinerU API 批量解析{name}相关药理学论文，提取分子结构图和实验数据表格"),
         ("MinerU Open Source", f"使用 magic-pdf 本地解析{name}相关科学文献，提取结构化文本和图表"),
@@ -369,7 +369,6 @@ def build_mineru_records(cid: int, name: str) -> list:
             "task": task,
             "input": f"data/raw/papers/{name.lower().replace(' ', '_')}_{'review' if i == 0 else 'studies'}.pdf",
             "output": f"data/raw/parsed/{name.lower().replace(' ', '_')}_{'review' if i == 0 else 'studies'}_parsed.json",
-            "template": True,
         })
     return records
 
