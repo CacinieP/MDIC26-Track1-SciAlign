@@ -34,17 +34,19 @@
   "avg_relations": 2.38,
   "with_2d_image": 120,
   "with_3d_conformer": 119,
-  "with_paper_image": 33,
+  "with_paper_image": 32,
   "with_experimental": 31,
   "with_en_description": 120,
   "with_zh_description": 120,
   "mineru_used_count": 120,
   "mineru_tools_distribution": {
     "MinerU Open Source": 120,
-    "MinerU API": 55,
-    "MinerU Skills": 33,
-    "MinerU Online": 60
+    "MinerU API": 56,
+    "MinerU Skills": 32,
+    "MinerU Online": 59
   },
+  "template_mineru_records": 116,
+  "real_mineru_records": 151,
   "validated_pass": 120,
-  "generated_at": "2026-05-31T02:41:37Z"
+  "generated_at": "2026-05-31T12:00:00Z"
 }

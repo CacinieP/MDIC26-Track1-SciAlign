@@ -619,7 +619,7 @@ with open("data/samples/sample_dataset.json", "r", encoding="utf-8") as f:
 
 ## 十、开源与共享
 
-- **代码仓库**：https://github.com/CacinieP/MinerU-AGI4S-Track1
+- **代码仓库**：https://github.com/CacinieP/MDIC26-Track1-SciAlign
 - **数据集发布**：将同步发布至 OpenDataLab 平台
 - **开源协议**：CC-BY-4.0
 - **数据集 DOI**：待发布后分配
@@ -790,7 +790,7 @@ with open("data/samples/sample_dataset.json", "r", encoding="utf-8") as f:
 | MOL-000111 | Modafinil | Stimulant | `C1=CC=C(C=C1)C(C2=CC=CC=C2)...)` | 4236 |
 | MOL-000112 | Prednisone | Anti-inflammatory | `C[C@]12CC(=O)[C@H]3[C@H]([...)` | 5865 |
 | MOL-000113 | Dexamethasone | Anti-inflammatory | `C[C@@H]1C[C@H]2[C@@H]3CCC4=...)` | 5743 |
-| MOL-000114 | Hydrocortisone | Anti-inflammatory | `C[C@]12CCC(=O)C=C1CCC...)` | 5754 |
+| MOL-000114 | Mometasone Furoate | Anti-inflammatory | `C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C...)` | 441336 |
 | MOL-000115 | Budesonide | Anti-inflammatory | `CCCC1O[C@@H]2C[C@H]3[C@@H]...)` | 5281004 |
 | MOL-000116 | Omeprazole | Gastrointestinal Drug | `CC1=CN=C(C(=C1OC)C)CS(=O)...)` | 4594 |
 | MOL-000117 | Pantoprazole | Gastrointestinal Drug | `COC1=C(C(=NC=C1)CS(=O)C2=...)`)` | 4679 |

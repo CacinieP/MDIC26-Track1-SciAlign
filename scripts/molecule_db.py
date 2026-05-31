@@ -209,7 +209,7 @@ MOLECULE_DB = {
     # ================================================================
     "MOL-000112": {"name": "Prednisone", "pubchem_cid": 5865, "category": "Anti-inflammatory"},
     "MOL-000113": {"name": "Dexamethasone", "pubchem_cid": 5743, "category": "Anti-inflammatory"},
-    "MOL-000114": {"name": "Hydrocortisone", "pubchem_cid": 5754, "category": "Anti-inflammatory"},
+    "MOL-000114": {"name": "Mometasone Furoate", "pubchem_cid": 441336, "category": "Anti-inflammatory"},
     "MOL-000115": {"name": "Budesonide", "pubchem_cid": 5281004, "category": "Anti-inflammatory"},
 
     # ================================================================

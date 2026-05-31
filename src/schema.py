@@ -22,6 +22,7 @@ DATASET_SCHEMA = {
         "record_id",
         "molecule_id",
         "smiles",
+        "names",
         "modalities",
         "properties",
         "text_descriptions",
@@ -270,7 +271,8 @@ DATASET_SCHEMA = {
                             },
                             "task": {"type": "string", "description": "具体任务描述"},
                             "input": {"type": "string", "description": "输入文件/数据"},
-                            "output": {"type": "string", "description": "输出文件/数据"}
+                            "output": {"type": "string", "description": "输出文件/数据"},
+                            "template": {"type": "boolean", "description": "是否为模板生成的记录（非真实 MinerU 使用）"}
                         }
                     }
                 },
@@ -288,6 +290,7 @@ ALIGNMENT_RECORD_REQUIRED_FIELDS = [
     "record_id",
     "molecule_id",
     "smiles",
+    "names",
     "modalities",
     "properties",
     "text_descriptions",

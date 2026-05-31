@@ -19,9 +19,6 @@ data/raw/*.zip
 
 # Environment
 .env
-
-# Environment
-.env
 .venv/
 venv/
 

@@ -22,6 +22,10 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.molecule_processor import MoleculeProcessor
 from src.alignment_validator import AlignmentValidator
+from scripts.molecule_db import MOLECULE_DB
+
+# Build CID -> record_id lookup for correct ID mapping
+_CID_TO_RECORD_ID = {v["pubchem_cid"]: k for k, v in MOLECULE_DB.items()}
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
@@ -423,7 +427,7 @@ def build_sample_dataset(output_path: str, generate_images: bool = True):
         os.makedirs("data/samples/models/3d", exist_ok=True)
 
     for i, mol_info in enumerate(SAMPLE_MOLECULES):
-        record_id = f"MOL-{i+1:06d}"
+        record_id = _CID_TO_RECORD_ID.get(mol_info["pubchem_cid"], f"MOL-{i+1:06d}")
         logger.info(f"Processing [{i+1}/{len(SAMPLE_MOLECULES)}]: {mol_info['name']} ({record_id})")
 
         try:
@@ -513,7 +517,7 @@ def build_sample_dataset(output_path: str, generate_images: bool = True):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Build sample dataset for AGI4S Track 1")
+    parser = argparse.ArgumentParser(description="Build sample dataset for MDIC26-Track1 SciAlign")
     parser.add_argument("--output", default="data/samples/sample_dataset.jsonl",
                         help="Output JSONL file path")
     parser.add_argument("--no-images", action="store_true",

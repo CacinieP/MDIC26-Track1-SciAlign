@@ -69,7 +69,7 @@ add_text(slide, 1, 1.5, 11, 1.2, "MolAlign", 48, ACCENT_CYAN, True, PP_ALIGN.CEN
 add_text(slide, 1, 2.8, 11, 0.8, "分子跨模态对齐数据集", 32, TEXT_WHITE, False, PP_ALIGN.CENTER)
 add_text(slide, 1, 3.8, 11, 0.6, "Molecular Cross-Modal Alignment Dataset", 20, TEXT_LIGHT, False, PP_ALIGN.CENTER)
 add_text(slide, 1, 5.0, 11, 0.5, "语料筑基 · AGI4S 前沿语料赛道 | Sci-Align 科学对齐数据", 16, ACCENT_GREEN, False, PP_ALIGN.CENTER)
-add_text(slide, 1, 6.2, 11, 0.4, "https://github.com/CacinieP/MinerU-AGI4S-Track1", 14, TEXT_LIGHT, False, PP_ALIGN.CENTER)
+add_text(slide, 1, 6.2, 11, 0.4, "https://github.com/CacinieP/MDIC26-Track1-SciAlign", 14, TEXT_LIGHT, False, PP_ALIGN.CENTER)
 
 # ================================================================
 # Slide 2: 赛题背景
@@ -298,7 +298,7 @@ add_bullet_slide(slide, 2, 3.3, 9, 3.0, [
     "完整技术报告 · 开源代码 · Jupyter Notebook",
 ], 18, TEXT_WHITE)
 
-add_text(slide, 1, 6.3, 11, 0.5, "https://github.com/CacinieP/MinerU-AGI4S-Track1", 16, ACCENT_GREEN, False, PP_ALIGN.CENTER)
+add_text(slide, 1, 6.3, 11, 0.5, "https://github.com/CacinieP/MDIC26-Track1-SciAlign", 16, ACCENT_GREEN, False, PP_ALIGN.CENTER)
 add_text(slide, 1, 6.9, 11, 0.4, "开源协议: CC-BY-4.0 | 数据范式: Sci-Align | 版本: v2.1.0", 14, TEXT_LIGHT, False, PP_ALIGN.CENTER)
 
 # Save

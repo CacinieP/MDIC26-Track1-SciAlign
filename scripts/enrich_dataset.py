@@ -237,6 +237,15 @@ KNOWN_RELATIONS = {
         {"subject": "Cortisol", "relation": "binds_to", "object": "glucocorticoid receptor", "confidence": 0.99},
         {"subject": "Cortisol", "relation": "binds_to", "object": "mineralocorticoid receptor", "confidence": 0.95},
     ],
+    # Anti-inflammatory
+    441336: [  # Mometasone Furoate
+        {"subject": "Mometasone Furoate", "relation": "binds_to", "object": "glucocorticoid receptor", "confidence": 0.99},
+        {"subject": "Mometasone Furoate", "relation": "has_substructure", "object": "furoate ester", "confidence": 0.99},
+        {"subject": "Mometasone Furoate", "relation": "has_substructure", "object": "corticosteroid backbone", "confidence": 0.99},
+    ],
+        {"subject": "Cortisol", "relation": "binds_to", "object": "glucocorticoid receptor", "confidence": 0.99},
+        {"subject": "Cortisol", "relation": "binds_to", "object": "mineralocorticoid receptor", "confidence": 0.95},
+    ],
     6013: [  # Testosterone
         {"subject": "Testosterone", "relation": "binds_to", "object": "androgen receptor", "confidence": 0.99},
         {"subject": "Testosterone", "relation": "metabolized_to", "object": "dihydrotestosterone (DHT)", "confidence": 0.98},
@@ -326,6 +335,7 @@ CHINESE_DESCRIPTIONS = {
     969516: "姜黄素是姜黄中的主要活性成分，属于多酚类天然产物。它具有抗炎、抗氧化和抗癌等多种药理活性，但生物利用度较低。",
     60823: "阿托伐他汀是一种HMG-CoA还原酶抑制剂（他汀类药物），是世界上最畅销的降脂药物，通过减少肝脏胆固醇合成来降低血脂。",
     4594: "奥美拉唑是质子泵抑制剂（PPI），通过不可逆抑制胃壁细胞H+/K+ ATPase来减少胃酸分泌，是治疗胃食管反流病和消化性溃疡的首选药物。",
+    441336: "糠酸莫米松（Mometasone Furoate）是一种合成的强效局部用糖皮质激素，通过与糖皮质激素受体结合发挥强效抗炎和抗过敏作用。广泛用于过敏性鼻炎、哮喘（Asmanex）和皮肤炎症（Elocon）的治疗。",
 }
 
 
@@ -346,7 +356,7 @@ def fetch_pubchem_description(cid: int) -> str:
 
 
 def build_mineru_records(cid: int, name: str) -> list:
-    """为每条记录生成 MinerU 使用记录"""
+    """为每条记录生成 MinerU 使用记录（模板生成，非真实解析）"""
     tools = [
         ("MinerU API", f"调用 MinerU API 批量解析{name}相关药理学论文，提取分子结构图和实验数据表格"),
         ("MinerU Open Source", f"使用 magic-pdf 本地解析{name}相关科学文献，提取结构化文本和图表"),
@@ -358,7 +368,8 @@ def build_mineru_records(cid: int, name: str) -> list:
             "tool": tool,
             "task": task,
             "input": f"data/raw/papers/{name.lower().replace(' ', '_')}_{'review' if i == 0 else 'studies'}.pdf",
-            "output": f"data/raw/parsed/{name.lower().replace(' ', '_')}_{'review' if i == 0 else 'studies'}_parsed.json"
+            "output": f"data/raw/parsed/{name.lower().replace(' ', '_')}_{'review' if i == 0 else 'studies'}_parsed.json",
+            "template": True,
         })
     return records
 

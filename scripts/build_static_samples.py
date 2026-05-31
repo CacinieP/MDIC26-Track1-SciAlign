@@ -165,10 +165,10 @@ def build_static_samples():
         },
 
         # ============================================================
-        # MOL-000002: Caffeine
+        # MOL-000109: Caffeine
         # ============================================================
         {
-            "record_id": "MOL-000002",
+            "record_id": "MOL-000109",
             "molecule_id": {
                 "pubchem_cid": 2519,
                 "chembl_id": "CHEMBL113",
@@ -191,7 +191,7 @@ def build_static_samples():
             },
             "modalities": {
                 "structure_2d": {
-                    "rdkit_generated": "images/2d/MOL-000002.png",
+                    "rdkit_generated": "images/2d/MOL-000109.png",
                     "image_format": "png",
                     "image_size": "512x512"
                 },
@@ -202,7 +202,7 @@ def build_static_samples():
                     "figure_label": "Figure 2"
                 },
                 "structure_3d": {
-                    "sdf_path": "models/3d/MOL-000002.sdf",
+                    "sdf_path": "models/3d/MOL-000109.sdf",
                     "conformer_method": "RDKit_ETKDG"
                 },
                 "table_data": None
@@ -286,10 +286,10 @@ def build_static_samples():
         },
 
         # ============================================================
-        # MOL-000003: Ibuprofen
+        # MOL-000002: Ibuprofen
         # ============================================================
         {
-            "record_id": "MOL-000003",
+            "record_id": "MOL-000002",
             "molecule_id": {
                 "pubchem_cid": 3672,
                 "chembl_id": "CHEMBL521",
@@ -312,13 +312,13 @@ def build_static_samples():
             },
             "modalities": {
                 "structure_2d": {
-                    "rdkit_generated": "images/2d/MOL-000003.png",
+                    "rdkit_generated": "images/2d/MOL-000002.png",
                     "image_format": "png",
                     "image_size": "512x512"
                 },
                 "structure_paper": None,
                 "structure_3d": {
-                    "sdf_path": "models/3d/MOL-000003.sdf",
+                    "sdf_path": "models/3d/MOL-000002.sdf",
                     "conformer_method": "RDKit_ETKDG"
                 },
                 "table_data": None
@@ -379,10 +379,10 @@ def build_static_samples():
         },
 
         # ============================================================
-        # MOL-000004: Penicillin G
+        # MOL-000007: Penicillin G
         # ============================================================
         {
-            "record_id": "MOL-000004",
+            "record_id": "MOL-000007",
             "molecule_id": {
                 "pubchem_cid": 5904,
                 "chembl_id": "CHEMBL41",
@@ -405,7 +405,7 @@ def build_static_samples():
             },
             "modalities": {
                 "structure_2d": {
-                    "rdkit_generated": "images/2d/MOL-000004.png",
+                    "rdkit_generated": "images/2d/MOL-000007.png",
                     "image_format": "png",
                     "image_size": "512x512"
                 },
@@ -416,7 +416,7 @@ def build_static_samples():
                     "figure_label": "Figure 1"
                 },
                 "structure_3d": {
-                    "sdf_path": "models/3d/MOL-000004.sdf",
+                    "sdf_path": "models/3d/MOL-000007.sdf",
                     "conformer_method": "RDKit_ETKDG"
                 },
                 "table_data": None
@@ -493,10 +493,10 @@ def build_static_samples():
         },
 
         # ============================================================
-        # MOL-000005: Metformin
+        # MOL-000033: Metformin
         # ============================================================
         {
-            "record_id": "MOL-000005",
+            "record_id": "MOL-000033",
             "molecule_id": {
                 "pubchem_cid": 4091,
                 "chembl_id": "CHEMBL1431",
@@ -519,13 +519,13 @@ def build_static_samples():
             },
             "modalities": {
                 "structure_2d": {
-                    "rdkit_generated": "images/2d/MOL-000005.png",
+                    "rdkit_generated": "images/2d/MOL-000033.png",
                     "image_format": "png",
                     "image_size": "512x512"
                 },
                 "structure_paper": None,
                 "structure_3d": {
-                    "sdf_path": "models/3d/MOL-000005.sdf",
+                    "sdf_path": "models/3d/MOL-000033.sdf",
                     "conformer_method": "RDKit_ETKDG"
                 },
                 "table_data": None
@@ -586,10 +586,10 @@ def build_static_samples():
         },
 
         # ============================================================
-        # MOL-000006: Dopamine
+        # MOL-000086: Dopamine
         # ============================================================
         {
-            "record_id": "MOL-000006",
+            "record_id": "MOL-000086",
             "molecule_id": {
                 "pubchem_cid": 681,
                 "chembl_id": "CHEMBL59",
@@ -612,13 +612,13 @@ def build_static_samples():
             },
             "modalities": {
                 "structure_2d": {
-                    "rdkit_generated": "images/2d/MOL-000006.png",
+                    "rdkit_generated": "images/2d/MOL-000086.png",
                     "image_format": "png",
                     "image_size": "512x512"
                 },
                 "structure_paper": None,
                 "structure_3d": {
-                    "sdf_path": "models/3d/MOL-000006.sdf",
+                    "sdf_path": "models/3d/MOL-000086.sdf",
                     "conformer_method": "RDKit_ETKDG"
                 },
                 "table_data": None
@@ -676,10 +676,10 @@ def build_static_samples():
         },
 
         # ============================================================
-        # MOL-000007: Curcumin
+        # MOL-000080: Curcumin
         # ============================================================
         {
-            "record_id": "MOL-000007",
+            "record_id": "MOL-000080",
             "molecule_id": {
                 "pubchem_cid": 969516,
                 "chembl_id": "CHEMBL12294",
@@ -702,7 +702,7 @@ def build_static_samples():
             },
             "modalities": {
                 "structure_2d": {
-                    "rdkit_generated": "images/2d/MOL-000007.png",
+                    "rdkit_generated": "images/2d/MOL-000080.png",
                     "image_format": "png",
                     "image_size": "512x512"
                 },
@@ -713,7 +713,7 @@ def build_static_samples():
                     "figure_label": "Figure 3"
                 },
                 "structure_3d": {
-                    "sdf_path": "models/3d/MOL-000007.sdf",
+                    "sdf_path": "models/3d/MOL-000080.sdf",
                     "conformer_method": "RDKit_ETKDG"
                 },
                 "table_data": None
@@ -782,10 +782,10 @@ def build_static_samples():
         },
 
         # ============================================================
-        # MOL-000008: Tamoxifen
+        # MOL-000020: Tamoxifen
         # ============================================================
         {
-            "record_id": "MOL-000008",
+            "record_id": "MOL-000020",
             "molecule_id": {
                 "pubchem_cid": 2733526,
                 "chembl_id": "CHEMBL83",
@@ -808,13 +808,13 @@ def build_static_samples():
             },
             "modalities": {
                 "structure_2d": {
-                    "rdkit_generated": "images/2d/MOL-000008.png",
+                    "rdkit_generated": "images/2d/MOL-000020.png",
                     "image_format": "png",
                     "image_size": "512x512"
                 },
                 "structure_paper": None,
                 "structure_3d": {
-                    "sdf_path": "models/3d/MOL-000008.sdf",
+                    "sdf_path": "models/3d/MOL-000020.sdf",
                     "conformer_method": "RDKit_ETKDG"
                 },
                 "table_data": None
@@ -884,10 +884,10 @@ def build_static_samples():
         },
 
         # ============================================================
-        # MOL-000009: Gefitinib
+        # MOL-000028: Gefitinib
         # ============================================================
         {
-            "record_id": "MOL-000009",
+            "record_id": "MOL-000028",
             "molecule_id": {
                 "pubchem_cid": 123631,
                 "chembl_id": "CHEMBL939",
@@ -909,7 +909,7 @@ def build_static_samples():
             },
             "modalities": {
                 "structure_2d": {
-                    "rdkit_generated": "images/2d/MOL-000009.png",
+                    "rdkit_generated": "images/2d/MOL-000028.png",
                     "image_format": "png",
                     "image_size": "512x512"
                 },
@@ -920,11 +920,11 @@ def build_static_samples():
                     "figure_label": "Figure 1"
                 },
                 "structure_3d": {
-                    "sdf_path": "models/3d/MOL-000009.sdf",
+                    "sdf_path": "models/3d/MOL-000028.sdf",
                     "conformer_method": "RDKit_ETKDG"
                 },
                 "table_data": {
-                    "table_path": "tables/MOL-000009_pk.csv",
+                    "table_path": "tables/MOL-000028_pk.csv",
                     "source_paper": "doi:10.1016/S0140-6736(09)60691-0",
                     "table_label": "Table 2"
                 }
@@ -1000,10 +1000,10 @@ def build_static_samples():
         },
 
         # ============================================================
-        # MOL-000010: Ritonavir
+        # MOL-000015: Ritonavir
         # ============================================================
         {
-            "record_id": "MOL-000010",
+            "record_id": "MOL-000015",
             "molecule_id": {
                 "pubchem_cid": 3976,
                 "chembl_id": "CHEMBL163",
@@ -1026,13 +1026,13 @@ def build_static_samples():
             },
             "modalities": {
                 "structure_2d": {
-                    "rdkit_generated": "images/2d/MOL-000010.png",
+                    "rdkit_generated": "images/2d/MOL-000015.png",
                     "image_format": "png",
                     "image_size": "512x512"
                 },
                 "structure_paper": None,
                 "structure_3d": {
-                    "sdf_path": "models/3d/MOL-000010.sdf",
+                    "sdf_path": "models/3d/MOL-000015.sdf",
                     "conformer_method": "RDKit_ETKDG"
                 },
                 "table_data": None
@@ -1101,10 +1101,10 @@ def build_static_samples():
         },
 
         # ============================================================
-        # MOL-000011: Methotrexate
+        # MOL-000022: Methotrexate
         # ============================================================
         {
-            "record_id": "MOL-000011",
+            "record_id": "MOL-000022",
             "molecule_id": {
                 "pubchem_cid": 126941,
                 "chembl_id": "CHEMBL34259",
@@ -1127,13 +1127,13 @@ def build_static_samples():
             },
             "modalities": {
                 "structure_2d": {
-                    "rdkit_generated": "images/2d/MOL-000011.png",
+                    "rdkit_generated": "images/2d/MOL-000022.png",
                     "image_format": "png",
                     "image_size": "512x512"
                 },
                 "structure_paper": None,
                 "structure_3d": {
-                    "sdf_path": "models/3d/MOL-000011.sdf",
+                    "sdf_path": "models/3d/MOL-000022.sdf",
                     "conformer_method": "RDKit_ETKDG"
                 },
                 "table_data": None
@@ -1209,10 +1209,10 @@ def build_static_samples():
         },
 
         # ============================================================
-        # MOL-000012: Paclitaxel
+        # MOL-000021: Paclitaxel
         # ============================================================
         {
-            "record_id": "MOL-000012",
+            "record_id": "MOL-000021",
             "molecule_id": {
                 "pubchem_cid": 36314,
                 "chembl_id": "CHEMBL428470",
@@ -1235,7 +1235,7 @@ def build_static_samples():
             },
             "modalities": {
                 "structure_2d": {
-                    "rdkit_generated": "images/2d/MOL-000012.png",
+                    "rdkit_generated": "images/2d/MOL-000021.png",
                     "image_format": "png",
                     "image_size": "512x512"
                 },
@@ -1246,7 +1246,7 @@ def build_static_samples():
                     "figure_label": "Figure 4"
                 },
                 "structure_3d": {
-                    "sdf_path": "models/3d/MOL-000012.sdf",
+                    "sdf_path": "models/3d/MOL-000021.sdf",
                     "conformer_method": "RDKit_ETKDG"
                 },
                 "table_data": None

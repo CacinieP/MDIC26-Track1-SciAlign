@@ -43,7 +43,7 @@ EXTRA_IMAGE_ASSIGNMENTS = {
     "MOL-000082": {"paper": "curcumin_pharmacology", "page": 6, "fmt": "jpeg"},    # Quercetin (Natural)
     "MOL-000117": {"paper": "omeprazole_pharmaceutics", "page": 7, "fmt": "jpeg"}, # Pantoprazole (GI)
     "MOL-000118": {"paper": "omeprazole_pharmaceutics", "page": 9, "fmt": "jpeg"}, # Ranitidine (GI)
-    "MOL-000114": {"paper": "omeprazole_pharmaceutics", "page": 10, "fmt": "jpeg"},# Hydrocortisone -> Anti-inflam
+    "MOL-000114": {"paper": "omeprazole_pharmaceutics", "page": 10, "fmt": "jpeg"},# Mometasone Furoate -> Anti-inflam
     "MOL-000112": {"paper": "omeprazole_pharmaceutics", "page": 11, "fmt": "png"}, # Prednisone (Anti-inflam)
 }
 
@@ -150,7 +150,8 @@ EXTRA_RELATIONS = {
     "MOL-000111": [{"subject": "Modafinil", "relation": "inhibits", "object": "dopamine transporter (DAT)", "confidence": 0.95}],
     # Anti-inflammatory
     "MOL-000113": [{"subject": "Dexamethasone", "relation": "binds_to", "object": "glucocorticoid receptor", "confidence": 0.99}],
-    "MOL-000114": [{"subject": "Hydrocortisone", "relation": "binds_to", "object": "glucocorticoid receptor", "confidence": 0.99}],
+    "MOL-000114": [{"subject": "Mometasone Furoate", "relation": "binds_to", "object": "glucocorticoid receptor", "confidence": 0.99},
+                   {"subject": "Mometasone Furoate", "relation": "has_substructure", "object": "furoate ester", "confidence": 0.99}],
     "MOL-000115": [{"subject": "Budesonide", "relation": "binds_to", "object": "glucocorticoid receptor", "confidence": 0.99}],
     # Gastrointestinal
     "MOL-000117": [{"subject": "Pantoprazole", "relation": "inhibits", "object": "H+/K+ ATPase (gastric)", "confidence": 0.99}],

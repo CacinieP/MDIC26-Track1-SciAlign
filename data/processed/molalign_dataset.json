@@ -153,7 +153,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Aspirin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/aspirin_studies.pdf",
-          "output": "data/raw/parsed/aspirin_studies_parsed.json"
+          "output": "data/raw/parsed/aspirin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -477,7 +478,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Naproxen相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/naproxen_studies.pdf",
-          "output": "data/raw/parsed/naproxen_studies_parsed.json"
+          "output": "data/raw/parsed/naproxen_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -633,7 +635,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Diclofenac相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/diclofenac_studies.pdf",
-          "output": "data/raw/parsed/diclofenac_studies_parsed.json"
+          "output": "data/raw/parsed/diclofenac_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -789,7 +792,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Celecoxib相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/celecoxib_studies.pdf",
-          "output": "data/raw/parsed/celecoxib_studies_parsed.json"
+          "output": "data/raw/parsed/celecoxib_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -928,7 +932,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Indomethacin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/indomethacin_studies.pdf",
-          "output": "data/raw/parsed/indomethacin_studies_parsed.json"
+          "output": "data/raw/parsed/indomethacin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -1085,7 +1090,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Penicillin G相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/penicillin_g_studies.pdf",
-          "output": "data/raw/parsed/penicillin_g_studies_parsed.json"
+          "output": "data/raw/parsed/penicillin_g_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -1213,7 +1219,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Amoxicillin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/amoxicillin_studies.pdf",
-          "output": "data/raw/parsed/amoxicillin_studies_parsed.json"
+          "output": "data/raw/parsed/amoxicillin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -1364,7 +1371,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Ciprofloxacin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/ciprofloxacin_studies.pdf",
-          "output": "data/raw/parsed/ciprofloxacin_studies_parsed.json"
+          "output": "data/raw/parsed/ciprofloxacin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -1518,7 +1526,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Doxycycline相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/doxycycline_studies.pdf",
-          "output": "data/raw/parsed/doxycycline_studies_parsed.json"
+          "output": "data/raw/parsed/doxycycline_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -1652,7 +1661,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Azithromycin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/azithromycin_studies.pdf",
-          "output": "data/raw/parsed/azithromycin_studies_parsed.json"
+          "output": "data/raw/parsed/azithromycin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -1780,7 +1790,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Vancomycin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/vancomycin_studies.pdf",
-          "output": "data/raw/parsed/vancomycin_studies_parsed.json"
+          "output": "data/raw/parsed/vancomycin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -1907,7 +1918,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Gentamicin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/gentamicin_studies.pdf",
-          "output": "data/raw/parsed/gentamicin_studies_parsed.json"
+          "output": "data/raw/parsed/gentamicin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -2045,7 +2057,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Metronidazole相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/metronidazole_studies.pdf",
-          "output": "data/raw/parsed/metronidazole_studies_parsed.json"
+          "output": "data/raw/parsed/metronidazole_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -2189,7 +2202,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Ritonavir相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/ritonavir_studies.pdf",
-          "output": "data/raw/parsed/ritonavir_studies_parsed.json"
+          "output": "data/raw/parsed/ritonavir_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -2317,7 +2331,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Oseltamivir相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/oseltamivir_studies.pdf",
-          "output": "data/raw/parsed/oseltamivir_studies_parsed.json"
+          "output": "data/raw/parsed/oseltamivir_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -2428,7 +2443,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Acyclovir相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/acyclovir_studies.pdf",
-          "output": "data/raw/parsed/acyclovir_studies_parsed.json"
+          "output": "data/raw/parsed/acyclovir_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -2556,7 +2572,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Remdesivir相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/remdesivir_studies.pdf",
-          "output": "data/raw/parsed/remdesivir_studies_parsed.json"
+          "output": "data/raw/parsed/remdesivir_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -2694,7 +2711,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Zidovudine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/zidovudine_studies.pdf",
-          "output": "data/raw/parsed/zidovudine_studies_parsed.json"
+          "output": "data/raw/parsed/zidovudine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -2837,7 +2855,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Tamoxifen相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/tamoxifen_studies.pdf",
-          "output": "data/raw/parsed/tamoxifen_studies_parsed.json"
+          "output": "data/raw/parsed/tamoxifen_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -3179,7 +3198,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Methotrexate相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/methotrexate_studies.pdf",
-          "output": "data/raw/parsed/methotrexate_studies_parsed.json"
+          "output": "data/raw/parsed/methotrexate_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -3337,7 +3357,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Doxorubicin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/doxorubicin_studies.pdf",
-          "output": "data/raw/parsed/doxorubicin_studies_parsed.json"
+          "output": "data/raw/parsed/doxorubicin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -3482,7 +3503,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Cisplatin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/cisplatin_studies.pdf",
-          "output": "data/raw/parsed/cisplatin_studies_parsed.json"
+          "output": "data/raw/parsed/cisplatin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -3637,7 +3659,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析5-Fluorouracil相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/5-fluorouracil_studies.pdf",
-          "output": "data/raw/parsed/5-fluorouracil_studies_parsed.json"
+          "output": "data/raw/parsed/5-fluorouracil_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -3781,7 +3804,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Imatinib相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/imatinib_studies.pdf",
-          "output": "data/raw/parsed/imatinib_studies_parsed.json"
+          "output": "data/raw/parsed/imatinib_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -3919,7 +3943,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Cyclophosphamide相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/cyclophosphamide_studies.pdf",
-          "output": "data/raw/parsed/cyclophosphamide_studies_parsed.json"
+          "output": "data/raw/parsed/cyclophosphamide_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -4057,7 +4082,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Gefitinib相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/gefitinib_studies.pdf",
-          "output": "data/raw/parsed/gefitinib_studies_parsed.json"
+          "output": "data/raw/parsed/gefitinib_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -4185,7 +4211,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Erlotinib相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/erlotinib_studies.pdf",
-          "output": "data/raw/parsed/erlotinib_studies_parsed.json"
+          "output": "data/raw/parsed/erlotinib_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -4313,7 +4340,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Sorafenib相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/sorafenib_studies.pdf",
-          "output": "data/raw/parsed/sorafenib_studies_parsed.json"
+          "output": "data/raw/parsed/sorafenib_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -4441,7 +4469,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Sunitinib相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/sunitinib_studies.pdf",
-          "output": "data/raw/parsed/sunitinib_studies_parsed.json"
+          "output": "data/raw/parsed/sunitinib_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -4569,7 +4598,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Crizotinib相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/crizotinib_studies.pdf",
-          "output": "data/raw/parsed/crizotinib_studies_parsed.json"
+          "output": "data/raw/parsed/crizotinib_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -4740,7 +4770,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Metformin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/metformin_studies.pdf",
-          "output": "data/raw/parsed/metformin_studies_parsed.json"
+          "output": "data/raw/parsed/metformin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -4874,7 +4905,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Glibenclamide相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/glibenclamide_studies.pdf",
-          "output": "data/raw/parsed/glibenclamide_studies_parsed.json"
+          "output": "data/raw/parsed/glibenclamide_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -4996,7 +5028,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Sitagliptin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/sitagliptin_studies.pdf",
-          "output": "data/raw/parsed/sitagliptin_studies_parsed.json"
+          "output": "data/raw/parsed/sitagliptin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -5140,7 +5173,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Pioglitazone相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/pioglitazone_studies.pdf",
-          "output": "data/raw/parsed/pioglitazone_studies_parsed.json"
+          "output": "data/raw/parsed/pioglitazone_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -5262,7 +5296,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Empagliflozin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/empagliflozin_studies.pdf",
-          "output": "data/raw/parsed/empagliflozin_studies_parsed.json"
+          "output": "data/raw/parsed/empagliflozin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -5418,7 +5453,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Fluoxetine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/fluoxetine_studies.pdf",
-          "output": "data/raw/parsed/fluoxetine_studies_parsed.json"
+          "output": "data/raw/parsed/fluoxetine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -5557,7 +5593,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Sertraline相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/sertraline_studies.pdf",
-          "output": "data/raw/parsed/sertraline_studies_parsed.json"
+          "output": "data/raw/parsed/sertraline_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -5696,7 +5733,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Paroxetine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/paroxetine_studies.pdf",
-          "output": "data/raw/parsed/paroxetine_studies_parsed.json"
+          "output": "data/raw/parsed/paroxetine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -5847,7 +5885,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Venlafaxine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/venlafaxine_studies.pdf",
-          "output": "data/raw/parsed/venlafaxine_studies_parsed.json"
+          "output": "data/raw/parsed/venlafaxine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -5993,7 +6032,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Amitriptyline相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/amitriptyline_studies.pdf",
-          "output": "data/raw/parsed/amitriptyline_studies_parsed.json"
+          "output": "data/raw/parsed/amitriptyline_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -6127,7 +6167,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Citalopram相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/citalopram_studies.pdf",
-          "output": "data/raw/parsed/citalopram_studies_parsed.json"
+          "output": "data/raw/parsed/citalopram_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -6255,7 +6296,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Lisinopril相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/lisinopril_studies.pdf",
-          "output": "data/raw/parsed/lisinopril_studies_parsed.json"
+          "output": "data/raw/parsed/lisinopril_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -6383,7 +6425,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Losartan相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/losartan_studies.pdf",
-          "output": "data/raw/parsed/losartan_studies_parsed.json"
+          "output": "data/raw/parsed/losartan_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -6511,7 +6554,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Amlodipine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/amlodipine_studies.pdf",
-          "output": "data/raw/parsed/amlodipine_studies_parsed.json"
+          "output": "data/raw/parsed/amlodipine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -6639,7 +6683,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Enalapril相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/enalapril_studies.pdf",
-          "output": "data/raw/parsed/enalapril_studies_parsed.json"
+          "output": "data/raw/parsed/enalapril_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -6773,7 +6818,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Valsartan相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/valsartan_studies.pdf",
-          "output": "data/raw/parsed/valsartan_studies_parsed.json"
+          "output": "data/raw/parsed/valsartan_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -6895,7 +6941,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Metoprolol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/metoprolol_studies.pdf",
-          "output": "data/raw/parsed/metoprolol_studies_parsed.json"
+          "output": "data/raw/parsed/metoprolol_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -7027,7 +7074,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Atorvastatin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/atorvastatin_studies.pdf",
-          "output": "data/raw/parsed/atorvastatin_studies_parsed.json"
+          "output": "data/raw/parsed/atorvastatin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -7149,7 +7197,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Simvastatin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/simvastatin_studies.pdf",
-          "output": "data/raw/parsed/simvastatin_studies_parsed.json"
+          "output": "data/raw/parsed/simvastatin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -7283,7 +7332,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Rosuvastatin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/rosuvastatin_studies.pdf",
-          "output": "data/raw/parsed/rosuvastatin_studies_parsed.json"
+          "output": "data/raw/parsed/rosuvastatin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -7417,7 +7467,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Pravastatin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/pravastatin_studies.pdf",
-          "output": "data/raw/parsed/pravastatin_studies_parsed.json"
+          "output": "data/raw/parsed/pravastatin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -7555,7 +7606,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Cetirizine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/cetirizine_studies.pdf",
-          "output": "data/raw/parsed/cetirizine_studies_parsed.json"
+          "output": "data/raw/parsed/cetirizine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -7689,7 +7741,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Loratadine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/loratadine_studies.pdf",
-          "output": "data/raw/parsed/loratadine_studies_parsed.json"
+          "output": "data/raw/parsed/loratadine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -7817,7 +7870,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Fexofenadine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/fexofenadine_studies.pdf",
-          "output": "data/raw/parsed/fexofenadine_studies_parsed.json"
+          "output": "data/raw/parsed/fexofenadine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -7951,7 +8005,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Diphenhydramine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/diphenhydramine_studies.pdf",
-          "output": "data/raw/parsed/diphenhydramine_studies_parsed.json"
+          "output": "data/raw/parsed/diphenhydramine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -8107,7 +8162,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Morphine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/morphine_studies.pdf",
-          "output": "data/raw/parsed/morphine_studies_parsed.json"
+          "output": "data/raw/parsed/morphine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -8258,7 +8314,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Codeine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/codeine_studies.pdf",
-          "output": "data/raw/parsed/codeine_studies_parsed.json"
+          "output": "data/raw/parsed/codeine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -8391,7 +8448,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Fentanyl相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/fentanyl_studies.pdf",
-          "output": "data/raw/parsed/fentanyl_studies_parsed.json"
+          "output": "data/raw/parsed/fentanyl_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -8531,7 +8589,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Tramadol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/tramadol_studies.pdf",
-          "output": "data/raw/parsed/tramadol_studies_parsed.json"
+          "output": "data/raw/parsed/tramadol_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -8669,7 +8728,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Salbutamol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/salbutamol_studies.pdf",
-          "output": "data/raw/parsed/salbutamol_studies_parsed.json"
+          "output": "data/raw/parsed/salbutamol_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -8803,7 +8863,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Salmeterol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/salmeterol_studies.pdf",
-          "output": "data/raw/parsed/salmeterol_studies_parsed.json"
+          "output": "data/raw/parsed/salmeterol_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -8931,7 +8992,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Montelukast相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/montelukast_studies.pdf",
-          "output": "data/raw/parsed/montelukast_studies_parsed.json"
+          "output": "data/raw/parsed/montelukast_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -9079,7 +9141,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Warfarin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/warfarin_studies.pdf",
-          "output": "data/raw/parsed/warfarin_studies_parsed.json"
+          "output": "data/raw/parsed/warfarin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -9206,7 +9269,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Heparin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/heparin_studies.pdf",
-          "output": "data/raw/parsed/heparin_studies_parsed.json"
+          "output": "data/raw/parsed/heparin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -9327,7 +9391,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Rivaroxaban相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/rivaroxaban_studies.pdf",
-          "output": "data/raw/parsed/rivaroxaban_studies_parsed.json"
+          "output": "data/raw/parsed/rivaroxaban_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -9475,7 +9540,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Cyclosporine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/cyclosporine_studies.pdf",
-          "output": "data/raw/parsed/cyclosporine_studies_parsed.json"
+          "output": "data/raw/parsed/cyclosporine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -9609,7 +9675,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Tacrolimus相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/tacrolimus_studies.pdf",
-          "output": "data/raw/parsed/tacrolimus_studies_parsed.json"
+          "output": "data/raw/parsed/tacrolimus_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -9743,7 +9810,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Mycophenolate mofetil相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/mycophenolate_mofetil_studies.pdf",
-          "output": "data/raw/parsed/mycophenolate_mofetil_studies_parsed.json"
+          "output": "data/raw/parsed/mycophenolate_mofetil_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -9871,7 +9939,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Sirolimus相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/sirolimus_studies.pdf",
-          "output": "data/raw/parsed/sirolimus_studies_parsed.json"
+          "output": "data/raw/parsed/sirolimus_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -10009,7 +10078,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Fluconazole相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/fluconazole_studies.pdf",
-          "output": "data/raw/parsed/fluconazole_studies_parsed.json"
+          "output": "data/raw/parsed/fluconazole_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -10137,7 +10207,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Amphotericin B相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/amphotericin_b_studies.pdf",
-          "output": "data/raw/parsed/amphotericin_b_studies_parsed.json"
+          "output": "data/raw/parsed/amphotericin_b_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -10265,7 +10336,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Ketoconazole相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/ketoconazole_studies.pdf",
-          "output": "data/raw/parsed/ketoconazole_studies_parsed.json"
+          "output": "data/raw/parsed/ketoconazole_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -10395,7 +10467,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Itraconazole相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/itraconazole_studies.pdf",
-          "output": "data/raw/parsed/itraconazole_studies_parsed.json"
+          "output": "data/raw/parsed/itraconazole_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -10517,7 +10590,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Chloroquine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/chloroquine_studies.pdf",
-          "output": "data/raw/parsed/chloroquine_studies_parsed.json"
+          "output": "data/raw/parsed/chloroquine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -10655,7 +10729,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Artemisinin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/artemisinin_studies.pdf",
-          "output": "data/raw/parsed/artemisinin_studies_parsed.json"
+          "output": "data/raw/parsed/artemisinin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -10789,7 +10864,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Quinine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/quinine_studies.pdf",
-          "output": "data/raw/parsed/quinine_studies_parsed.json"
+          "output": "data/raw/parsed/quinine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -10902,7 +10978,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Mefloquine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/mefloquine_studies.pdf",
-          "output": "data/raw/parsed/mefloquine_studies_parsed.json"
+          "output": "data/raw/parsed/mefloquine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -11201,7 +11278,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Resveratrol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/resveratrol_studies.pdf",
-          "output": "data/raw/parsed/resveratrol_studies_parsed.json"
+          "output": "data/raw/parsed/resveratrol_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -11346,7 +11424,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Quercetin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/quercetin_studies.pdf",
-          "output": "data/raw/parsed/quercetin_studies_parsed.json"
+          "output": "data/raw/parsed/quercetin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -11486,7 +11565,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Epigallocatechin gallate相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/epigallocatechin_gallate_studies.pdf",
-          "output": "data/raw/parsed/epigallocatechin_gallate_studies_parsed.json"
+          "output": "data/raw/parsed/epigallocatechin_gallate_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -11620,7 +11700,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Berberine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/berberine_studies.pdf",
-          "output": "data/raw/parsed/berberine_studies_parsed.json"
+          "output": "data/raw/parsed/berberine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -11754,7 +11835,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Genistein相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/genistein_studies.pdf",
-          "output": "data/raw/parsed/genistein_studies_parsed.json"
+          "output": "data/raw/parsed/genistein_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -12072,7 +12154,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Serotonin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/serotonin_studies.pdf",
-          "output": "data/raw/parsed/serotonin_studies_parsed.json"
+          "output": "data/raw/parsed/serotonin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -12211,7 +12294,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Norepinephrine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/norepinephrine_studies.pdf",
-          "output": "data/raw/parsed/norepinephrine_studies_parsed.json"
+          "output": "data/raw/parsed/norepinephrine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -12345,7 +12429,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析GABA相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/gaba_studies.pdf",
-          "output": "data/raw/parsed/gaba_studies_parsed.json"
+          "output": "data/raw/parsed/gaba_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -12473,7 +12558,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Acetylcholine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/acetylcholine_studies.pdf",
-          "output": "data/raw/parsed/acetylcholine_studies_parsed.json"
+          "output": "data/raw/parsed/acetylcholine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -12601,7 +12687,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Glutamate相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/glutamate_studies.pdf",
-          "output": "data/raw/parsed/glutamate_studies_parsed.json"
+          "output": "data/raw/parsed/glutamate_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -12735,7 +12822,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Histamine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/histamine_studies.pdf",
-          "output": "data/raw/parsed/histamine_studies_parsed.json"
+          "output": "data/raw/parsed/histamine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -12856,7 +12944,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Insulin (human)相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/insulin_(human)_studies.pdf",
-          "output": "data/raw/parsed/insulin_(human)_studies_parsed.json"
+          "output": "data/raw/parsed/insulin_(human)_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -12999,7 +13088,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Cortisol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/cortisol_studies.pdf",
-          "output": "data/raw/parsed/cortisol_studies_parsed.json"
+          "output": "data/raw/parsed/cortisol_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -13133,7 +13223,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Testosterone相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/testosterone_studies.pdf",
-          "output": "data/raw/parsed/testosterone_studies_parsed.json"
+          "output": "data/raw/parsed/testosterone_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -13261,7 +13352,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Estradiol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/estradiol_studies.pdf",
-          "output": "data/raw/parsed/estradiol_studies_parsed.json"
+          "output": "data/raw/parsed/estradiol_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -13389,7 +13481,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Thyroxine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/thyroxine_studies.pdf",
-          "output": "data/raw/parsed/thyroxine_studies_parsed.json"
+          "output": "data/raw/parsed/thyroxine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -13517,7 +13610,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Melatonin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/melatonin_studies.pdf",
-          "output": "data/raw/parsed/melatonin_studies_parsed.json"
+          "output": "data/raw/parsed/melatonin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -13661,7 +13755,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Progesterone相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/progesterone_studies.pdf",
-          "output": "data/raw/parsed/progesterone_studies_parsed.json"
+          "output": "data/raw/parsed/progesterone_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -13817,7 +13912,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Ascorbic acid相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/ascorbic_acid_studies.pdf",
-          "output": "data/raw/parsed/ascorbic_acid_studies_parsed.json"
+          "output": "data/raw/parsed/ascorbic_acid_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -13957,7 +14053,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Retinol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/retinol_studies.pdf",
-          "output": "data/raw/parsed/retinol_studies_parsed.json"
+          "output": "data/raw/parsed/retinol_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -14090,7 +14187,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Tocopherol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/tocopherol_studies.pdf",
-          "output": "data/raw/parsed/tocopherol_studies_parsed.json"
+          "output": "data/raw/parsed/tocopherol_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -14224,7 +14322,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Thiamine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/thiamine_studies.pdf",
-          "output": "data/raw/parsed/thiamine_studies_parsed.json"
+          "output": "data/raw/parsed/thiamine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -14358,7 +14457,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Riboflavin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/riboflavin_studies.pdf",
-          "output": "data/raw/parsed/riboflavin_studies_parsed.json"
+          "output": "data/raw/parsed/riboflavin_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -14480,7 +14580,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Lidocaine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/lidocaine_studies.pdf",
-          "output": "data/raw/parsed/lidocaine_studies_parsed.json"
+          "output": "data/raw/parsed/lidocaine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -14614,7 +14715,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Propofol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/propofol_studies.pdf",
-          "output": "data/raw/parsed/propofol_studies_parsed.json"
+          "output": "data/raw/parsed/propofol_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -14736,7 +14838,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Ketamine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/ketamine_studies.pdf",
-          "output": "data/raw/parsed/ketamine_studies_parsed.json"
+          "output": "data/raw/parsed/ketamine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -14864,7 +14967,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Isoflurane相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/isoflurane_studies.pdf",
-          "output": "data/raw/parsed/isoflurane_studies_parsed.json"
+          "output": "data/raw/parsed/isoflurane_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -15027,7 +15131,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Caffeine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/caffeine_studies.pdf",
-          "output": "data/raw/parsed/caffeine_studies_parsed.json"
+          "output": "data/raw/parsed/caffeine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -15166,7 +15271,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Methylphenidate相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/methylphenidate_studies.pdf",
-          "output": "data/raw/parsed/methylphenidate_studies_parsed.json"
+          "output": "data/raw/parsed/methylphenidate_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -15300,7 +15406,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Modafinil相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/modafinil_studies.pdf",
-          "output": "data/raw/parsed/modafinil_studies_parsed.json"
+          "output": "data/raw/parsed/modafinil_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -15443,7 +15550,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Prednisone相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/prednisone_studies.pdf",
-          "output": "data/raw/parsed/prednisone_studies_parsed.json"
+          "output": "data/raw/parsed/prednisone_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -15571,7 +15679,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Dexamethasone相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/dexamethasone_studies.pdf",
-          "output": "data/raw/parsed/dexamethasone_studies_parsed.json"
+          "output": "data/raw/parsed/dexamethasone_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -15589,36 +15698,29 @@
   {
     "record_id": "MOL-000114",
     "molecule_id": {
-      "pubchem_cid": 5754,
-      "chembl_id": "CHEMBL389621",
-      "drugbank_id": null,
-      "cas_number": null
+      "pubchem_cid": 441336,
+      "chembl_id": "CHEMBL1530",
+      "drugbank_id": "DB14512",
+      "cas_number": "83919-23-7"
     },
     "smiles": {
-      "canonical": "C[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2[C@@H](O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO",
-      "isomeric": "C[C@]12CCC(=O)C=C1CC[C@@H]3[C@@H]2[C@H](C[C@]4([C@H]3CC[C@@]4(C(=O)CO)O)C)O",
-      "inchi": "InChI=1S/C21H30O5/c1-19-7-5-13(23)9-12(19)3-4-14-15-6-8-21(26,17(25)11-22)20(15,2)10-16(24)18(14)19/h9,14-16,18,22,24,26H,3-8,10-11H2,1-2H3/t14-,15-,16-,18+,19-,20-,21-/m0/s1",
-      "inchikey": "JYGXADMDTFJGBT-VWUMJDOOSA-N"
+      "canonical": "C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CCl)OC(=O)C5=CC=CO5)C)O)Cl)C",
+      "isomeric": "C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CCl)OC(=O)C5=CC=CO5)C)O)Cl)C",
+      "inchi": "InChI=1S/C27H30Cl2O6/c1-15-11-19-18-7-6-16-12-17(30)8-9-24(16,2)26(18,29)21(31)13-25(19,3)27(15,22(32)14-28)35-23(33)20-5-4-10-34-20/h4-5,8-10,12,15,18-19,21,31H,6-7,11,13-14H2,1-3H3/t15-,18+,19+,21+,24+,25+,26+,27+/m1/s1",
+      "inchikey": "WOFMFGQZHJDGCX-ZULDAHANSA-N"
     },
     "names": {
-      "iupac_name": "(8S,9S,10R,11S,13S,14S,17R)-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-2,6,7,8,9,11,12,14,15,16-decahydro-1H-cyclopenta[a]phenanthren-3-one",
-      "common_name": "Hydrocortisone",
+      "iupac_name": "[(8S,9R,10S,11S,13S,14S,16R,17R)-9-chloro-17-(2-chloroacetyl)-11-hydroxy-10,13,16-trimethyl-3-oxo-6,7,8,11,12,14,15,16-octahydrocyclopenta[a]phenanthren-17-yl] furan-2-carboxylate",
+      "common_name": "Mometasone Furoate",
       "synonyms": [
-        "hydrocortisone",
-        "Cortisol",
-        "50-23-7",
-        "Acticort",
-        "Cetacort",
-        "Hydrocortisyl",
-        "Cobadex",
-        "Hytone",
-        "Cortenema",
-        "Dermacort",
-        "Proctocort",
-        "Tarcortin",
-        "Cort-Dome",
-        "Efcorbin",
-        "Hycortol"
+        "Asmanex",
+        "Elocon",
+        "Sinuva",
+        "Asmanex HFA",
+        "Asmanex Twisthaler",
+        "Sch 32088",
+        "Mometasone furoate anhydrous",
+        "83919-23-7"
       ]
     },
     "modalities": {
@@ -15627,12 +15729,7 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": {
-        "image_path": "images/paper/MOL-000114_paper_10.jpeg",
-        "source_paper": "doi:10.3390/pharmaceutics14061106",
-        "page_number": 10,
-        "figure_label": "Page 10 extracted figure"
-      },
+      "structure_paper": null,
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000114.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -15641,40 +15738,47 @@
     },
     "properties": {
       "physicochemical": {
-        "molecular_weight": 362.5,
-        "exact_mass": 362.2093,
-        "logp": 1.6,
-        "tpsa": 94.8,
-        "hydrogen_bond_donors": 3,
-        "hydrogen_bond_acceptors": 5,
-        "rotatable_bonds": 2,
-        "heavy_atoms": 26,
+        "molecular_weight": 521.4,
+        "exact_mass": 520.1419,
+        "logp": 3.9,
+        "tpsa": 93.8,
+        "hydrogen_bond_donors": 1,
+        "hydrogen_bond_acceptors": 6,
+        "rotatable_bonds": 5,
+        "heavy_atoms": 35,
         "ring_count": 4,
         "formal_charge": 0
       },
       "drug_likeness": {
-        "lipinski_violations": 0,
-        "qed_score": 0.696
+        "lipinski_violations": 1,
+        "bioavailability_score": null,
+        "synthetic_accessibility": null,
+        "qed_score": null
       },
       "experimental": {
-        "bioactivity": [
-          {
-            "assay_type": "Kd",
-            "target": "Glucocorticoid receptor",
-            "value": "0.003",
-            "unit": "uM",
-            "source": "doi:10.1016/j.mce.2005.11.007"
-          }
-        ]
+        "melting_point": "218-220 C",
+        "solubility": "Practically insoluble in water",
+        "bioactivity": []
       }
     },
     "text_descriptions": [
       {
         "type": "general_description",
-        "content": "Cortisol is a 17alpha-hydroxy-C21-steroid that is pregn-4-ene substituted by oxo groups at positions 3 and 20 and hydroxy groups at positions 11, 17 and 21. Cortisol is a corticosteroid hormone or glucocorticoid produced by zona fasciculata of the adrenal cortex, which is a part of the adrenal gland. It is usually referred to as the \"stress hormone\" as it is involved in response to stress and anxiety, controlled by corticotropin-releasing hormone (CRH). It increases blood pressure and blood sugar, and reduces immune responses. It has a role as an anti-inflammatory drug, an anti-asthmatic drug, an anti-allergic agent, a mouse metabolite, a human metabolite and a drug allergen. It is a 17alpha-hydroxy-C21-steroid, a primary alpha-hydroxy ketone, a tertiary alpha-hydroxy ketone, a glucocorticoid, a 21-hydroxy steroid, an 11beta-hydroxy steroid, a 20-oxo steroid and a 3-oxo-Delta(4) steroid. It derives from a hydride of a pregnane.",
+        "content": "Mometasone furoate is a potent synthetic corticosteroid with anti-inflammatory and anti-allergic properties. It is used topically for the treatment of allergic rhinitis (nasal spray, brand name Nasonex), asthma (inhalation, brand name Asmanex), and various skin conditions including eczema and psoriasis (topical cream/ointment, brand name Elocon). It acts by binding to the glucocorticoid receptor with high affinity.",
         "source": {
           "type": "pubchem",
-          "reference": "CID 5754",
+          "reference": "CID 441336",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "en"
+      },
+      {
+        "type": "mechanism_of_action",
+        "content": "Mometasone furoate binds to intracellular glucocorticoid receptors, forming a complex that translocates to the nucleus. The complex binds to glucocorticoid response elements (GREs) in target genes, upregulating anti-inflammatory proteins (e.g., lipocortin-1) and downregulating pro-inflammatory cytokines, chemokines, and mediators. This suppresses inflammation, reduces mucus secretion, and decreases vascular permeability.",
+        "source": {
+          "type": "pubchem",
+          "reference": "CID 441336",
           "section": null,
           "mineru_parsed": false
         },
@@ -15682,10 +15786,10 @@
       },
       {
         "type": "general_description",
-        "content": "皮质醇（氢化可的松）是主要的糖皮质激素，由肾上腺皮质束状带分泌，通过激活糖皮质激素受体来调节糖代谢、免疫反应和应激反应。",
+        "content": "糠酸莫米松（Mometasone Furoate）是一种合成的强效局部用糖皮质激素，通过与糖皮质激素受体结合发挥强效抗炎和抗过敏作用。广泛用于过敏性鼻炎、哮喘（Asmanex）和皮肤炎症（Elocon）的治疗。",
         "source": {
           "type": "manual_curation",
-          "reference": "CID 5754",
+          "reference": "CID 441336",
           "section": null,
           "mineru_parsed": false
         },
@@ -15694,50 +15798,46 @@
     ],
     "entity_relations": [
       {
-        "subject": "Cortisol",
+        "subject": "Mometasone Furoate",
         "relation": "binds_to",
         "object": "glucocorticoid receptor",
         "confidence": 0.99
       },
       {
-        "subject": "Cortisol",
-        "relation": "binds_to",
-        "object": "mineralocorticoid receptor",
-        "confidence": 0.95
+        "subject": "Mometasone Furoate",
+        "relation": "has_substructure",
+        "object": "furoate ester",
+        "confidence": 0.99
       },
       {
-        "subject": "Hydrocortisone",
-        "relation": "binds_to",
-        "object": "glucocorticoid receptor",
+        "subject": "Mometasone Furoate",
+        "relation": "has_substructure",
+        "object": "corticosteroid backbone",
         "confidence": 0.99
       }
     ],
     "alignment_metadata": {
-      "alignment_confidence": 0.9,
+      "alignment_confidence": 0.95,
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
+          "tool": "MinerU API",
+          "task": "调用 MinerU API 批量解析 Mometasone Furoate 相关药理学论文，提取分子结构图和实验数据表格",
+          "input": "data/raw/papers/mometasone_furoate_review.pdf",
+          "output": "data/raw/parsed/mometasone_furoate_review_parsed.json",
+          "template": true
+        },
+        {
           "tool": "MinerU Open Source",
-          "task": "使用 magic-pdf 本地解析Hydrocortisone相关科学文献，提取结构化文本和图表",
-          "input": "data/raw/papers/hydrocortisone_studies.pdf",
-          "output": "data/raw/parsed/hydrocortisone_studies_parsed.json"
-        },
-        {
-          "tool": "MinerU Online",
-          "task": "Parsed Hydrocortisone research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
-          "input": "PubChem CID 5754",
-          "output": "data/processed/molalign_dataset.jsonl"
-        },
-        {
-          "tool": "MinerU Skills",
-          "task": "Document structure analysis for Hydrocortisone (related paper)",
-          "input": "data/raw/papers/omeprazole_pharmaceutics.pdf",
-          "output": "data/raw/parsed/omeprazole_pharmaceutics/images/"
+          "task": "使用 magic-pdf 本地解析 Mometasone Furoate 相关科学文献，提取结构化文本和图表",
+          "input": "data/raw/papers/mometasone_furoate_studies.pdf",
+          "output": "data/raw/parsed/mometasone_furoate_studies_parsed.json",
+          "template": true
         }
       ],
-      "created_at": "2026-05-30T20:17:54Z",
-      "version": "2.0.0",
-      "updated_at": "2026-05-30T20:35:17Z"
+      "created_at": "2026-05-31T10:00:00Z",
+      "updated_at": "2026-05-31T10:00:00Z",
+      "version": "1.0.0"
     },
     "category": "Anti-inflammatory"
   },
@@ -15860,7 +15960,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Budesonide相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/budesonide_studies.pdf",
-          "output": "data/raw/parsed/budesonide_studies_parsed.json"
+          "output": "data/raw/parsed/budesonide_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -16016,7 +16117,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Omeprazole相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/omeprazole_studies.pdf",
-          "output": "data/raw/parsed/omeprazole_studies_parsed.json"
+          "output": "data/raw/parsed/omeprazole_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -16161,7 +16263,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Pantoprazole相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/pantoprazole_studies.pdf",
-          "output": "data/raw/parsed/pantoprazole_studies_parsed.json"
+          "output": "data/raw/parsed/pantoprazole_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU API",
@@ -16306,7 +16409,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Ranitidine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/ranitidine_studies.pdf",
-          "output": "data/raw/parsed/ranitidine_studies_parsed.json"
+          "output": "data/raw/parsed/ranitidine_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
@@ -16429,7 +16533,8 @@
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Allopurinol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/allopurinol_studies.pdf",
-          "output": "data/raw/parsed/allopurinol_studies_parsed.json"
+          "output": "data/raw/parsed/allopurinol_studies_parsed.json",
+          "template": true
         },
         {
           "tool": "MinerU Online",
