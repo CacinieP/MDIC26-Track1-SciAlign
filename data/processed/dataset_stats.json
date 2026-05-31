@@ -33,7 +33,7 @@
   "avg_descriptions": 1.96,
   "avg_relations": 1.88,
   "with_2d_image": 120,
-  "with_3d_conformer": 120,
+  "with_3d_conformer": 119,
   "with_paper_image": 5,
   "with_en_description": 110,
   "with_zh_description": 120,
