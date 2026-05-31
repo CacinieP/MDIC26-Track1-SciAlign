@@ -533,7 +533,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000004_paper_8.jpeg",
+        "source_paper": "doi:10.3389/fphar.2017.00263",
+        "page_number": 8,
+        "figure_label": "Page 8 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000004.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -612,6 +617,12 @@
         "relation": "inhibits",
         "object": "COX-2",
         "confidence": 0.97
+      },
+      {
+        "subject": "Diclofenac",
+        "relation": "metabolized_to",
+        "object": "4-hydroxydiclofenac",
+        "confidence": 0.95
       }
     ],
     "alignment_metadata": {
@@ -629,6 +640,12 @@
           "task": "Batch processed Diclofenac literature via MinerU API, extracting pharmacological data tables",
           "input": "PubChem CID 3033",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Diclofenac (related paper)",
+          "input": "data/raw/papers/ibuprofen_pharmacology.pdf",
+          "output": "data/raw/parsed/ibuprofen_pharmacology/images/"
         }
       ],
       "created_at": "2026-05-30T20:11:51Z",
@@ -678,7 +695,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000005_paper_9.jpeg",
+        "source_paper": "doi:10.3389/fphar.2017.00263",
+        "page_number": 9,
+        "figure_label": "Page 9 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000005.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -774,6 +796,12 @@
           "task": "Batch processed Celecoxib literature via MinerU API, extracting pharmacological data tables",
           "input": "PubChem CID 2662",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Celecoxib (related paper)",
+          "input": "data/raw/papers/ibuprofen_pharmacology.pdf",
+          "output": "data/raw/parsed/ibuprofen_pharmacology/images/"
         }
       ],
       "created_at": "2026-05-30T20:11:54Z",
@@ -823,7 +851,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000006_paper_10.png",
+        "source_paper": "doi:10.3389/fphar.2017.00263",
+        "page_number": 10,
+        "figure_label": "Page 10 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000006.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -902,6 +935,12 @@
           "task": "Batch processed Indomethacin literature via MinerU API, extracting pharmacological data tables",
           "input": "PubChem CID 3715",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Indomethacin (related paper)",
+          "input": "data/raw/papers/ibuprofen_pharmacology.pdf",
+          "output": "data/raw/parsed/ibuprofen_pharmacology/images/"
         }
       ],
       "created_at": "2026-05-30T20:11:57Z",
@@ -1725,6 +1764,12 @@
         "relation": "has_substructure",
         "object": "aromatic/cyclic ring system",
         "confidence": 0.9
+      },
+      {
+        "subject": "Vancomycin",
+        "relation": "binds_to",
+        "object": "D-alanyl-D-alanine terminus",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -1828,6 +1873,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "Gentamicin is an aminoglycoside antibiotic composed of a mixture of gentamicin C1, C2, and C1a. It is effective against Gram-negative bacteria and works by binding to the 30S ribosomal subunit, causing misreading of mRNA.",
+        "source": {
+          "type": "manual_curation",
+          "reference": "Pharmacology literature",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -2339,6 +2394,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "Acyclovir is a synthetic purine nucleoside analogue with activity against herpes simplex virus types 1 and 2, and varicella-zoster virus. It is converted to acyclovir monophosphate by viral thymidine kinase.",
+        "source": {
+          "type": "manual_curation",
+          "reference": "Pharmacology literature",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -2475,6 +2540,12 @@
         "relation": "has_substructure",
         "object": "aromatic/cyclic ring system",
         "confidence": 0.9
+      },
+      {
+        "subject": "Remdesivir",
+        "relation": "inhibits",
+        "object": "RNA-dependent RNA polymerase (SARS-CoV-2)",
+        "confidence": 0.95
       }
     ],
     "alignment_metadata": {
@@ -2679,7 +2750,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000020_paper_6.png",
+        "source_paper": "doi:10.3389/fphar.2019.01428",
+        "page_number": 6,
+        "figure_label": "Page 6 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000020.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -2768,6 +2844,12 @@
           "task": "Batch processed Tamoxifen literature via MinerU API, extracting pharmacological data tables",
           "input": "PubChem CID 2733526",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Tamoxifen (related paper)",
+          "input": "data/raw/papers/doxorubicin_anticancer.pdf",
+          "output": "data/raw/parsed/doxorubicin_anticancer/images/"
         }
       ],
       "created_at": "2026-05-30T20:12:45Z",
@@ -3000,7 +3082,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000022_paper_4.jpeg",
+        "source_paper": "doi:10.3389/fphar.2019.01428",
+        "page_number": 4,
+        "figure_label": "Page 4 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000022.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -3099,6 +3186,12 @@
           "task": "Batch processed Methotrexate literature via MinerU API, extracting pharmacological data tables",
           "input": "PubChem CID 126941",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Methotrexate (related paper)",
+          "input": "data/raw/papers/doxorubicin_anticancer.pdf",
+          "output": "data/raw/parsed/doxorubicin_anticancer/images/"
         }
       ],
       "created_at": "2026-05-30T20:12:52Z",
@@ -3306,7 +3399,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000024_paper_5.png",
+        "source_paper": "doi:10.3389/fphar.2019.01330",
+        "page_number": 5,
+        "figure_label": "Page 5 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000024.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -3362,6 +3460,18 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Cisplatin",
+        "relation": "binds_to",
+        "object": "DNA (intrastrand crosslinks)",
+        "confidence": 0.99
+      },
+      {
+        "subject": "Cisplatin",
+        "relation": "inhibits",
+        "object": "DNA replication",
+        "confidence": 0.98
       }
     ],
     "alignment_metadata": {
@@ -3379,6 +3489,12 @@
           "task": "Batch processed Cisplatin literature via MinerU API, extracting pharmacological data tables",
           "input": "PubChem CID 5702198",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Cisplatin (related paper)",
+          "input": "data/raw/papers/paclitaxel_pharmacology.pdf",
+          "output": "data/raw/parsed/paclitaxel_pharmacology/images/"
         }
       ],
       "created_at": "2026-05-30T20:12:58Z",
@@ -3428,7 +3544,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000025_paper_5.png",
+        "source_paper": "doi:10.3389/fphar.2019.01428",
+        "page_number": 5,
+        "figure_label": "Page 5 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000025.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -3500,6 +3621,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "5-Fluorouracil",
+        "relation": "inhibits",
+        "object": "thymidylate synthase",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -3517,6 +3644,12 @@
           "task": "Parsed 5-Fluorouracil research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
           "input": "PubChem CID 3385",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for 5-Fluorouracil (related paper)",
+          "input": "data/raw/papers/doxorubicin_anticancer.pdf",
+          "output": "data/raw/parsed/doxorubicin_anticancer/images/"
         }
       ],
       "created_at": "2026-05-30T20:13:02Z",
@@ -4493,12 +4626,10 @@
         "image_size": "512x512"
       },
       "structure_paper": {
-        "image_path": "images/paper/MOL-000033_paper_7.jpeg",
+        "image_path": "images/paper/MOL-000033_paper_4.jpeg",
         "source_paper": "doi:10.3389/fendo.2020.00550",
-        "page_number": 7,
-        "figure_label": "Page 7 Figure 1",
-        "width": 1772,
-        "height": 1079
+        "page_number": 4,
+        "figure_label": "Page 4 extracted figure"
       },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000033.sdf",
@@ -4993,6 +5124,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Pioglitazone",
+        "relation": "activates",
+        "object": "PPAR-gamma",
+        "confidence": 0.98
       }
     ],
     "alignment_metadata": {
@@ -5343,7 +5480,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000039_paper_5.jpeg",
+        "source_paper": "doi:10.3390/ijms22126479",
+        "page_number": 5,
+        "figure_label": "Page 5 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000039.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -5399,6 +5541,12 @@
         "relation": "inhibits",
         "object": "serotonin transporter (SERT)",
         "confidence": 0.99
+      },
+      {
+        "subject": "Sertraline",
+        "relation": "inhibits",
+        "object": "SERT",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -5416,6 +5564,12 @@
           "task": "Batch processed Sertraline literature via MinerU API, extracting pharmacological data tables",
           "input": "PubChem CID 68617",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Sertraline (related paper)",
+          "input": "data/raw/papers/fluoxetine_ijms.pdf",
+          "output": "data/raw/parsed/fluoxetine_ijms/images/"
         }
       ],
       "created_at": "2026-05-30T20:13:43Z",
@@ -5465,7 +5619,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000040_paper_8.jpeg",
+        "source_paper": "doi:10.3390/ijms22126479",
+        "page_number": 8,
+        "figure_label": "Page 8 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000040.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -5521,6 +5680,12 @@
         "relation": "inhibits",
         "object": "serotonin transporter (SERT)",
         "confidence": 0.99
+      },
+      {
+        "subject": "Paroxetine",
+        "relation": "inhibits",
+        "object": "SERT",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -5538,6 +5703,12 @@
           "task": "Parsed Paroxetine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
           "input": "PubChem CID 43815",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Paroxetine (related paper)",
+          "input": "data/raw/papers/fluoxetine_ijms.pdf",
+          "output": "data/raw/parsed/fluoxetine_ijms/images/"
         }
       ],
       "created_at": "2026-05-30T20:13:46Z",
@@ -5587,7 +5758,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000041_paper_12.jpeg",
+        "source_paper": "doi:10.3390/ijms22126479",
+        "page_number": 12,
+        "figure_label": "Page 12 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000041.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -5649,6 +5825,18 @@
         "relation": "inhibits",
         "object": "norepinephrine transporter (NET)",
         "confidence": 0.95
+      },
+      {
+        "subject": "Venlafaxine",
+        "relation": "inhibits",
+        "object": "SERT",
+        "confidence": 0.98
+      },
+      {
+        "subject": "Venlafaxine",
+        "relation": "inhibits",
+        "object": "NET",
+        "confidence": 0.95
       }
     ],
     "alignment_metadata": {
@@ -5666,6 +5854,12 @@
           "task": "Parsed Venlafaxine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
           "input": "PubChem CID 5656",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Venlafaxine (related paper)",
+          "input": "data/raw/papers/fluoxetine_ijms.pdf",
+          "output": "data/raw/parsed/fluoxetine_ijms/images/"
         }
       ],
       "created_at": "2026-05-30T20:13:49Z",
@@ -5777,6 +5971,18 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Amitriptyline",
+        "relation": "inhibits",
+        "object": "SERT",
+        "confidence": 0.98
+      },
+      {
+        "subject": "Amitriptyline",
+        "relation": "inhibits",
+        "object": "NET",
+        "confidence": 0.96
       }
     ],
     "alignment_metadata": {
@@ -5905,6 +6111,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Citalopram",
+        "relation": "inhibits",
+        "object": "SERT",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -6026,6 +6238,12 @@
         "subject": "Lisinopril",
         "relation": "inhibits",
         "object": "angiotensin-converting enzyme (ACE)",
+        "confidence": 0.99
+      },
+      {
+        "subject": "Lisinopril",
+        "relation": "inhibits",
+        "object": "ACE",
         "confidence": 0.99
       }
     ],
@@ -6149,6 +6367,12 @@
         "relation": "binds_to",
         "object": "angiotensin II receptor type 1 (AT1)",
         "confidence": 0.99
+      },
+      {
+        "subject": "Losartan",
+        "relation": "inhibits",
+        "object": "AT1 receptor",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -6270,6 +6494,12 @@
         "subject": "Amlodipine",
         "relation": "inhibits",
         "object": "L-type calcium channels",
+        "confidence": 0.99
+      },
+      {
+        "subject": "Amlodipine",
+        "relation": "inhibits",
+        "object": "L-type calcium channel",
         "confidence": 0.99
       }
     ],
@@ -6527,6 +6757,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Valsartan",
+        "relation": "inhibits",
+        "object": "AT1 receptor",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -7031,6 +7267,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Rosuvastatin",
+        "relation": "inhibits",
+        "object": "HMG-CoA reductase",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -7159,6 +7401,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Pravastatin",
+        "relation": "inhibits",
+        "object": "HMG-CoA reductase",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -7425,6 +7673,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Loratadine",
+        "relation": "inhibits",
+        "object": "Histamine H1 receptor",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -7547,6 +7801,12 @@
         "relation": "has_substructure",
         "object": "aromatic/cyclic ring system",
         "confidence": 0.9
+      },
+      {
+        "subject": "Fexofenadine",
+        "relation": "inhibits",
+        "object": "Histamine H1 receptor",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -7675,6 +7935,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Diphenhydramine",
+        "relation": "inhibits",
+        "object": "Histamine H1 receptor",
+        "confidence": 0.98
       }
     ],
     "alignment_metadata": {
@@ -7903,7 +8169,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000059_paper_4.png",
+        "source_paper": "doi:10.3389/fphar.2020.00513",
+        "page_number": 4,
+        "figure_label": "Page 4 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000059.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -7965,6 +8236,18 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Codeine",
+        "relation": "binds_to",
+        "object": "mu-opioid receptor",
+        "confidence": 0.98
+      },
+      {
+        "subject": "Codeine",
+        "relation": "metabolized_to",
+        "object": "Morphine",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -7982,6 +8265,12 @@
           "task": "Batch processed Codeine literature via MinerU API, extracting pharmacological data tables",
           "input": "PubChem CID 5284371",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Codeine (related paper)",
+          "input": "data/raw/papers/morphine_opioid.pdf",
+          "output": "data/raw/parsed/morphine_opioid/images/"
         }
       ],
       "created_at": "2026-05-30T20:14:43Z",
@@ -8031,7 +8320,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000060_paper_4.png",
+        "source_paper": "doi:10.3389/fphar.2020.00513",
+        "page_number": 4,
+        "figure_label": "Page 4 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000060.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -8104,6 +8398,12 @@
           "task": "Parsed Fentanyl research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
           "input": "PubChem CID 3345",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Fentanyl (related paper)",
+          "input": "data/raw/papers/morphine_opioid.pdf",
+          "output": "data/raw/parsed/morphine_opioid/images/"
         }
       ],
       "created_at": "2026-05-30T20:14:46Z",
@@ -8215,6 +8515,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Tramadol",
+        "relation": "binds_to",
+        "object": "mu-opioid receptor",
+        "confidence": 0.95
       }
     ],
     "alignment_metadata": {
@@ -8481,6 +8787,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Salmeterol",
+        "relation": "activates",
+        "object": "beta-2 adrenergic receptor",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -8603,6 +8915,12 @@
         "relation": "has_substructure",
         "object": "aromatic/cyclic ring system",
         "confidence": 0.9
+      },
+      {
+        "subject": "Montelukast",
+        "relation": "inhibits",
+        "object": "Cysteinyl leukotriene receptor 1",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -8872,6 +9190,12 @@
         "relation": "has_substructure",
         "object": "aromatic/cyclic ring system",
         "confidence": 0.9
+      },
+      {
+        "subject": "Heparin",
+        "relation": "activates",
+        "object": "antithrombin III",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -8975,6 +9299,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "Rivaroxaban is a direct Factor Xa inhibitor used as an oral anticoagulant. It selectively blocks the active site of Factor Xa without requiring a cofactor such as antithrombin III.",
+        "source": {
+          "type": "manual_curation",
+          "reference": "Pharmacology literature",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -9259,6 +9593,12 @@
         "relation": "inhibits",
         "object": "calcineurin",
         "confidence": 0.98
+      },
+      {
+        "subject": "Tacrolimus",
+        "relation": "inhibits",
+        "object": "calcineurin",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -9387,6 +9727,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Mycophenolate mofetil",
+        "relation": "inhibits",
+        "object": "IMP dehydrogenase",
+        "confidence": 0.98
       }
     ],
     "alignment_metadata": {
@@ -9509,6 +9855,12 @@
         "relation": "has_substructure",
         "object": "aromatic/cyclic ring system",
         "confidence": 0.9
+      },
+      {
+        "subject": "Sirolimus",
+        "relation": "inhibits",
+        "object": "mTOR",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -9769,6 +10121,12 @@
         "relation": "has_substructure",
         "object": "aromatic/cyclic ring system",
         "confidence": 0.9
+      },
+      {
+        "subject": "Amphotericin B",
+        "relation": "binds_to",
+        "object": "ergosterol",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -9891,6 +10249,12 @@
         "relation": "has_substructure",
         "object": "aromatic/cyclic ring system",
         "confidence": 0.9
+      },
+      {
+        "subject": "Ketoconazole",
+        "relation": "inhibits",
+        "object": "CYP51",
+        "confidence": 0.98
       }
     ],
     "alignment_metadata": {
@@ -10015,6 +10379,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Itraconazole",
+        "relation": "inhibits",
+        "object": "CYP51",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -10403,6 +10773,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Quinine",
+        "relation": "inhibits",
+        "object": "heme polymerase",
+        "confidence": 0.97
       }
     ],
     "alignment_metadata": {
@@ -10510,6 +10886,12 @@
         "relation": "has_substructure",
         "object": "aromatic/cyclic ring system",
         "confidence": 0.9
+      },
+      {
+        "subject": "Mefloquine",
+        "relation": "inhibits",
+        "object": "heme polymerase",
+        "confidence": 0.95
       }
     ],
     "alignment_metadata": {
@@ -10742,7 +11124,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000081_paper_5.jpeg",
+        "source_paper": "doi:10.3389/fphar.2017.00687",
+        "page_number": 5,
+        "figure_label": "Page 5 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000081.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -10821,6 +11208,12 @@
           "task": "Batch processed Resveratrol literature via MinerU API, extracting pharmacological data tables",
           "input": "PubChem CID 445154",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Resveratrol (related paper)",
+          "input": "data/raw/papers/curcumin_pharmacology.pdf",
+          "output": "data/raw/parsed/curcumin_pharmacology/images/"
         }
       ],
       "created_at": "2026-05-30T20:16:03Z",
@@ -10870,7 +11263,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000082_paper_6.jpeg",
+        "source_paper": "doi:10.3389/fphar.2017.00687",
+        "page_number": 6,
+        "figure_label": "Page 6 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000082.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -10932,6 +11330,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Quercetin",
+        "relation": "inhibits",
+        "object": "PI3K",
+        "confidence": 0.88
       }
     ],
     "alignment_metadata": {
@@ -10949,6 +11353,12 @@
           "task": "Parsed Quercetin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
           "input": "PubChem CID 5280343",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Quercetin (related paper)",
+          "input": "data/raw/papers/curcumin_pharmacology.pdf",
+          "output": "data/raw/parsed/curcumin_pharmacology/images/"
         }
       ],
       "created_at": "2026-05-30T20:16:06Z",
@@ -11060,6 +11470,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Epigallocatechin gallate",
+        "relation": "inhibits",
+        "object": "NF-kB",
+        "confidence": 0.87
       }
     ],
     "alignment_metadata": {
@@ -11188,6 +11604,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Berberine",
+        "relation": "inhibits",
+        "object": "NF-kB",
+        "confidence": 0.9
       }
     ],
     "alignment_metadata": {
@@ -11316,6 +11738,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Genistein",
+        "relation": "inhibits",
+        "object": "tyrosine kinase",
+        "confidence": 0.88
       }
     ],
     "alignment_metadata": {
@@ -11561,7 +11989,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000087_paper_5.jpeg",
+        "source_paper": "doi:10.3389/fnins.2017.00724",
+        "page_number": 5,
+        "figure_label": "Page 5 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000087.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -11646,6 +12079,12 @@
           "task": "Parsed Serotonin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
           "input": "PubChem CID 5202",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Serotonin (related paper)",
+          "input": "data/raw/papers/dopamine_neuroscience.pdf",
+          "output": "data/raw/parsed/dopamine_neuroscience/images/"
         }
       ],
       "created_at": "2026-05-30T20:16:21Z",
@@ -11695,7 +12134,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000088_paper_5.jpeg",
+        "source_paper": "doi:10.3389/fnins.2017.00724",
+        "page_number": 5,
+        "figure_label": "Page 5 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000088.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -11774,6 +12218,12 @@
           "task": "Parsed Norepinephrine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
           "input": "PubChem CID 439260",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Norepinephrine (related paper)",
+          "input": "data/raw/papers/dopamine_neuroscience.pdf",
+          "output": "data/raw/parsed/dopamine_neuroscience/images/"
         }
       ],
       "created_at": "2026-05-30T20:16:25Z",
@@ -12135,6 +12585,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Glutamate",
+        "relation": "activates",
+        "object": "NMDA receptor",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -12263,6 +12719,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Histamine",
+        "relation": "activates",
+        "object": "Histamine H1 receptor",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -12366,6 +12828,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "Insulin (human) is a polypeptide hormone produced by the beta cells of the pancreatic islets. It regulates glucose metabolism by promoting cellular uptake of glucose and glycogen synthesis.",
+        "source": {
+          "type": "manual_curation",
+          "reference": "Pharmacology literature",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -12440,7 +12912,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000094_paper_6.jpeg",
+        "source_paper": "doi:10.3390/ph16090924",
+        "page_number": 6,
+        "figure_label": "Page 6 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000094.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -12529,6 +13006,12 @@
           "task": "Batch processed Cortisol literature via MinerU API, extracting pharmacological data tables",
           "input": "PubChem CID 5754",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Cortisol (related paper)",
+          "input": "data/raw/papers/vitamins_pharmaceuticals.pdf",
+          "output": "data/raw/parsed/vitamins_pharmaceuticals/images/"
         }
       ],
       "created_at": "2026-05-30T20:16:49Z",
@@ -12890,6 +13373,12 @@
         "relation": "has_substructure",
         "object": "aromatic/cyclic ring system",
         "confidence": 0.9
+      },
+      {
+        "subject": "Thyroxine",
+        "relation": "binds_to",
+        "object": "thyroid hormone receptor",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -13156,6 +13645,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Progesterone",
+        "relation": "binds_to",
+        "object": "progesterone receptor",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -13446,6 +13941,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Retinol",
+        "relation": "binds_to",
+        "object": "retinoic acid receptor",
+        "confidence": 0.98
       }
     ],
     "alignment_metadata": {
@@ -13549,6 +14050,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "Tocopherol (Vitamin E) is a fat-soluble antioxidant that protects cell membranes from oxidative damage by neutralizing free radicals. Alpha-tocopherol is the most biologically active form.",
+        "source": {
+          "type": "manual_curation",
+          "reference": "Pharmacology literature",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -13563,6 +14074,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Tocopherol",
+        "relation": "stabilizes",
+        "object": "cell membranes (antioxidant)",
+        "confidence": 0.95
       }
     ],
     "alignment_metadata": {
@@ -13691,6 +14208,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Thiamine",
+        "relation": "cofactor_of",
+        "object": "pyruvate dehydrogenase",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -13819,6 +14342,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Riboflavin",
+        "relation": "cofactor_of",
+        "object": "flavoprotein enzymes",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -14069,6 +14598,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Propofol",
+        "relation": "activates",
+        "object": "GABA-A receptor",
+        "confidence": 0.98
       }
     ],
     "alignment_metadata": {
@@ -14313,6 +14848,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Isoflurane",
+        "relation": "activates",
+        "object": "GABA-A receptor",
+        "confidence": 0.97
       }
     ],
     "alignment_metadata": {
@@ -14585,6 +15126,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "Methylphenidate is a central nervous system stimulant used primarily in the treatment of attention deficit hyperactivity disorder (ADHD). It inhibits the reuptake of dopamine and norepinephrine.",
+        "source": {
+          "type": "manual_curation",
+          "reference": "Pharmacology literature",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -14599,6 +15150,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Methylphenidate",
+        "relation": "inhibits",
+        "object": "dopamine transporter (DAT)",
+        "confidence": 0.98
       }
     ],
     "alignment_metadata": {
@@ -14727,6 +15284,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Modafinil",
+        "relation": "inhibits",
+        "object": "dopamine transporter (DAT)",
+        "confidence": 0.95
       }
     ],
     "alignment_metadata": {
@@ -14793,7 +15356,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000112_paper_11.png",
+        "source_paper": "doi:10.3390/pharmaceutics14061106",
+        "page_number": 11,
+        "figure_label": "Page 11 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000112.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -14882,6 +15450,12 @@
           "task": "Parsed Prednisone research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
           "input": "PubChem CID 5865",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Prednisone (related paper)",
+          "input": "data/raw/papers/omeprazole_pharmaceutics.pdf",
+          "output": "data/raw/parsed/omeprazole_pharmaceutics/images/"
         }
       ],
       "created_at": "2026-05-30T20:17:47Z",
@@ -15053,7 +15627,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000114_paper_10.jpeg",
+        "source_paper": "doi:10.3390/pharmaceutics14061106",
+        "page_number": 10,
+        "figure_label": "Page 10 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000114.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -15125,6 +15704,12 @@
         "relation": "binds_to",
         "object": "mineralocorticoid receptor",
         "confidence": 0.95
+      },
+      {
+        "subject": "Hydrocortisone",
+        "relation": "binds_to",
+        "object": "glucocorticoid receptor",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -15142,6 +15727,12 @@
           "task": "Parsed Hydrocortisone research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
           "input": "PubChem CID 5754",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Hydrocortisone (related paper)",
+          "input": "data/raw/papers/omeprazole_pharmaceutics.pdf",
+          "output": "data/raw/parsed/omeprazole_pharmaceutics/images/"
         }
       ],
       "created_at": "2026-05-30T20:17:54Z",
@@ -15253,6 +15844,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Budesonide",
+        "relation": "binds_to",
+        "object": "glucocorticoid receptor",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -15481,7 +16078,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000117_paper_7.jpeg",
+        "source_paper": "doi:10.3390/pharmaceutics14061106",
+        "page_number": 7,
+        "figure_label": "Page 7 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000117.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -15543,6 +16145,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Pantoprazole",
+        "relation": "inhibits",
+        "object": "H+/K+ ATPase (gastric)",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -15560,6 +16168,12 @@
           "task": "Batch processed Pantoprazole literature via MinerU API, extracting pharmacological data tables",
           "input": "PubChem CID 4679",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Pantoprazole (related paper)",
+          "input": "data/raw/papers/omeprazole_pharmaceutics.pdf",
+          "output": "data/raw/parsed/omeprazole_pharmaceutics/images/"
         }
       ],
       "created_at": "2026-05-30T20:18:04Z",
@@ -15609,7 +16223,12 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000118_paper_9.jpeg",
+        "source_paper": "doi:10.3390/pharmaceutics14061106",
+        "page_number": 9,
+        "figure_label": "Page 9 extracted figure"
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000118.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -15671,6 +16290,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Ranitidine",
+        "relation": "inhibits",
+        "object": "Histamine H2 receptor",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -15688,6 +16313,12 @@
           "task": "Parsed Ranitidine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
           "input": "PubChem CID 3001055",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Ranitidine (related paper)",
+          "input": "data/raw/papers/omeprazole_pharmaceutics.pdf",
+          "output": "data/raw/parsed/omeprazole_pharmaceutics/images/"
         }
       ],
       "created_at": "2026-05-30T20:18:07Z",
@@ -15758,6 +16389,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "Allopurinol is a xanthine oxidase inhibitor that reduces the production of uric acid. It is used in the treatment of chronic gout and hyperuricemia.",
+        "source": {
+          "type": "manual_curation",
+          "reference": "Pharmacology literature",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -15772,6 +16413,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Allopurinol",
+        "relation": "inhibits",
+        "object": "xanthine oxidase",
+        "confidence": 0.99
       }
     ],
     "alignment_metadata": {
@@ -15928,6 +16575,12 @@
         "relation": "derivative_of",
         "object": "drug-like molecule",
         "confidence": 0.85
+      },
+      {
+        "subject": "Acetaminophen",
+        "relation": "inhibits",
+        "object": "COX-3 (putative)",
+        "confidence": 0.8
       }
     ],
     "alignment_metadata": {
