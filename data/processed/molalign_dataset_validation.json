@@ -1,0 +1,421 @@
+{
+  "total": 120,
+  "valid": 120,
+  "invalid": 0,
+  "errors": {},
+  "warnings": {
+    "MOL-000001": [
+      "HBA difference (PubChem=4, RDKit=3)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000002": [
+      "HBA difference (PubChem=2, RDKit=1)"
+    ],
+    "MOL-000003": [
+      "HBA difference (PubChem=3, RDKit=2)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000004": [
+      "Molecular weight difference (PubChem vs RDKit): record=296.1, calculated=295.02",
+      "HBA difference (PubChem=3, RDKit=2)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000005": [
+      "HBA difference (PubChem=7, RDKit=3)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000006": [
+      "HBA difference (PubChem=4, RDKit=3)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000007": [
+      "HBA difference (PubChem=5, RDKit=4)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000008": [
+      "HBA difference (PubChem=7, RDKit=6)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000009": [
+      "HBA difference (PubChem=7, RDKit=4)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000010": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000011": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000012": [
+      "Molecular weight difference (PubChem vs RDKit): record=1449.2, calculated=1447.43",
+      "HBA difference (PubChem=26, RDKit=25)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000013": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000014": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000015": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000016": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000017": [
+      "HBA difference (PubChem=4, RDKit=6)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000018": [
+      "HBA difference (PubChem=13, RDKit=12)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000019": [
+      "HBA difference (PubChem=6, RDKit=5)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000020": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000022": [
+      "HBA difference (PubChem=12, RDKit=10)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000023": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000024": [
+      "Molecular weight difference (PubChem vs RDKit): record=300.05, calculated=298.96",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000025": [
+      "HBA difference (PubChem=3, RDKit=2)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000026": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000027": [
+      "Molecular weight difference (PubChem vs RDKit): record=261.08, calculated=260.02",
+      "HBA difference (PubChem=4, RDKit=2)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000028": [
+      "HBA difference (PubChem=8, RDKit=7)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000029": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000030": [
+      "HBA difference (PubChem=7, RDKit=4)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000031": [
+      "HBA difference (PubChem=4, RDKit=3)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000032": [
+      "Molecular weight difference (PubChem vs RDKit): record=450.3, calculated=449.12",
+      "HBA difference (PubChem=6, RDKit=5)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000033": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000034": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000035": [
+      "HBA difference (PubChem=10, RDKit=4)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000036": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000037": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000038": [
+      "HBA difference (PubChem=5, RDKit=2)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000039": [
+      "Molecular weight difference (PubChem vs RDKit): record=306.2, calculated=305.07",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000040": [
+      "HBA difference (PubChem=5, RDKit=4)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000041": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000042": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000043": [
+      "HBA difference (PubChem=4, RDKit=3)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000044": [
+      "HBA difference (PubChem=7, RDKit=5)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000045": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000046": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000047": [
+      "HBA difference (PubChem=6, RDKit=5)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000048": [
+      "HBA difference (PubChem=6, RDKit=5)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000049": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000050": [
+      "HBA difference (PubChem=6, RDKit=4)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000051": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000052": [
+      "HBA difference (PubChem=10, RDKit=7)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000053": [
+      "HBA difference (PubChem=7, RDKit=6)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000054": [
+      "HBA difference (PubChem=5, RDKit=4)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000055": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000056": [
+      "HBA difference (PubChem=5, RDKit=4)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000057": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000058": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000059": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000060": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000061": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000062": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000063": [
+      "HBA difference (PubChem=5, RDKit=4)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000064": [
+      "HBA difference (PubChem=5, RDKit=4)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000065": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000066": [
+      "HBA difference (PubChem=38, RDKit=30)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000067": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000068": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000069": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000070": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000071": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000072": [
+      "HBA difference (PubChem=7, RDKit=5)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000073": [
+      "HBA difference (PubChem=18, RDKit=17)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000074": [
+      "Molecular weight difference (PubChem vs RDKit): record=531.4, calculated=530.15",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000075": [
+      "HBA difference (PubChem=4, RDKit=3)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000076": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000077": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000078": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000079": [
+      "HBA difference (PubChem=5, RDKit=4)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000081": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000082": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000083": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000084": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000085": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000087": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000088": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000089": [
+      "HBA difference (PubChem=3, RDKit=2)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000090": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000091": [
+      "HBA difference (PubChem=5, RDKit=3)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000092": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000093": [
+      "Molecular weight difference (PubChem vs RDKit): record=5814.0, calculated=5809.68",
+      "HBA difference (PubChem=89, RDKit=83)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000094": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000095": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000096": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000097": [
+      "HBA difference (PubChem=5, RDKit=4)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000098": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000099": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000100": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000101": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000102": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000103": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000104": [
+      "HBA difference (PubChem=7, RDKit=8)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000105": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000106": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000107": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000108": [
+      "HBA difference (PubChem=6, RDKit=1)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000109": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000110": [
+      "HBD difference (PubChem=2, RDKit=1)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000111": [
+      "HBA difference (PubChem=3, RDKit=2)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000112": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000113": [
+      "HBA difference (PubChem=6, RDKit=5)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000114": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000115": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000116": [
+      "HBA difference (PubChem=6, RDKit=5)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000117": [
+      "HBA difference (PubChem=9, RDKit=6)",
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000118": [
+      "No paper-sourced structure image (optional)"
+    ],
+    "MOL-000119": [
+      "HBA difference (PubChem=2, RDKit=3)",
+      "No paper-sourced structure image (optional)"
+    ]
+  },
+  "statistics": {
+    "avg_descriptions": 2.0,
+    "avg_relations": 1.9,
+    "with_paper_image": 5,
+    "with_experimental_data": 0,
+    "mineru_used_count": 120
+  }
+}

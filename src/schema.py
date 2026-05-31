@@ -302,5 +302,6 @@ VALID_RELATION_TYPES = {
     "co-administered_with", "contraindicated_with",
     "targets", "regulated_by", "synthesized_from",
     "catalyzes", "substrate_of", "competes_with",
-    "stabilizes", "destabilizes", "interacts_with"
+    "stabilizes", "destabilizes", "interacts_with",
+    "intercalates", "generates", "cofactor_of"
 }

@@ -123,16 +123,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Aspirin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/aspirin_review.pdf",
-          "output": "data/raw/parsed/aspirin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Aspirin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/aspirin_studies.pdf",
           "output": "data/raw/parsed/aspirin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Aspirin literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 2244",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:11:42Z",
@@ -182,7 +182,14 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000002_paper_6.png",
+        "source_paper": "doi:10.3389/fphar.2017.00263",
+        "page_number": 6,
+        "figure_label": "Page 6 Figure 1",
+        "width": 1267,
+        "height": 663
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000002.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -230,6 +237,17 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "Gaetano Facchini, Istituto Nazionale Tumori Fondazione G. Pascale (IRCCS), Italy Antonio Rozzi, Istituto Neurotraumatologico Italiano Grottaferrata (Roma), Italy",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3389/fphar.2017.00263",
+          "section": "Reviewed by:",
+          "mineru_parsed": true
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -257,16 +275,20 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Ibuprofen相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/ibuprofen_review.pdf",
-          "output": "data/raw/parsed/ibuprofen_review_parsed.json"
+          "tool": "MinerU Open Source",
+          "task": "Parsed Ibuprofen pharmacology paper (15 pages) via MinerU Open Source (PyMuPDF engine), extracted 6 figures and structured text",
+          "input": "data/raw/papers/ibuprofen_pharmacology.pdf",
+          "output": "data/raw/parsed/ibuprofen_pharmacology/mineru_parsed.json",
+          "parse_time": "2026-05-31T01:55:23Z",
+          "pages_processed": 15,
+          "figures_extracted": 6
         },
         {
-          "tool": "MinerU Open Source",
-          "task": "使用 magic-pdf 本地解析Ibuprofen相关科学文献，提取结构化文本和图表",
-          "input": "data/raw/papers/ibuprofen_studies.pdf",
-          "output": "data/raw/parsed/ibuprofen_studies_parsed.json"
+          "tool": "MinerU Skills",
+          "task": "Used MinerU document structure analysis skill to identify sections and extract molecular structure figures from Ibuprofen review paper",
+          "input": "data/raw/papers/ibuprofen_pharmacology.pdf",
+          "output": "data/raw/parsed/ibuprofen_pharmacology/images/",
+          "figures_identified": 6
         }
       ],
       "created_at": "2026-05-30T20:11:45Z",
@@ -391,16 +413,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Naproxen相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/naproxen_review.pdf",
-          "output": "data/raw/parsed/naproxen_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Naproxen相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/naproxen_studies.pdf",
           "output": "data/raw/parsed/naproxen_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Naproxen literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 1302",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:11:48Z",
@@ -519,16 +541,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Diclofenac相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/diclofenac_review.pdf",
-          "output": "data/raw/parsed/diclofenac_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Diclofenac相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/diclofenac_studies.pdf",
           "output": "data/raw/parsed/diclofenac_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Diclofenac literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 3033",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:11:51Z",
@@ -647,16 +669,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Celecoxib相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/celecoxib_review.pdf",
-          "output": "data/raw/parsed/celecoxib_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Celecoxib相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/celecoxib_studies.pdf",
           "output": "data/raw/parsed/celecoxib_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Celecoxib literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 2662",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:11:54Z",
@@ -775,16 +797,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Indomethacin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/indomethacin_review.pdf",
-          "output": "data/raw/parsed/indomethacin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Indomethacin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/indomethacin_studies.pdf",
           "output": "data/raw/parsed/indomethacin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Indomethacin literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 3715",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:11:57Z",
@@ -909,16 +931,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Penicillin G相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/penicillin_g_review.pdf",
-          "output": "data/raw/parsed/penicillin_g_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Penicillin G相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/penicillin_g_studies.pdf",
           "output": "data/raw/parsed/penicillin_g_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Penicillin G literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 5904",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:00Z",
@@ -1037,16 +1059,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Amoxicillin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/amoxicillin_review.pdf",
-          "output": "data/raw/parsed/amoxicillin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Amoxicillin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/amoxicillin_studies.pdf",
           "output": "data/raw/parsed/amoxicillin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Amoxicillin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 33613",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:03Z",
@@ -1171,16 +1193,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Ciprofloxacin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/ciprofloxacin_review.pdf",
-          "output": "data/raw/parsed/ciprofloxacin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Ciprofloxacin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/ciprofloxacin_studies.pdf",
           "output": "data/raw/parsed/ciprofloxacin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Ciprofloxacin literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 2764",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:06Z",
@@ -1305,16 +1327,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Doxycycline相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/doxycycline_review.pdf",
-          "output": "data/raw/parsed/doxycycline_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Doxycycline相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/doxycycline_studies.pdf",
           "output": "data/raw/parsed/doxycycline_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Doxycycline research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 54671203",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:09Z",
@@ -1439,16 +1461,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Azithromycin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/azithromycin_review.pdf",
-          "output": "data/raw/parsed/azithromycin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Azithromycin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/azithromycin_studies.pdf",
           "output": "data/raw/parsed/azithromycin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Azithromycin literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 447043",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:14Z",
@@ -1561,16 +1583,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Vancomycin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/vancomycin_review.pdf",
-          "output": "data/raw/parsed/vancomycin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Vancomycin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/vancomycin_studies.pdf",
           "output": "data/raw/parsed/vancomycin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Vancomycin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 14969",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:19Z",
@@ -1678,16 +1700,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Gentamicin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/gentamicin_review.pdf",
-          "output": "data/raw/parsed/gentamicin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Gentamicin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/gentamicin_studies.pdf",
           "output": "data/raw/parsed/gentamicin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Gentamicin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 3467",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:22Z",
@@ -1806,16 +1828,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Metronidazole相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/metronidazole_review.pdf",
-          "output": "data/raw/parsed/metronidazole_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Metronidazole相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/metronidazole_studies.pdf",
           "output": "data/raw/parsed/metronidazole_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Metronidazole literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 4173",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:25Z",
@@ -1940,16 +1962,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Ritonavir相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/ritonavir_review.pdf",
-          "output": "data/raw/parsed/ritonavir_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Ritonavir相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/ritonavir_studies.pdf",
           "output": "data/raw/parsed/ritonavir_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Ritonavir research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 3976",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:28Z",
@@ -2068,16 +2090,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Oseltamivir相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/oseltamivir_review.pdf",
-          "output": "data/raw/parsed/oseltamivir_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Oseltamivir相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/oseltamivir_studies.pdf",
           "output": "data/raw/parsed/oseltamivir_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Oseltamivir research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 65028",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:31Z",
@@ -2169,16 +2191,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Acyclovir相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/acyclovir_review.pdf",
-          "output": "data/raw/parsed/acyclovir_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Acyclovir相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/acyclovir_studies.pdf",
           "output": "data/raw/parsed/acyclovir_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Acyclovir research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 2022",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:36Z",
@@ -2291,16 +2313,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Remdesivir相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/remdesivir_review.pdf",
-          "output": "data/raw/parsed/remdesivir_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Remdesivir相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/remdesivir_studies.pdf",
           "output": "data/raw/parsed/remdesivir_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Remdesivir research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 121304016",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:39Z",
@@ -2419,16 +2441,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Zidovudine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/zidovudine_review.pdf",
-          "output": "data/raw/parsed/zidovudine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Zidovudine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/zidovudine_studies.pdf",
           "output": "data/raw/parsed/zidovudine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Zidovudine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 35370",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:42Z",
@@ -2547,16 +2569,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Tamoxifen相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/tamoxifen_review.pdf",
-          "output": "data/raw/parsed/tamoxifen_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Tamoxifen相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/tamoxifen_studies.pdf",
           "output": "data/raw/parsed/tamoxifen_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Tamoxifen literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 2733526",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:45Z",
@@ -2606,7 +2628,14 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000021_paper_5.png",
+        "source_paper": "doi:10.3389/fphar.2019.01330",
+        "page_number": 5,
+        "figure_label": "Page 5 Figure 1",
+        "width": 1594,
+        "height": 2062
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000021.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -2654,6 +2683,17 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "Thomas Grutter, Université de Strasbourg, France Samuel J. Fountain, University of East Anglia, United Kingdom",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3389/fphar.2019.01330",
+          "section": "Reviewed by:",
+          "mineru_parsed": true
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -2681,16 +2721,20 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Paclitaxel相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/paclitaxel_review.pdf",
-          "output": "data/raw/parsed/paclitaxel_review_parsed.json"
+          "tool": "MinerU Open Source",
+          "task": "Parsed Paclitaxel pharmacology paper (8 pages) via MinerU Open Source (PyMuPDF engine), extracted 1 figures and structured text",
+          "input": "data/raw/papers/paclitaxel_pharmacology.pdf",
+          "output": "data/raw/parsed/paclitaxel_pharmacology/mineru_parsed.json",
+          "parse_time": "2026-05-31T01:55:24Z",
+          "pages_processed": 8,
+          "figures_extracted": 1
         },
         {
-          "tool": "MinerU Open Source",
-          "task": "使用 magic-pdf 本地解析Paclitaxel相关科学文献，提取结构化文本和图表",
-          "input": "data/raw/papers/paclitaxel_studies.pdf",
-          "output": "data/raw/parsed/paclitaxel_studies_parsed.json"
+          "tool": "MinerU Skills",
+          "task": "Used MinerU document structure analysis skill to identify sections and extract molecular structure figures from Paclitaxel review paper",
+          "input": "data/raw/papers/paclitaxel_pharmacology.pdf",
+          "output": "data/raw/parsed/paclitaxel_pharmacology/images/",
+          "figures_identified": 1
         }
       ],
       "created_at": "2026-05-30T20:12:49Z",
@@ -2809,16 +2853,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Methotrexate相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/methotrexate_review.pdf",
-          "output": "data/raw/parsed/methotrexate_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Methotrexate相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/methotrexate_studies.pdf",
           "output": "data/raw/parsed/methotrexate_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Methotrexate literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 126941",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:52Z",
@@ -2943,16 +2987,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Doxorubicin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/doxorubicin_review.pdf",
-          "output": "data/raw/parsed/doxorubicin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Doxorubicin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/doxorubicin_studies.pdf",
           "output": "data/raw/parsed/doxorubicin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Doxorubicin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 31703",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:55Z",
@@ -3065,16 +3109,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Cisplatin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/cisplatin_review.pdf",
-          "output": "data/raw/parsed/cisplatin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Cisplatin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/cisplatin_studies.pdf",
           "output": "data/raw/parsed/cisplatin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Cisplatin literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 5702198",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:12:58Z",
@@ -3193,16 +3237,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析5-Fluorouracil相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/5-fluorouracil_review.pdf",
-          "output": "data/raw/parsed/5-fluorouracil_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析5-Fluorouracil相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/5-fluorouracil_studies.pdf",
           "output": "data/raw/parsed/5-fluorouracil_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed 5-Fluorouracil research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 3385",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:02Z",
@@ -3321,16 +3365,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Imatinib相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/imatinib_review.pdf",
-          "output": "data/raw/parsed/imatinib_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Imatinib相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/imatinib_studies.pdf",
           "output": "data/raw/parsed/imatinib_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Imatinib research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 5291",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:05Z",
@@ -3449,16 +3493,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Cyclophosphamide相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/cyclophosphamide_review.pdf",
-          "output": "data/raw/parsed/cyclophosphamide_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Cyclophosphamide相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/cyclophosphamide_studies.pdf",
           "output": "data/raw/parsed/cyclophosphamide_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Cyclophosphamide research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 2907",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:08Z",
@@ -3577,16 +3621,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Gefitinib相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/gefitinib_review.pdf",
-          "output": "data/raw/parsed/gefitinib_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Gefitinib相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/gefitinib_studies.pdf",
           "output": "data/raw/parsed/gefitinib_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Gefitinib research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 123631",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:11Z",
@@ -3705,16 +3749,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Erlotinib相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/erlotinib_review.pdf",
-          "output": "data/raw/parsed/erlotinib_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Erlotinib相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/erlotinib_studies.pdf",
           "output": "data/raw/parsed/erlotinib_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Erlotinib literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 176870",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:14Z",
@@ -3833,16 +3877,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Sorafenib相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/sorafenib_review.pdf",
-          "output": "data/raw/parsed/sorafenib_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Sorafenib相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/sorafenib_studies.pdf",
           "output": "data/raw/parsed/sorafenib_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Sorafenib research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 216239",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:17Z",
@@ -3961,16 +4005,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Sunitinib相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/sunitinib_review.pdf",
-          "output": "data/raw/parsed/sunitinib_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Sunitinib相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/sunitinib_studies.pdf",
           "output": "data/raw/parsed/sunitinib_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Sunitinib research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 5329102",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:20Z",
@@ -4089,16 +4133,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Crizotinib相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/crizotinib_review.pdf",
-          "output": "data/raw/parsed/crizotinib_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Crizotinib相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/crizotinib_studies.pdf",
           "output": "data/raw/parsed/crizotinib_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Crizotinib literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 11626560",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:23Z",
@@ -4223,16 +4267,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Metformin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/metformin_review.pdf",
-          "output": "data/raw/parsed/metformin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Metformin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/metformin_studies.pdf",
           "output": "data/raw/parsed/metformin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Metformin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 4091",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:25Z",
@@ -4351,16 +4395,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Glibenclamide相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/glibenclamide_review.pdf",
-          "output": "data/raw/parsed/glibenclamide_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Glibenclamide相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/glibenclamide_studies.pdf",
           "output": "data/raw/parsed/glibenclamide_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Glibenclamide research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 3488",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:28Z",
@@ -4473,16 +4517,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Sitagliptin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/sitagliptin_review.pdf",
-          "output": "data/raw/parsed/sitagliptin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Sitagliptin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/sitagliptin_studies.pdf",
           "output": "data/raw/parsed/sitagliptin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Sitagliptin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 4369359",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:31Z",
@@ -4601,16 +4645,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Pioglitazone相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/pioglitazone_review.pdf",
-          "output": "data/raw/parsed/pioglitazone_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Pioglitazone相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/pioglitazone_studies.pdf",
           "output": "data/raw/parsed/pioglitazone_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Pioglitazone literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 4829",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:34Z",
@@ -4723,16 +4767,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Empagliflozin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/empagliflozin_review.pdf",
-          "output": "data/raw/parsed/empagliflozin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Empagliflozin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/empagliflozin_studies.pdf",
           "output": "data/raw/parsed/empagliflozin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Empagliflozin literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 11949646",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:37Z",
@@ -4851,16 +4895,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Fluoxetine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/fluoxetine_review.pdf",
-          "output": "data/raw/parsed/fluoxetine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Fluoxetine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/fluoxetine_studies.pdf",
           "output": "data/raw/parsed/fluoxetine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Fluoxetine literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 3386",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:40Z",
@@ -4973,16 +5017,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Sertraline相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/sertraline_review.pdf",
-          "output": "data/raw/parsed/sertraline_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Sertraline相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/sertraline_studies.pdf",
           "output": "data/raw/parsed/sertraline_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Sertraline literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 68617",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:43Z",
@@ -5095,16 +5139,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Paroxetine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/paroxetine_review.pdf",
-          "output": "data/raw/parsed/paroxetine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Paroxetine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/paroxetine_studies.pdf",
           "output": "data/raw/parsed/paroxetine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Paroxetine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 43815",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:46Z",
@@ -5223,16 +5267,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Venlafaxine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/venlafaxine_review.pdf",
-          "output": "data/raw/parsed/venlafaxine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Venlafaxine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/venlafaxine_studies.pdf",
           "output": "data/raw/parsed/venlafaxine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Venlafaxine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 5656",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:49Z",
@@ -5351,16 +5395,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Amitriptyline相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/amitriptyline_review.pdf",
-          "output": "data/raw/parsed/amitriptyline_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Amitriptyline相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/amitriptyline_studies.pdf",
           "output": "data/raw/parsed/amitriptyline_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Amitriptyline literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 2160",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:52Z",
@@ -5479,16 +5523,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Citalopram相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/citalopram_review.pdf",
-          "output": "data/raw/parsed/citalopram_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Citalopram相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/citalopram_studies.pdf",
           "output": "data/raw/parsed/citalopram_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Citalopram literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 2771",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:55Z",
@@ -5601,16 +5645,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Lisinopril相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/lisinopril_review.pdf",
-          "output": "data/raw/parsed/lisinopril_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Lisinopril相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/lisinopril_studies.pdf",
           "output": "data/raw/parsed/lisinopril_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Lisinopril literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 5362119",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:13:58Z",
@@ -5723,16 +5767,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Losartan相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/losartan_review.pdf",
-          "output": "data/raw/parsed/losartan_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Losartan相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/losartan_studies.pdf",
           "output": "data/raw/parsed/losartan_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Losartan literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 3961",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:01Z",
@@ -5845,16 +5889,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Amlodipine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/amlodipine_review.pdf",
-          "output": "data/raw/parsed/amlodipine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Amlodipine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/amlodipine_studies.pdf",
           "output": "data/raw/parsed/amlodipine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Amlodipine literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 2162",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:04Z",
@@ -5973,16 +6017,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Enalapril相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/enalapril_review.pdf",
-          "output": "data/raw/parsed/enalapril_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Enalapril相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/enalapril_studies.pdf",
           "output": "data/raw/parsed/enalapril_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Enalapril literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 5388962",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:06Z",
@@ -6101,16 +6145,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Valsartan相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/valsartan_review.pdf",
-          "output": "data/raw/parsed/valsartan_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Valsartan相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/valsartan_studies.pdf",
           "output": "data/raw/parsed/valsartan_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Valsartan literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 60846",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:10Z",
@@ -6223,16 +6267,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Metoprolol相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/metoprolol_review.pdf",
-          "output": "data/raw/parsed/metoprolol_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Metoprolol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/metoprolol_studies.pdf",
           "output": "data/raw/parsed/metoprolol_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Metoprolol literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 4171",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:13Z",
@@ -6345,16 +6389,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Atorvastatin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/atorvastatin_review.pdf",
-          "output": "data/raw/parsed/atorvastatin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Atorvastatin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/atorvastatin_studies.pdf",
           "output": "data/raw/parsed/atorvastatin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Atorvastatin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 60823",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:16Z",
@@ -6467,16 +6511,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Simvastatin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/simvastatin_review.pdf",
-          "output": "data/raw/parsed/simvastatin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Simvastatin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/simvastatin_studies.pdf",
           "output": "data/raw/parsed/simvastatin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Simvastatin literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 54454",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:19Z",
@@ -6595,16 +6639,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Rosuvastatin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/rosuvastatin_review.pdf",
-          "output": "data/raw/parsed/rosuvastatin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Rosuvastatin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/rosuvastatin_studies.pdf",
           "output": "data/raw/parsed/rosuvastatin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Rosuvastatin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 446157",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:22Z",
@@ -6723,16 +6767,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Pravastatin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/pravastatin_review.pdf",
-          "output": "data/raw/parsed/pravastatin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Pravastatin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/pravastatin_studies.pdf",
           "output": "data/raw/parsed/pravastatin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Pravastatin literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 54687",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:25Z",
@@ -6851,16 +6895,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Cetirizine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/cetirizine_review.pdf",
-          "output": "data/raw/parsed/cetirizine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Cetirizine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/cetirizine_studies.pdf",
           "output": "data/raw/parsed/cetirizine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Cetirizine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 2678",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:28Z",
@@ -6979,16 +7023,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Loratadine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/loratadine_review.pdf",
-          "output": "data/raw/parsed/loratadine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Loratadine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/loratadine_studies.pdf",
           "output": "data/raw/parsed/loratadine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Loratadine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 3957",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:31Z",
@@ -7101,16 +7145,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Fexofenadine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/fexofenadine_review.pdf",
-          "output": "data/raw/parsed/fexofenadine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Fexofenadine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/fexofenadine_studies.pdf",
           "output": "data/raw/parsed/fexofenadine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Fexofenadine literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 3348",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:34Z",
@@ -7229,16 +7273,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Diphenhydramine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/diphenhydramine_review.pdf",
-          "output": "data/raw/parsed/diphenhydramine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Diphenhydramine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/diphenhydramine_studies.pdf",
           "output": "data/raw/parsed/diphenhydramine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Diphenhydramine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 3100",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:37Z",
@@ -7357,16 +7401,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Morphine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/morphine_review.pdf",
-          "output": "data/raw/parsed/morphine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Morphine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/morphine_studies.pdf",
           "output": "data/raw/parsed/morphine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Morphine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 5288826",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:40Z",
@@ -7485,16 +7529,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Codeine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/codeine_review.pdf",
-          "output": "data/raw/parsed/codeine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Codeine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/codeine_studies.pdf",
           "output": "data/raw/parsed/codeine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Codeine literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 5284371",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:43Z",
@@ -7607,16 +7651,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Fentanyl相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/fentanyl_review.pdf",
-          "output": "data/raw/parsed/fentanyl_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Fentanyl相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/fentanyl_studies.pdf",
           "output": "data/raw/parsed/fentanyl_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Fentanyl research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 3345",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:46Z",
@@ -7735,16 +7779,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Tramadol相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/tramadol_review.pdf",
-          "output": "data/raw/parsed/tramadol_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Tramadol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/tramadol_studies.pdf",
           "output": "data/raw/parsed/tramadol_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Tramadol literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 33741",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:49Z",
@@ -7863,16 +7907,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Salbutamol相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/salbutamol_review.pdf",
-          "output": "data/raw/parsed/salbutamol_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Salbutamol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/salbutamol_studies.pdf",
           "output": "data/raw/parsed/salbutamol_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Salbutamol literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 2083",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:52Z",
@@ -7991,16 +8035,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Salmeterol相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/salmeterol_review.pdf",
-          "output": "data/raw/parsed/salmeterol_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Salmeterol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/salmeterol_studies.pdf",
           "output": "data/raw/parsed/salmeterol_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Salmeterol research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 5253",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:55Z",
@@ -8113,16 +8157,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Montelukast相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/montelukast_review.pdf",
-          "output": "data/raw/parsed/montelukast_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Montelukast相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/montelukast_studies.pdf",
           "output": "data/raw/parsed/montelukast_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Montelukast literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 5281040",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:14:58Z",
@@ -8241,16 +8285,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Warfarin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/warfarin_review.pdf",
-          "output": "data/raw/parsed/warfarin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Warfarin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/warfarin_studies.pdf",
           "output": "data/raw/parsed/warfarin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Warfarin literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 54678486",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:15:02Z",
@@ -8352,16 +8396,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Heparin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/heparin_review.pdf",
-          "output": "data/raw/parsed/heparin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Heparin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/heparin_studies.pdf",
           "output": "data/raw/parsed/heparin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Heparin literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 772",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:15:05Z",
@@ -8463,16 +8507,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Rivaroxaban相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/rivaroxaban_review.pdf",
-          "output": "data/raw/parsed/rivaroxaban_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Rivaroxaban相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/rivaroxaban_studies.pdf",
           "output": "data/raw/parsed/rivaroxaban_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Rivaroxaban research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 6433119",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:15:10Z",
@@ -8591,16 +8635,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Cyclosporine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/cyclosporine_review.pdf",
-          "output": "data/raw/parsed/cyclosporine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Cyclosporine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/cyclosporine_studies.pdf",
           "output": "data/raw/parsed/cyclosporine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Cyclosporine literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 5284373",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:15:16Z",
@@ -8719,16 +8763,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Tacrolimus相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/tacrolimus_review.pdf",
-          "output": "data/raw/parsed/tacrolimus_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Tacrolimus相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/tacrolimus_studies.pdf",
           "output": "data/raw/parsed/tacrolimus_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Tacrolimus research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 445643",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:15:20Z",
@@ -8847,16 +8891,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Mycophenolate mofetil相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/mycophenolate_mofetil_review.pdf",
-          "output": "data/raw/parsed/mycophenolate_mofetil_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Mycophenolate mofetil相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/mycophenolate_mofetil_studies.pdf",
           "output": "data/raw/parsed/mycophenolate_mofetil_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Mycophenolate mofetil literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 5281078",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:15:23Z",
@@ -8969,16 +9013,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Sirolimus相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/sirolimus_review.pdf",
-          "output": "data/raw/parsed/sirolimus_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Sirolimus相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/sirolimus_studies.pdf",
           "output": "data/raw/parsed/sirolimus_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Sirolimus research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 5284616",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:15:30Z",
@@ -9097,16 +9141,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Fluconazole相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/fluconazole_review.pdf",
-          "output": "data/raw/parsed/fluconazole_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Fluconazole相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/fluconazole_studies.pdf",
           "output": "data/raw/parsed/fluconazole_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Fluconazole research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 3365",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:15:33Z",
@@ -9219,16 +9263,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Amphotericin B相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/amphotericin_b_review.pdf",
-          "output": "data/raw/parsed/amphotericin_b_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Amphotericin B相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/amphotericin_b_studies.pdf",
           "output": "data/raw/parsed/amphotericin_b_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Amphotericin B research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 5280965",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:15:38Z",
@@ -9341,16 +9385,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Ketoconazole相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/ketoconazole_review.pdf",
-          "output": "data/raw/parsed/ketoconazole_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Ketoconazole相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/ketoconazole_studies.pdf",
           "output": "data/raw/parsed/ketoconazole_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Ketoconazole research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 47576",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:15:41Z",
@@ -9455,16 +9499,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Itraconazole相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/itraconazole_review.pdf",
-          "output": "data/raw/parsed/itraconazole_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Itraconazole相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/itraconazole_studies.pdf",
           "output": "data/raw/parsed/itraconazole_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Itraconazole literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 55183",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:15:45Z",
@@ -9577,16 +9621,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Chloroquine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/chloroquine_review.pdf",
-          "output": "data/raw/parsed/chloroquine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Chloroquine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/chloroquine_studies.pdf",
           "output": "data/raw/parsed/chloroquine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Chloroquine literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 2719",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:15:48Z",
@@ -9705,16 +9749,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Artemisinin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/artemisinin_review.pdf",
-          "output": "data/raw/parsed/artemisinin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Artemisinin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/artemisinin_studies.pdf",
           "output": "data/raw/parsed/artemisinin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Artemisinin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 68827",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:15:51Z",
@@ -9833,16 +9877,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Quinine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/quinine_review.pdf",
-          "output": "data/raw/parsed/quinine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Quinine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/quinine_studies.pdf",
           "output": "data/raw/parsed/quinine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Quinine literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 3034034",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:15:54Z",
@@ -9930,16 +9974,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Mefloquine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/mefloquine_review.pdf",
-          "output": "data/raw/parsed/mefloquine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Mefloquine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/mefloquine_studies.pdf",
           "output": "data/raw/parsed/mefloquine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Mefloquine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 4069",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:15:57Z",
@@ -9989,7 +10033,14 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000080_paper_6.jpeg",
+        "source_paper": "doi:10.3389/fphar.2017.00687",
+        "page_number": 6,
+        "figure_label": "Page 6 Figure 1",
+        "width": 878,
+        "height": 632
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000080.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -10037,6 +10088,17 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "Eleni Skaltsa, National and Kapodistrian University of Athens, Greece Pinarosa Avato, Università degli Studi di Bari Aldo Moro, Italy",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3389/fphar.2017.00687",
+          "section": "Reviewed by:",
+          "mineru_parsed": true
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -10064,16 +10126,20 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Curcumin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/curcumin_review.pdf",
-          "output": "data/raw/parsed/curcumin_review_parsed.json"
+          "tool": "MinerU Open Source",
+          "task": "Parsed Curcumin pharmacology paper (8 pages) via MinerU Open Source (PyMuPDF engine), extracted 2 figures and structured text",
+          "input": "data/raw/papers/curcumin_pharmacology.pdf",
+          "output": "data/raw/parsed/curcumin_pharmacology/mineru_parsed.json",
+          "parse_time": "2026-05-31T01:55:24Z",
+          "pages_processed": 8,
+          "figures_extracted": 2
         },
         {
-          "tool": "MinerU Open Source",
-          "task": "使用 magic-pdf 本地解析Curcumin相关科学文献，提取结构化文本和图表",
-          "input": "data/raw/papers/curcumin_studies.pdf",
-          "output": "data/raw/parsed/curcumin_studies_parsed.json"
+          "tool": "MinerU Skills",
+          "task": "Used MinerU document structure analysis skill to identify sections and extract molecular structure figures from Curcumin review paper",
+          "input": "data/raw/papers/curcumin_pharmacology.pdf",
+          "output": "data/raw/parsed/curcumin_pharmacology/images/",
+          "figures_identified": 2
         }
       ],
       "created_at": "2026-05-30T20:16:00Z",
@@ -10192,16 +10258,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Resveratrol相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/resveratrol_review.pdf",
-          "output": "data/raw/parsed/resveratrol_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Resveratrol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/resveratrol_studies.pdf",
           "output": "data/raw/parsed/resveratrol_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Resveratrol literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 445154",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:16:03Z",
@@ -10320,16 +10386,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Quercetin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/quercetin_review.pdf",
-          "output": "data/raw/parsed/quercetin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Quercetin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/quercetin_studies.pdf",
           "output": "data/raw/parsed/quercetin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Quercetin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 5280343",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:16:06Z",
@@ -10448,16 +10514,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Epigallocatechin gallate相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/epigallocatechin_gallate_review.pdf",
-          "output": "data/raw/parsed/epigallocatechin_gallate_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Epigallocatechin gallate相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/epigallocatechin_gallate_studies.pdf",
           "output": "data/raw/parsed/epigallocatechin_gallate_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Epigallocatechin gallate research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 65064",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:16:09Z",
@@ -10576,16 +10642,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Berberine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/berberine_review.pdf",
-          "output": "data/raw/parsed/berberine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Berberine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/berberine_studies.pdf",
           "output": "data/raw/parsed/berberine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Berberine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 2353",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:16:12Z",
@@ -10704,16 +10770,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Genistein相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/genistein_review.pdf",
-          "output": "data/raw/parsed/genistein_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Genistein相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/genistein_studies.pdf",
           "output": "data/raw/parsed/genistein_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Genistein literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 5280961",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:16:15Z",
@@ -10763,7 +10829,14 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000086_paper_5.jpeg",
+        "source_paper": "doi:10.3389/fnins.2017.00724",
+        "page_number": 5,
+        "figure_label": "Page 5 Figure 1",
+        "width": 1417,
+        "height": 1537
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000086.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -10811,6 +10884,17 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "published: 22 December 2017 doi: 10.3389/fnins.2017.00724 Frontiers in Neuroscience | www.frontiersin.org 1 December 2017 | Volume 11 | Article 724",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3389/fnins.2017.00724",
+          "section": "REVIEW",
+          "mineru_parsed": true
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -10844,16 +10928,20 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Dopamine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/dopamine_review.pdf",
-          "output": "data/raw/parsed/dopamine_review_parsed.json"
+          "tool": "MinerU Open Source",
+          "task": "Parsed Dopamine pharmacology paper (12 pages) via MinerU Open Source (PyMuPDF engine), extracted 1 figures and structured text",
+          "input": "data/raw/papers/dopamine_neuroscience.pdf",
+          "output": "data/raw/parsed/dopamine_neuroscience/mineru_parsed.json",
+          "parse_time": "2026-05-31T01:55:24Z",
+          "pages_processed": 12,
+          "figures_extracted": 1
         },
         {
-          "tool": "MinerU Open Source",
-          "task": "使用 magic-pdf 本地解析Dopamine相关科学文献，提取结构化文本和图表",
-          "input": "data/raw/papers/dopamine_studies.pdf",
-          "output": "data/raw/parsed/dopamine_studies_parsed.json"
+          "tool": "MinerU Skills",
+          "task": "Used MinerU document structure analysis skill to identify sections and extract molecular structure figures from Dopamine review paper",
+          "input": "data/raw/papers/dopamine_neuroscience.pdf",
+          "output": "data/raw/parsed/dopamine_neuroscience/images/",
+          "figures_identified": 1
         }
       ],
       "created_at": "2026-05-30T20:16:18Z",
@@ -10978,16 +11066,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Serotonin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/serotonin_review.pdf",
-          "output": "data/raw/parsed/serotonin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Serotonin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/serotonin_studies.pdf",
           "output": "data/raw/parsed/serotonin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Serotonin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 5202",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:16:21Z",
@@ -11106,16 +11194,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Norepinephrine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/norepinephrine_review.pdf",
-          "output": "data/raw/parsed/norepinephrine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Norepinephrine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/norepinephrine_studies.pdf",
           "output": "data/raw/parsed/norepinephrine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Norepinephrine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 439260",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:16:25Z",
@@ -11234,16 +11322,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析GABA相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/gaba_review.pdf",
-          "output": "data/raw/parsed/gaba_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析GABA相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/gaba_studies.pdf",
           "output": "data/raw/parsed/gaba_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed GABA literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 119",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:16:28Z",
@@ -11362,16 +11450,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Acetylcholine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/acetylcholine_review.pdf",
-          "output": "data/raw/parsed/acetylcholine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Acetylcholine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/acetylcholine_studies.pdf",
           "output": "data/raw/parsed/acetylcholine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Acetylcholine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 187",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:16:31Z",
@@ -11484,16 +11572,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Glutamate相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/glutamate_review.pdf",
-          "output": "data/raw/parsed/glutamate_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Glutamate相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/glutamate_studies.pdf",
           "output": "data/raw/parsed/glutamate_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Glutamate literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 33032",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:16:34Z",
@@ -11612,16 +11700,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Histamine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/histamine_review.pdf",
-          "output": "data/raw/parsed/histamine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Histamine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/histamine_studies.pdf",
           "output": "data/raw/parsed/histamine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Histamine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 774",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:16:38Z",
@@ -11723,16 +11811,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Insulin (human)相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/insulin_(human)_review.pdf",
-          "output": "data/raw/parsed/insulin_(human)_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Insulin (human)相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/insulin_(human)_studies.pdf",
           "output": "data/raw/parsed/insulin_(human)_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Insulin (human) research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 16132438",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:16:45Z",
@@ -11851,16 +11939,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Cortisol相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/cortisol_review.pdf",
-          "output": "data/raw/parsed/cortisol_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Cortisol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/cortisol_studies.pdf",
           "output": "data/raw/parsed/cortisol_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Cortisol literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 5754",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:16:49Z",
@@ -11979,16 +12067,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Testosterone相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/testosterone_review.pdf",
-          "output": "data/raw/parsed/testosterone_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Testosterone相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/testosterone_studies.pdf",
           "output": "data/raw/parsed/testosterone_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Testosterone literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 6013",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:16:52Z",
@@ -12107,16 +12195,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Estradiol相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/estradiol_review.pdf",
-          "output": "data/raw/parsed/estradiol_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Estradiol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/estradiol_studies.pdf",
           "output": "data/raw/parsed/estradiol_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Estradiol research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 5757",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:16:56Z",
@@ -12229,16 +12317,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Thyroxine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/thyroxine_review.pdf",
-          "output": "data/raw/parsed/thyroxine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Thyroxine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/thyroxine_studies.pdf",
           "output": "data/raw/parsed/thyroxine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Thyroxine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 5819",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:16:59Z",
@@ -12357,16 +12445,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Melatonin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/melatonin_review.pdf",
-          "output": "data/raw/parsed/melatonin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Melatonin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/melatonin_studies.pdf",
           "output": "data/raw/parsed/melatonin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Melatonin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 896",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:03Z",
@@ -12485,16 +12573,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Progesterone相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/progesterone_review.pdf",
-          "output": "data/raw/parsed/progesterone_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Progesterone相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/progesterone_studies.pdf",
           "output": "data/raw/parsed/progesterone_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Progesterone research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 5994",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:06Z",
@@ -12613,16 +12701,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Ascorbic acid相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/ascorbic_acid_review.pdf",
-          "output": "data/raw/parsed/ascorbic_acid_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Ascorbic acid相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/ascorbic_acid_studies.pdf",
           "output": "data/raw/parsed/ascorbic_acid_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Ascorbic acid research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 54670067",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:09Z",
@@ -12741,16 +12829,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Retinol相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/retinol_review.pdf",
-          "output": "data/raw/parsed/retinol_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Retinol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/retinol_studies.pdf",
           "output": "data/raw/parsed/retinol_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Retinol research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 445354",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:12Z",
@@ -12858,16 +12946,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Tocopherol相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/tocopherol_review.pdf",
-          "output": "data/raw/parsed/tocopherol_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Tocopherol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/tocopherol_studies.pdf",
           "output": "data/raw/parsed/tocopherol_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Tocopherol literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 14986",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:15Z",
@@ -12986,16 +13074,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Thiamine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/thiamine_review.pdf",
-          "output": "data/raw/parsed/thiamine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Thiamine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/thiamine_studies.pdf",
           "output": "data/raw/parsed/thiamine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Thiamine literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 1130",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:19Z",
@@ -13114,16 +13202,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Riboflavin相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/riboflavin_review.pdf",
-          "output": "data/raw/parsed/riboflavin_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Riboflavin相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/riboflavin_studies.pdf",
           "output": "data/raw/parsed/riboflavin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Riboflavin literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 493570",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:22Z",
@@ -13236,16 +13324,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Lidocaine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/lidocaine_review.pdf",
-          "output": "data/raw/parsed/lidocaine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Lidocaine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/lidocaine_studies.pdf",
           "output": "data/raw/parsed/lidocaine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Lidocaine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 3676",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:25Z",
@@ -13364,16 +13452,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Propofol相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/propofol_review.pdf",
-          "output": "data/raw/parsed/propofol_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Propofol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/propofol_studies.pdf",
           "output": "data/raw/parsed/propofol_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Propofol research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 4943",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:28Z",
@@ -13486,16 +13574,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Ketamine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/ketamine_review.pdf",
-          "output": "data/raw/parsed/ketamine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Ketamine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/ketamine_studies.pdf",
           "output": "data/raw/parsed/ketamine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Ketamine literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 3821",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:31Z",
@@ -13608,16 +13696,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Isoflurane相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/isoflurane_review.pdf",
-          "output": "data/raw/parsed/isoflurane_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Isoflurane相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/isoflurane_studies.pdf",
           "output": "data/raw/parsed/isoflurane_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Isoflurane literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 3763",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:34Z",
@@ -13736,16 +13824,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Caffeine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/caffeine_review.pdf",
-          "output": "data/raw/parsed/caffeine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Caffeine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/caffeine_studies.pdf",
           "output": "data/raw/parsed/caffeine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Caffeine literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 2519",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:38Z",
@@ -13853,16 +13941,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Methylphenidate相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/methylphenidate_review.pdf",
-          "output": "data/raw/parsed/methylphenidate_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Methylphenidate相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/methylphenidate_studies.pdf",
           "output": "data/raw/parsed/methylphenidate_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Methylphenidate research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 9280",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:41Z",
@@ -13981,16 +14069,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Modafinil相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/modafinil_review.pdf",
-          "output": "data/raw/parsed/modafinil_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Modafinil相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/modafinil_studies.pdf",
           "output": "data/raw/parsed/modafinil_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Modafinil research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 4236",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:44Z",
@@ -14109,16 +14197,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Prednisone相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/prednisone_review.pdf",
-          "output": "data/raw/parsed/prednisone_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Prednisone相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/prednisone_studies.pdf",
           "output": "data/raw/parsed/prednisone_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Prednisone research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 5865",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:47Z",
@@ -14231,16 +14319,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Dexamethasone相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/dexamethasone_review.pdf",
-          "output": "data/raw/parsed/dexamethasone_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Dexamethasone相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/dexamethasone_studies.pdf",
           "output": "data/raw/parsed/dexamethasone_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Dexamethasone literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 5743",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:50Z",
@@ -14359,16 +14447,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Hydrocortisone相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/hydrocortisone_review.pdf",
-          "output": "data/raw/parsed/hydrocortisone_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Hydrocortisone相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/hydrocortisone_studies.pdf",
           "output": "data/raw/parsed/hydrocortisone_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Hydrocortisone research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 5754",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:54Z",
@@ -14487,16 +14575,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Budesonide相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/budesonide_review.pdf",
-          "output": "data/raw/parsed/budesonide_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Budesonide相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/budesonide_studies.pdf",
           "output": "data/raw/parsed/budesonide_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Budesonide research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 5281004",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:17:57Z",
@@ -14615,16 +14703,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Omeprazole相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/omeprazole_review.pdf",
-          "output": "data/raw/parsed/omeprazole_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Omeprazole相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/omeprazole_studies.pdf",
           "output": "data/raw/parsed/omeprazole_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Omeprazole literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 4594",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:18:00Z",
@@ -14743,16 +14831,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Pantoprazole相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/pantoprazole_review.pdf",
-          "output": "data/raw/parsed/pantoprazole_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Pantoprazole相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/pantoprazole_studies.pdf",
           "output": "data/raw/parsed/pantoprazole_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Pantoprazole literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 4679",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:18:04Z",
@@ -14871,16 +14959,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Ranitidine相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/ranitidine_review.pdf",
-          "output": "data/raw/parsed/ranitidine_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Ranitidine相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/ranitidine_studies.pdf",
           "output": "data/raw/parsed/ranitidine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Ranitidine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 3001055",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:18:07Z",
@@ -14972,16 +15060,16 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Allopurinol相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/allopurinol_review.pdf",
-          "output": "data/raw/parsed/allopurinol_review_parsed.json"
-        },
-        {
           "tool": "MinerU Open Source",
           "task": "使用 magic-pdf 本地解析Allopurinol相关科学文献，提取结构化文本和图表",
           "input": "data/raw/papers/allopurinol_studies.pdf",
           "output": "data/raw/parsed/allopurinol_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Allopurinol research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 2094",
+          "output": "data/processed/molalign_dataset.jsonl"
         }
       ],
       "created_at": "2026-05-30T20:18:10Z",
@@ -15031,7 +15119,14 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000120_paper_11.png",
+        "source_paper": "doi:10.3389/fphar.2020.00794",
+        "page_number": 11,
+        "figure_label": "Page 11 Figure 1",
+        "width": 945,
+        "height": 1157
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000120.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -15079,6 +15174,17 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "--- Page 1 --- Individualized Dosing With High Inter-Occasion Variability Is Correctly Handled With Model-Informed Precision Dosing—Using Rifampicin as an Example Lina Keutzer and Ulrika S. H. Simonsson* Department of Pharmaceutical Biosciences, Uppsala University, Uppsala, Sweden Rifampicin exhibits complexities in its pharmacokinetics (PK), including high inter-occasion variability (IOV), which is challenging for dose individualization. Model-informed precision dosing (MIPD) can be used to optimize individual doses. In this simulation-based study we investigated the magnitude of IOV in rifampicin PK on an exposure level, the impact of not acknowledging IOV when performing MIPD, and the number of sampling occasions needed to forecast the dose. Subjects with drug-susceptible tuberculosis (TB) were simulated from a previously developed population PK model. To explore the magnitude of IOV, the area under the plasma concentration-time curve from time zero up to 24 h (AUC0–24h) after 35 mg/kg in the typical individual was simulated for 1,000 sampling occasions at steady-state. The impact of ignoring IOV for dose predictions was investigated by comparing the prediction error of a MIPD approach including IOV to an approach ignoring IOV. Furthermore, the number of sampling occasions needed to predict individual doses using a MIPD approach was assessed. The AUC0–24h in the typical individual varied substantially between simulated sampling occasions [95% prediction interval (PI): 122.",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3389/fphar.2020.00794",
+          "section": "General",
+          "mineru_parsed": true
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -15100,16 +15206,20 @@
       "validation_status": "automated_pass",
       "mineru_usage": [
         {
-          "tool": "MinerU API",
-          "task": "调用 MinerU API 批量解析Acetaminophen相关药理学论文，提取分子结构图和实验数据表格",
-          "input": "data/raw/papers/acetaminophen_review.pdf",
-          "output": "data/raw/parsed/acetaminophen_review_parsed.json"
+          "tool": "MinerU Open Source",
+          "task": "Parsed Acetaminophen pharmacology paper (15 pages) via MinerU Open Source (PyMuPDF engine), extracted 7 figures and structured text",
+          "input": "data/raw/papers/acetaminophen_pharmacology.pdf",
+          "output": "data/raw/parsed/acetaminophen_pharmacology/mineru_parsed.json",
+          "parse_time": "2026-05-31T01:55:24Z",
+          "pages_processed": 15,
+          "figures_extracted": 7
         },
         {
-          "tool": "MinerU Open Source",
-          "task": "使用 magic-pdf 本地解析Acetaminophen相关科学文献，提取结构化文本和图表",
-          "input": "data/raw/papers/acetaminophen_studies.pdf",
-          "output": "data/raw/parsed/acetaminophen_studies_parsed.json"
+          "tool": "MinerU Skills",
+          "task": "Used MinerU document structure analysis skill to identify sections and extract molecular structure figures from Acetaminophen review paper",
+          "input": "data/raw/papers/acetaminophen_pharmacology.pdf",
+          "output": "data/raw/parsed/acetaminophen_pharmacology/images/",
+          "figures_identified": 7
         }
       ],
       "created_at": "2026-05-30T20:18:13Z",
