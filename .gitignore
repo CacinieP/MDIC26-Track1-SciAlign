@@ -14,19 +14,15 @@ build/
 data/raw/**/*.pdf
 data/raw/**/*.zip
 
-# Parsed markdown outputs (744K total, not code)
-data/raw/parsed_mineru_api/*.md
-# BUT keep the parsing log
-!data/raw/parsed_mineru_api/parsing_log.json
+# Parsed MinerU markdown outputs are part of the auditable dataset evidence.
 
 # Parsed paper outputs (images + intermediate JSON, 24MB)
-data/raw/parsed/*/images/
-data/raw/parsed/*/*.json
-!data/raw/parsed/*/parsing_log.json
+# Note: actual directory is data/raw/parsed_mineru_api/
+data/raw/parsed_mineru_api/images/
+data/raw/parsed_mineru_api/*.json
+!data/raw/parsed_mineru_api/parsing_log.json
 
-# Processed binary assets (too many files for git)
-data/processed/images/2d/*.png
-data/processed/models/3d/*.sdf
+# Processed 2D/3D assets are part of the multimodal dataset deliverable.
 
 # Keep processed JSON/JSONL deliverables tracked:
 #   data/processed/*.json

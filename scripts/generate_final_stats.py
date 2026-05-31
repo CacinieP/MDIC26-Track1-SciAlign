@@ -111,14 +111,14 @@ def compute_stats(records: list[dict]) -> dict:
     )
     tools_dist = _mineru_tools_distribution(records)
 
-    # Real MinerU API usage: records whose mineru_usage entries mention "MinerU API"
-    # (or contain a "task_id" key in any entry).
+    # Real MinerU API usage: records backed by a task_id or explicit API tool.
     api_real_count = 0
     for rec in records:
         for entry in _safe_get_nested(
             rec, "alignment_metadata", "mineru_usage", default=[]
         ):
-            if "task_id" in entry or "MinerU API" in entry.get("tool", ""):
+            tool = entry.get("tool", "")
+            if "task_id" in entry or tool in {"MinerU API", "MinerU Agent API"}:
                 api_real_count += 1
                 break
 

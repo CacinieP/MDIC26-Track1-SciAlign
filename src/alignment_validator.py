@@ -177,8 +177,8 @@ class AlignmentValidator:
             if not s2d.get("rdkit_generated"):
                 self.warnings.append("No RDKit-generated 2D image path")
 
-        if not modalities.get("structure_paper"):
-            self.warnings.append("No paper-sourced structure image (optional)")
+        # Paper-sourced images are a coverage metric, not a per-record
+        # requirement. Dataset-level stats report how many records have them.
 
     def _validate_metadata(self, record: dict):
         """验证元数据"""
@@ -195,8 +195,9 @@ class AlignmentValidator:
         if "validation_status" not in meta:
             self.warnings.append("Missing validation_status")
 
-        if not meta.get("mineru_usage"):
-            self.warnings.append("No MinerU usage recorded")
+        # Per-record MinerU evidence is optional. The competition requires the
+        # dataset construction process to use MinerU, but records sourced only
+        # from PubChem should keep an empty list instead of template evidence.
 
     def validate_dataset(self, records: List[dict]) -> Dict[str, Any]:
         """

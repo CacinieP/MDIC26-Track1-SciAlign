@@ -217,10 +217,13 @@ def compute_rdkit_props(smiles: str) -> Dict[str, Any]:
 
     mw = Descriptors.ExactMolWt(mol)
     logp = Descriptors.MolLogP(mol)
+    tpsa = rdMolDescriptors.CalcTPSA(mol)
     hbd = Descriptors.NumHDonors(mol)
     hba = Descriptors.NumHAcceptors(mol)
     rot = Descriptors.NumRotatableBonds(mol)
     ring_count = Descriptors.RingCount(mol)
+    heavy_atoms = mol.GetNumHeavyAtoms()
+    formal_charge = Chem.GetFormalCharge(mol)
 
     lipinski_violations = sum([mw > 500, logp > 5, hbd > 5, hba > 10])
 
@@ -231,13 +234,28 @@ def compute_rdkit_props(smiles: str) -> Dict[str, Any]:
 
     return {
         "exact_mass": round(mw, 4),
+        "molecular_weight": round(mw, 2),
+        "logp": round(logp, 2),
+        "tpsa": round(tpsa, 2),
         "num_h_donors": hbd,
         "num_h_acceptors": hba,
         "num_rotatable_bonds": rot,
+        "heavy_atoms": heavy_atoms,
         "ring_count": ring_count,
+        "formal_charge": formal_charge,
         "lipinski_violations": lipinski_violations,
         "qed_score": qed_score,
     }
+
+
+def canonicalize_smiles(smiles: str, *, isomeric: bool = True) -> str:
+    """Return RDKit canonical SMILES, falling back to the original value."""
+    if not smiles or not RDKIT_AVAILABLE:
+        return smiles
+    mol = Chem.MolFromSmiles(smiles)
+    if mol is None:
+        return smiles
+    return Chem.MolToSmiles(mol, isomericSmiles=isomeric)
 
 
 def generate_2d_image(smiles: str, output_path: str) -> bool:
@@ -331,6 +349,8 @@ def build_record(
         or pubchem_props.get("SMILES", "")
     )
     isomeric_smiles = pubchem_props.get("IsomericSMILES") or canonical_smiles
+    canonical_smiles = canonicalize_smiles(canonical_smiles)
+    isomeric_smiles = canonicalize_smiles(isomeric_smiles)
     inchi = pubchem_props.get("InChI", "")
     inchikey = pubchem_props.get("InChIKey", "")
 
@@ -338,18 +358,30 @@ def build_record(
     iupac_name = pubchem_props.get("IUPACName")
     mol_synonyms = synonyms[:20]
 
-    # ---- Physicochemical properties (PubChem) ------------------------------
-    mw = _safe_float(pubchem_props.get("MolecularWeight"), 0)
-    logp = _safe_float(pubchem_props.get("XLogP"))
-    tpsa = _safe_float(pubchem_props.get("TPSA"))
-    hbd = _safe_int(pubchem_props.get("HBondDonorCount"))
-    hba = _safe_int(pubchem_props.get("HBondAcceptorCount"))
-    rot = _safe_int(pubchem_props.get("RotatableBondCount"))
-    heavy = _safe_int(pubchem_props.get("HeavyAtomCount"))
-    charge = _safe_int(pubchem_props.get("Charge"), 0)
-
     # ---- RDKit computed properties -----------------------------------------
     rdkit_extra = compute_rdkit_props(canonical_smiles) if canonical_smiles else {}
+
+    # ---- Physicochemical properties ----------------------------------------
+    # Use RDKit as the canonical property standard for alignment consistency.
+    # PubChem values are used only as fallback when RDKit is unavailable.
+    mw = rdkit_extra.get("molecular_weight") or _safe_float(pubchem_props.get("MolecularWeight"), 0)
+    logp = rdkit_extra.get("logp") or _safe_float(pubchem_props.get("XLogP"))
+    tpsa = rdkit_extra.get("tpsa") or _safe_float(pubchem_props.get("TPSA"))
+    hbd = rdkit_extra.get("num_h_donors")
+    if hbd is None:
+        hbd = _safe_int(pubchem_props.get("HBondDonorCount"))
+    hba = rdkit_extra.get("num_h_acceptors")
+    if hba is None:
+        hba = _safe_int(pubchem_props.get("HBondAcceptorCount"))
+    rot = rdkit_extra.get("num_rotatable_bonds")
+    if rot is None:
+        rot = _safe_int(pubchem_props.get("RotatableBondCount"))
+    heavy = rdkit_extra.get("heavy_atoms")
+    if heavy is None:
+        heavy = _safe_int(pubchem_props.get("HeavyAtomCount"))
+    charge = rdkit_extra.get("formal_charge")
+    if charge is None:
+        charge = _safe_int(pubchem_props.get("Charge"), 0)
 
     # ---- Generate images ---------------------------------------------------
     img_2d_rel = f"images/2d/{record_id}.png"

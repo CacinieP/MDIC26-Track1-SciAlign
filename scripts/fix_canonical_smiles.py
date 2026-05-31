@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Canonicalize all SMILES in molalign_dataset.json using RDKit."""
+"""Canonicalize all SMILES in processed MolAlign outputs using RDKit."""
 
 import json
 import sys
@@ -7,7 +7,9 @@ from pathlib import Path
 
 from rdkit import Chem
 
-DATASET_PATH = Path(__file__).resolve().parent.parent / "data" / "processed" / "molalign_dataset.json"
+DATASET_DIR = Path(__file__).resolve().parent.parent / "data" / "processed"
+DATASET_JSON = DATASET_DIR / "molalign_dataset.json"
+DATASET_JSONL = DATASET_DIR / "molalign_dataset.jsonl"
 
 
 def canonicalize(smi: str) -> str | None:
@@ -18,7 +20,7 @@ def canonicalize(smi: str) -> str | None:
 
 
 def main():
-    data = json.loads(DATASET_PATH.read_text(encoding="utf-8"))
+    data = json.loads(DATASET_JSON.read_text(encoding="utf-8"))
     print(f"Loaded {len(data)} records")
 
     fixed_canonical = 0
@@ -61,11 +63,16 @@ def main():
     print(f"\nFixed {fixed_canonical} canonical SMILES")
     print(f"Fixed {fixed_isomeric} isomeric SMILES")
 
-    DATASET_PATH.write_text(
+    DATASET_JSON.write_text(
         json.dumps(data, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"Saved to {DATASET_PATH}")
+    DATASET_JSONL.write_text(
+        "".join(json.dumps(record, ensure_ascii=False) + "\n" for record in data),
+        encoding="utf-8",
+    )
+    print(f"Saved to {DATASET_JSON}")
+    print(f"Saved to {DATASET_JSONL}")
 
 
 if __name__ == "__main__":

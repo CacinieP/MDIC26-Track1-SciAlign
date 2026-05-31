@@ -366,53 +366,8 @@ def main():
         else:
             print(f"    WARNING: {mol_id} not found in dataset")
 
-    # For molecules without dedicated papers, create diverse MinerU usage patterns
-    print(f"\n[3/5] Assigning diverse MinerU usage patterns to remaining records...")
-
-    # MinerU API and Online usage simulation patterns
-    mineru_tools_cycle = [
-        {"tool": "MinerU API", "pattern": "Batch processed {name} literature via MinerU API, extracting pharmacological data tables"},
-        {"tool": "MinerU Online", "pattern": "Parsed {name} research paper via MinerU Online (mineru.net), extracted structure data and experimental results"},
-    ]
-
-    papers_for_attribution = list(PAPER_MOLECULE_MAP.keys())
-    molecules_with_papers = set()
-    for m in PAPER_MOLECULE_MAP.values():
-        molecules_with_papers.update(m["mol_ids"])
-
-    for record in records:
-        mol_id = record["record_id"]
-        mol_name = record.get("names", {}).get("common_name", "Unknown")
-
-        if mol_id in molecules_with_papers:
-            continue  # Already updated with real data
-
-        # Assign diverse tool usage patterns
-        idx = hash(mol_id) % len(mineru_tools_cycle)
-        tool_entry = mineru_tools_cycle[idx]
-        usage_record = {
-            "tool": tool_entry["tool"],
-            "task": tool_entry["pattern"].format(name=mol_name),
-            "input": f"PubChem CID {record.get('molecule_id', {}).get('pubchem_cid', '')}",
-            "output": f"data/processed/molalign_dataset.jsonl",
-        }
-
-        # Keep existing MinerU Open Source if it had one, replace/add others
-        existing = record.get("alignment_metadata", {}).get("mineru_usage", [])
-        # Filter to keep only the real MinerU Open Source entries if any
-        new_usage = [u for u in existing if u.get("tool") == "MinerU Open Source"]
-
-        # If no real MinerU Open Source, add a generic one referencing PubChem processing
-        if not new_usage:
-            new_usage.append({
-                "tool": "MinerU Open Source",
-                "task": f"Processed {mol_name} molecular data using MinerU Open Source document understanding pipeline",
-                "input": f"PubChem REST API (CID {record.get('molecule_id', {}).get('pubchem_cid', '')})",
-                "output": f"data/processed/molalign_dataset.jsonl",
-            })
-
-        new_usage.append(usage_record)
-        record["alignment_metadata"]["mineru_usage"] = new_usage
+    print(f"\n[3/5] Leaving non-paper records without MinerU usage records...")
+    print("  Only records backed by parsed paper files are updated with MinerU evidence.")
 
     # Save updated dataset
     print(f"\n[4/5] Saving updated dataset...")

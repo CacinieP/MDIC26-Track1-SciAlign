@@ -30,13 +30,13 @@ MolAlign/
 │   │   ├── dataset_stats.json        # 数据集统计
 │   │   ├── validation_report.json    # 验证报告
 │   │   ├── images/2d/                # 820 张 2D 分子结构图 (PNG)
-│   │   ├── images/paper/             # 35 张论文提取图片
+│   │   ├── images/paper/             # 论文提取图片文件（覆盖 33 条记录）
 │   │   └── models/3d/                # 799 个 3D 分子构象 (SDF)
 │   ├── samples/                      # 精选样例 (12条，含完整实体关系)
 │   │   ├── sample_dataset.jsonl
 │   │   └── sample_dataset.json
 │   └── raw/                          # 原始数据
-│       └── parsed_mineru_api/        # 12 篇真实 MinerU API 解析 Markdown 文件
+│       └── parsed_mineru_api/        # MinerU Agent API 日志与 10 篇成功解析 Markdown
 ├── src/
 │   ├── schema.py                     # JSON Schema 定义
 │   ├── molecule_processor.py         # 分子数据处理器 (RDKit + PubChem)
@@ -45,7 +45,7 @@ MolAlign/
 │   └── pipeline.py                   # Pipeline 主脚本
 ├── scripts/
 │   ├── molecule_db.py                # 分子目标数据库
-│   ├── expand_molecule_db.py         # 分子数据库扩展脚本 (120 → 1200+)
+│   ├── expand_molecule_db.py         # 分子数据库扩展脚本（可选历史脚本）
 │   ├── mineru_agent_parse.py         # MinerU Agent API 真实解析器
 │   ├── build_full_dataset.py         # 全量数据集构建脚本
 │   ├── enrich_expanded_dataset.py    # 统一数据增强脚本
@@ -76,23 +76,26 @@ pip install -r requirements.txt
 ### 生成样例数据
 
 ```bash
-# 全量数据集构建（1200+个分子，需要 RDKit + 网络连接 PubChem）
+# 全量数据集构建（820 个分子，需要 RDKit + 网络连接 PubChem）
 python scripts/build_full_dataset.py --output-dir data/processed
 
-# 扩展分子数据库（从120扩展到1200+）
+# 可选：扩展分子数据库（当前提交版本为 820 条）
 python scripts/expand_molecule_db.py
 
-# 使用 MinerU Agent API 解析论文（12篇真实论文）
+# 使用 MinerU Agent API 解析论文（12 个任务，10 个成功 Markdown）
 python scripts/mineru_agent_parse.py
 
 # 统一数据增强
 python scripts/enrich_expanded_dataset.py
 
-# 精选样例（12个分子，含完整实体关系和 MinerU 记录）
-python scripts/build_static_samples.py
+# 修复高优先级一致性问题并重建样例
+python scripts/repair_dataset_integrity.py
 
 # 验证数据集
-python scripts/validate_dataset.py --input data/processed/molalign_dataset.jsonl
+python scripts/validate_dataset.py --input data/processed/molalign_dataset.jsonl --report data/processed/validation_report.json
+
+# 重新生成统计
+python scripts/generate_final_stats.py
 ```
 
 ### 使用数据集
@@ -113,29 +116,28 @@ print(records[0]["smiles"]["canonical"])    # CC(=O)Oc1ccccc1C(=O)O
 
 ## 🔧 MinerU 工具链使用
 
-本数据集构建过程中使用了 MinerU 工具链的五种模式：
+本数据集构建过程中真实使用 **MinerU Agent API** 解析论文 PDF。为避免模板化或不可追溯记录，当前版本只在有 `task_id`、`markdown_url` 和本地 Markdown 输出证据的分子记录中填写 `alignment_metadata.mineru_usage`。
 
 | 工具 | 用途 | 使用范围 |
 |------|------|----------|
-| **MinerU Open Source** | 本地解析论文 PDF，提取分子结构图和文本 | 5篇真实论文（含120分子全覆盖） |
-| **MinerU API** | 批量处理 PubChem 数据，自动化属性提取 | 55 个分子 |
-| **MinerU Agent API** | 通过 Agent API 真实解析论文 PDF，获取结构化 Markdown | 12 篇论文，65 条真实 API 记录，约 726K 字符 |
-| **MinerU Skills** | 文档结构分析技能，段落识别与图片定位 | 5 篇论文 |
-| **MinerU Online** | 在线辅助解析和校验 | 60 个分子 |
+| **MinerU Agent API** | 解析开放获取论文 PDF，获取结构化 Markdown | 12 个提交任务，10 个成功，2 个失败；成功输出共 **597,454** 字符 |
+| **RDKit** | SMILES 标准化、2D/3D 结构生成、物化属性统一计算 | 820 条记录 |
+| **PubChem REST API** | 分子标识符、同义词、基础描述与公共属性来源 | 820 条记录 |
 
 详见 [技术报告 §5-§6](docs/technical_report.md)
 
 ## 🔬 MinerU Agent API 真实使用
 
-在数据集扩展过程中，我们通过 **MinerU Agent API** 真实解析了 **12 篇** 药物化学相关论文，获取高质量结构化 Markdown 输出：
+在数据集扩展过程中，我们通过 **MinerU Agent API** 提交了 **12 个** 药物化学相关论文解析任务，其中 **10 个成功、2 个失败**：
 
-- **解析论文数**: 12 篇开放获取论文（涵盖药物化学、分子药理学等领域）
+- **成功解析论文数**: 10 篇开放获取论文（涵盖药物化学、分子药理学等领域）
+- **失败任务**: `fluoxetine_ijms.pdf`、`vitamins_pharmaceuticals.pdf`（`markdown_url=null`、`content_length=0`）
 - **真实 API 调用**: 每个 API 请求提交真实任务 ID，获取完整解析结果
-- **总解析字符数**: 约 **726K 字符** 结构化 Markdown
-- **产生数据记录**: **65 条** 真实 API 解析记录，直接集成到数据集文本描述中
-- **解析文件存储**: `data/raw/parsed_mineru_api/` 目录保存完整解析 Markdown
+- **成功解析字符数**: **597,454 字符** 结构化 Markdown
+- **产生数据记录**: **9 条分子记录**含真实 MinerU 使用证据，**10 条文本描述**来自 MinerU 解析 Markdown
+- **解析文件存储**: `data/raw/parsed_mineru_api/` 保存 `parsing_log.json` 和 10 个 `.md` 输出
 
-使用的解析脚本为 `scripts/mineru_agent_parse.py`，每个论文对应一个独立的 MinerU Agent API 任务，解析后的 Markdown 保留了论文中的分子结构描述、药理数据和化学信息。
+使用的解析脚本为 `scripts/mineru_agent_parse.py`。修复与证据同步脚本为 `scripts/repair_dataset_integrity.py`，它会根据 `parsing_log.json` 只保留真实可追溯的 MinerU 记录。
 
 ## 📊 数据集统计
 
@@ -145,13 +147,13 @@ print(records[0]["smiles"]["canonical"])    # CC(=O)Oc1ccccc1C(=O)O
 | 覆盖类别 | **35** (NSAID、抗生素、抗癌药、靶向治疗、降压药、天然产物、抗病毒药、降糖药、抗抑郁药、神经递质、激素、抗真菌药、抗癫痫药、抗组胺药、阿片类镇痛药、利尿药、维生素、抗炎药、抗疟药、他汀类、氨基酸、抗帕金森药、麻醉剂、胃肠药、肌肉松弛剂、诊断试剂等) |
 | 2D 分子结构图 | **820** (100%) |
 | 3D 分子构象 | **799** (97.4%) |
-| 论文提取图片 | **33** (来自 12 篇论文，MinerU Agent API 真实解析) |
-| MinerU Agent API 解析 | **12 篇论文**，**726,110 字符** 结构化 Markdown，真实 task_id |
+| 论文提取图片 | **33 条记录**（35 个图像文件） |
+| MinerU Agent API 解析 | **12 个任务 / 10 个成功**，**597,454 字符** 结构化 Markdown，真实 task_id |
 | 实验生物活性 | **30 条** (PubChem curated data) |
-| 文本描述（中英文） | **820** (100% 中英双语，平均 2.0 条/分子) |
+| 文本描述（中英文） | **820** (100% 中英双语，平均 2.02 条/分子) |
 | 实体关系 | **820** (100%，平均 2.0 条/分子，类别→靶点映射) |
-| MinerU 使用记录 | **820** (100%，涵盖 5 种工具含真实 Agent API 调用) |
-| 验证通过率 | **819/820 (99.9%)** |
+| MinerU 使用记录 | **9 条分子记录**（10 个真实 Agent API 任务证据） |
+| 验证通过率 | **820/820 (100.0%)** |
 
 ## 📖 文档
 

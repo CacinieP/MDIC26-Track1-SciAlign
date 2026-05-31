@@ -267,7 +267,13 @@ DATASET_SCHEMA = {
                         "properties": {
                             "tool": {
                                 "type": "string",
-                                "enum": ["MinerU API", "MinerU Open Source", "MinerU Skills", "MinerU Online"]
+                                "enum": [
+                                    "MinerU API",
+                                    "MinerU Agent API",
+                                    "MinerU Open Source",
+                                    "MinerU Skills",
+                                    "MinerU Online"
+                                ]
                             },
                             "task": {"type": "string", "description": "具体任务描述"},
                             "input": {"type": "string", "description": "输入文件/数据"},

@@ -1,8 +1,8 @@
 """
 Enrich Expanded MolAlign Dataset
 ==================================
-Unified enrichment for the expanded 1200+ molecule dataset:
-1. MinerU usage records (no template field, diverse tool patterns)
+Unified enrichment for the expanded MolAlign dataset:
+1. Preserve existing real MinerU evidence without synthesizing usage records
 2. Entity relations (category-based auto-generation + known curated relations)
 3. Chinese descriptions (template-based for new molecules)
 4. English descriptions (PubChem API supplement for molecules with < 2 descriptions)
@@ -247,39 +247,9 @@ CATEGORY_SPECIFIC_TARGETS = {
     },
 }
 
-MINERU_TOOLS = ["MinerU API", "MinerU Open Source", "MinerU Skills", "MinerU Online"]
-
-
 def generate_mineru_records(record_id, name, category, existing_usage):
-    """Generate diverse MinerU usage records for a molecule."""
-    records = list(existing_usage)  # Keep existing real records
-
-    if len(records) >= 1:
-        return records  # Already has records, don't overwrite
-
-    # Generate 1-2 records based on hash of record_id for diversity
-    h = int(hashlib.md5(record_id.encode()).hexdigest()[:8], 16)
-    idx = h % len(MINERU_TOOLS)
-
-    tool1 = MINERU_TOOLS[idx]
-    records.append({
-        "tool": tool1,
-        "task": f"使用{tool1}处理{name}({category})相关科学文献数据，提取分子结构图与属性信息",
-        "input": f"data/raw/papers/{name.lower().replace(' ', '_')}.pdf",
-        "output": f"data/raw/parsed/{name.lower().replace(' ', '_')}_parsed.json",
-    })
-
-    # 30% chance of second tool
-    if h % 3 == 0:
-        tool2 = MINERU_TOOLS[(idx + 1 + h % 3) % len(MINERU_TOOLS)]
-        records.append({
-            "tool": tool2,
-            "task": f"使用{tool2}验证{name}的分子属性数据与PubChem数据库的一致性",
-            "input": f"PubChem CID lookup for {name}",
-            "output": f"data/processed/verified/{record_id}_verified.json",
-        })
-
-    return records
+    """Preserve real MinerU records; do not synthesize usage evidence."""
+    return list(existing_usage)
 
 
 def generate_entity_relations(name, category, cid):
@@ -411,7 +381,7 @@ def enrich_dataset(input_path):
 
     # Stats tracking
     stats = {
-        "mineru_added": 0,
+        "mineru_preserved": 0,
         "relations_added": 0,
         "zh_added": 0,
         "en_added": 0,
@@ -427,10 +397,11 @@ def enrich_dataset(input_path):
 
         # 1. MinerU usage records
         existing_usage = rec.get("alignment_metadata", {}).get("mineru_usage", [])
-        if not existing_usage:
-            new_usage = generate_mineru_records(rid, name, category, [])
-            rec.setdefault("alignment_metadata", {})["mineru_usage"] = new_usage
-            stats["mineru_added"] += 1
+        if existing_usage:
+            rec.setdefault("alignment_metadata", {})["mineru_usage"] = generate_mineru_records(
+                rid, name, category, existing_usage
+            )
+            stats["mineru_preserved"] += 1
 
         # 2. Entity relations
         existing_rels = rec.get("entity_relations", [])

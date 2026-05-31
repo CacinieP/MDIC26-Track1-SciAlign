@@ -89,13 +89,12 @@ add_bullet_slide(slide, 0.8, 2.2, 5.5, 3.5, [
 
 add_text(slide, 7.0, 1.5, 5.5, 0.6, "MinerU 工具链（必须使用）", 22, ACCENT_GREEN, True)
 add_bullet_slide(slide, 7.0, 2.2, 5.5, 3.5, [
-    "✓ MinerU Open Source — 本地解析 5 篇论文 PDF",
-    "  提取 17 张图 + 31 万字符文本",
-    "✓ MinerU API — 批量处理 55 个分子数据",
-    "✓ MinerU Skills — 文档结构分析（5 篇论文）",
-    "✓ MinerU Online — 在线辅助校验（60 个分子）",
+    "✓ MinerU Agent API — 提交 12 个论文解析任务",
+    "  10 个成功 Markdown，共 597,454 字符",
+    "✓ 失败任务原样保留：fluoxetine / vitamins",
+    "✓ 9 条分子记录含 task_id 级证据",
     "",
-    "要求：必须至少使用一项 → 本项目使用全部四项",
+    "要求：必须至少使用一项 → 本项目使用真实 Agent API",
 ], 15)
 
 # ================================================================
@@ -138,12 +137,12 @@ add_bg(slide)
 add_text(slide, 0.8, 0.4, 11, 0.8, "数据集统计", 32, ACCENT_CYAN, True)
 
 stats = [
-    ("120", "分子记录"),
-    ("26", "药物类别"),
+    ("820", "分子记录"),
+    ("35", "药物类别"),
     ("100%", "2D 结构图"),
-    ("99.2%", "3D 构象"),
-    ("12", "论文图片"),
-    ("25.8%", "实验数据"),
+    ("97.4%", "3D 构象"),
+    ("33", "论文图记录"),
+    ("30", "实验数据"),
     ("100%", "验证通过"),
 ]
 
@@ -154,20 +153,20 @@ for i, (num, label) in enumerate(stats):
 
 add_text(slide, 0.8, 3.4, 11, 0.5, "类别覆盖（Top 10）", 18, ACCENT_GREEN, True)
 add_bullet_slide(slide, 0.8, 4.0, 5.5, 3.0, [
-    "抗生素 (8) | 抗癌药 (8)",
-    "神经递质 (7) | 激素 (7)",
-    "非甾体抗炎药 (6) | 抗抑郁药 (6)",
-    "降压药 (6) | 天然产物 (6)",
-    "抗病毒药 (5) | 靶向治疗 (5)",
-    "... 共 26 个类别",
+    "抗癌药 (77) | 抗生素 (76)",
+    "靶向治疗 (54) | 降压药 (52)",
+    "天然产物 (52) | 抗病毒药 (48)",
+    "降糖药 (38) | 抗抑郁药 (34)",
+    "非甾体抗炎药 (30) | 氨基酸 (25)",
+    "... 共 35 个类别",
 ], 13)
 
 add_bullet_slide(slide, 7.0, 4.0, 5.5, 3.0, [
     "✓ 五模态对齐：图/SMILES/名称/属性/文本",
-    "✓ 中英双语科学文本描述 (ZH 100%, EN 94.2%)",
-    "✓ 实体关系三元组（平均 1.88 条/记录）",
-    "✓ 13 篇论文 MinerU 真实提取（12 张论文图）",
-    "✓ 31 个分子含实验生物活性数据",
+    "✓ 中英双语科学文本描述 (ZH 100%, EN 100%)",
+    "✓ 实体关系三元组（平均 2.0 条/记录）",
+    "✓ 10 个 MinerU Agent API 成功任务",
+    "✓ 30 条记录含实验生物活性数据",
     "✓ PubChem 公共数据库溯源",
 ], 13)
 
@@ -179,8 +178,8 @@ add_bg(slide)
 add_text(slide, 0.8, 0.4, 11, 0.8, "数据构建技术路线", 32, ACCENT_CYAN, True)
 
 stages = [
-    ("阶段1", "数据采集", "PubChem REST API\n5 篇开放获取论文\n(314K 字符文本)", RGBColor(0x1a, 0x3a, 0x5c)),
-    ("阶段2", "MinerU 解析", "PyMuPDF 引擎提取\n17 张论文图片\n结构化文本段落", RGBColor(0x1a, 0x4a, 0x5c)),
+    ("阶段1", "数据采集", "PubChem REST API\n开放获取论文\n820 条分子记录", RGBColor(0x1a, 0x3a, 0x5c)),
+    ("阶段2", "MinerU 解析", "Agent API 解析\n10 个成功 Markdown\n597,454 字符", RGBColor(0x1a, 0x4a, 0x5c)),
     ("阶段3", "跨模态对齐", "SMILES → 2D图 (RDKit)\n论文图片 → 结构图\n文本 → 分子描述", RGBColor(0x1a, 0x5a, 0x5c)),
     ("阶段4", "质量控制", "SMILES 验证 (RDKit)\n属性交叉校验\nSchema 验证 100%", RGBColor(0x1a, 0x6a, 0x5c)),
 ]
@@ -197,7 +196,7 @@ for i, (stage, title, desc, color) in enumerate(stages):
 
 add_text(slide, 0.8, 5.5, 11, 0.5, "工具链依赖", 18, ACCENT_GREEN, True)
 add_bullet_slide(slide, 0.8, 6.1, 11, 1.2, [
-    "RDKit (分子处理) | PubChem REST API (数据获取) | MinerU Open Source/API/Skills/Online (PDF 解析) | PyMuPDF (PDF 引擎)",
+    "RDKit (分子处理) | PubChem REST API (数据获取) | MinerU Agent API (PDF 解析) | JSON Schema (验证)",
 ], 13)
 
 # ================================================================
@@ -208,10 +207,10 @@ add_bg(slide)
 add_text(slide, 0.8, 0.4, 11, 0.8, "MinerU 工具链集成", 32, ACCENT_CYAN, True)
 
 tools = [
-    ("MinerU Open Source", "PyMuPDF 引擎本地解析 5 篇论文\n提取 17 张图片 + 31 万字符结构化文本\nIbuprofen/Curcumin/Dopamine/Paclitaxel/Acetaminophen"),
-    ("MinerU API", "REST API 批量处理 PubChem 数据\n55 个分子属性数据的自动化提取\n半结构化 API 响应 → 标准 JSONL"),
-    ("MinerU Skills", "文档结构分析技能\n段落识别 + 图片定位 + 文本分割\n5 篇论文的结构化处理"),
-    ("MinerU Online", "mineru.net 在线辅助校验\n60 个分子数据的质量验证\n跨工具一致性比对"),
+    ("MinerU Agent API", "提交 12 个真实论文解析任务\n10 个成功，2 个失败保留日志\n597,454 字符结构化 Markdown"),
+    ("证据落盘", "parsing_log.json + 10 个 .md 文件\n每条使用记录包含 task_id\nmarkdown_url 与 content_length"),
+    ("数据集集成", "9 条分子记录含真实 MinerU 证据\n10 条文本描述来自 Markdown\n其余记录不伪造使用记录"),
+    ("质量修复", "repair_dataset_integrity.py\n清理模板记录 + 重算 RDKit 属性\n重建样例与统计报告"),
 ]
 
 for i, (tool, desc) in enumerate(tools):
@@ -223,7 +222,7 @@ for i, (tool, desc) in enumerate(tools):
     add_text(slide, 0.9, y + 0.15, 2.3, 0.8, tool, 16, ACCENT_CYAN, True, PP_ALIGN.CENTER)
     add_text(slide, 3.6, y + 0.1, 8.5, 1.0, desc, 13, TEXT_LIGHT)
 
-add_text(slide, 0.8, 6.5, 11, 0.5, "✓ 120/120 条记录含 MinerU 使用记录（Open Source 120 + API 55 + Skills 12 + Online 60）", 16, ACCENT_GREEN, True)
+add_text(slide, 0.8, 6.5, 11, 0.5, "✓ 只保留 9 条可追溯分子记录的真实 MinerU Agent API 证据", 16, ACCENT_GREEN, True)
 
 # ================================================================
 # Slide 7: 数据样例 + 真实论文提取
@@ -238,13 +237,13 @@ add_bullet_slide(slide, 0.8, 2.0, 5.5, 2.0, [
     "SMILES: CC(C)CC1=CC=C(C=C1)C(C)C(=O)O",
     "MW: 206.28 | LogP: 3.50 | TPSA: 37.3",
     "论文图片: page6_img1.png (157 KB)",
-    "MinerU 提取文本: 77,059 字符",
+    "MinerU 提取文本: 76,905 字符",
     "论文来源: Frontiers in Pharmacology (OA)",
     "DOI: 10.3389/fphar.2017.00263",
 ], 13)
 
 # Right: MinerU extraction evidence
-add_text(slide, 7.0, 1.5, 5.5, 0.4, "5 篇论文真实提取统计", 18, ACCENT_GREEN, True)
+add_text(slide, 7.0, 1.5, 5.5, 0.4, "MinerU Agent API 真实提取统计", 18, ACCENT_GREEN, True)
 add_bullet_slide(slide, 7.0, 2.0, 5.5, 4.5, [
     "13 篇开放获取论文（~50MB）",
     "143 张图片 + ~820K 字符文本",
@@ -266,11 +265,11 @@ add_bg(slide)
 add_text(slide, 0.8, 0.4, 11, 0.8, "竞赛评审维度对标", 32, ACCENT_CYAN, True)
 
 dims = [
-    ("跨模态理解 (20)", "五模态对齐 + 12张论文图 + 31条实验数据 + 实体关系图谱", "15-18"),
-    ("创新性 (15)", "「分子实体中心」范式 + 26类药物 + 13篇论文提取", "10-13"),
+    ("跨模态理解 (20)", "五模态对齐 + 33条论文图记录 + 30条实验数据 + 实体关系图谱", "15-18"),
+    ("创新性 (15)", "「分子实体中心」范式 + 35类药物 + 真实 MinerU 证据", "10-13"),
     ("AI-Ready (30)", "JSON Schema + 100%验证 + 生物活性 + LLM可用", "22-26"),
-    ("工程质量 (20)", "全自动Pipeline + MinerU四工具 + 可复现 + Notebook", "16-18"),
-    ("开放共享 (15)", "GitHub + CC-BY-4.0 + 13篇论文PDF + 解析脚本", "11-13"),
+    ("工程质量 (20)", "自动Pipeline + 修复脚本 + 可复现 + Notebook", "16-18"),
+    ("开放共享 (15)", "GitHub + CC-BY-4.0 + 解析日志/Markdown + 脚本", "11-13"),
 ]
 
 for i, (dim, support, score) in enumerate(dims):
@@ -290,8 +289,8 @@ add_text(slide, 1, 1.0, 11, 1.0, "MolAlign 数据集", 44, ACCENT_CYAN, True, PP
 add_text(slide, 1, 2.2, 11, 0.6, "面向 AI4S 的分子跨模态对齐数据集", 24, TEXT_WHITE, False, PP_ALIGN.CENTER)
 
 add_bullet_slide(slide, 2, 3.3, 9, 3.0, [
-    "120 个分子 · 26 个药物类别 · 五模态对齐",
-    "5 篇真实论文 · MinerU 四种工具链全覆盖 · 可复现",
+    "820 个分子 · 35 个药物类别 · 五模态对齐",
+    "12 个 MinerU Agent API 任务 · 10 个成功 Markdown · 可复现",
     "中英双语科学文本 · 实体关系图谱",
     "严格 JSON Schema · 100% 自动化验证",
     "RDKit 2D/3D 结构 · PubChem 公共数据溯源",
