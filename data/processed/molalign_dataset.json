@@ -3,7 +3,7 @@
     "record_id": "MOL-000001",
     "molecule_id": {
       "pubchem_cid": 2244,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL25",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -64,7 +64,24 @@
         "lipinski_violations": 0,
         "qed_score": 0.5501
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "COX-1",
+            "value": "5.6",
+            "unit": "uM",
+            "source": "doi:10.1021/jm00103a003"
+          },
+          {
+            "assay_type": "IC50",
+            "target": "COX-2",
+            "value": "210",
+            "unit": "uM",
+            "source": "doi:10.1021/jm00103a003"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -88,6 +105,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "mechanism_of_action",
+        "content": "Acetylsalicylic acid is a member of the class of benzoic acids that is salicylic acid in which the hydrogen that is attached to the phenolic hydroxy group has been replaced by an acetoxy group. A non-steroidal anti-inflammatory drug with cyclooxygenase inhibitor activity. It has a role as a geroprotector, a non-steroidal anti-inflammatory drug, a non-narcotic analgesic, an antipyretic, a prostaglandin antagonist, an anticoagulant, a platelet aggregation inhibitor, a cyclooxygenase 2 inhibitor, a cyclooxygenase 1 inhibitor, a teratogenic agent, a plant activator, an EC 1.1.1.188 (prostaglandin-F synthase) inhibitor and a drug allergen. It is a member of phenyl acetates, a member of benzoic acids and a member of salicylates. It is functionally related to a salicylic acid. It is a conjugate acid of an acetylsalicylate.",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 2244",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -145,7 +172,7 @@
     "record_id": "MOL-000002",
     "molecule_id": {
       "pubchem_cid": 3672,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL521",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -213,7 +240,24 @@
         "lipinski_violations": 0,
         "qed_score": 0.8216
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "COX-1",
+            "value": "6.7",
+            "unit": "uM",
+            "source": "doi:10.1002/cmdc.201600507"
+          },
+          {
+            "assay_type": "IC50",
+            "target": "COX-2",
+            "value": "43",
+            "unit": "uM",
+            "source": "doi:10.1002/cmdc.201600507"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -301,7 +345,7 @@
     "record_id": "MOL-000003",
     "molecule_id": {
       "pubchem_cid": 1302,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL12952",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -362,7 +406,24 @@
         "lipinski_violations": 0,
         "qed_score": 0.8811
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "COX-1",
+            "value": "2.2",
+            "unit": "uM",
+            "source": "doi:10.1002/cmdc.201600507"
+          },
+          {
+            "assay_type": "IC50",
+            "target": "COX-2",
+            "value": "18",
+            "unit": "uM",
+            "source": "doi:10.1002/cmdc.201600507"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -435,7 +496,7 @@
     "record_id": "MOL-000004",
     "molecule_id": {
       "pubchem_cid": 3033,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL139",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -496,7 +557,24 @@
         "lipinski_violations": 0,
         "qed_score": 0.8807
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "COX-1",
+            "value": "1.57",
+            "unit": "uM",
+            "source": "doi:10.1002/cmdc.201600507"
+          },
+          {
+            "assay_type": "IC50",
+            "target": "COX-2",
+            "value": "0.84",
+            "unit": "uM",
+            "source": "doi:10.1002/cmdc.201600507"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -563,7 +641,7 @@
     "record_id": "MOL-000005",
     "molecule_id": {
       "pubchem_cid": 2662,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL118",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -624,7 +702,24 @@
         "lipinski_violations": 0,
         "qed_score": 0.7541
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "COX-2",
+            "value": "0.04",
+            "unit": "uM",
+            "source": "doi:10.1002/cmdc.201600507"
+          },
+          {
+            "assay_type": "IC50",
+            "target": "COX-1",
+            "value": "15",
+            "unit": "uM",
+            "source": "doi:10.1002/cmdc.201600507"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -691,7 +786,7 @@
     "record_id": "MOL-000006",
     "molecule_id": {
       "pubchem_cid": 3715,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL6",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -819,7 +914,7 @@
     "record_id": "MOL-000007",
     "molecule_id": {
       "pubchem_cid": 5904,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL29",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -880,7 +975,24 @@
         "lipinski_violations": 0,
         "qed_score": 0.7978
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "MIC",
+            "target": "Staphylococcus aureus",
+            "value": "0.03",
+            "unit": "ug/mL",
+            "source": "doi:10.1128/AAC.00171-20"
+          },
+          {
+            "assay_type": "MIC",
+            "target": "Streptococcus pyogenes",
+            "value": "0.015",
+            "unit": "ug/mL",
+            "source": "doi:10.1128/AAC.00171-20"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -953,7 +1065,7 @@
     "record_id": "MOL-000008",
     "molecule_id": {
       "pubchem_cid": 33613,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1082",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -1081,7 +1193,7 @@
     "record_id": "MOL-000009",
     "molecule_id": {
       "pubchem_cid": 2764,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL8",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -1142,7 +1254,24 @@
         "lipinski_violations": 0,
         "qed_score": 0.8932
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "MIC",
+            "target": "E. coli",
+            "value": "0.015",
+            "unit": "ug/mL",
+            "source": "doi:10.1128/AAC.00171-20"
+          },
+          {
+            "assay_type": "MIC",
+            "target": "Pseudomonas aeruginosa",
+            "value": "0.5",
+            "unit": "ug/mL",
+            "source": "doi:10.1128/AAC.00171-20"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -1300,6 +1429,26 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "4-(Dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-3,4,4a,5,5a,6,12,12a-octahydrotetracene-2-carboximidic acid",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 54671203",
+          "mineru_parsed": false
+        },
+        "language": "en"
+      },
+      {
+        "type": "mechanism_of_action",
+        "content": "Doxycycline is tetracycline in which the 5beta-hydrogen is replaced by a hydroxy group, while the 6alpha-hydroxy group is replaced by hydrogen. A semi-synthetic tetracycline antibiotic, it is used to inhibit bacterial protein synthesis and treat non-gonococcal urethritis and cervicitis, exacerbations of bronchitis in patients with chronic obstructive pulmonary disease (COPD), and adult periodontitis. It has a role as a geroprotector, an antibacterial drug, an antimalarial, an immunomodulator and an anti-inflammatory agent.",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 54671203",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -1349,7 +1498,7 @@
     "record_id": "MOL-000011",
     "molecule_id": {
       "pubchem_cid": 447043,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL529",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -1483,7 +1632,7 @@
     "record_id": "MOL-000012",
     "molecule_id": {
       "pubchem_cid": 14969,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL262777",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -1605,7 +1754,7 @@
     "record_id": "MOL-000013",
     "molecule_id": {
       "pubchem_cid": 3467,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL329592",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -1722,7 +1871,7 @@
     "record_id": "MOL-000014",
     "molecule_id": {
       "pubchem_cid": 4173,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL137",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -1807,6 +1956,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "mechanism_of_action",
+        "content": "Metronidazole is a member of the class of imidazoles substituted at C-1, -2 and -5 with 2-hydroxyethyl, nitro and methyl groups respectively. It has activity against anaerobic bacteria and protozoa, and has a radiosensitising effect on hypoxic tumour cells. It may be given by mouth in tablets, or as the benzoate in an oral suspension. The hydrochloride salt can be used in intravenous infusions. Metronidazole is a prodrug and is selective for anaerobic bacteria due to their ability to intracellularly reduce the nitro group of metronidazole to give nitroso-containing intermediates. These can covalently bind to DNA, disrupting its helical structure, inducing DNA strand breaks and inhibiting bacterial nucleic acid synthesis, ultimately resulting in bacterial cell death. It has a role as a radiosensitizing agent, an antiamoebic agent, an antimicrobial agent, an antiparasitic agent, a xenobiotic, an antibacterial drug, a prodrug, an antitrichomonal drug and an environmental contaminant. It is a primary alcohol, a member of imidazoles and a C-nitro compound. It is a conjugate base of a metronidazole(1+).",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 4173",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -1850,7 +2009,7 @@
     "record_id": "MOL-000015",
     "molecule_id": {
       "pubchem_cid": 3976,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL312487",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -1911,7 +2070,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.889
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "HIV-1 protease",
+            "value": "0.00015",
+            "unit": "uM",
+            "source": "doi:10.1021/jm950525y"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -1984,7 +2153,7 @@
     "record_id": "MOL-000016",
     "molecule_id": {
       "pubchem_cid": 65028,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1229",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -2112,7 +2281,7 @@
     "record_id": "MOL-000017",
     "molecule_id": {
       "pubchem_cid": 2022,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL184",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -2213,7 +2382,7 @@
     "record_id": "MOL-000018",
     "molecule_id": {
       "pubchem_cid": 121304016,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL4065616",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -2335,7 +2504,7 @@
     "record_id": "MOL-000019",
     "molecule_id": {
       "pubchem_cid": 35370,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL129",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -2420,6 +2589,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "mechanism_of_action",
+        "content": "Zidovudine is a pyrimidine 2',3'-dideoxyribonucleoside compound having a 3'-azido substituent and thymine as the nucleobase. It has a role as an antimetabolite, an antiviral drug and a HIV-1 reverse transcriptase inhibitor. It is an azide and a pyrimidine 2',3'-dideoxyribonucleoside.",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 35370",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -2463,7 +2642,7 @@
     "record_id": "MOL-000020",
     "molecule_id": {
       "pubchem_cid": 2733526,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL83",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -2548,6 +2727,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "mechanism_of_action",
+        "content": "Tamoxifen is a stilbenoid and a tertiary amino compound. It has a role as an antineoplastic agent, an EC 2.7.11.13 (protein kinase C) inhibitor, an angiogenesis inhibitor, a bone density conservation agent, an estrogen receptor modulator, an estrogen receptor antagonist, an estrogen antagonist and an EC 1.2.3.1 (aldehyde oxidase) inhibitor. It derives from a hydride of a stilbene.",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 2733526",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -2591,7 +2780,7 @@
     "record_id": "MOL-000021",
     "molecule_id": {
       "pubchem_cid": 36314,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL428647",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -2659,7 +2848,24 @@
         "lipinski_violations": 2,
         "qed_score": 0.1298
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "MCF-7 (breast cancer)",
+            "value": "0.004",
+            "unit": "uM",
+            "source": "doi:10.3389/fphar.2019.01330"
+          },
+          {
+            "assay_type": "IC50",
+            "target": "A549 (lung cancer)",
+            "value": "0.01",
+            "unit": "uM",
+            "source": "doi:10.3389/fphar.2019.01330"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -2692,6 +2898,16 @@
           "reference": "doi:10.3389/fphar.2019.01330",
           "section": "Reviewed by:",
           "mineru_parsed": true
+        },
+        "language": "en"
+      },
+      {
+        "type": "mechanism_of_action",
+        "content": "Paclitaxel is a tetracyclic diterpenoid isolated originally from the bark of the Pacific yew tree, Taxus brevifolia. It is a mitotic inhibitor used in cancer chemotherapy. Note that the use of the former generic name 'taxol' is now limited, as Taxol is a registered trade mark. It has a role as a metabolite, an antineoplastic agent, a microtubule-stabilising agent and a human metabolite. It is a taxane diterpenoid and a tetracyclic diterpenoid. It is functionally related to a baccatin III.",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 36314",
+          "mineru_parsed": false
         },
         "language": "en"
       }
@@ -2747,7 +2963,7 @@
     "record_id": "MOL-000022",
     "molecule_id": {
       "pubchem_cid": 126941,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL34259",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -2808,7 +3024,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.2947
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "DHFR",
+            "value": "0.01",
+            "unit": "uM",
+            "source": "doi:10.1016/j.chembiol.2004.08.018"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -2832,6 +3058,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "mechanism_of_action",
+        "content": "Methotrexate is a member of pteridines, a monocarboxylic acid amide and a dicarboxylic acid. It has a role as an antimetabolite, an antineoplastic agent, an immunosuppressive agent, an antirheumatic drug, a dermatologic drug, an EC 1.5.1.3 (dihydrofolate reductase) inhibitor, an abortifacient and a DNA synthesis inhibitor. It is functionally related to a L-glutamic acid. It is a conjugate acid of a methotrexate(1-).",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 126941",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -2875,7 +3111,7 @@
     "record_id": "MOL-000023",
     "molecule_id": {
       "pubchem_cid": 31703,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL53463",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -2912,7 +3148,14 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000023_paper_8.png",
+        "source_paper": "doi:10.3389/fphar.2019.01428",
+        "page_number": 8,
+        "figure_label": "Page 8 Figure 1",
+        "width": 1594,
+        "height": 1607
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000023.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -2960,6 +3203,17 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "--- Page 1 ---\n1\nEdited by:\nZhouguang Wang,\nAlbert Einstein College of Medicine,\nUnited States\nReviewed by:\nYingnyu Gao,\nMarshall University, United States \nDinghong Zhang,\nUniversity of California,\nSan Diego, United States\n*Correspondence:\nJian Xiao \nxfxj2000@126.com \nYanqing Wu \nyqwu220946@yeah.net \nJunming Ye \nyjm7798@sina.com\n†These authors have contributed \nequally to this work\nSpecialty section:\nThis article was submitted to\n Translational Pharmacology,\n a section of the journal\n Frontiers in Pharmacology\nReceived: 03 September 2019\nAccepted: 08 November 2019\nPublished: 02 December 2019\nCitation:\nZhong X, Wang B, Zhang G, Yuan Y, \nHu X, Xiong J, Zheng P, Liu Y, \nXu K, Xiao J, Wu Y and Ye J (2019) \nAutophagy Activation Is Involved \nin Acidic Fibroblast Growth Factor \nAmeliorating Parkinson’s Disease via \nRegulating Tribbles Homologue 3.\n Front. Pharmacol. 10:1428.\n doi: 10.3389/fphar.2019.01428\nAutophagy Activation Is Involved \nin Acidic Fibroblast Growth Factor \nAmeliorating Parkinson’s Disease via \nRegulating Tribbles Homologue 3\nXingfeng Zhong 1,2,†, Beini Wang 3†, Guanyinsheng Zhang 1†, Yuan Yuan 3, Xiaoli Hu 1, \nJun Xiong 3, Peipei Zheng 3, Yaqian Liu 3, Ke Xu 4, Jian Xiao 3*, Yanqing Wu 4* and Junming Ye 1*\n1 Department of Anesthesia, The First Affiliated Hospital, Gannan Medical University, Ganzhou, China, 2 Department of \nAnesthesia, Affiliated Hospital of Guizhou Medical University, Guiyang, China, 3 Molecular Pharmacology Research Center, \nSchool of Pharmaceuti",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3389/fphar.2019.01428",
+          "section": "extracted text",
+          "mineru_parsed": true
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -2997,6 +3251,12 @@
           "task": "Parsed Doxorubicin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
           "input": "PubChem CID 31703",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Doxorubicin paper (13 pages)",
+          "input": "data/raw/papers/doxorubicin_anticancer.pdf",
+          "output": "data/raw/parsed/doxorubicin_anticancer/images/"
         }
       ],
       "created_at": "2026-05-30T20:12:55Z",
@@ -3131,7 +3391,7 @@
     "record_id": "MOL-000025",
     "molecule_id": {
       "pubchem_cid": 3385,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL185",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -3216,6 +3476,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "mechanism_of_action",
+        "content": "5-fluorouracil is a nucleobase analogue that is uracil in which the hydrogen at position 5 is replaced by fluorine. It is an antineoplastic agent which acts as an antimetabolite - following conversion to the active deoxynucleotide, it inhibits DNA synthesis (by blocking the conversion of deoxyuridylic acid to thymidylic acid by the cellular enzyme thymidylate synthetase) and so slows tumour growth. It has a role as a radiosensitizing agent, an antimetabolite, an antineoplastic agent, a xenobiotic, an immunosuppressive agent and an environmental contaminant. It is an organofluorine compound and a nucleobase analogue. It is functionally related to a uracil.",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 3385",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -3259,7 +3529,7 @@
     "record_id": "MOL-000026",
     "molecule_id": {
       "pubchem_cid": 5291,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL941",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -3320,7 +3590,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.3894
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "BCR-ABL",
+            "value": "0.1",
+            "unit": "uM",
+            "source": "doi:10.1056/NEJM200105103441902"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -3387,7 +3667,7 @@
     "record_id": "MOL-000027",
     "molecule_id": {
       "pubchem_cid": 2907,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL88",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -3472,6 +3752,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "Cyclophosphamide is a phosphorodiamide that is 1,3,2-oxazaphosphinan-2-amine 2-oxide substituted by two 2-chloroethyl groups at the amino nitrogen atom. It has a role as an alkylating agent, an antineoplastic agent, a xenobiotic, an immunosuppressive agent, an antirheumatic drug, a carcinogenic agent, an environmental contaminant and a drug allergen. It is a phosphorodiamide, an organochlorine compound and a nitrogen mustard.",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 2907",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -3515,7 +3805,7 @@
     "record_id": "MOL-000028",
     "molecule_id": {
       "pubchem_cid": 123631,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL939",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -3576,7 +3866,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.5179
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "EGFR",
+            "value": "0.033",
+            "unit": "uM",
+            "source": "doi:10.1016/S1470-2045(10)70198-5"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -3643,7 +3943,7 @@
     "record_id": "MOL-000029",
     "molecule_id": {
       "pubchem_cid": 176870,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL553",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -3771,7 +4071,7 @@
     "record_id": "MOL-000030",
     "molecule_id": {
       "pubchem_cid": 216239,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1336",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -3899,7 +4199,7 @@
     "record_id": "MOL-000031",
     "molecule_id": {
       "pubchem_cid": 5329102,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL535",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -4027,7 +4327,7 @@
     "record_id": "MOL-000032",
     "molecule_id": {
       "pubchem_cid": 11626560,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL601719",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -4155,7 +4455,7 @@
     "record_id": "MOL-000033",
     "molecule_id": {
       "pubchem_cid": 4091,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1431",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -4192,7 +4492,14 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000033_paper_7.jpeg",
+        "source_paper": "doi:10.3389/fendo.2020.00550",
+        "page_number": 7,
+        "figure_label": "Page 7 Figure 1",
+        "width": 1772,
+        "height": 1079
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000033.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -4216,7 +4523,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.2819
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "Mitochondrial complex I",
+            "value": "7500",
+            "unit": "uM",
+            "source": "doi:10.3390/pharmaceutics1502067"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -4240,6 +4557,28 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "--- Page 1 ---\nCitation: Tello, P.; Calero, N.; Santos,\nJ.; Trujillo-Cayado, L.A. Development\nof Avocado and Lemon Oil Emulgels\nBased on Natural Products:\nPhycocyanin and Pectin.\nPharmaceutics 2023, 15, 2067.\nhttps://doi.org/10.3390/\npharmaceutics15082067\nAcademic Editors: Neal M. Davies\nand Arunporn Itharat\nReceived: 30 June 2023\nRevised: 24 July 2023\nAccepted: 27 July 2023\nPublished: 1 August 2023\nCopyright:\n© 2023 by the authors.\nLicensee MDPI, Basel, Switzerland.\nThis article is an open access article\ndistributed\nunder\nthe\nterms\nand\nconditions of the Creative Commons\nAttribution (CC BY) license (https://\ncreativecommons.org/licenses/by/\n4.0/).\npharmaceutics\nArticle\nDevelopment of Avocado and Lemon Oil Emulgels Based on\nNatural Products: Phycocyanin and Pectin\nPatricia Tello 1, Nuria Calero 2,*\n, Jenifer Santos 3,*\nand Luis A. Trujillo-Cayado 1\n1\nDepartamento de Ingeniería Química, Escuela Politécnica Superior, Universidad de Sevilla, c/Virgen de\nÁfrica 7, E41011 Sevilla, Spain; pattelriv@alum.us.es (P.T.); ltrujillo@us.es (L.A.T.-C.)\n2\nDepartamento de Ingeniería Química, Facultad de Química, Universidad de Sevilla, c/Profesor García\nGonzález S/N, E41012 Sevilla, Spain\n3\nFacultad de Ciencias de la Salud, Universidad Loyola Andalucía, Avda. de las Universidades s/n, Dos\nHermanas, E41703 Sevilla, Spain\n*\nCorrespondence: nuriacalero@us.es (N.C.); jsgarcia@uloyola.es (J.S.)\nAbstract: Phycocyanin (PC), a natural product obtained from algae, is attracting attention due to its\nhe",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3390/pharmaceutics1502067",
+          "section": "extracted text",
+          "mineru_parsed": true
+        },
+        "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "--- Page 1 ---\nORIGINAL RESEARCH\npublished: 11 August 2020\ndoi: 10.3389/fendo.2020.00550\nFrontiers in Endocrinology | www.frontiersin.org\n1\nAugust 2020 | Volume 11 | Article 550\nEdited by:\nSarah Glastras,\nRoyal North Shore Hospital, Australia\nReviewed by:\nAlberto Camacho-Morales,\nAutonomous University of Nuevo\nLeón, Mexico\nMa. Cecilia Opazo,\nAndres Bello University, Chile\n*Correspondence:\nClint Gray\nclint.gray@otago.ac.nz\nSpecialty section:\nThis article was submitted to\nTranslational Endocrinology,\na section of the journal\nFrontiers in Endocrinology\nReceived: 09 April 2020\nAccepted: 06 July 2020\nPublished: 11 August 2020\nCitation:\nSmith EVL, Dyson RM, Berry MJ and\nGray C (2020) Fructose Consumption\nDuring Pregnancy Inﬂuences Milk\nLipid Composition and Offspring Lipid\nProﬁles in Guinea Pigs.\nFront. Endocrinol. 11:550.\ndoi: 10.3389/fendo.2020.00550\nFructose Consumption During\nPregnancy Inﬂuences Milk Lipid\nComposition and Offspring Lipid\nProﬁles in Guinea Pigs\nErin Vanessa LaRae Smith 1,2, Rebecca Maree Dyson 1,2, Mary Judith Berry 1,2 and\nClint Gray 1,2*\n1 Department of Paediatrics and Child Health, University of Otago, Wellington, New Zealand, 2 Centre for Translational\nPhysiology, University of Otago, Wellington, New Zealand\nExcess dietary fructose is a major public health concern (1–4). Evidence shows\nincreased fructose intake can cause insulin resistance, hepatic de novo lipogenesis,\nhypertriglyceridemia, obesity and non-alcoholic fatty liver disease (NAFLD) (5–9).\nHowever",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3389/fendo.2020.00550",
+          "section": "extracted text",
+          "mineru_parsed": true
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -4277,6 +4616,12 @@
           "task": "Parsed Metformin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
           "input": "PubChem CID 4091",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Metformin paper (11 pages)",
+          "input": "data/raw/papers/metformin_pharmaceutics.pdf",
+          "output": "data/raw/parsed/metformin_pharmaceutics/images/"
         }
       ],
       "created_at": "2026-05-30T20:13:25Z",
@@ -4289,7 +4634,7 @@
     "record_id": "MOL-000034",
     "molecule_id": {
       "pubchem_cid": 3488,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL472",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -4417,7 +4762,7 @@
     "record_id": "MOL-000035",
     "molecule_id": {
       "pubchem_cid": 4369359,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1422",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -4539,7 +4884,7 @@
     "record_id": "MOL-000036",
     "molecule_id": {
       "pubchem_cid": 4829,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL595",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -4624,6 +4969,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "mechanism_of_action",
+        "content": "Pioglitazone is a member of the class of thiazolidenediones that is 1,3-thiazolidine-2,4-dione substituted by a benzyl group at position 5 which in turn is substituted by a 2-(5-ethylpyridin-2-yl)ethoxy group at position 4 of the phenyl ring. It exhibits hypoglycemic activity. It has a role as a ferroptosis inhibitor, a geroprotector, an antidepressant, a hypoglycemic agent, a xenobiotic, an insulin-sensitizing drug, a PPARgamma agonist, an EC 2.7.1.33 (pantothenate kinase) inhibitor, a cardioprotective agent and an EC 6.2.1.3 (long-chain-fatty-acid--CoA ligase) inhibitor. It is a member of pyridines, an aromatic ether and a member of thiazolidinediones.",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 4829",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -4667,7 +5022,7 @@
     "record_id": "MOL-000037",
     "molecule_id": {
       "pubchem_cid": 11949646,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL2107830",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -4789,7 +5144,7 @@
     "record_id": "MOL-000038",
     "molecule_id": {
       "pubchem_cid": 3386,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL41",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -4826,7 +5181,14 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000038_paper_1.png",
+        "source_paper": "doi:10.3390/ijms22126479",
+        "page_number": 1,
+        "figure_label": "Page 1 Figure 3",
+        "width": 355,
+        "height": 234
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000038.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -4850,7 +5212,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.8518
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "SERT",
+            "value": "0.015",
+            "unit": "uM",
+            "source": "doi:10.3390/ijms22126479"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -4874,6 +5246,17 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "--- Page 1 ---\n \nInternational Journal of \nMolecular Sciences\nReview\nThe Muscle-Brain Axis and Neurodegenerative Diseases: The\nKey Role of Mitochondria in Exercise-Induced Neuroprotection\nJohannes Burtscher 1,2,*\n, Grégoire P. Millet 1,2\n, Nicolas Place 1,2\n, Bengt Kayser 1,2\nand Nadège Zanou 1,2\n\u0001\u0002\u0003\u0001\u0004\u0005\u0006\u0007\b\u0001\n\u0001\u0002\u0003\u0004\u0005\u0006\u0007\nCitation: Burtscher, J.; Millet, G.P.;\nPlace, N.; Kayser, B.; Zanou, N. The\nMuscle-Brain Axis and\nNeurodegenerative Diseases: The\nKey Role of Mitochondria in\nExercise-Induced Neuroprotection.\nInt. J. Mol. Sci. 2021, 22, 6479.\nhttps://doi.org/10.3390/ijms22126479\nAcademic Editor: Carlos Palmeira\nReceived: 1 June 2021\nAccepted: 15 June 2021\nPublished: 17 June 2021\nPublisher’s Note: MDPI stays neutral\nwith regard to jurisdictional claims in\npublished maps and institutional afﬁl-\niations.\nCopyright: © 2021 by the authors.\nLicensee MDPI, Basel, Switzerland.\nThis article is an open access article\ndistributed\nunder\nthe\nterms\nand\nconditions of the Creative Commons\nAttribution (CC BY) license (https://\ncreativecommons.org/licenses/by/\n4.0/).\n1\nInstitute of Sport Sciences, University of Lausanne, CH-1015 Lausanne, Switzerland;\ngregoire.millet@unil.ch (G.P.M.); nicolas.place@unil.ch (N.P.); bengt.kayser@unil.ch (B.K.);\nnadege.zanou@unil.ch (N.Z.)\n2\nDepartment of Biomedical Sciences, University of Lausanne, CH-1005 Lausanne, Switzerland\n*\nCorrespondence: johannes.burtscher@unil.ch\nAbstract: Regular exercise is associated with pronounced health beneﬁts. The molecular processes\n",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3390/ijms22126479",
+          "section": "extracted text",
+          "mineru_parsed": true
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -4905,6 +5288,12 @@
           "task": "Batch processed Fluoxetine literature via MinerU API, extracting pharmacological data tables",
           "input": "PubChem CID 3386",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Fluoxetine paper (23 pages)",
+          "input": "data/raw/papers/fluoxetine_ijms.pdf",
+          "output": "data/raw/parsed/fluoxetine_ijms/images/"
         }
       ],
       "created_at": "2026-05-30T20:13:40Z",
@@ -4917,7 +5306,7 @@
     "record_id": "MOL-000039",
     "molecule_id": {
       "pubchem_cid": 68617,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL809",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -5039,7 +5428,7 @@
     "record_id": "MOL-000040",
     "molecule_id": {
       "pubchem_cid": 43815,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL490",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -5161,7 +5550,7 @@
     "record_id": "MOL-000041",
     "molecule_id": {
       "pubchem_cid": 5656,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL637",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -5289,7 +5678,7 @@
     "record_id": "MOL-000042",
     "molecule_id": {
       "pubchem_cid": 2160,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL629",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -5417,7 +5806,7 @@
     "record_id": "MOL-000043",
     "molecule_id": {
       "pubchem_cid": 2771,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL549",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -5545,7 +5934,7 @@
     "record_id": "MOL-000044",
     "molecule_id": {
       "pubchem_cid": 5362119,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1237",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -5667,7 +6056,7 @@
     "record_id": "MOL-000045",
     "molecule_id": {
       "pubchem_cid": 3961,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL191",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -5789,7 +6178,7 @@
     "record_id": "MOL-000046",
     "molecule_id": {
       "pubchem_cid": 2162,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1491",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -5911,7 +6300,7 @@
     "record_id": "MOL-000047",
     "molecule_id": {
       "pubchem_cid": 5388962,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL578",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -6039,7 +6428,7 @@
     "record_id": "MOL-000048",
     "molecule_id": {
       "pubchem_cid": 60846,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1069",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -6167,7 +6556,7 @@
     "record_id": "MOL-000049",
     "molecule_id": {
       "pubchem_cid": 4171,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL13",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -6289,7 +6678,7 @@
     "record_id": "MOL-000050",
     "molecule_id": {
       "pubchem_cid": 60823,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1487",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -6350,7 +6739,17 @@
         "lipinski_violations": 2,
         "qed_score": 0.1628
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "HMG-CoA reductase",
+            "value": "0.008",
+            "unit": "uM",
+            "source": "doi:10.1007/s00018-003-3116-3"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -6411,7 +6810,7 @@
     "record_id": "MOL-000051",
     "molecule_id": {
       "pubchem_cid": 54454,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1064",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -6533,7 +6932,7 @@
     "record_id": "MOL-000052",
     "molecule_id": {
       "pubchem_cid": 446157,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1496",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -6661,7 +7060,7 @@
     "record_id": "MOL-000053",
     "molecule_id": {
       "pubchem_cid": 54687,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1144",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -6789,7 +7188,7 @@
     "record_id": "MOL-000054",
     "molecule_id": {
       "pubchem_cid": 2678,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1000",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -6850,7 +7249,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.7039
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "Ki",
+            "target": "Histamine H1 receptor",
+            "value": "0.006",
+            "unit": "uM",
+            "source": "doi:10.1016/j.jaci.2003.11.019"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -6917,7 +7326,7 @@
     "record_id": "MOL-000055",
     "molecule_id": {
       "pubchem_cid": 3957,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL998",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -7045,7 +7454,7 @@
     "record_id": "MOL-000056",
     "molecule_id": {
       "pubchem_cid": 3348,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL914",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -7167,7 +7576,7 @@
     "record_id": "MOL-000057",
     "molecule_id": {
       "pubchem_cid": 3100,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL657",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -7295,7 +7704,7 @@
     "record_id": "MOL-000058",
     "molecule_id": {
       "pubchem_cid": 5288826,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL70",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -7332,7 +7741,14 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000058_paper_6.png",
+        "source_paper": "doi:10.3389/fphar.2020.00513",
+        "page_number": 6,
+        "figure_label": "Page 6 Figure 1",
+        "width": 1890,
+        "height": 661
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000058.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -7356,7 +7772,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.7033
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "Ki",
+            "target": "mu-opioid receptor",
+            "value": "0.0015",
+            "unit": "uM",
+            "source": "doi:10.3389/fphar.2020.00513"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -7380,6 +7806,17 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "--- Page 1 ---\nPsychiatric Adverse Events\nAssociated With Inﬂiximab: A Cohort\nStudy From the French Nationwide\nDischarge Abstract Database\nEve-Marie Thillard 1*, Sophie Gautier 2, Evgeniya Babykina 1, Louise Carton 3, Ali Amad 4,\nGuillaume Bouzille´ 5, Jean-Baptiste Beuscart 1 and Emmanuel Chazard 1\n1 Univ. Lille, CHU Lille, ULR 2694, CERIM, Public Health Department, Lille, France, 2 Univ. Lille, Inserm, CHU Lille, UMR-\nS1172, Center for Pharmacovigilance, Lille, France, 3 Univ. Lille, Inserm, CHU Lille, UMR_S1172, Medical Pharmacology\nDepartment, Lille, France, 4 Univ. Lille, Inserm, CHU Lille, U1172 - LilNCog - Lille Neuroscience & Cognition, Lille, France,\n5 University of Rennes, Inserm, CHU Rennes, UMR 1099 - LTSI, Rennes, France\nIntroduction: Inﬂiximab (IFX) was the ﬁrst anti-tumor necrosis factor (TNFa) antibody to\nbe used in the treatment of severe chronic inﬂammatory diseases, such as Crohn’s\ndisease and rheumatoid arthritis. A number of serious adverse drug reactions are known\nto be associated with IFX use; they include infections, malignancies, and injection site\nreactions. Although a few case reports have described potential psychiatric adverse\nevents (including suicide attempts and manic episodes), the latter are barely mentioned in\nIFX’s summary of product characteristics. The objective of the present retrospective study\nwas to detect potential psychiatric adverse events associated with IFX treatment by\nanalyzing a national discharge abstract database.\nMaterials ",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3389/fphar.2020.00513",
+          "section": "extracted text",
+          "mineru_parsed": true
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -7411,6 +7848,12 @@
           "task": "Parsed Morphine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
           "input": "PubChem CID 5288826",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Morphine paper (11 pages)",
+          "input": "data/raw/papers/morphine_opioid.pdf",
+          "output": "data/raw/parsed/morphine_opioid/images/"
         }
       ],
       "created_at": "2026-05-30T20:14:40Z",
@@ -7423,7 +7866,7 @@
     "record_id": "MOL-000059",
     "molecule_id": {
       "pubchem_cid": 5284371,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL485",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -7551,7 +7994,7 @@
     "record_id": "MOL-000060",
     "molecule_id": {
       "pubchem_cid": 3345,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL596",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -7673,7 +8116,7 @@
     "record_id": "MOL-000061",
     "molecule_id": {
       "pubchem_cid": 33741,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1066",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -7801,7 +8244,7 @@
     "record_id": "MOL-000062",
     "molecule_id": {
       "pubchem_cid": 2083,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL714",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -7862,7 +8305,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.639
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "EC50",
+            "target": "beta-2 adrenergic receptor",
+            "value": "0.1",
+            "unit": "uM",
+            "source": "doi:10.1016/S0140-6736(05)67384-3"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -7929,7 +8382,7 @@
     "record_id": "MOL-000063",
     "molecule_id": {
       "pubchem_cid": 5253,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL471",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -8057,7 +8510,7 @@
     "record_id": "MOL-000064",
     "molecule_id": {
       "pubchem_cid": 5281040,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL787",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -8179,7 +8632,7 @@
     "record_id": "MOL-000065",
     "molecule_id": {
       "pubchem_cid": 54678486,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1464",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -8240,7 +8693,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.7476
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "VKORC1",
+            "value": "0.5",
+            "unit": "uM",
+            "source": "doi:10.1182/blood-2004-09-3578"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -8264,6 +8727,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "4-hydroxy-3-(3-oxo-1-phenylbutyl)-1-benzopyran-2-one is a member of the class of coumarins that is 4-hydroxycoumarin which is substituted at position 3 by a 1-phenyl-3-oxo-1-butyl group. It is a member of benzenes, a hydroxycoumarin and a methyl ketone.",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 54678486",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -8381,6 +8854,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "2-O-Sulfohexopyranuronosyl-(1->4)-2-deoxy-3-O-sulfo-2-(sulfoamino)hexopyranosyl-(1->4)-2-O-sulfohexopyranuronosyl-(1->4)-2-acetamido-2-deoxy-6-O-sulfohexopyranose",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 772",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -8418,7 +8901,7 @@
     "record_id": "MOL-000067",
     "molecule_id": {
       "pubchem_cid": 6433119,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL3183768",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -8529,7 +9012,7 @@
     "record_id": "MOL-000068",
     "molecule_id": {
       "pubchem_cid": 5284373,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL160",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -8590,7 +9073,17 @@
         "lipinski_violations": 2,
         "qed_score": 0.1479
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "Cyclophilin A",
+            "value": "0.00001",
+            "unit": "uM",
+            "source": "doi:10.1021/bi00085a024"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -8614,6 +9107,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "mechanism_of_action",
+        "content": "Cyclosporin A is a cyclic nonribosomal peptide of eleven amino acids; an immunosuppressant drug widely used in post-allogeneic organ transplant to reduce the activity of the patient's immune system, and therefore the risk of organ rejection. Also causes reversible inhibition of immunocompetent lymphocytes in the G0- and G1-phase of the cell cycle. It has a role as an anticoronaviral agent, a geroprotector, a metabolite, an immunosuppressive agent, an antifungal agent, an antirheumatic drug, an EC 3.1.3.16 (phosphoprotein phosphatase) inhibitor, an anti-asthmatic drug, a dermatologic drug and a carcinogenic agent.",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 5284373",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -8657,7 +9160,7 @@
     "record_id": "MOL-000069",
     "molecule_id": {
       "pubchem_cid": 445643,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL269732",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -8785,7 +9288,7 @@
     "record_id": "MOL-000070",
     "molecule_id": {
       "pubchem_cid": 5281078,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1456",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -8913,7 +9416,7 @@
     "record_id": "MOL-000071",
     "molecule_id": {
       "pubchem_cid": 5284616,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL413",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -9035,7 +9538,7 @@
     "record_id": "MOL-000072",
     "molecule_id": {
       "pubchem_cid": 3365,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL106",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -9096,7 +9599,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.7515
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "CYP51 (lanosterol 14-alpha demethylase)",
+            "value": "0.3",
+            "unit": "uM",
+            "source": "doi:10.1128/AAC.46.4.1019-1024.2002"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -9163,7 +9676,7 @@
     "record_id": "MOL-000073",
     "molecule_id": {
       "pubchem_cid": 5280965,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL267345",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -9285,7 +9798,7 @@
     "record_id": "MOL-000074",
     "molecule_id": {
       "pubchem_cid": 47576,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL295698",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -9478,6 +9991,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "1-(4-Fluorophenyl)-4-(3-((1H-indol-3-yl)methyl)-4-methylpiperazin-1-yl)butan-1-one",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 55183",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -9521,7 +10044,7 @@
     "record_id": "MOL-000076",
     "molecule_id": {
       "pubchem_cid": 2719,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL76",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -9643,7 +10166,7 @@
     "record_id": "MOL-000077",
     "molecule_id": {
       "pubchem_cid": 68827,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL269671",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -9704,7 +10227,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.5042
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "Plasmodium falciparum (3D7)",
+            "value": "0.009",
+            "unit": "uM",
+            "source": "doi:10.1016/j.ijpara.2017.04.003"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -9771,7 +10304,7 @@
     "record_id": "MOL-000078",
     "molecule_id": {
       "pubchem_cid": 3034034,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL170",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -9959,6 +10492,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "[2,7-Dibromo-9-(2-carboxyphenyl)-3-hydroxy-6-oxoxanthen-4-yl]mercury",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 4069",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -9996,7 +10539,7 @@
     "record_id": "MOL-000080",
     "molecule_id": {
       "pubchem_cid": 969516,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL140",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -10064,7 +10607,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.5481
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "NF-kB",
+            "value": "5",
+            "unit": "uM",
+            "source": "doi:10.3389/fphar.2017.00687"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -10152,7 +10705,7 @@
     "record_id": "MOL-000081",
     "molecule_id": {
       "pubchem_cid": 445154,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL165",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -10280,7 +10833,7 @@
     "record_id": "MOL-000082",
     "molecule_id": {
       "pubchem_cid": 5280343,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL50",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -10408,7 +10961,7 @@
     "record_id": "MOL-000083",
     "molecule_id": {
       "pubchem_cid": 65064,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL297453",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -10536,7 +11089,7 @@
     "record_id": "MOL-000084",
     "molecule_id": {
       "pubchem_cid": 2353,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL295124",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -10664,7 +11217,7 @@
     "record_id": "MOL-000085",
     "molecule_id": {
       "pubchem_cid": 5280961,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL44",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -10792,7 +11345,7 @@
     "record_id": "MOL-000086",
     "molecule_id": {
       "pubchem_cid": 681,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL59",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -10860,7 +11413,24 @@
         "lipinski_violations": 0,
         "qed_score": 0.5449
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "Kd",
+            "target": "D1 receptor",
+            "value": "3.8",
+            "unit": "uM",
+            "source": "doi:10.3389/fnins.2017.00724"
+          },
+          {
+            "assay_type": "Kd",
+            "target": "D2 receptor",
+            "value": "2.6",
+            "unit": "uM",
+            "source": "doi:10.3389/fnins.2017.00724"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -10954,7 +11524,7 @@
     "record_id": "MOL-000087",
     "molecule_id": {
       "pubchem_cid": 5202,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL39",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -11088,7 +11658,7 @@
     "record_id": "MOL-000088",
     "molecule_id": {
       "pubchem_cid": 439260,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1437",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -11216,7 +11786,7 @@
     "record_id": "MOL-000089",
     "molecule_id": {
       "pubchem_cid": 119,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL96",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -11344,7 +11914,7 @@
     "record_id": "MOL-000090",
     "molecule_id": {
       "pubchem_cid": 187,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL667",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -11472,7 +12042,7 @@
     "record_id": "MOL-000091",
     "molecule_id": {
       "pubchem_cid": 33032,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL575060",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -11594,7 +12164,7 @@
     "record_id": "MOL-000092",
     "molecule_id": {
       "pubchem_cid": 774,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL90",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -11833,7 +12403,7 @@
     "record_id": "MOL-000094",
     "molecule_id": {
       "pubchem_cid": 5754,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL389621",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -11894,7 +12464,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.696
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "Kd",
+            "target": "Glucocorticoid receptor",
+            "value": "0.003",
+            "unit": "uM",
+            "source": "doi:10.1016/j.mce.2005.11.007"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -11961,7 +12541,7 @@
     "record_id": "MOL-000095",
     "molecule_id": {
       "pubchem_cid": 6013,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL386630",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -12089,7 +12669,7 @@
     "record_id": "MOL-000096",
     "molecule_id": {
       "pubchem_cid": 5757,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL135",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -12217,7 +12797,7 @@
     "record_id": "MOL-000097",
     "molecule_id": {
       "pubchem_cid": 5819,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1624",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -12339,7 +12919,7 @@
     "record_id": "MOL-000098",
     "molecule_id": {
       "pubchem_cid": 896,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL45",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -12467,7 +13047,7 @@
     "record_id": "MOL-000099",
     "molecule_id": {
       "pubchem_cid": 5994,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL103",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -12552,6 +13132,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "mechanism_of_action",
+        "content": "Progesterone is a C21-steroid hormone in which a pregnane skeleton carries oxo substituents at positions 3 and 20 and is unsaturated at C(4)-C(5). As a hormone, it is involved in the female menstrual cycle, pregnancy and embryogenesis of humans and other species. It has a role as a contraceptive drug, a progestin, a progesterone receptor agonist, a mouse metabolite and a human metabolite. It is a 20-oxo steroid, a 3-oxo-Delta(4) steroid and a C21-steroid hormone. It derives from a hydride of a pregnane.",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 5994",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -12595,7 +13185,7 @@
     "record_id": "MOL-000100",
     "molecule_id": {
       "pubchem_cid": 54670067,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL196",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -12632,7 +13222,14 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000100_paper_5.jpeg",
+        "source_paper": "doi:10.3390/ph16090924",
+        "page_number": 5,
+        "figure_label": "Page 5 Figure 2",
+        "width": 774,
+        "height": 194
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000100.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -12656,7 +13253,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.385
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "EC50",
+            "target": "TET2 dioxygenase",
+            "value": "100",
+            "unit": "uM",
+            "source": "doi:10.3390/ph16090924"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -12680,6 +13287,17 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "--- Page 12 ---\nPharmaceuticals 2023, 16, 924 \n12 of 21 \n \n \nsyndrome: a sys-\ntematic review and \nmeta-analysis of \nrandomized trials \ncontrolled tri-\nals (RCTs) \ndexamethasone) ther-\napy in early ARDS  \nearly ARDS im-\nproved the survival \noutcomes. \nTable 2. Factors affecting response to glucocorticoid treatment. \nDisease-Related Factors \nGR Number and \nType (α vs β) \n \nGR Binding Ca-\npacity (Bmax) \n▼ by Inflammatory State \n▼ by Oxidative Stress \nGR Function \n▼ by Hypovitaminosis *, Micronutrient Deficiencies \nMolecule-related factors \nBinding affinity \nto GR (potency) \nIncreasing the dosage of GC can compensate for a reduced binding \naffinity \nTreatment-related factors \ninitiation  \nGR saturation (dose-dependent) \nTiming of initiation (early vs. late) \nDose-adjustments based on initial severity ‡ \nover time  \nOptimal magnitude of exposure to GR → Bolus followed by continu-\nous infusion \nLung penetration and tissue concentration \nDose-adjustments based on clinical response§ \nDuration of treatment including tapering \npotential compli-\ncations \nHypothalamic-pituitary-axis suppression → Can be offset with slow \ntapering \nFailure to recognize infections in absence of fever → Can be offset \nwith infection surveillance \nPatients-related factors \nComorbidities associated with GC resistance † \nInterpersonal wide variability in achieved GC plasma concentration \nInterpersonal wide variability in cellular sensitivity to exposure of similar GC concen-\ntration \nLegend: ▼, decreased; GR, ",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3390/ph16090924",
+          "section": "extracted text",
+          "mineru_parsed": true
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -12711,6 +13329,12 @@
           "task": "Parsed Ascorbic acid research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
           "input": "PubChem CID 54670067",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Ascorbic acid paper (21 pages)",
+          "input": "data/raw/papers/vitamins_pharmaceuticals.pdf",
+          "output": "data/raw/parsed/vitamins_pharmaceuticals/images/"
         }
       ],
       "created_at": "2026-05-30T20:17:09Z",
@@ -12723,7 +13347,7 @@
     "record_id": "MOL-000101",
     "molecule_id": {
       "pubchem_cid": 445354,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL986",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -12851,7 +13475,7 @@
     "record_id": "MOL-000102",
     "molecule_id": {
       "pubchem_cid": 14986,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL420898",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -12968,7 +13592,7 @@
     "record_id": "MOL-000103",
     "molecule_id": {
       "pubchem_cid": 1130,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1547",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -13096,7 +13720,7 @@
     "record_id": "MOL-000104",
     "molecule_id": {
       "pubchem_cid": 493570,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1534",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -13224,7 +13848,7 @@
     "record_id": "MOL-000105",
     "molecule_id": {
       "pubchem_cid": 3676,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL79",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -13346,7 +13970,7 @@
     "record_id": "MOL-000106",
     "molecule_id": {
       "pubchem_cid": 4943,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL526",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -13474,7 +14098,7 @@
     "record_id": "MOL-000107",
     "molecule_id": {
       "pubchem_cid": 3821,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL742",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -13596,7 +14220,7 @@
     "record_id": "MOL-000108",
     "molecule_id": {
       "pubchem_cid": 3763,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1256",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -13718,7 +14342,7 @@
     "record_id": "MOL-000109",
     "molecule_id": {
       "pubchem_cid": 2519,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL113",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -13755,7 +14379,14 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000109_paper_1.png",
+        "source_paper": "doi:10.3390/molecules28073321",
+        "page_number": 1,
+        "figure_label": "Page 1 Figure 3",
+        "width": 355,
+        "height": 234
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000109.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -13779,7 +14410,24 @@
         "lipinski_violations": 0,
         "qed_score": 0.5385
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "Ki",
+            "target": "Adenosine A1 receptor",
+            "value": "44",
+            "unit": "uM",
+            "source": "doi:10.3390/molecules28073321"
+          },
+          {
+            "assay_type": "Ki",
+            "target": "Adenosine A2A receptor",
+            "value": "32",
+            "unit": "uM",
+            "source": "doi:10.3390/molecules28073321"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -13803,6 +14451,17 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "--- Page 1 ---\nCitation: Chaidali, A.G.; Lykakis, I.N.\nSimple Synthetic Approach to\nN-(Pyridin-2-yl)imidates from\nNitrostyrenes and 2-Aminopyridines\nvia the N-(Pyridin-2-yl)iminonitriles\nas Intermediates. Molecules 2023, 28,\n3321. https://doi.org/10.3390/\nmolecules28083321\nAcademic Editors: Alexey M.\nStarosotnikov, Maxim A. Bastrakov\nand Igor L. Dalinger\nReceived: 13 March 2023\nRevised: 6 April 2023\nAccepted: 7 April 2023\nPublished: 9 April 2023\nCopyright:\n© 2023 by the authors.\nLicensee MDPI, Basel, Switzerland.\nThis article is an open access article\ndistributed\nunder\nthe\nterms\nand\nconditions of the Creative Commons\nAttribution (CC BY) license (https://\ncreativecommons.org/licenses/by/\n4.0/).\nmolecules\nArticle\nSimple Synthetic Approach to N-(Pyridin-2-yl)imidates from\nNitrostyrenes and 2-Aminopyridines via the\nN-(Pyridin-2-yl)iminonitriles as Intermediates\nAndriani G. Chaidali\nand Ioannis N. Lykakis *\nDepartment of Chemistry, Aristotle University of Thessaloniki, University Campus, 54124 Thessaloniki, Greece;\nchaidali.and@gmail.com\n* Correspondence: lykakis@chem.auth.gr\nAbstract: A facile, green, synthetic protocol of several substituted N-(pyridin-2-yl)imidates from\nnitrostyrenes and 2-aminopyridines via the corresponding N-(pyridin-2-yl)iminonitriles as inter-\nmediates is reported. The reaction process involved the in situ formation of the corresponding\nα-iminontriles under heterogeneous Lewis acid catalysis in the presence of Al2O3. Subsequently,\nα-iminonitriles were sele",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3390/molecules28073321",
+          "section": "extracted text",
+          "mineru_parsed": true
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -13834,6 +14493,12 @@
           "task": "Batch processed Caffeine literature via MinerU API, extracting pharmacological data tables",
           "input": "PubChem CID 2519",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Caffeine paper (13 pages)",
+          "input": "data/raw/papers/caffeine_molecules.pdf",
+          "output": "data/raw/parsed/caffeine_molecules/images/"
         }
       ],
       "created_at": "2026-05-30T20:17:38Z",
@@ -13846,7 +14511,7 @@
     "record_id": "MOL-000110",
     "molecule_id": {
       "pubchem_cid": 9280,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1722",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -13963,7 +14628,7 @@
     "record_id": "MOL-000111",
     "molecule_id": {
       "pubchem_cid": 4236,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1373",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -14091,7 +14756,7 @@
     "record_id": "MOL-000112",
     "molecule_id": {
       "pubchem_cid": 5865,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL635",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -14152,7 +14817,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.7848
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "Glucocorticoid receptor",
+            "value": "0.01",
+            "unit": "uM",
+            "source": "doi:10.1016/j.mce.2005.11.007"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -14219,7 +14894,7 @@
     "record_id": "MOL-000113",
     "molecule_id": {
       "pubchem_cid": 5743,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL384467",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -14341,7 +15016,7 @@
     "record_id": "MOL-000114",
     "molecule_id": {
       "pubchem_cid": 5754,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL389621",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -14402,7 +15077,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.696
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "Kd",
+            "target": "Glucocorticoid receptor",
+            "value": "0.003",
+            "unit": "uM",
+            "source": "doi:10.1016/j.mce.2005.11.007"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -14469,7 +15154,7 @@
     "record_id": "MOL-000115",
     "molecule_id": {
       "pubchem_cid": 5281004,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1370",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -14597,7 +15282,7 @@
     "record_id": "MOL-000116",
     "molecule_id": {
       "pubchem_cid": 4594,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1503",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -14634,7 +15319,14 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000116_paper_10.png",
+        "source_paper": "doi:10.3390/pharmaceutics14061106",
+        "page_number": 10,
+        "figure_label": "Page 10 Figure 2",
+        "width": 286,
+        "height": 471
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000116.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -14658,7 +15350,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.7692
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "H+/K+ ATPase (gastric)",
+            "value": "5.8",
+            "unit": "uM",
+            "source": "doi:10.3390/pharmaceutics14061106"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -14682,6 +15384,17 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "--- Page 1 ---\nCitation: Salazar Sandoval, S.;\nCortés-Adasme, E.; Gallardo-Toledo,\nE.; Araya, I.; Celis, F.; Yutronic, N.;\nJara, P.; Kogan, M.J.\nβ-Cyclodextrin-Based Nanosponges\nInclusion Compounds Associated\nwith Gold Nanorods for Potential\nNIR-II Drug Delivery. Pharmaceutics\n2022, 14, 2206. https://doi.org/\n10.3390/pharmaceutics14102206\nAcademic Editors: Cristina\nTrandaﬁrescu, Iulia Pinzaru,\nDenisa Laura Cîrcioban and\nMarzia Cirri\nReceived: 20 July 2022\nAccepted: 12 October 2022\nPublished: 17 October 2022\nPublisher’s Note: MDPI stays neutral\nwith regard to jurisdictional claims in\npublished maps and institutional afﬁl-\niations.\nCopyright:\n© 2022 by the authors.\nLicensee MDPI, Basel, Switzerland.\nThis article is an open access article\ndistributed\nunder\nthe\nterms\nand\nconditions of the Creative Commons\nAttribution (CC BY) license (https://\ncreativecommons.org/licenses/by/\n4.0/).\npharmaceutics\nArticle\nβ-Cyclodextrin-Based Nanosponges Inclusion Compounds\nAssociated with Gold Nanorods for Potential NIR-II\nDrug Delivery\nSebastián Salazar Sandoval 1,2,3,†\n, Elizabeth Cortés-Adasme 2,3,†\n, Eduardo Gallardo-Toledo 2,3, Ingrid Araya 2,3,\nFreddy Celis 4,5\n, Nicolás Yutronic 1, Paul Jara 1,* and Marcelo J. Kogan 2,3,*\n1\nDepartamento de Química, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Ñuñoa,\nSantiago 7800003, Chile\n2\nDepartamento de Química Farmacológica y Toxicológica, Universidad de Chile, Sergio Livingstone 1007,\nSantiago 8380492, Chile\n3\nAdvanced Center for Chr",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3390/pharmaceutics14061106",
+          "section": "extracted text",
+          "mineru_parsed": true
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -14713,6 +15426,12 @@
           "task": "Batch processed Omeprazole literature via MinerU API, extracting pharmacological data tables",
           "input": "PubChem CID 4594",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Omeprazole paper (28 pages)",
+          "input": "data/raw/papers/omeprazole_pharmaceutics.pdf",
+          "output": "data/raw/parsed/omeprazole_pharmaceutics/images/"
         }
       ],
       "created_at": "2026-05-30T20:18:00Z",
@@ -14725,7 +15444,7 @@
     "record_id": "MOL-000117",
     "molecule_id": {
       "pubchem_cid": 4679,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1502",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -14981,7 +15700,7 @@
     "record_id": "MOL-000119",
     "molecule_id": {
       "pubchem_cid": 2094,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1467",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -15082,7 +15801,7 @@
     "record_id": "MOL-000120",
     "molecule_id": {
       "pubchem_cid": 1983,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL112",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -15150,7 +15869,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.595
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "COX-2 (peroxidase)",
+            "value": "34",
+            "unit": "uM",
+            "source": "doi:10.3389/fphar.2020.00794"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {

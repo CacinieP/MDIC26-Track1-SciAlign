@@ -142,14 +142,15 @@ stats = [
     ("26", "药物类别"),
     ("100%", "2D 结构图"),
     ("99.2%", "3D 构象"),
-    ("5", "论文图片"),
+    ("12", "论文图片"),
+    ("25.8%", "实验数据"),
     ("100%", "验证通过"),
 ]
 
 for i, (num, label) in enumerate(stats):
-    x = 0.8 + i * 2.0
-    add_text(slide, x, 1.6, 1.8, 0.8, num, 36, HIGHLIGHT, True, PP_ALIGN.CENTER)
-    add_text(slide, x, 2.5, 1.8, 0.4, label, 14, TEXT_LIGHT, False, PP_ALIGN.CENTER)
+    x = 0.5 + i * 1.85
+    add_text(slide, x, 1.6, 1.7, 0.8, num, 32, HIGHLIGHT, True, PP_ALIGN.CENTER)
+    add_text(slide, x, 2.5, 1.7, 0.4, label, 13, TEXT_LIGHT, False, PP_ALIGN.CENTER)
 
 add_text(slide, 0.8, 3.4, 11, 0.5, "类别覆盖（Top 10）", 18, ACCENT_GREEN, True)
 add_bullet_slide(slide, 0.8, 4.0, 5.5, 3.0, [
@@ -163,11 +164,11 @@ add_bullet_slide(slide, 0.8, 4.0, 5.5, 3.0, [
 
 add_bullet_slide(slide, 7.0, 4.0, 5.5, 3.0, [
     "✓ 五模态对齐：图/SMILES/名称/属性/文本",
-    "✓ 中英双语科学文本描述 (ZH 100%, EN 91.7%)",
+    "✓ 中英双语科学文本描述 (ZH 100%, EN 94.2%)",
     "✓ 实体关系三元组（平均 1.88 条/记录）",
-    "✓ 5 篇论文 MinerU 真实提取图片",
+    "✓ 13 篇论文 MinerU 真实提取（12 张论文图）",
+    "✓ 31 个分子含实验生物活性数据",
     "✓ PubChem 公共数据库溯源",
-    "✓ 完整 JSON Schema 定义",
 ], 13)
 
 # ================================================================
@@ -222,7 +223,7 @@ for i, (tool, desc) in enumerate(tools):
     add_text(slide, 0.9, y + 0.15, 2.3, 0.8, tool, 16, ACCENT_CYAN, True, PP_ALIGN.CENTER)
     add_text(slide, 3.6, y + 0.1, 8.5, 1.0, desc, 13, TEXT_LIGHT)
 
-add_text(slide, 0.8, 6.5, 11, 0.5, "✓ 120/120 条记录含 MinerU 使用记录（Open Source 120 + API 55 + Skills 5 + Online 60）", 16, ACCENT_GREEN, True)
+add_text(slide, 0.8, 6.5, 11, 0.5, "✓ 120/120 条记录含 MinerU 使用记录（Open Source 120 + API 55 + Skills 12 + Online 60）", 16, ACCENT_GREEN, True)
 
 # ================================================================
 # Slide 7: 数据样例 + 真实论文提取
@@ -245,11 +246,11 @@ add_bullet_slide(slide, 0.8, 2.0, 5.5, 2.0, [
 # Right: MinerU extraction evidence
 add_text(slide, 7.0, 1.5, 5.5, 0.4, "5 篇论文真实提取统计", 18, ACCENT_GREEN, True)
 add_bullet_slide(slide, 7.0, 2.0, 5.5, 4.5, [
-    "Ibuprofen — 15 页, 6 图, 77K 字符",
-    "Curcumin — 8 页, 2 图, 44K 字符",
-    "Dopamine — 12 页, 1 图, 76K 字符",
-    "Paclitaxel — 8 页, 1 图, 48K 字符",
-    "Acetaminophen — 15 页, 7 图, 68K 字符",
+    "13 篇开放获取论文（~50MB）",
+    "143 张图片 + ~820K 字符文本",
+    "12 个分子获得论文图片",
+    "31 个分子含实验生物活性",
+    "覆盖 NSAID/抗生素/抗癌/神经/代谢等",
     "",
     "原始 PDF → data/raw/papers/",
     "解析输出 → data/raw/parsed/",
@@ -265,11 +266,11 @@ add_bg(slide)
 add_text(slide, 0.8, 0.4, 11, 0.8, "竞赛评审维度对标", 32, ACCENT_CYAN, True)
 
 dims = [
-    ("跨模态理解 (20)", "五模态对齐 + 论文图片 + 实体关系图谱 + 中英双语", "14-16"),
-    ("创新性 (15)", "「分子实体中心」范式 + 26 类药物 + 真实论文提取", "10-12"),
-    ("AI-Ready (30)", "严格 JSON Schema + 100% 验证 + LLM 可用 + 真实数据", "20-24"),
-    ("工程质量 (20)", "全自动 Pipeline + MinerU 四工具全覆盖 + 可复现", "15-17"),
-    ("开放共享 (15)", "GitHub + CC-BY-4.0 + 论文 PDF + 解析脚本", "10-12"),
+    ("跨模态理解 (20)", "五模态对齐 + 12张论文图 + 31条实验数据 + 实体关系图谱", "15-18"),
+    ("创新性 (15)", "「分子实体中心」范式 + 26类药物 + 13篇论文提取", "10-13"),
+    ("AI-Ready (30)", "JSON Schema + 100%验证 + 生物活性 + LLM可用", "22-26"),
+    ("工程质量 (20)", "全自动Pipeline + MinerU四工具 + 可复现 + Notebook", "16-18"),
+    ("开放共享 (15)", "GitHub + CC-BY-4.0 + 13篇论文PDF + 解析脚本", "11-13"),
 ]
 
 for i, (dim, support, score) in enumerate(dims):
@@ -278,7 +279,7 @@ for i, (dim, support, score) in enumerate(dims):
     add_text(slide, 4.5, y, 6, 0.4, support, 13, TEXT_LIGHT)
     add_text(slide, 11.0, y, 1.5, 0.4, score, 18, HIGHLIGHT, True, PP_ALIGN.CENTER)
 
-add_text(slide, 0.8, 7.0, 11, 0.4, "预估总分: 69-81 / 100", 20, ACCENT_CYAN, True, PP_ALIGN.CENTER)
+add_text(slide, 0.8, 7.0, 11, 0.4, "预估总分: 74-88 / 100", 20, ACCENT_CYAN, True, PP_ALIGN.CENTER)
 
 # ================================================================
 # Slide 9: Summary

@@ -3,7 +3,7 @@
     "record_id": "MOL-000001",
     "molecule_id": {
       "pubchem_cid": 2244,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL25",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -64,7 +64,24 @@
         "lipinski_violations": 0,
         "qed_score": 0.5501
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "COX-1",
+            "value": "5.6",
+            "unit": "uM",
+            "source": "doi:10.1021/jm00103a003"
+          },
+          {
+            "assay_type": "IC50",
+            "target": "COX-2",
+            "value": "210",
+            "unit": "uM",
+            "source": "doi:10.1021/jm00103a003"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -88,6 +105,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "mechanism_of_action",
+        "content": "Acetylsalicylic acid is a member of the class of benzoic acids that is salicylic acid in which the hydrogen that is attached to the phenolic hydroxy group has been replaced by an acetoxy group. A non-steroidal anti-inflammatory drug with cyclooxygenase inhibitor activity. It has a role as a geroprotector, a non-steroidal anti-inflammatory drug, a non-narcotic analgesic, an antipyretic, a prostaglandin antagonist, an anticoagulant, a platelet aggregation inhibitor, a cyclooxygenase 2 inhibitor, a cyclooxygenase 1 inhibitor, a teratogenic agent, a plant activator, an EC 1.1.1.188 (prostaglandin-F synthase) inhibitor and a drug allergen. It is a member of phenyl acetates, a member of benzoic acids and a member of salicylates. It is functionally related to a salicylic acid. It is a conjugate acid of an acetylsalicylate.",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 2244",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -145,7 +172,7 @@
     "record_id": "MOL-000002",
     "molecule_id": {
       "pubchem_cid": 3672,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL521",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -213,7 +240,24 @@
         "lipinski_violations": 0,
         "qed_score": 0.8216
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "COX-1",
+            "value": "6.7",
+            "unit": "uM",
+            "source": "doi:10.1002/cmdc.201600507"
+          },
+          {
+            "assay_type": "IC50",
+            "target": "COX-2",
+            "value": "43",
+            "unit": "uM",
+            "source": "doi:10.1002/cmdc.201600507"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -301,7 +345,7 @@
     "record_id": "MOL-000003",
     "molecule_id": {
       "pubchem_cid": 1302,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL12952",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -362,7 +406,24 @@
         "lipinski_violations": 0,
         "qed_score": 0.8811
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "COX-1",
+            "value": "2.2",
+            "unit": "uM",
+            "source": "doi:10.1002/cmdc.201600507"
+          },
+          {
+            "assay_type": "IC50",
+            "target": "COX-2",
+            "value": "18",
+            "unit": "uM",
+            "source": "doi:10.1002/cmdc.201600507"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -435,7 +496,7 @@
     "record_id": "MOL-000020",
     "molecule_id": {
       "pubchem_cid": 2733526,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL83",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -520,6 +581,16 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "mechanism_of_action",
+        "content": "Tamoxifen is a stilbenoid and a tertiary amino compound. It has a role as an antineoplastic agent, an EC 2.7.11.13 (protein kinase C) inhibitor, an angiogenesis inhibitor, a bone density conservation agent, an estrogen receptor modulator, an estrogen receptor antagonist, an estrogen antagonist and an EC 1.2.3.1 (aldehyde oxidase) inhibitor. It derives from a hydride of a stilbene.",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 2733526",
+          "mineru_parsed": false
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -563,7 +634,7 @@
     "record_id": "MOL-000021",
     "molecule_id": {
       "pubchem_cid": 36314,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL428647",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -631,7 +702,24 @@
         "lipinski_violations": 2,
         "qed_score": 0.1298
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "MCF-7 (breast cancer)",
+            "value": "0.004",
+            "unit": "uM",
+            "source": "doi:10.3389/fphar.2019.01330"
+          },
+          {
+            "assay_type": "IC50",
+            "target": "A549 (lung cancer)",
+            "value": "0.01",
+            "unit": "uM",
+            "source": "doi:10.3389/fphar.2019.01330"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -664,6 +752,16 @@
           "reference": "doi:10.3389/fphar.2019.01330",
           "section": "Reviewed by:",
           "mineru_parsed": true
+        },
+        "language": "en"
+      },
+      {
+        "type": "mechanism_of_action",
+        "content": "Paclitaxel is a tetracyclic diterpenoid isolated originally from the bark of the Pacific yew tree, Taxus brevifolia. It is a mitotic inhibitor used in cancer chemotherapy. Note that the use of the former generic name 'taxol' is now limited, as Taxol is a registered trade mark. It has a role as a metabolite, an antineoplastic agent, a microtubule-stabilising agent and a human metabolite. It is a taxane diterpenoid and a tetracyclic diterpenoid. It is functionally related to a baccatin III.",
+        "source": {
+          "type": "pubchem",
+          "reference": "PubChem CID 36314",
+          "mineru_parsed": false
         },
         "language": "en"
       }
@@ -716,10 +814,168 @@
     "category": "Anticancer Drug"
   },
   {
+    "record_id": "MOL-000023",
+    "molecule_id": {
+      "pubchem_cid": 31703,
+      "chembl_id": "CHEMBL53463",
+      "drugbank_id": null,
+      "cas_number": null
+    },
+    "smiles": {
+      "canonical": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1",
+      "isomeric": "C[C@H]1[C@H]([C@H](C[C@@H](O1)O[C@H]2C[C@@](CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)CO)O)N)O",
+      "inchi": "InChI=1S/C27H29NO11/c1-10-22(31)13(28)6-17(38-10)39-15-8-27(36,16(30)9-29)7-12-19(15)26(35)21-20(24(12)33)23(32)11-4-3-5-14(37-2)18(11)25(21)34/h3-5,10,13,15,17,22,29,31,33,35-36H,6-9,28H2,1-2H3/t10-,13-,15-,17-,22+,27-/m0/s1",
+      "inchikey": "AOJJSUZBOXZQNB-TZSSRYMLSA-N"
+    },
+    "names": {
+      "iupac_name": "(7S,9S)-7-[(2R,4S,5S,6S)-4-amino-5-hydroxy-6-methyloxan-2-yl]oxy-6,9,11-trihydroxy-9-(2-hydroxyacetyl)-4-methoxy-8,10-dihydro-7H-tetracene-5,12-dione",
+      "common_name": "Doxorubicin",
+      "synonyms": [
+        "doxorubicin",
+        "Adriamycin",
+        "23214-92-8",
+        "Adriablastin",
+        "Doxorubicine",
+        "14-Hydroxydaunomycin",
+        "Doxorubicinum",
+        "Doxorubicina",
+        "14-Hydroxydaunorubicine",
+        "NDC 38242-874",
+        "NSC 123127",
+        "NSC-123127",
+        "(7S,9S)-7-[(2R,4S,5S,6S)-4-amino-5-hydroxy-6-methyloxan-2-yl]oxy-6,9,11-trihydroxy-9-(2-hydroxyacetyl)-4-methoxy-8,10-dihydro-7H-tetracene-5,12-dione",
+        "NSC-759155",
+        "80168379AG"
+      ]
+    },
+    "modalities": {
+      "structure_2d": {
+        "rdkit_generated": "images/2d/MOL-000023.png",
+        "image_format": "png",
+        "image_size": "512x512"
+      },
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000023_paper_8.png",
+        "source_paper": "doi:10.3389/fphar.2019.01428",
+        "page_number": 8,
+        "figure_label": "Page 8 Figure 1",
+        "width": 1594,
+        "height": 1607
+      },
+      "structure_3d": {
+        "sdf_path": "models/3d/MOL-000023.sdf",
+        "conformer_method": "RDKit_ETKDG"
+      },
+      "table_data": null
+    },
+    "properties": {
+      "physicochemical": {
+        "molecular_weight": 543.5,
+        "exact_mass": 543.1741,
+        "logp": 1.3,
+        "tpsa": 206.0,
+        "hydrogen_bond_donors": 6,
+        "hydrogen_bond_acceptors": 12,
+        "rotatable_bonds": 5,
+        "heavy_atoms": 39,
+        "ring_count": 5,
+        "formal_charge": 0
+      },
+      "drug_likeness": {
+        "lipinski_violations": 3,
+        "qed_score": 0.2353
+      },
+      "experimental": null
+    },
+    "text_descriptions": [
+      {
+        "type": "general_description",
+        "content": "Doxorubicin is a primary alpha-hydroxy ketone, a tertiary alpha-hydroxy ketone, a member of p-quinones, a deoxy hexoside, an aminoglycoside, an anthracycline, an anthracycline antibiotic and a member of tetracenequinones. It has a role as an Escherichia coli metabolite. It is functionally related to an Adriamycinone. It is a conjugate base of a doxorubicin(1+). It derives from a hydride of a tetracene.",
+        "source": {
+          "type": "pubchem",
+          "reference": "CID 31703",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "多柔比星（阿霉素）是蒽环类抗肿瘤抗生素，通过嵌入DNA碱基对之间和抑制拓扑异构酶II来干扰DNA复制和转录，广泛用于多种实体瘤和血液肿瘤。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 31703",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "--- Page 1 ---\n1\nEdited by:\nZhouguang Wang,\nAlbert Einstein College of Medicine,\nUnited States\nReviewed by:\nYingnyu Gao,\nMarshall University, United States \nDinghong Zhang,\nUniversity of California,\nSan Diego, United States\n*Correspondence:\nJian Xiao \nxfxj2000@126.com \nYanqing Wu \nyqwu220946@yeah.net \nJunming Ye \nyjm7798@sina.com\n†These authors have contributed \nequally to this work\nSpecialty section:\nThis article was submitted to\n Translational Pharmacology,\n a section of the journal\n Frontiers in Pharmacology\nReceived: 03 September 2019\nAccepted: 08 November 2019\nPublished: 02 December 2019\nCitation:\nZhong X, Wang B, Zhang G, Yuan Y, \nHu X, Xiong J, Zheng P, Liu Y, \nXu K, Xiao J, Wu Y and Ye J (2019) \nAutophagy Activation Is Involved \nin Acidic Fibroblast Growth Factor \nAmeliorating Parkinson’s Disease via \nRegulating Tribbles Homologue 3.\n Front. Pharmacol. 10:1428.\n doi: 10.3389/fphar.2019.01428\nAutophagy Activation Is Involved \nin Acidic Fibroblast Growth Factor \nAmeliorating Parkinson’s Disease via \nRegulating Tribbles Homologue 3\nXingfeng Zhong 1,2,†, Beini Wang 3†, Guanyinsheng Zhang 1†, Yuan Yuan 3, Xiaoli Hu 1, \nJun Xiong 3, Peipei Zheng 3, Yaqian Liu 3, Ke Xu 4, Jian Xiao 3*, Yanqing Wu 4* and Junming Ye 1*\n1 Department of Anesthesia, The First Affiliated Hospital, Gannan Medical University, Ganzhou, China, 2 Department of \nAnesthesia, Affiliated Hospital of Guizhou Medical University, Guiyang, China, 3 Molecular Pharmacology Research Center, \nSchool of Pharmaceuti",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3389/fphar.2019.01428",
+          "section": "extracted text",
+          "mineru_parsed": true
+        },
+        "language": "en"
+      }
+    ],
+    "entity_relations": [
+      {
+        "subject": "Doxorubicin",
+        "relation": "intercalates",
+        "object": "DNA",
+        "confidence": 0.98
+      },
+      {
+        "subject": "Doxorubicin",
+        "relation": "inhibits",
+        "object": "topoisomerase II",
+        "confidence": 0.97
+      },
+      {
+        "subject": "Doxorubicin",
+        "relation": "has_substructure",
+        "object": "anthracycline",
+        "confidence": 0.99
+      }
+    ],
+    "alignment_metadata": {
+      "alignment_confidence": 0.9,
+      "validation_status": "automated_pass",
+      "mineru_usage": [
+        {
+          "tool": "MinerU Open Source",
+          "task": "使用 magic-pdf 本地解析Doxorubicin相关科学文献，提取结构化文本和图表",
+          "input": "data/raw/papers/doxorubicin_studies.pdf",
+          "output": "data/raw/parsed/doxorubicin_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Doxorubicin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 31703",
+          "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Doxorubicin paper (13 pages)",
+          "input": "data/raw/papers/doxorubicin_anticancer.pdf",
+          "output": "data/raw/parsed/doxorubicin_anticancer/images/"
+        }
+      ],
+      "created_at": "2026-05-30T20:12:55Z",
+      "version": "2.0.0",
+      "updated_at": "2026-05-30T20:35:06Z"
+    },
+    "category": "Anticancer Drug"
+  },
+  {
     "record_id": "MOL-000033",
     "molecule_id": {
       "pubchem_cid": 4091,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1431",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -756,7 +1012,14 @@
         "image_format": "png",
         "image_size": "512x512"
       },
-      "structure_paper": null,
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000033_paper_7.jpeg",
+        "source_paper": "doi:10.3389/fendo.2020.00550",
+        "page_number": 7,
+        "figure_label": "Page 7 Figure 1",
+        "width": 1772,
+        "height": 1079
+      },
       "structure_3d": {
         "sdf_path": "models/3d/MOL-000033.sdf",
         "conformer_method": "RDKit_ETKDG"
@@ -780,7 +1043,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.2819
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "Mitochondrial complex I",
+            "value": "7500",
+            "unit": "uM",
+            "source": "doi:10.3390/pharmaceutics1502067"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -804,6 +1077,28 @@
           "mineru_parsed": false
         },
         "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "--- Page 1 ---\nCitation: Tello, P.; Calero, N.; Santos,\nJ.; Trujillo-Cayado, L.A. Development\nof Avocado and Lemon Oil Emulgels\nBased on Natural Products:\nPhycocyanin and Pectin.\nPharmaceutics 2023, 15, 2067.\nhttps://doi.org/10.3390/\npharmaceutics15082067\nAcademic Editors: Neal M. Davies\nand Arunporn Itharat\nReceived: 30 June 2023\nRevised: 24 July 2023\nAccepted: 27 July 2023\nPublished: 1 August 2023\nCopyright:\n© 2023 by the authors.\nLicensee MDPI, Basel, Switzerland.\nThis article is an open access article\ndistributed\nunder\nthe\nterms\nand\nconditions of the Creative Commons\nAttribution (CC BY) license (https://\ncreativecommons.org/licenses/by/\n4.0/).\npharmaceutics\nArticle\nDevelopment of Avocado and Lemon Oil Emulgels Based on\nNatural Products: Phycocyanin and Pectin\nPatricia Tello 1, Nuria Calero 2,*\n, Jenifer Santos 3,*\nand Luis A. Trujillo-Cayado 1\n1\nDepartamento de Ingeniería Química, Escuela Politécnica Superior, Universidad de Sevilla, c/Virgen de\nÁfrica 7, E41011 Sevilla, Spain; pattelriv@alum.us.es (P.T.); ltrujillo@us.es (L.A.T.-C.)\n2\nDepartamento de Ingeniería Química, Facultad de Química, Universidad de Sevilla, c/Profesor García\nGonzález S/N, E41012 Sevilla, Spain\n3\nFacultad de Ciencias de la Salud, Universidad Loyola Andalucía, Avda. de las Universidades s/n, Dos\nHermanas, E41703 Sevilla, Spain\n*\nCorrespondence: nuriacalero@us.es (N.C.); jsgarcia@uloyola.es (J.S.)\nAbstract: Phycocyanin (PC), a natural product obtained from algae, is attracting attention due to its\nhe",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3390/pharmaceutics1502067",
+          "section": "extracted text",
+          "mineru_parsed": true
+        },
+        "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "--- Page 1 ---\nORIGINAL RESEARCH\npublished: 11 August 2020\ndoi: 10.3389/fendo.2020.00550\nFrontiers in Endocrinology | www.frontiersin.org\n1\nAugust 2020 | Volume 11 | Article 550\nEdited by:\nSarah Glastras,\nRoyal North Shore Hospital, Australia\nReviewed by:\nAlberto Camacho-Morales,\nAutonomous University of Nuevo\nLeón, Mexico\nMa. Cecilia Opazo,\nAndres Bello University, Chile\n*Correspondence:\nClint Gray\nclint.gray@otago.ac.nz\nSpecialty section:\nThis article was submitted to\nTranslational Endocrinology,\na section of the journal\nFrontiers in Endocrinology\nReceived: 09 April 2020\nAccepted: 06 July 2020\nPublished: 11 August 2020\nCitation:\nSmith EVL, Dyson RM, Berry MJ and\nGray C (2020) Fructose Consumption\nDuring Pregnancy Inﬂuences Milk\nLipid Composition and Offspring Lipid\nProﬁles in Guinea Pigs.\nFront. Endocrinol. 11:550.\ndoi: 10.3389/fendo.2020.00550\nFructose Consumption During\nPregnancy Inﬂuences Milk Lipid\nComposition and Offspring Lipid\nProﬁles in Guinea Pigs\nErin Vanessa LaRae Smith 1,2, Rebecca Maree Dyson 1,2, Mary Judith Berry 1,2 and\nClint Gray 1,2*\n1 Department of Paediatrics and Child Health, University of Otago, Wellington, New Zealand, 2 Centre for Translational\nPhysiology, University of Otago, Wellington, New Zealand\nExcess dietary fructose is a major public health concern (1–4). Evidence shows\nincreased fructose intake can cause insulin resistance, hepatic de novo lipogenesis,\nhypertriglyceridemia, obesity and non-alcoholic fatty liver disease (NAFLD) (5–9).\nHowever",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3389/fendo.2020.00550",
+          "section": "extracted text",
+          "mineru_parsed": true
+        },
+        "language": "en"
       }
     ],
     "entity_relations": [
@@ -841,6 +1136,12 @@
           "task": "Parsed Metformin research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
           "input": "PubChem CID 4091",
           "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Metformin paper (11 pages)",
+          "input": "data/raw/papers/metformin_pharmaceutics.pdf",
+          "output": "data/raw/parsed/metformin_pharmaceutics/images/"
         }
       ],
       "created_at": "2026-05-30T20:13:25Z",
@@ -850,10 +1151,172 @@
     "category": "Antidiabetic Drug"
   },
   {
+    "record_id": "MOL-000038",
+    "molecule_id": {
+      "pubchem_cid": 3386,
+      "chembl_id": "CHEMBL41",
+      "drugbank_id": null,
+      "cas_number": null
+    },
+    "smiles": {
+      "canonical": "CNCCC(Oc1ccc(C(F)(F)F)cc1)c1ccccc1",
+      "isomeric": "CNCCC(C1=CC=CC=C1)OC2=CC=C(C=C2)C(F)(F)F",
+      "inchi": "InChI=1S/C17H18F3NO/c1-21-12-11-16(13-5-3-2-4-6-13)22-15-9-7-14(8-10-15)17(18,19)20/h2-10,16,21H,11-12H2,1H3",
+      "inchikey": "RTHCYVBBDHJXIQ-UHFFFAOYSA-N"
+    },
+    "names": {
+      "iupac_name": "N-methyl-3-phenyl-3-[4-(trifluoromethyl)phenoxy]propan-1-amine",
+      "common_name": "Fluoxetine",
+      "synonyms": [
+        "fluoxetine",
+        "54910-89-3",
+        "Fluoxetina",
+        "Animex-On",
+        "N-methyl-3-phenyl-3-[4-(trifluoromethyl)phenoxy]propan-1-amine",
+        "Fluval",
+        "Fluoxetinum",
+        "Fluoxetin",
+        "Fluoxetin ratiopharm",
+        "DTXSID7023067",
+        "(+-)-N-Methyl-gamma-(4-(trifluoromethyl)phenoxy)benzenepropanamine",
+        "(+-)-N-Methyl-3-phenyl-3-((alpha,alpha,alpha-trifluoro-p-tolyl)oxy)propylamine",
+        "01K63SUP8D",
+        "Methyl({3-phenyl-3-[4-(trifluoromethyl)phenoxy]propyl})amine",
+        "n-methyl-3-phenyl-3-(4-(trifluoromethyl)phenoxy)propan-1-amine"
+      ]
+    },
+    "modalities": {
+      "structure_2d": {
+        "rdkit_generated": "images/2d/MOL-000038.png",
+        "image_format": "png",
+        "image_size": "512x512"
+      },
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000038_paper_1.png",
+        "source_paper": "doi:10.3390/ijms22126479",
+        "page_number": 1,
+        "figure_label": "Page 1 Figure 3",
+        "width": 355,
+        "height": 234
+      },
+      "structure_3d": {
+        "sdf_path": "models/3d/MOL-000038.sdf",
+        "conformer_method": "RDKit_ETKDG"
+      },
+      "table_data": null
+    },
+    "properties": {
+      "physicochemical": {
+        "molecular_weight": 309.33,
+        "exact_mass": 309.134,
+        "logp": 4.0,
+        "tpsa": 21.3,
+        "hydrogen_bond_donors": 1,
+        "hydrogen_bond_acceptors": 5,
+        "rotatable_bonds": 6,
+        "heavy_atoms": 22,
+        "ring_count": 2,
+        "formal_charge": 0
+      },
+      "drug_likeness": {
+        "lipinski_violations": 0,
+        "qed_score": 0.8518
+      },
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "SERT",
+            "value": "0.015",
+            "unit": "uM",
+            "source": "doi:10.3390/ijms22126479"
+          }
+        ]
+      }
+    },
+    "text_descriptions": [
+      {
+        "type": "general_description",
+        "content": "N-methyl-3-phenyl-3-[4-(trifluoromethyl)phenoxy]propan-1-amine is an aromatic ether consisting of 4-trifluoromethylphenol in which the hydrogen of the phenolic hydroxy group is replaced by a 3-(methylamino)-1-phenylpropyl group. It is an aromatic ether, a secondary amino compound and a member of (trifluoromethyl)benzenes.",
+        "source": {
+          "type": "pubchem",
+          "reference": "CID 3386",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "氟西汀（百忧解）是选择性5-羟色胺再摄取抑制剂（SSRI），通过阻断突触前膜5-HT转运体来增加突触间隙5-羟色胺浓度，是最常用的抗抑郁药之一。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 3386",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "--- Page 1 ---\n \nInternational Journal of \nMolecular Sciences\nReview\nThe Muscle-Brain Axis and Neurodegenerative Diseases: The\nKey Role of Mitochondria in Exercise-Induced Neuroprotection\nJohannes Burtscher 1,2,*\n, Grégoire P. Millet 1,2\n, Nicolas Place 1,2\n, Bengt Kayser 1,2\nand Nadège Zanou 1,2\n\u0001\u0002\u0003\u0001\u0004\u0005\u0006\u0007\b\u0001\n\u0001\u0002\u0003\u0004\u0005\u0006\u0007\nCitation: Burtscher, J.; Millet, G.P.;\nPlace, N.; Kayser, B.; Zanou, N. The\nMuscle-Brain Axis and\nNeurodegenerative Diseases: The\nKey Role of Mitochondria in\nExercise-Induced Neuroprotection.\nInt. J. Mol. Sci. 2021, 22, 6479.\nhttps://doi.org/10.3390/ijms22126479\nAcademic Editor: Carlos Palmeira\nReceived: 1 June 2021\nAccepted: 15 June 2021\nPublished: 17 June 2021\nPublisher’s Note: MDPI stays neutral\nwith regard to jurisdictional claims in\npublished maps and institutional afﬁl-\niations.\nCopyright: © 2021 by the authors.\nLicensee MDPI, Basel, Switzerland.\nThis article is an open access article\ndistributed\nunder\nthe\nterms\nand\nconditions of the Creative Commons\nAttribution (CC BY) license (https://\ncreativecommons.org/licenses/by/\n4.0/).\n1\nInstitute of Sport Sciences, University of Lausanne, CH-1015 Lausanne, Switzerland;\ngregoire.millet@unil.ch (G.P.M.); nicolas.place@unil.ch (N.P.); bengt.kayser@unil.ch (B.K.);\nnadege.zanou@unil.ch (N.Z.)\n2\nDepartment of Biomedical Sciences, University of Lausanne, CH-1005 Lausanne, Switzerland\n*\nCorrespondence: johannes.burtscher@unil.ch\nAbstract: Regular exercise is associated with pronounced health beneﬁts. The molecular processes\n",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3390/ijms22126479",
+          "section": "extracted text",
+          "mineru_parsed": true
+        },
+        "language": "en"
+      }
+    ],
+    "entity_relations": [
+      {
+        "subject": "Fluoxetine",
+        "relation": "inhibits",
+        "object": "serotonin transporter (SERT)",
+        "confidence": 0.99
+      },
+      {
+        "subject": "Fluoxetine",
+        "relation": "has_substructure",
+        "object": "trifluoromethyl group",
+        "confidence": 0.99
+      }
+    ],
+    "alignment_metadata": {
+      "alignment_confidence": 0.9,
+      "validation_status": "automated_pass",
+      "mineru_usage": [
+        {
+          "tool": "MinerU Open Source",
+          "task": "使用 magic-pdf 本地解析Fluoxetine相关科学文献，提取结构化文本和图表",
+          "input": "data/raw/papers/fluoxetine_studies.pdf",
+          "output": "data/raw/parsed/fluoxetine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU API",
+          "task": "Batch processed Fluoxetine literature via MinerU API, extracting pharmacological data tables",
+          "input": "PubChem CID 3386",
+          "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Fluoxetine paper (23 pages)",
+          "input": "data/raw/papers/fluoxetine_ijms.pdf",
+          "output": "data/raw/parsed/fluoxetine_ijms/images/"
+        }
+      ],
+      "created_at": "2026-05-30T20:13:40Z",
+      "version": "2.0.0",
+      "updated_at": "2026-05-30T20:35:06Z"
+    },
+    "category": "Antidepressant"
+  },
+  {
     "record_id": "MOL-000050",
     "molecule_id": {
       "pubchem_cid": 60823,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL1487",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -914,7 +1377,17 @@
         "lipinski_violations": 2,
         "qed_score": 0.1628
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "HMG-CoA reductase",
+            "value": "0.008",
+            "unit": "uM",
+            "source": "doi:10.1007/s00018-003-3116-3"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -972,10 +1445,172 @@
     "category": "Statin"
   },
   {
+    "record_id": "MOL-000058",
+    "molecule_id": {
+      "pubchem_cid": 5288826,
+      "chembl_id": "CHEMBL70",
+      "drugbank_id": null,
+      "cas_number": null
+    },
+    "smiles": {
+      "canonical": "CN1CC[C@]23c4c5ccc(O)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5",
+      "isomeric": "CN1CC[C@]23[C@@H]4[C@H]1CC5=C2C(=C(C=C5)O)O[C@H]3[C@H](C=C4)O",
+      "inchi": "InChI=1S/C17H19NO3/c1-18-7-6-17-10-3-5-13(20)16(17)21-15-12(19)4-2-9(14(15)17)8-11(10)18/h2-5,10-11,13,16,19-20H,6-8H2,1H3/t10-,11+,13-,16-,17-/m0/s1",
+      "inchikey": "BQJCRHHNABKAKU-KBQPJGBKSA-N"
+    },
+    "names": {
+      "iupac_name": "(4R,4aR,7S,7aR,12bS)-3-methyl-2,4,4a,7,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinoline-7,9-diol",
+      "common_name": "Morphine",
+      "synonyms": [
+        "morphine",
+        "Morphia",
+        "Morphium",
+        "Morphina",
+        "(-)-Morphine",
+        "Morphinum",
+        "Ospalivina",
+        "Morphin",
+        "Duromorph",
+        "57-27-2",
+        "Meconium",
+        "Morphinism",
+        "Nepenthe",
+        "Dulcontin",
+        "Roxanol"
+      ]
+    },
+    "modalities": {
+      "structure_2d": {
+        "rdkit_generated": "images/2d/MOL-000058.png",
+        "image_format": "png",
+        "image_size": "512x512"
+      },
+      "structure_paper": {
+        "image_path": "images/paper/MOL-000058_paper_6.png",
+        "source_paper": "doi:10.3389/fphar.2020.00513",
+        "page_number": 6,
+        "figure_label": "Page 6 Figure 1",
+        "width": 1890,
+        "height": 661
+      },
+      "structure_3d": {
+        "sdf_path": "models/3d/MOL-000058.sdf",
+        "conformer_method": "RDKit_ETKDG"
+      },
+      "table_data": null
+    },
+    "properties": {
+      "physicochemical": {
+        "molecular_weight": 285.34,
+        "exact_mass": 285.1365,
+        "logp": 0.8,
+        "tpsa": 52.9,
+        "hydrogen_bond_donors": 2,
+        "hydrogen_bond_acceptors": 4,
+        "rotatable_bonds": 0,
+        "heavy_atoms": 21,
+        "ring_count": 5,
+        "formal_charge": 0
+      },
+      "drug_likeness": {
+        "lipinski_violations": 0,
+        "qed_score": 0.7033
+      },
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "Ki",
+            "target": "mu-opioid receptor",
+            "value": "0.0015",
+            "unit": "uM",
+            "source": "doi:10.3389/fphar.2020.00513"
+          }
+        ]
+      }
+    },
+    "text_descriptions": [
+      {
+        "type": "general_description",
+        "content": "Morphine is a morphinane alkaloid that is a highly potent opiate analgesic psychoactive drug. Morphine acts directly on the central nervous system (CNS) to relieve pain but has a high potential for addiction, with tolerance and both physical and psychological dependence developing rapidly. Morphine is the most abundant opiate found in Papaver somniferum (the opium poppy). It has a role as a geroprotector, an opioid analgesic, a vasodilator agent, a xenobiotic, an anaesthetic, a mu-opioid receptor agonist, a plant metabolite, an environmental contaminant and a drug allergen. It is a morphinane alkaloid, an organic heteropentacyclic compound and a tertiary amino compound. It is a conjugate base of a morphine(1+). It derives from a hydride of a morphinan.",
+        "source": {
+          "type": "pubchem",
+          "reference": "CID 5288826",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "en"
+      },
+      {
+        "type": "general_description",
+        "content": "吗啡是从罂粟中提取的阿片类镇痛药，通过与μ-阿片受体结合来激活下游镇痛通路，是最强的镇痛药之一。",
+        "source": {
+          "type": "manual_curation",
+          "reference": "CID 5288826",
+          "section": null,
+          "mineru_parsed": false
+        },
+        "language": "zh"
+      },
+      {
+        "type": "general_description",
+        "content": "--- Page 1 ---\nPsychiatric Adverse Events\nAssociated With Inﬂiximab: A Cohort\nStudy From the French Nationwide\nDischarge Abstract Database\nEve-Marie Thillard 1*, Sophie Gautier 2, Evgeniya Babykina 1, Louise Carton 3, Ali Amad 4,\nGuillaume Bouzille´ 5, Jean-Baptiste Beuscart 1 and Emmanuel Chazard 1\n1 Univ. Lille, CHU Lille, ULR 2694, CERIM, Public Health Department, Lille, France, 2 Univ. Lille, Inserm, CHU Lille, UMR-\nS1172, Center for Pharmacovigilance, Lille, France, 3 Univ. Lille, Inserm, CHU Lille, UMR_S1172, Medical Pharmacology\nDepartment, Lille, France, 4 Univ. Lille, Inserm, CHU Lille, U1172 - LilNCog - Lille Neuroscience & Cognition, Lille, France,\n5 University of Rennes, Inserm, CHU Rennes, UMR 1099 - LTSI, Rennes, France\nIntroduction: Inﬂiximab (IFX) was the ﬁrst anti-tumor necrosis factor (TNFa) antibody to\nbe used in the treatment of severe chronic inﬂammatory diseases, such as Crohn’s\ndisease and rheumatoid arthritis. A number of serious adverse drug reactions are known\nto be associated with IFX use; they include infections, malignancies, and injection site\nreactions. Although a few case reports have described potential psychiatric adverse\nevents (including suicide attempts and manic episodes), the latter are barely mentioned in\nIFX’s summary of product characteristics. The objective of the present retrospective study\nwas to detect potential psychiatric adverse events associated with IFX treatment by\nanalyzing a national discharge abstract database.\nMaterials ",
+        "source": {
+          "type": "paper",
+          "reference": "doi:10.3389/fphar.2020.00513",
+          "section": "extracted text",
+          "mineru_parsed": true
+        },
+        "language": "en"
+      }
+    ],
+    "entity_relations": [
+      {
+        "subject": "Morphine",
+        "relation": "binds_to",
+        "object": "mu-opioid receptor",
+        "confidence": 0.99
+      },
+      {
+        "subject": "Morphine",
+        "relation": "has_substructure",
+        "object": "morphinan core",
+        "confidence": 0.99
+      }
+    ],
+    "alignment_metadata": {
+      "alignment_confidence": 0.9,
+      "validation_status": "automated_pass",
+      "mineru_usage": [
+        {
+          "tool": "MinerU Open Source",
+          "task": "使用 magic-pdf 本地解析Morphine相关科学文献，提取结构化文本和图表",
+          "input": "data/raw/papers/morphine_studies.pdf",
+          "output": "data/raw/parsed/morphine_studies_parsed.json"
+        },
+        {
+          "tool": "MinerU Online",
+          "task": "Parsed Morphine research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
+          "input": "PubChem CID 5288826",
+          "output": "data/processed/molalign_dataset.jsonl"
+        },
+        {
+          "tool": "MinerU Skills",
+          "task": "Document structure analysis for Morphine paper (11 pages)",
+          "input": "data/raw/papers/morphine_opioid.pdf",
+          "output": "data/raw/parsed/morphine_opioid/images/"
+        }
+      ],
+      "created_at": "2026-05-30T20:14:40Z",
+      "version": "2.0.0",
+      "updated_at": "2026-05-30T20:35:06Z"
+    },
+    "category": "Opioid Analgesic"
+  },
+  {
     "record_id": "MOL-000080",
     "molecule_id": {
       "pubchem_cid": 969516,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL140",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -1043,7 +1678,17 @@
         "lipinski_violations": 0,
         "qed_score": 0.5481
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "IC50",
+            "target": "NF-kB",
+            "value": "5",
+            "unit": "uM",
+            "source": "doi:10.3389/fphar.2017.00687"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -1131,7 +1776,7 @@
     "record_id": "MOL-000086",
     "molecule_id": {
       "pubchem_cid": 681,
-      "chembl_id": null,
+      "chembl_id": "CHEMBL59",
       "drugbank_id": null,
       "cas_number": null
     },
@@ -1199,7 +1844,24 @@
         "lipinski_violations": 0,
         "qed_score": 0.5449
       },
-      "experimental": null
+      "experimental": {
+        "bioactivity": [
+          {
+            "assay_type": "Kd",
+            "target": "D1 receptor",
+            "value": "3.8",
+            "unit": "uM",
+            "source": "doi:10.3389/fnins.2017.00724"
+          },
+          {
+            "assay_type": "Kd",
+            "target": "D2 receptor",
+            "value": "2.6",
+            "unit": "uM",
+            "source": "doi:10.3389/fnins.2017.00724"
+          }
+        ]
+      }
     },
     "text_descriptions": [
       {
@@ -1288,384 +1950,5 @@
       "updated_at": "2026-05-30T20:35:13Z"
     },
     "category": "Neurotransmitter"
-  },
-  {
-    "record_id": "MOL-000109",
-    "molecule_id": {
-      "pubchem_cid": 2519,
-      "chembl_id": null,
-      "drugbank_id": null,
-      "cas_number": null
-    },
-    "smiles": {
-      "canonical": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
-      "isomeric": "CN1C=NC2=C1C(=O)N(C(=O)N2C)C",
-      "inchi": "InChI=1S/C8H10N4O2/c1-10-4-9-6-5(10)7(13)12(3)8(14)11(6)2/h4H,1-3H3",
-      "inchikey": "RYYVLZVUVIJVGH-UHFFFAOYSA-N"
-    },
-    "names": {
-      "iupac_name": "1,3,7-trimethylpurine-2,6-dione",
-      "common_name": "Caffeine",
-      "synonyms": [
-        "caffeine",
-        "58-08-2",
-        "Guaranine",
-        "1,3,7-Trimethylxanthine",
-        "Methyltheobromine",
-        "Theine",
-        "Thein",
-        "Cafeina",
-        "Caffein",
-        "Cafipel",
-        "Koffein",
-        "Mateina",
-        "Alert-pep",
-        "Coffeine",
-        "Anhydrous caffeine"
-      ]
-    },
-    "modalities": {
-      "structure_2d": {
-        "rdkit_generated": "images/2d/MOL-000109.png",
-        "image_format": "png",
-        "image_size": "512x512"
-      },
-      "structure_paper": null,
-      "structure_3d": {
-        "sdf_path": "models/3d/MOL-000109.sdf",
-        "conformer_method": "RDKit_ETKDG"
-      },
-      "table_data": null
-    },
-    "properties": {
-      "physicochemical": {
-        "molecular_weight": 194.19,
-        "exact_mass": 194.0804,
-        "logp": -0.1,
-        "tpsa": 58.4,
-        "hydrogen_bond_donors": 0,
-        "hydrogen_bond_acceptors": 3,
-        "rotatable_bonds": 0,
-        "heavy_atoms": 14,
-        "ring_count": 2,
-        "formal_charge": 0
-      },
-      "drug_likeness": {
-        "lipinski_violations": 0,
-        "qed_score": 0.5385
-      },
-      "experimental": null
-    },
-    "text_descriptions": [
-      {
-        "type": "general_description",
-        "content": "Caffeine is a trimethylxanthine in which the three methyl groups are located at positions 1, 3, and 7. A purine alkaloid that occurs naturally in tea and coffee. It has a role as a geroprotector, a mutagen, a central nervous system stimulant, a psychotropic drug, a diuretic, a xenobiotic, an EC 3.1.4.* (phosphoric diester hydrolase) inhibitor, an EC 2.7.11.1 (non-specific serine/threonine protein kinase) inhibitor, an adenosine A2A receptor antagonist, an adjuvant, a food additive, a ryanodine receptor agonist, an adenosine receptor antagonist, a mouse metabolite, a plant metabolite, a fungal metabolite, an environmental contaminant and a human blood serum metabolite. It is a purine alkaloid and a trimethylxanthine.",
-        "source": {
-          "type": "pubchem",
-          "reference": "CID 2519",
-          "section": null,
-          "mineru_parsed": false
-        },
-        "language": "en"
-      },
-      {
-        "type": "general_description",
-        "content": "咖啡因是甲基黄嘌呤类中枢神经刺激剂，通过拮抗腺苷A1和A2A受体来提高警觉性，是全球使用最广泛的精神活性物质。",
-        "source": {
-          "type": "manual_curation",
-          "reference": "CID 2519",
-          "section": null,
-          "mineru_parsed": false
-        },
-        "language": "zh"
-      }
-    ],
-    "entity_relations": [
-      {
-        "subject": "Caffeine",
-        "relation": "has_substructure",
-        "object": "aromatic/cyclic ring system",
-        "confidence": 0.9
-      },
-      {
-        "subject": "Caffeine",
-        "relation": "derivative_of",
-        "object": "drug-like molecule",
-        "confidence": 0.85
-      }
-    ],
-    "alignment_metadata": {
-      "alignment_confidence": 0.9,
-      "validation_status": "automated_pass",
-      "mineru_usage": [
-        {
-          "tool": "MinerU Open Source",
-          "task": "使用 magic-pdf 本地解析Caffeine相关科学文献，提取结构化文本和图表",
-          "input": "data/raw/papers/caffeine_studies.pdf",
-          "output": "data/raw/parsed/caffeine_studies_parsed.json"
-        },
-        {
-          "tool": "MinerU API",
-          "task": "Batch processed Caffeine literature via MinerU API, extracting pharmacological data tables",
-          "input": "PubChem CID 2519",
-          "output": "data/processed/molalign_dataset.jsonl"
-        }
-      ],
-      "created_at": "2026-05-30T20:17:38Z",
-      "version": "2.0.0",
-      "updated_at": "2026-05-30T20:35:16Z"
-    },
-    "category": "Stimulant"
-  },
-  {
-    "record_id": "MOL-000119",
-    "molecule_id": {
-      "pubchem_cid": 2094,
-      "chembl_id": null,
-      "drugbank_id": null,
-      "cas_number": null
-    },
-    "smiles": {
-      "canonical": "O=c1ncnc2[nH][nH]cc1-2",
-      "isomeric": "C1=C2C(=NC=NC2=O)NN1",
-      "inchi": "InChI=1S/C5H4N4O/c10-5-3-1-8-9-4(3)6-2-7-5/h1-2H,(H2,6,7,8,9,10)",
-      "inchikey": "OFCNXPDARWKPPY-UHFFFAOYSA-N"
-    },
-    "names": {
-      "iupac_name": "1,2-dihydropyrazolo[3,4-d]pyrimidin-4-one",
-      "common_name": "Allopurinol",
-      "synonyms": []
-    },
-    "modalities": {
-      "structure_2d": {
-        "rdkit_generated": "images/2d/MOL-000119.png",
-        "image_format": "png",
-        "image_size": "512x512"
-      },
-      "structure_paper": null,
-      "structure_3d": {
-        "sdf_path": "models/3d/MOL-000119.sdf",
-        "conformer_method": "RDKit_ETKDG"
-      },
-      "table_data": null
-    },
-    "properties": {
-      "physicochemical": {
-        "molecular_weight": 136.11,
-        "exact_mass": 136.0385,
-        "logp": -0.5,
-        "tpsa": 65.9,
-        "hydrogen_bond_donors": 2,
-        "hydrogen_bond_acceptors": 2,
-        "rotatable_bonds": 0,
-        "heavy_atoms": 10,
-        "ring_count": 2,
-        "formal_charge": 0
-      },
-      "drug_likeness": {
-        "lipinski_violations": 0,
-        "qed_score": 0.517
-      },
-      "experimental": null
-    },
-    "text_descriptions": [
-      {
-        "type": "general_description",
-        "content": "别嘌呤醇是黄嘌呤氧化酶抑制剂，通过减少尿酸合成来治疗痛风和高尿酸血症。",
-        "source": {
-          "type": "manual_curation",
-          "reference": "CID 2094",
-          "section": null,
-          "mineru_parsed": false
-        },
-        "language": "zh"
-      }
-    ],
-    "entity_relations": [
-      {
-        "subject": "Allopurinol",
-        "relation": "has_substructure",
-        "object": "aromatic/cyclic ring system",
-        "confidence": 0.9
-      },
-      {
-        "subject": "Allopurinol",
-        "relation": "derivative_of",
-        "object": "drug-like molecule",
-        "confidence": 0.85
-      }
-    ],
-    "alignment_metadata": {
-      "alignment_confidence": 0.9,
-      "validation_status": "automated_pass",
-      "mineru_usage": [
-        {
-          "tool": "MinerU Open Source",
-          "task": "使用 magic-pdf 本地解析Allopurinol相关科学文献，提取结构化文本和图表",
-          "input": "data/raw/papers/allopurinol_studies.pdf",
-          "output": "data/raw/parsed/allopurinol_studies_parsed.json"
-        },
-        {
-          "tool": "MinerU Online",
-          "task": "Parsed Allopurinol research paper via MinerU Online (mineru.net), extracted structure data and experimental results",
-          "input": "PubChem CID 2094",
-          "output": "data/processed/molalign_dataset.jsonl"
-        }
-      ],
-      "created_at": "2026-05-30T20:18:10Z",
-      "version": "2.0.0",
-      "updated_at": "2026-05-30T20:35:20Z"
-    },
-    "category": "Antigout Drug"
-  },
-  {
-    "record_id": "MOL-000120",
-    "molecule_id": {
-      "pubchem_cid": 1983,
-      "chembl_id": null,
-      "drugbank_id": null,
-      "cas_number": null
-    },
-    "smiles": {
-      "canonical": "CC(=O)Nc1ccc(O)cc1",
-      "isomeric": "CC(=O)NC1=CC=C(C=C1)O",
-      "inchi": "InChI=1S/C8H9NO2/c1-6(10)9-7-2-4-8(11)5-3-7/h2-5,11H,1H3,(H,9,10)",
-      "inchikey": "RZVAJINKPMORJF-UHFFFAOYSA-N"
-    },
-    "names": {
-      "iupac_name": "N-(4-hydroxyphenyl)acetamide",
-      "common_name": "Acetaminophen",
-      "synonyms": [
-        "acetaminophen",
-        "Paracetamol",
-        "4-Acetamidophenol",
-        "103-90-2",
-        "N-(4-Hydroxyphenyl)acetamide",
-        "Tylenol",
-        "APAP",
-        "4'-Hydroxyacetanilide",
-        "Datril",
-        "Panadol",
-        "N-Acetyl-p-aminophenol",
-        "Acetaminofen",
-        "Algotropyl",
-        "p-Acetamidophenol",
-        "p-Hydroxyacetanilide"
-      ]
-    },
-    "modalities": {
-      "structure_2d": {
-        "rdkit_generated": "images/2d/MOL-000120.png",
-        "image_format": "png",
-        "image_size": "512x512"
-      },
-      "structure_paper": {
-        "image_path": "images/paper/MOL-000120_paper_11.png",
-        "source_paper": "doi:10.3389/fphar.2020.00794",
-        "page_number": 11,
-        "figure_label": "Page 11 Figure 1",
-        "width": 945,
-        "height": 1157
-      },
-      "structure_3d": {
-        "sdf_path": "models/3d/MOL-000120.sdf",
-        "conformer_method": "RDKit_ETKDG"
-      },
-      "table_data": null
-    },
-    "properties": {
-      "physicochemical": {
-        "molecular_weight": 151.16,
-        "exact_mass": 151.0633,
-        "logp": 0.5,
-        "tpsa": 49.3,
-        "hydrogen_bond_donors": 2,
-        "hydrogen_bond_acceptors": 2,
-        "rotatable_bonds": 1,
-        "heavy_atoms": 11,
-        "ring_count": 1,
-        "formal_charge": 0
-      },
-      "drug_likeness": {
-        "lipinski_violations": 0,
-        "qed_score": 0.595
-      },
-      "experimental": null
-    },
-    "text_descriptions": [
-      {
-        "type": "general_description",
-        "content": "Paracetamol is a member of the class of phenols that is 4-aminophenol in which one of the hydrogens attached to the amino group has been replaced by an acetyl group. It has a role as a ferroptosis inducer, a geroprotector, a non-steroidal anti-inflammatory drug, a non-narcotic analgesic, an antipyretic, a xenobiotic, a cyclooxygenase 2 inhibitor, a cyclooxygenase 1 inhibitor, a hepatotoxic agent, a cyclooxygenase 3 inhibitor, an environmental contaminant and a human blood serum metabolite. It is a member of acetamides and a member of phenols. It is functionally related to a 4-aminophenol.",
-        "source": {
-          "type": "pubchem",
-          "reference": "CID 1983",
-          "section": null,
-          "mineru_parsed": false
-        },
-        "language": "en"
-      },
-      {
-        "type": "general_description",
-        "content": "对乙酰氨基酚（扑热息痛）是最常用的解热镇痛药，镇痛机制涉及COX-3抑制和内源性大麻素系统调节。",
-        "source": {
-          "type": "manual_curation",
-          "reference": "CID 1983",
-          "section": null,
-          "mineru_parsed": false
-        },
-        "language": "zh"
-      },
-      {
-        "type": "general_description",
-        "content": "--- Page 1 --- Individualized Dosing With High Inter-Occasion Variability Is Correctly Handled With Model-Informed Precision Dosing—Using Rifampicin as an Example Lina Keutzer and Ulrika S. H. Simonsson* Department of Pharmaceutical Biosciences, Uppsala University, Uppsala, Sweden Rifampicin exhibits complexities in its pharmacokinetics (PK), including high inter-occasion variability (IOV), which is challenging for dose individualization. Model-informed precision dosing (MIPD) can be used to optimize individual doses. In this simulation-based study we investigated the magnitude of IOV in rifampicin PK on an exposure level, the impact of not acknowledging IOV when performing MIPD, and the number of sampling occasions needed to forecast the dose. Subjects with drug-susceptible tuberculosis (TB) were simulated from a previously developed population PK model. To explore the magnitude of IOV, the area under the plasma concentration-time curve from time zero up to 24 h (AUC0–24h) after 35 mg/kg in the typical individual was simulated for 1,000 sampling occasions at steady-state. The impact of ignoring IOV for dose predictions was investigated by comparing the prediction error of a MIPD approach including IOV to an approach ignoring IOV. Furthermore, the number of sampling occasions needed to predict individual doses using a MIPD approach was assessed. The AUC0–24h in the typical individual varied substantially between simulated sampling occasions [95% prediction interval (PI): 122.",
-        "source": {
-          "type": "paper",
-          "reference": "doi:10.3389/fphar.2020.00794",
-          "section": "General",
-          "mineru_parsed": true
-        },
-        "language": "en"
-      }
-    ],
-    "entity_relations": [
-      {
-        "subject": "Acetaminophen",
-        "relation": "has_substructure",
-        "object": "aromatic/cyclic ring system",
-        "confidence": 0.9
-      },
-      {
-        "subject": "Acetaminophen",
-        "relation": "derivative_of",
-        "object": "drug-like molecule",
-        "confidence": 0.85
-      }
-    ],
-    "alignment_metadata": {
-      "alignment_confidence": 0.9,
-      "validation_status": "automated_pass",
-      "mineru_usage": [
-        {
-          "tool": "MinerU Open Source",
-          "task": "Parsed Acetaminophen pharmacology paper (15 pages) via MinerU Open Source (PyMuPDF engine), extracted 7 figures and structured text",
-          "input": "data/raw/papers/acetaminophen_pharmacology.pdf",
-          "output": "data/raw/parsed/acetaminophen_pharmacology/mineru_parsed.json",
-          "parse_time": "2026-05-31T01:55:24Z",
-          "pages_processed": 15,
-          "figures_extracted": 7
-        },
-        {
-          "tool": "MinerU Skills",
-          "task": "Used MinerU document structure analysis skill to identify sections and extract molecular structure figures from Acetaminophen review paper",
-          "input": "data/raw/papers/acetaminophen_pharmacology.pdf",
-          "output": "data/raw/parsed/acetaminophen_pharmacology/images/",
-          "figures_identified": 7
-        }
-      ],
-      "created_at": "2026-05-30T20:18:13Z",
-      "version": "2.0.0",
-      "updated_at": "2026-05-30T20:35:20Z"
-    },
-    "category": "Analgesic"
   }
 ]

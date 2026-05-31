@@ -30,20 +30,21 @@
     "Analgesic": 1
   },
   "num_categories": 26,
-  "avg_descriptions": 1.96,
+  "avg_descriptions": 2.17,
   "avg_relations": 1.88,
   "with_2d_image": 120,
   "with_3d_conformer": 119,
-  "with_paper_image": 5,
-  "with_en_description": 110,
+  "with_paper_image": 12,
+  "with_experimental": 31,
+  "with_en_description": 113,
   "with_zh_description": 120,
   "mineru_used_count": 120,
   "mineru_tools_distribution": {
     "MinerU Open Source": 120,
     "MinerU API": 55,
-    "MinerU Skills": 5,
+    "MinerU Skills": 12,
     "MinerU Online": 60
   },
   "validated_pass": 120,
-  "generated_at": "2026-05-31T01:55:24Z"
+  "generated_at": "2026-05-31T02:32:57Z"
 }

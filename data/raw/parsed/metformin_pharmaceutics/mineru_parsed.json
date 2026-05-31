@@ -1,0 +1,435 @@
+{
+  "source_pdf": "C:\\Users\\cacin\\MinerU-AGI4S-Track1\\data\\raw\\papers\\metformin_pharmaceutics.pdf",
+  "mineru_tool": "MinerU Open Source (PyMuPDF engine)",
+  "parse_time": "2026-05-31T02:28:33Z",
+  "total_pages": 11,
+  "content": {
+    "full_text": "\n--- Page 1 ---\nCitation: Tello, P.; Calero, N.; Santos,\nJ.; Trujillo-Cayado, L.A. Development\nof Avocado and Lemon Oil Emulgels\nBased on Natural Products:\nPhycocyanin and Pectin.\nPharmaceutics 2023, 15, 2067.\nhttps://doi.org/10.3390/\npharmaceutics15082067\nAcademic Editors: Neal M. Davies\nand Arunporn Itharat\nReceived: 30 June 2023\nRevised: 24 July 2023\nAccepted: 27 July 2023\nPublished: 1 August 2023\nCopyright:\n© 2023 by the authors.\nLicensee MDPI, Basel, Switzerland.\nThis article is an open access article\ndistributed\nunder\nthe\nterms\nand\nconditions of the Creative Commons\nAttribution (CC BY) license (https://\ncreativecommons.org/licenses/by/\n4.0/).\npharmaceutics\nArticle\nDevelopment of Avocado and Lemon Oil Emulgels Based on\nNatural Products: Phycocyanin and Pectin\nPatricia Tello 1, Nuria Calero 2,*\n, Jenifer Santos 3,*\nand Luis A. Trujillo-Cayado 1\n1\nDepartamento de Ingeniería Química, Escuela Politécnica Superior, Universidad de Sevilla, c/Virgen de\nÁfrica 7, E41011 Sevilla, Spain; pattelriv@alum.us.es (P.T.); ltrujillo@us.es (L.A.T.-C.)\n2\nDepartamento de Ingeniería Química, Facultad de Química, Universidad de Sevilla, c/Profesor García\nGonzález S/N, E41012 Sevilla, Spain\n3\nFacultad de Ciencias de la Salud, Universidad Loyola Andalucía, Avda. de las Universidades s/n, Dos\nHermanas, E41703 Sevilla, Spain\n*\nCorrespondence: nuriacalero@us.es (N.C.); jsgarcia@uloyola.es (J.S.)\nAbstract: Phycocyanin (PC), a natural product obtained from algae, is attracting attention due to its\nhealth beneﬁts, such as its antioxidant and anti-inﬂammatory properties. This work studies the use of\nPC as the main stabilizer in avocado and lemon oil emulgels, a format for drug delivery. The inﬂuence\nof PC concentration on droplet size distribution, rheological properties, and physical stability is\nstudied using a laser diffraction technique, rheological measurements, and multiple light scattering.\nThe 5 wt.% PC emulsions show the lowest droplet size and, consequently, the best stability against\ncreaming and droplet growth. Emulsions formulated with PC as the only stabilizer show a slight\npseudoplastic character with an apparent viscosity below 10 mPa·s at 2 Pa. This indicates that these\nemulsions undergo creaming with aging time. In order to reduce creaming, pectin is incorporated\ninto the 5 wt.% PC emulsion at different concentrations. Interestingly, yield stress and an incipient\ngel character are observed due to the presence of pectin. This is why the creaming mechanism is\nreduced. In conclusion, PC forms a layer that protects the interface against coalescence and Ostwald\nripening. And, pectin is incorporated to reduce creaming. This research has the potential to make\nvaluable contributions to diverse ﬁelds, such as health, medicine, and encapsulation technology.\nKeywords: emulgels; microﬂuidization; pectin; phycocyanin\n1. Introduction\nA sub-micron emulgel format is the combination of an emulsion in the sub-micron\nscale and a gel base. This dual character makes it an appropriate candidate for the delivery\nof hydrophobic drugs. On the one hand, the emulsion component of an emulgel protects\nthe active ingredient by reducing some degradation reactions, such as hydrolysis. On\nthe other hand, the gel format increases the viscosity of the aqueous phase, provoking a\ndecrease in the interfacial and surface tension. In addition, emulgels present rheological\ncharacteristics that are suitable for topical delivery [1]. As an emerging transdermal delivery\ntool, emulgel has been proven to show surprising upshots for lipophilic drugs compared\nto other formulations, with potential applications in the pharmaceutical industry. The\nlipophilic nature of the majority of newer drugs developed in the modern era results in\npoor oral bioavailability, erratic absorption, and pharmacokinetic variations. Therefore,\nthis novel transdermal delivery system has proven to be advantageous over other oral and\ntopical drug delivery systems in avoiding such disturbances [2].\nIn the last decade, food researchers have paid great attention to “Green Chemistry”,\nwhich aims at the development of new formulations using renewable resources based\non vegetables and algae in terms of the lowest possible impact on human life and the\nenvironment. Generally, several compounds, including those from animals, are used for\nthe production of food products, and in some cases, very high-energy input is required.\nPharmaceutics 2023, 15, 2067. https://doi.org/10.3390/pharmaceutics15082067\nhttps://www.mdpi.com/journal/pharmaceutics\n\n--- Page 2 ---\nPharmaceutics 2023, 15, 2067\n2 of 11\nProteins obtained from animals can contribute to environmental impact. Furthermore,\nthere are studies that recommend a reduction in consuming animal-based products [3].\nTherefore, to develop a green approach, researchers have the opportunity to investigate\nproteins obtained from vegetables or algae to stabilize food products.\nPhycocyanin (PC) is generally recognized as a safe (GRAS) pigment found in certain\ntypes of blue-green algae, also known as cyanobacteria. It is a protein complex that plays\na crucial role in the process of photosynthesis. The name “phycocyanin” is derived from\nthe Greek words “phykos”, meaning “algae”, and “kyanos”, meaning “blue”, reﬂecting its\ncharacteristic blue color. Phycocyanin has signiﬁcant nutraceutical and pharmaceutical\npotential based on various studies in recent years. Its anti-inﬂammatory and antioxidant\nactivities have been clearly demonstrated in food innovation. Due to its potential health\nbeneﬁts, PC has attracted signiﬁcant attention in various ﬁelds, including medicine, food,\nand cosmetics [4]. Studies have suggested that PC may have anticancer, neuroprotective,\nand immunomodulatory effects, although further research is still needed to fully under-\nstand its mechanisms of action [5]. In the food industry, PC is utilized as a natural food\ncolorant, serving as an alternative to synthetic dyes. Its safety proﬁle and attractive hue\nmake it an appealing choice for various food and beverage products. In addition, PC\npresents surface activity and could reduce interfacial tension [5]. In addition, its potential\nas a stabilizing and emulsifying agent has already been tested in some studies, although its\napplications for the design of encapsulation systems still need to be explored [6,7].\nPectins are complex polysaccharides widely found in plant cell walls. Chemically,\npectins are composed of chains of sugar molecules, primarily galacturonic acid. These\nchains can vary in length and branching patterns, leading to different types of pectins with\nvarying properties. Other sugar molecules, such as rhamnose and arabinose, further add\nto the complexity of pectin structures. One of the notable characteristics of pectins is their\nability to form gels when they interact with water and sugar under speciﬁc conditions [8].\nThis property has made pectins invaluable in the food industry for thickening, stabilizing,\nand gelling applications. They are commonly used in the production of jams, jellies, fruit\npreserves, and other food products [9]. Beyond their food uses, pectins have gained\nattention for their potential health beneﬁts. They are classiﬁed as dietary ﬁbers and can\ncontribute to digestive health by promoting regular bowel movements and feeling full [10].\nPectins can also bind to cholesterol, which may help to reduce blood cholesterol levels.\nThe selection of the oil phase and its relative quantity will depend on the end use of the\nproduct. For pharmaceutical, cosmetic, food, and agrochemical applications, oils derived\nfrom plants, the so-called essential oils, are a good choice because of their antimicrobial,\nantifungal, and medicinal properties. Avocado oil, derived from the fruit of the avocado tree\n(Persea americana), has gained considerable popularity in recent years due to its numerous\nhealth beneﬁts. The oil is extracted from the ﬂeshy pulp of ripe avocados, resulting in a\nsmooth, greenish-yellow liquid with a distinct aroma and ﬂavor. Avocado oil is highly\nregarded for its high content of monounsaturated fats, speciﬁcally oleic acid, which is\nknown to promote heart health by reducing bad cholesterol levels [11]. Additionally, it\ncontains essential fatty acids, vitamins, and antioxidants that contribute to overall well-\nbeing. Because of these properties, avocado oil has gained attention in the last few years\nfor the food industry. Among essential oils, lemon essential oil has properties of great\ninterest for its applications in ﬁelds such as cosmetics, food, and medicine. It has beneﬁcial\nhealth effects by lowering cholesterol and triglycerides without affecting other blood\nbiochemical parameters [12].\nThe objective of this study was to develop stable emulsions based on plant-based com-\npounds, with PC as the main emulsiﬁer and avocado and lemon oils as dispersed phases.\nFurthermore, the combination of PC with a plant-based thickener (pectin) to improve\nthe physical stability of these systems was studied. The inﬂuence of pectin concentration\non rheological properties and physical stability of emulsions based on phycocyanin was\nstudied. This work sets the stage for future studies based on PC and on a combination\n\n--- Page 3 ---\nPharmaceutics 2023, 15, 2067\n3 of 11\nof pectin-PC and has the potential to make a valuable contribution to ﬁelds as diverse as\nhealth, medicine, and encapsulation technology.\n2. Materials and Methods\n2.1. Materials\nPhycocyanin (PC) was purchased from Ecospirulina (Valencia, Spain) and was used\nas an emulsiﬁer. The avocado oil and lemon essential oil used as dispersed phases were\npurchased from Bidah Chaumel (Murcia, Spain) and used as received. Pectin from citrus\npeel was purchased from Sigma-Aldrich and supplied by Quimidroga (Barcelona, Spain).\nAll compounds were natural products based on a certiﬁcate of analysis.\n2.2. Emulgel Preparation\nThe aqueous phase contained deionized water at pH 2.5, 0.1 wt.% antifoam agent\n(Antifoam B Emulsion, Sigma-Aldrich, Saint Louis, MO, USA), and different PC concen-\ntrations (1–5 wt.%). The oil phase (20 wt.%) consisted of a mixture of two food-grade oils:\navocado oil and lemon oil with 90/10 mass ratio. A three-step procedure was followed to\nprepare the emulgels. Firstly, a pre-emulsion (150 g) was prepared by primary homoge-\nnization using an Ultraturrax T50 (Ika, Staufen, Germany) rotor–stator device at 6000 rpm\nfor 60 s. Subsequently, this pre-emulsion was introduced into a microﬂuidizer (Model\nM-110P, Microﬂuidics, Westwood, MA, USA) operating at 25,000 psi (1724 bar) for one\ncycle. Finally, various concentrations of citrus peel pectin were added to the emulsion with\nthe optimum concentration of PC (2.5, 5, or 7.5 wt.%). The incorporation of citrus peel\npectin was performed by solubilizing the thickener directly in the emulsion with the aid of\nmechanical stirring at 600 rpm for 5 min. The samples were prepared in triplicate, stored at\nroom temperature, and protected from light in transparent glass vials.\n2.3. Droplet Size Distribution and Mean Diameter Determination\nThe droplet size distributions and mean diameters of emulgel oil droplets were mea-\nsured using a laser diffraction technique (Mastersizer 2000, Malvern, UK). The mean droplet\ndiameters were expressed as volume mean diameter (D4,3) and Sauter mean diameter (D3,2).\nIn order to quantify the polydispersity, the span parameter was used. All measurements\nwere carried out in triplicate for each sample. The inﬂuence of aging time on droplet size\ndistributions was studied for 36 days.\n2.4. Rheological Characterization\nRheological measurements were carried out using a controlled-stress Haake MARS II\nrheometer (Thermo-Scientiﬁc, Dreieich, Germany). Flow curves for emulsions (without\npectin) were performed with a sand-blasted coaxial cylinder Z-20. Emulgels studied\nwere measured using a serrated plate–plate sensor (60 mm diameter; 1 mm gap). The\nrheological characterization for emulgels involved stress and frequency sweeps in small\namplitude oscillatory shear experiments (SAOSs) and ﬂow curves. Equilibration time prior\nto rheological tests was 5 min. All measurements were carried out at 25 ◦C.\n2.5. Analysis of Physical Stability\nMultiple light-scattering measurements were conducted, as a function of aging time,\nusing Turbiscan Lab Expert (Formulaction, Toulouse, France) for the monitoring of the\nphysical stability of all studied samples at 25 ◦C.\n3. Results and Discussion\n3.1. Exploring the Optimal Phycocyanin Concentration\nFigure 1 shows the droplet size distributions (DSDs) for emulsions based on a mixture\nof avocado and lemon oils as a function of phycocyanin (PC) concentration. As expected,\ndroplet size was reduced by an increase in PC concentration. This indicates that there\nwas not enough emulsiﬁer content, as it is widely known that the emulsiﬁer concentration\n\n--- Page 4 ---\nPharmaceutics 2023, 15, 2067\n4 of 11\ndetermines the size limit that can be reached in droplet size [13]. This fact can be understood\nby taking into account the fact that the emulsiﬁer forms a layer at the interface, and if there\nis not enough emulsiﬁer to cover the surface of all the droplets, they will coalesce to form\nnew larger droplets until the point of full coverage is reached. A signiﬁcant difference\nin span should be noted for the pre-emulsion (3 wt.% PC) and the 1% emulsion (1.243\nand 1.696, respectively), which is also related to a clear lack of emulsiﬁer to cover all the\nnew interfaces created during the high-pressure emulsiﬁcation process [14]. In addition,\nthe Sauter and volumetric diameters (Table 1) underwent substantial changes in the pre-\nemulsion and microﬂuidized emulsion containing 3 wt.% of phycocyanin as a result of the\nhigh-pressure emulsiﬁcation process.\n \np y\ny\npected, droplet size was reduced by an increase in PC concentration. This indicates that \nthere was not enough emulsiﬁer content, as it is widely known that the emulsiﬁer concen-\ntration determines the size limit that can be reached in droplet size [13]. This fact can be \nunderstood by taking into account the fact that the emulsiﬁer forms a layer at the interface, \nand if there is not enough emulsiﬁer to cover the surface of all the droplets, they will coa-\nlesce to form new larger droplets until the point of full coverage is reached. \u001f  signiﬁcant \ndiﬀerence in span should be noted for the pre-emulsion (3 wt.% PC) and the 1% emulsion \n(1.243 and 1.696, respectively), which is also related to a clear lack of emulsiﬁer to cover \nall the new interfaces created during the high-pressure emulsiﬁcation process [14]. In ad-\ndition, the Sauter and volumetric diameters (Table 1) underwent substantial changes in \nthe pre-emulsion and microﬂuidized emulsion containing 3 wt.% of phycocyanin as a re-\nsult of the high-pressure emulsiﬁcation process. \n\u001f s a conclusion from both Figure 1 and Table 1, it can be said that the best results in \nterms of the smallest sizes and lowest polydispersity are those obtained for the emulsion \ncontaining 5 wt.% PC. Similar results have recently been obtained with other emulsifying \nagents derived from sustainable biological resources, such as avocado phospholipids [15]. \n \nFigure 1. Droplet size distributions (DSDs) as a function of PC concentration for the emulsions stud-\nied. \u001f ging time, 0 h. \nTable 1. Sauter mean diameters (Ds3,2), volumetric mean diameter (D4,3), and span as a function of \nPC concentration for the emulsions studied. \u001f ging time, 0 h. The approximate percentage of varia-\nbility in the technique with the experimental protocol and type of emulsions is 5% for D3,2, 8% for \nD4,3, and 8% for the span. \nPhycocyanin Concentration (wt.%) \nD3,2 (µm) \nD4,3 (µm) \nSpan \n1 \n1.43 \n2.31 \n1.696 \n2 \n0.98 \n1.21 \n1.239 \n3 \n0.83 \n1.08 \n1.115 \n4 \n0.75 \n0.85 \n0.929 \n5 \n0.65 \n0.77 \n0.887 \nPre-emulsion (3 wt.%) \n1.69 \n2.40 \n1.243 \nFigure 1. Droplet size distributions (DSDs) as a function of PC concentration for the emulsions\nstudied. Aging time, 0 h.\nTable 1. Sauter mean diameters (Ds3,2), volumetric mean diameter (D4,3), and span as a function\nof PC concentration for the emulsions studied. Aging time, 0 h. The approximate percentage of\nvariability in the technique with the experimental protocol and type of emulsions is 5% for D3,2, 8%\nfor D4,3, and 8% for the span.\nPhycocyanin Concentration (wt.%)\nD3,2 (µm)\nD4,3 (µm)\nSpan\n1\n1.43\n2.31\n1.696\n2\n0.98\n1.21\n1.239\n3\n0.83\n1.08\n1.115\n4\n0.75\n0.85\n0.929\n5\n0.65\n0.77\n0.887\nPre-emulsion (3 wt.%)\n1.69\n2.40\n1.243\nAs a conclusion from both Figure 1 and Table 1, it can be said that the best results in\nterms of the smallest sizes and lowest polydispersity are those obtained for the emulsion\ncontaining 5 wt.% PC. Similar results have recently been obtained with other emulsifying\nagents derived from sustainable biological resources, such as avocado phospholipids [15].\nIn a subsequent step, the inﬂuence of aging time on the DSD for the emulsion con-\ntaining 5 wt.% PC was studied. Figure 2 shows DSD for the emulsion containing 5 wt.%\nof PC as a function of aging time. It can be clearly observed that there are no signiﬁcant\ndifferences in DSD for the aging times studied (see inset Figure 2), which reveals that it\nis possible to obtain at least a stable emulsion against coalesce/Ostwald ripening with\nthis speciﬁc concentration of emulsiﬁer. This is because only coalescence and Ostwald\nripening destabilization phenomena could be detected with the evolution of DSD, unlike\nthe creaming mechanism.\n\n--- Page 5 ---\nPharmaceutics 2023, 15, 2067\n5 of 11\n \ntaining 5 wt.% PC was studied. Figure 2 shows DSD for the emulsion containing 5 wt.% \nof PC as a function of aging time. It can be clearly observed that there are no signiﬁcant \ndiﬀerences in DSD for the aging times studied (see inset Figure 2), which reveals that it is \npossible to obtain at least a stable emulsion against coalesce/Ostwald ripening with this \nspeciﬁc concentration of emulsiﬁer. This is because only coalescence and Ostwald ripen-\ning destabilization phenomena could be detected with the evolution of DSD, unlike the \ncreaming mechanism. \n \nFigure 2. Droplet size distributions for the emulsion prepared with 5 wt.% of PC as a function of \naging time. \nFigure 3 shows the ﬂow curves for the emulsions studied as a function of PC concen-\ntration. It can be observed that the shear rate decreases with the concentration of phycocy-\nanin at a ﬁxed shear stress, which implies higher values of apparent viscosity. This can be \nclearly seen in Table 2, where the viscosity at 2 Pa is shown by way of example. The in-\ncrease in viscosity is related to the smaller droplet sizes of the emulsions as a consequence \nof the role of the emulsiﬁer. It can also be attributed to an increase in the viscosity of the \ncontinuous phase due to the presence of PC within it, at higher concentrations [16]. In \naddition, Table 3 shows the ﬂow index and shear stress at 1 s−1, which is related to the ﬂow \nconsistency coeﬃcient (k), and its value can be viewed as the value of apparent viscosity \nat the shear rate of unity. It was preferred to show shear stress at 1 s−1, taking into account \nthat one of the limitations of the power law model is the dependence of the dimensions of \nk on the numerical value of n, which is why the values of k should not be compared when \nthe values of n are diﬀerent [17]. The ﬂow index is indicative of the deviation from the \nNewtonian behavior of the ﬂuid, that is, of its pseudoplastic character, and this is usually \nrelated to molecular interactions and the spatial ordering of the macromolecules between \nthe layers of the ﬂuid where this spatial ordering may or may not favor the motion of the \nﬂuid. The ﬂow consistency coeﬃcient, k, or in this case shear stress at 1 s−1, can be inter-\npreted as a measure of its resistance to deformation [17]. Thus, a clear trend towards a \ndecrease in the ﬂow index with the concentration of phycocyanin (greater pseudoplastic \ncharacter) is demonstrated. The pseudoplastic nature of these emulsions can be associated \nwith slight ﬂocculation of the samples due to the presence of PC in the continuous phase \nsince the concentration of the oil phase is low (20 wt.%), which gives rise to weakly ﬂoc-\nculated emulsions [18]. The pre-emulsion with 3 wt.% PC does not follow the trend of the \ngroup of systems studied because the concentration variable must also be considered. \nFigure 2. Droplet size distributions for the emulsion prepared with 5 wt.% of PC as a function of\naging time.\nFigure 3 shows the ﬂow curves for the emulsions studied as a function of PC concentra-\ntion. It can be observed that the shear rate decreases with the concentration of phycocyanin\nat a ﬁxed shear stress, which implies higher values of apparent viscosity. This can be clearly\nseen in Table 2, where the viscosity at 2 Pa is shown by way of example. The increase in\nviscosity is related to the smaller droplet sizes of the emulsions as a consequence of the role\nof the emulsiﬁer. It can also be attributed to an increase in the viscosity of the continuous\nphase due to the presence of PC within it, at higher concentrations [16]. In addition, Table 3\nshows the ﬂow index and shear stress at 1 s−1, which is related to the ﬂow consistency\ncoefﬁcient (k), and its value can be viewed as the value of apparent viscosity at the shear\nrate of unity. It was preferred to show shear stress at 1 s−1, taking into account that one of\nthe limitations of the power law model is the dependence of the dimensions of k on the\nnumerical value of n, which is why the values of k should not be compared when the values\nof n are different [17]. The ﬂow index is indicative of the deviation from the Newtonian\nbehavior of the ﬂuid, that is, of its pseudoplastic character, and this is usually related to\nmolecular interactions and the spatial ordering of the macromolecules between the layers\nof the ﬂuid where this spatial ordering may or may not favor the motion of the ﬂuid. The\nﬂow consistency coefﬁcient, k, or in this case shear stress at 1 s−1, can be interpreted as\na measure of its resistance to deformation [17]. Thus, a clear trend towards a decrease in\nthe ﬂow index with the concentration of phycocyanin (greater pseudoplastic character) is\ndemonstrated. The pseudoplastic nature of these emulsions can be associated with slight\nﬂocculation of the samples due to the presence of PC in the continuous phase since the\nconcentration of the oil phase is low (20 wt.%), which gives rise to weakly ﬂocculated\nemulsions [18]. The pre-emulsion with 3 wt.% PC does not follow the trend of the group of\nsystems studied because the concentration variable must also be considered. Therefore,\nfor the same concentration (3 wt.%), n decreases and shear stress at 1 s−1 increases after\nprocessing (high pressure) to obtain the emulsion. This demonstrates that processing and\nits result, the occurrence of sub-micron and nanodroplets, causes a greater pseudoplastic\ncharacter and greater resistance to deformation or, what is the same, greater viscosity at a\ngiven shear rate.\n\n--- Page 6 ---\nPharmaceutics 2023, 15, 2067\n6 of 11\n \nTherefore, for the same concentration (3 wt.%), n decreases and shear stress at 1s−1 in-\ncreases after processing (high pressure) to obtain the emulsion. This demonstrates that \nprocessing and its result, the occurrence of sub-micron and nanodroplets, causes a greater \npseudoplastic character and greater resistance to deformation or, what is the same, greater \nviscosity at a given shear rate. \n \nFigure 3. Flow curves as a function of PC concentration for the emulsions without pectin. Lines are \nthe best ﬁt to the power law model with the rheological parameters given in Table 2. \nTable 2. Inﬂuence of PC concentration on the ﬁtting parameters to the power law model. \u001f ging \ntime, 0 h. The approximate percentage of variability in the technique with the experimental protocol \nand type of emulsions is 5% for all parameters. \nPhycocyanin Concentration (wt.%) \nσ1 (Pa) \nn \nη2Pa (mPa·s) \n1 \n0.011 \n0.92 \n7.21 \n2 \n0.013 \n0.90 \n7.54 \n3 \n0.016 \n0.86 \n7.72 \n4 \n0.017 \n0.86 \n8.21 \n5 \n0.017 \n0.85 \n8.49 \nPre-emulsion (3 wt.%) \n0.011 \n0.89 \n7.13 \nTable 3. Inﬂuence of citrus peel pectin concentration on the yield stress values. \u001f ging time, 0 h. The \napproximate percentage of variability in the technique with the experimental protocol and type of \nsamples is 5% for yield stress. \nPectin Concentration \n(wt.%) \nYield Stress (Pa) \n2.5 \n1.8 \n5 \n20 \n7.5 \n125 \nFigure 4\u001f  shows the variation in backscattering (BS) as a function of time and the \nheight of the sample for the microﬂuidized emulsion containing 3 wt.% PC. \u001f  clear de-\ncrease in BS can be observed with time in the lower part of the measurement cell, indicat-\ning a creaming destabilization mechanism. In addition, the increase in BS over time in the \nintermediate zone of the vial can be associated with a ﬂocculation process, as it was pre-\nviously veriﬁed that there was no increase in droplet size at these times as a consequence \nof coalescence or Oswald ripening (see Figure 2). \nFigure 3. Flow curves as a function of PC concentration for the emulsions without pectin. Lines are\nthe best ﬁt to the power law model with the rheological parameters given in Table 2.\nTable 2. Inﬂuence of PC concentration on the ﬁtting parameters to the power law model. Aging time,\n0 h. The approximate percentage of variability in the technique with the experimental protocol and\ntype of emulsions is 5% for all parameters.\nPhycocyanin Concentration (wt.%)\nσ1 (Pa)\nn\nη2Pa (mPa·s)\n1\n0.011\n0.92\n7.21\n2\n0.013\n0.90\n7.54\n3\n0.016\n0.86\n7.72\n4\n0.017\n0.86\n8.21\n5\n0.017\n0.85\n8.49\nPre-emulsion (3 wt.%)\n0.011\n0.89\n7.13\nTable 3. Inﬂuence of citrus peel pectin concentration on the yield stress values. Aging time, 0 h. The\napproximate percentage of variability in the technique with the experimental protocol and type of\nsamples is 5% for yield stress.\nPectin Concentration\n(wt.%)\nYield Stress (Pa)\n2.5\n1.8\n5\n20\n7.5\n125\nFigure 4A shows the variation in backscattering (BS) as a function of time and the\nheight of the sample for the microﬂuidized emulsion containing 3 wt.% PC. A clear decrease\nin BS can be observed with time in the lower part of the measurement cell, indicating a\ncreaming destabilization mechanism. In addition, the increase in BS over time in the\nintermediate zone of the vial can be associated with a ﬂocculation process, as it was\npreviously veriﬁed that there was no increase in droplet size at these times as a consequence\nof coalescence or Oswald ripening (see Figure 2).\n\n--- Page 7 ---\nPharmaceutics 2023, 15, 2067\n7 of 11\nPharmaceutics 2023, 15, x FOR PEER REVIEW \n7 of 11 \n \n \n \n \nFigure 4. Backscattering versus container height as a function of time for (A) the emulsion formu-\nlated with 3 wt.% of PC and no pectin and (B) the emulgel formulated with 5 wt.% PC and 2.5 wt.% \npectin. Temperature: 20 °C. \nFocusing on the destabilization process by creaming, Figure 5 shows the height of \ncreaming (H) versus the aging time for all the emulsions studied. Fitting of the results led \nto a delay time for creaming (t0) and the creaming rate (CR), which was determined as the \nslope of the line. It should be noted that the pre-emulsion containing 3 wt.% and the 1 \nwt.% emulsion show similar behavior, with the delay time of creaming equal to zero and \na high and similar initial creaming rate until reaching a maximum value of H, which \nindicates total phase separation. This occurs for diﬀerent reasons in both emulsions: in the \ncase of the pre-emulsion, it is due to the lack of processing and of nano size, and in the \ncase of the 1% emulsion, it is due to the lack of an emulsiﬁer. \u001f s for the rest of the \nemulsions studied, it should be noted that while, in the 2–4 wt.% range of PC, creaming \noccurred at shorter aging times, the 5 wt.% emulsion showed a much longer delay time \nfor creaming. Regarding the creaming rate, it can be considered that they are signiﬁcantly \nsimilar for the most phycocyanin-concentrated systems. \u001f s expected, all these results have \na direct relationship with the distribution and size of droplets, such that the smaller the \nmean diameters, the greater the stability against creaming [19]. The destabilization \nmechanism is present in all the studied systems due to the low viscosity of the samples. \nFor this reason, and as a strategy to inhibit the destabilization process, a subsequent study \non the inﬂuence on the stability of these emulsions via the addition of a stabilizer (citrus \nFigure 4. Backscattering versus container height as a function of time for (A) the emulsion formulated\nwith 3 wt.% of PC and no pectin and (B) the emulgel formulated with 5 wt.% PC and 2.5 wt.% pectin.\nTemperature: 20 ◦C.\nFocusing on the destabilization process by creaming, Figure 5 shows the height of\ncreaming (H) versus the aging time for all the emulsions studied. Fitting of the results\nled to a delay time for creaming (t0) and the creaming rate (CR), which was determined\nas the slope of the line. It should be noted that the pre-emulsion containing 3 wt.% and\nthe 1 wt.% emulsion show similar behavior, with the delay time of creaming equal to zero\nand a high and similar initial creaming rate until reaching a maximum value of H, which\nindicates total phase separation. This occurs for different reasons in both emulsions: in the\ncase of the pre-emulsion, it is due to the lack of processing and of nano size, and in the case\nof the 1% emulsion, it is due to the lack of an emulsiﬁer. As for the rest of the emulsions\nstudied, it should be noted that while, in the 2–4 wt.% range of PC, creaming occurred at\nshorter aging times, the 5 wt.% emulsion showed a much longer delay time for creaming.\nRegarding the creaming rate, it can be considered that they are signiﬁcantly similar for\nthe most phycocyanin-concentrated systems. As expected, all these results have a direct\nrelationship with the distribution and size of droplets, such that the smaller the mean\ndiameters, the greater the stability against creaming [19]. The destabilization mechanism is\npresent in all the studied systems due to the low viscosity of the samples. For this reason,\nand as a strategy to inhibit the destabilization process, a subsequent study on the inﬂuence\n\n--- Page 8 ---\nPharmaceutics 2023, 15, 2067\n8 of 11\non the stability of these emulsions via the addition of a stabilizer (citrus peel pectin) to the\nemulsion with the lowest droplet mean diameter and higher stability (5 wt.% PC) is proposed.\nPharmaceutics 2023, 15, x FOR PEER REVIEW \n8 of 11 \n \n \npeel pectin) to the emulsion with the lowest droplet mean diameter and higher stability \n(5 wt.% PC) is proposed. \n \nFigure 5. Creaming height as a function of the aging time for all studied emulsions. Samples kept \nunder storage at 20 °C. \n3.2. Strategy to Solve the Creaming Destabilization Process \nIn order to enhance the physical stability of the systems, pectin was incorporated at \n2.5, 5, and 7.5 wt.% into the emulsion formulated with 5 wt.% of phycocyanin. Figure 6\u001f  \nshows the ﬂow curves for PC-based emulsions formulated with citrus peel pectin as a \nfunction of pectin concentration. \u001f ll systems showed a decrease in apparent viscosity with \nthe shear rate. \u001f  tendency to reach a plateau in viscosity at very low shear rates can also \nbe observed. Hence, these emulgels present very shear-thinning behavior with the occur-\nrence of zero-shear viscosity. The latter is related to the stability of the emulsions against \ncreaming [20]. The very shear-thinning behavior is characterized by a lack of data in a \ncertain range of shear rates, which is due to a marked increase in the shear rate in a narrow \nshear stress range. This is related to the appearance of yield stress [21]. In the apparent \nviscosity–shear stress plot (Figure 6B), an abrupt decrease in viscosity is shown at a certain \nshear stress. The yield stress is higher with increasing pectin concentration, as expected. \nHigher values of yield stress are related to the enhancer stabilities [22,23]. The yield stress \nvalues are shown in Table 3. \n \nFigure 6. Viscosity versus (A) shear rate and (B) shear stress for the systems based on PC as a func-\ntion of citrus peel pectin concentration. \nFigure 5. Creaming height as a function of the aging time for all studied emulsions. Samples kept\nunder storage at 20 ◦C.\n3.2. Strategy to Solve the Creaming Destabilization Process\nIn order to enhance the physical stability of the systems, pectin was incorporated at\n2.5, 5, and 7.5 wt.% into the emulsion formulated with 5 wt.% of phycocyanin. Figure 6A\nshows the ﬂow curves for PC-based emulsions formulated with citrus peel pectin as a\nfunction of pectin concentration. All systems showed a decrease in apparent viscosity\nwith the shear rate. A tendency to reach a plateau in viscosity at very low shear rates can\nalso be observed. Hence, these emulgels present very shear-thinning behavior with the\noccurrence of zero-shear viscosity. The latter is related to the stability of the emulsions\nagainst creaming [20]. The very shear-thinning behavior is characterized by a lack of data\nin a certain range of shear rates, which is due to a marked increase in the shear rate in\na narrow shear stress range. This is related to the appearance of yield stress [21]. In the\napparent viscosity–shear stress plot (Figure 6B), an abrupt decrease in viscosity is shown at\na certain shear stress. The yield stress is higher with increasing pectin concentration, as\nexpected. Higher values of yield stress are related to the enhancer stabilities [22,23]. The\nyield stress values are shown in Table 3.\nPharmaceutics 2023, 15, x FOR PEER REVIEW \n8 of 11 \n \n \npeel pectin) to the emulsion with the lowest droplet mean diameter and higher stability \n(5 wt.% PC) is proposed. \n \nFigure 5. Creaming height as a function of the aging time for all studied emulsions. Samples kept \nunder storage at 20 °C. \n3.2. Strategy to Solve the Creaming Destabilization Process \nIn order to enhance the physical stability of the systems, pectin was incorporated at \n2.5, 5, and 7.5 wt.% into the emulsion formulated with 5 wt.% of phycocyanin. Figure 6\u001f  \nshows the ﬂow curves for PC-based emulsions formulated with citrus peel pectin as a \nfunction of pectin concentration. \u001f ll systems showed a decrease in apparent viscosity with \nthe shear rate. \u001f  tendency to reach a plateau in viscosity at very low shear rates can also \nbe observed. Hence, these emulgels present very shear-thinning behavior with the occur-\nrence of zero-shear viscosity. The latter is related to the stability of the emulsions against \ncreaming [20]. The very shear-thinning behavior is characterized by a lack of data in a \ncertain range of shear rates, which is due to a marked increase in the shear rate in a narrow \nshear stress range. This is related to the appearance of yield stress [21]. In the apparent \nviscosity–shear stress plot (Figure 6B), an abrupt decrease in viscosity is shown at a certain \nshear stress. The yield stress is higher with increasing pectin concentration, as expected. \nHigher values of yield stress are related to the enhancer stabilities [22,23]. The yield stress \nvalues are shown in Table 3. \n \nFigure 6. Viscosity versus (A) shear rate and (B) shear stress for the systems based on PC as a func-\ntion of citrus peel pectin concentration. \nFigure 6. Viscosity versus (A) shear rate and (B) shear stress for the systems based on PC as a function\nof citrus peel pectin concentration.\n\n--- Page 9 ---\nPharmaceutics 2023, 15, 2067\n9 of 11\nFigure 7 shows the mechanical spectra for emulgels formulated with 5 and 7.5 wt.%\nof pectin. It is important to note that the data for emulsion containing 2.5 wt.% are not\nshown. This case was quite enlightening since both G′ and G′′ fell throughout the whole\nshear stress range applied. This means that the response of 2.5 wt.% pectin was probably\noutside of the LVR at the lowest stress allowed by the rheometer.\nPharmaceutics 2023, 15, x FOR PEER REVIEW \n9 of 11 \n \n \nFigure 7 shows the mechanical spectra for emulgels formulated with 5 and 7.5 wt.% \nof pectin. It is important to note that the data for emulsion containing 2.5 wt.% are not \nshown. This case was quite enlightening since both G′ and G″ fell throughout the whole \nshear stress range applied. This means that the response of 2.5 wt.% pectin was probably \noutside of the LVR at the lowest stress allowed by the rheometer. \n \nFigure 7. Mechanical spectra for the systems based on PC as a function of citrus peel pectin concen-\ntration. \nThe two most concentrated systems presented the same tendencies in viscoelastic \nmoduli: G′ (elastic modulus) is higher than G″ (viscous modulus) in the lower frequency \nregime, and G′ is lower than G″ in the higher frequency regime because of a crossover \npoint between G′ and G″ at lower frequencies. \u001f t the lower frequencies, the plateau win-\ndow of the mechanical spectra, where the slopes of G\u001f at lower frequencies were close to \nzero, can be observed. This indicates the presence of an incipient weak gel, which seems \nto indicate improved physical stabilities against creaming (see Figure 5) for the most pec-\ntin-concentrated emulsions and especially that with higher values of G′ and G″ (emulsion \ncontaining 7.5 wt.% of pectin). In addition, at higher frequencies, the results obtained cor-\nresponded to part of the transition zone where G″ grows faster [24]. \n4. Conclusions \nThe preliminary studies for determining the optimal PC concentration revealed that \nthe best results in terms of the smallest sizes and lowest polydispersity were those ob-\ntained for the emulsion containing 5 wt.% PC. \u001f lso, signiﬁcant diﬀerences in the DSD \nwere not detected for 36 days of aging time for this concentration, which demonstrates \nthat at least this emulsion is stable against coalesce/Ostwald ripening as a consequence of \nthe emulsiﬁer forming a layer that recovers and protects the interface. \u001f  previous study \nalso revealed that all emulsions formulated with diﬀerent concentrations of PC showed \npseudoplastic behavior, with an increase in ﬂow index with PC concentration. This fact \nindicates a slight induced ﬂocculation due to PC concentration, which could result in an \nincrease in the viscosity of the emulsion and, hence, favors the physical stability against \ncreaming. These results could also be proved by MLS, which conﬁrmed the occurrence of \ncreaming and slight ﬂocculation. Despite the fact that a creaming destabilization process \nwas detected for all PC concentrations studied due to the low viscosity of the samples, the \n5 wt.% emulsion showed a much longer delay time for the destabilization process. In or-\nder to enhance physical stability, diﬀerent pectin concentrations (2.5, 5, and 7.5 wt.%) were \nFigure 7. Mechanical spectra for the systems based on PC as a function of citrus peel pectin concentration.\nThe two most concentrated systems presented the same tendencies in viscoelastic\nmoduli: G′ (elastic modulus) is higher than G′′ (viscous modulus) in the lower frequency\nregime, and G′ is lower than G′′ in the higher frequency regime because of a crossover point\nbetween G′ and G′′ at lower frequencies. At the lower frequencies, the plateau window\nof the mechanical spectra, where the slopes of G’ at lower frequencies were close to zero,\ncan be observed. This indicates the presence of an incipient weak gel, which seems to\nindicate improved physical stabilities against creaming (see Figure 5) for the most pectin-\nconcentrated emulsions and especially that with higher values of G′ and G′′ (emulsion\ncontaining 7.5 wt.% of pectin). In addition, at higher frequencies, the results obtained\ncorresponded to part of the transition zone where G′′ grows faster [24].\n4. Conclusions\nThe preliminary studies for determining the optimal PC concentration revealed that\nthe best results in terms of the smallest sizes and lowest polydispersity were those obtained\nfor the emulsion containing 5 wt.% PC. Also, signiﬁcant differences in the DSD were not\ndetected for 36 days of aging time for this concentration, which demonstrates that at least\nthis emulsion is stable against coalesce/Ostwald ripening as a consequence of the emulsiﬁer\nforming a layer that recovers and protects the interface. A previous study also revealed\nthat all emulsions formulated with different concentrations of PC showed pseudoplastic\nbehavior, with an increase in ﬂow index with PC concentration. This fact indicates a slight\ninduced ﬂocculation due to PC concentration, which could result in an increase in the\nviscosity of the emulsion and, hence, favors the physical stability against creaming. These\nresults could also be proved by MLS, which conﬁrmed the occurrence of creaming and\nslight ﬂocculation. Despite the fact that a creaming destabilization process was detected for\nall PC concentrations studied due to the low viscosity of the samples, the 5 wt.% emulsion\nshowed a much longer delay time for the destabilization process. In order to enhance\nphysical stability, different pectin concentrations (2.5, 5, and 7.5 wt.%) were incorporated\ninto the systems developed to form a gel in the continuous phase that increases its viscosity\nin order to retard creaming. The ﬂow curves of the emulgels formed revealed a very\nshear-thinning behavior identiﬁed by a marked decrease in viscosity in a narrow shear rate\n\n--- Page 10 ---\nPharmaceutics 2023, 15, 2067\n10 of 11\nrange, which is associated with a yield point and a tendency to reach a zero-shear viscosity\nvalue in the low shear-rate region. Both zero-shear viscosity and yield stress may be related\nto the stability of the emulsions against creaming, with the most stable emulsions being\nthose with higher zero-shear viscosity and yield point. The emulsion formulated with the\nlowest pectin concentration (2.5 wt.%) did not show a signiﬁcant linear viscoelastic range\nsince the response was probably outside of the LVR at the lowest stress allowed by the\nrheometer. However, the most concentrated emulsions showed measurable viscoelastic\nbehavior, revealing a mechanical spectrum that corresponds to the plateau zone and the\nonset of the transition zone. The occurrence of an incipient weak gel can be justiﬁed by the\nfact that the slopes of G′ at lower frequencies were close to zero. This can be related to the\ndecrease in the creaming rate, which was also demonstrated by MLS. As our understanding\nof phycocyanin continues to expand, this work can contribute to various ﬁelds, from health\nand medicine to food technology and beyond.\nAuthor Contributions: Conceptualization, N.C. and L.A.T.-C.; methodology, L.A.T.-C.; software,\nP.T.; validation, J.S., N.C. and L.A.T.-C.; formal analysis, P.T.; investigation, P.T.; resources, J.S.; data\ncuration, L.A.T.-C.; writing—original draft preparation, J.S.; writing—review and editing, N.C.;\nvisualization, L.A.T.-C.; supervision, L.A.T.-C.; project administration, N.C.; funding acquisition, J.S.\nAll authors have read and agreed to the published version of the manuscript.\nFunding: This research was funded by Ministerio de Innovación y Ciencia (Gobierno de España;\ngrant number: TED2021-131246B) and FEDER Programme (European Commission). The APC was\nfunded by Programa Ramón y Cajal (Ministerio de Innovación y Ciencia, Gobierno de España).\nData Availability Statement: The data presented in this study are available on request from the\ncorresponding author.\nConﬂicts of Interest: The authors declare no conﬂict of interest.\nReferences\n1.\nAithal, G.C.; Narayan, R.; Nayak, U.Y. Nanoemulgel: A Promising Phase in Drug Delivery. Curr. Pharm. Des. 2020, 26, 279–291.\n[CrossRef] [PubMed]\n2.\nTalat, M.; Zaman, M.; Khan, R.; Jamshaid, M.; Akhtar, M.; Mirza, A.Z. Emulgel: An Effective Drug Delivery System. Drug Dev.\nInd. Pharm. 2021, 47, 1193–1199. [CrossRef]\n3.\nGiacoman, C.; Ayala Arancibia, P.; Alfaro, J. Choosing to Stop Consuming Meat for Environmental Reasons: Exploring the\nInﬂuence of Gender and Social Status Variables in Chile. Br. Food J. 2021, 123, 2996–3013. [CrossRef]\n4.\nAshaolu, T.J. Nanoemulsions for Health, Food, and Cosmetics: A Review. Environ. Chem. Lett. 2021, 19, 3381–3395. [CrossRef]\n5.\nJiang, L.; Wang, Y.; Yin, Q.; Liu, G.; Liu, H.; Huang, Y.; Li, B. Phycocyanin: A Potential Drug for Cancer Treatment. J. Cancer 2017,\n8, 3416. [CrossRef]\n6.\nde Morais, M.G.; da Fontoura Prates, D.; Moreira, J.B.; Duarte, J.H.; Costa, J.A.V. Phycocyanin from Microalgae: Properties,\nExtraction and Puriﬁcation, with Some Recent Applications. Ind. Biotechnol. 2018, 14, 30–37. [CrossRef]\n7.\nTello, P.; Sanchez, R.; Trujillo-Cayado, L.A.; Santos, J.; Vladisavljevic, G. Microﬂuidization and Characterization of Phycocyanin-\nBased Emulsions Stabilised Using a Fumed Silica. LWT 2023, 184, 115077. [CrossRef]\n8.\nWillats, W.G.T.; Knox, J.P.; Mikkelsen, J.D. Pectin: New Insights into an Old Polymer Are Starting to Gel. Trends Food Sci. Technol.\n2006, 17, 97–104. [CrossRef]\n9.\nChristiaens, S.; Van Buggenhout, S.; Houben, K.; Jamsazzadeh Kermani, Z.; Moelants, K.R.N.; Ngouémazong, E.D.; Van\nLoey, A.; Hendrickx, M.E.G. Process–Structure–Function Relations of Pectin in Food. Crit. Rev. Food Sci. Nutr. 2016, 56,\n1021–1042. [CrossRef]\n10.\nBlanco-Pérez, F.; Steigerwald, H.; Schülke, S.; Vieths, S.; Toda, M.; Scheurer, S. The Dietary Fiber Pectin: Health Beneﬁts and Poten-\ntial for the Treatment of Allergies by Modulation of Gut Microbiota. Curr. Allergy Asthma Rep. 2021, 21, 43. [CrossRef] [PubMed]\n11.\nFulgoni, V.L.; Dreher, M.; Davenport, A.J. Avocado Consumption Is Associated with Better Diet Quality and Nutrient Intake, and\nLower Metabolic Syndrome Risk in US Adults: Results from the National Health and Nutrition Examination Survey (NHANES)\n2001–2008. Nutr. J. 2013, 12, 1. [CrossRef]\n12.\nMojtahedin, A.; Seifdavati, J.; Seyedshariﬁ, R. Effects of Different Levels of Dietary Citrus Limon Essential Oil on Some Blood\nParameters and Antioxidant Status in Afshari Ewes. Cell. Mol. Biol. 2018, 64, 47–51. [CrossRef]\n13.\nHenry, J.V.L.; Fryer, P.J.; Frith, W.J.; Norton, I.T. The Inﬂuence of Phospholipids and Food Proteins on the Size and Stability of\nModel Sub-Micron Emulsions. Food Hydrocoll. 2010, 24, 66–71. [CrossRef]\n14.\nMcClements, D.J.; Lu, J.; Grossmann, L. Proposed Methods for Testing and Comparing the Emulsifying Properties of Proteins\nfrom Animal, Plant, and Alternative Sources. Colloids Interfaces 2022, 6, 19. [CrossRef]\n\n--- Page 11 ---\nPharmaceutics 2023, 15, 2067\n11 of 11\n15.\nZüge, L.C.B.; Maieves, H.A.; Silveira, J.L.M.; da Silva, V.R.; de Paula Scheer, A. Use of Avocado Phospholipids as Emulsiﬁer.\nLWT-Food Sci. Technol. 2017, 79, 42–51. [CrossRef]\n16.\nWarncke, M.; Kieferle, I.; Nguyen, T.M.; Kulozik, U. Impact of Heat Treatment, Casein/Whey Protein Ratio and Protein\nConcentration on Rheological Properties of Milk Protein Concentrates Used for Cheese Production. J. Food Eng. 2022, 312,\n110745. [CrossRef]\n17.\nChhabra, R.P.; Richardson, J.F. Non-Newtonian Flow and Applied Rheology: Engineering Applications; Butterworth-Heinemann:\nOxford, UK, 2011; ISBN 0080951600.\n18.\nZhang, Z.; McClements, D.J. Overview of Nanoemulsion Properties: Stability, Rheology, and Appearance. In Nanoemulsions;\nElsevier: Amsterdam, The Netherlands, 2018; pp. 21–49.\n19.\nde Oca-Ávalos, J.M.M.; Candal, R.J.; Herrera, M.L. Nanoemulsions: Stability and Physical Properties. Curr. Opin. Food Sci. 2017,\n16, 1–6. [CrossRef]\n20.\nMcClements, D.J. Critical Review of Techniques and Methodologies for Characterization of Emulsion Stability. Crit. Rev. Food Sci.\nNutr. 2007, 47, 611–649. [CrossRef]\n21.\nCalero, N.; Santos, J.; Muñoz, J. Methodology to Estimate the Yield Stress Applied to Ultraconcentrated Detergents as Model\nSystems. Chem. Eng. Sci. 2017, 166, 115–121. [CrossRef]\n22.\nGanley, W.J.; van Duijneveldt, J.S. Controlling the Rheology of Montmorillonite Stabilized Oil-in-Water Emulsions. Langmuir\n2017, 33, 1679–1686. [CrossRef]\n23.\nSantos, J.; Calero, N.; Trujillo-Cayado, L.A.; Muñoz, J. Development and Characterisation of a Continuous Phase Based on a Fumed\nSilica and a Green Surfactant with Emulsion Applications. Colloids Surf. A Physicochem. Eng. Asp. 2018, 555, 351–357. [CrossRef]\n24.\nMezger, T.G. The Rheology Handbook: For Users of Rotational and Oscillatory Rheometers; Vincentz Network GmbH & Co KG: Hanover,\nGermany, 2006; ISBN 3878701748.\nDisclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual\nauthor(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to\npeople or property resulting from any ideas, methods, instructions or products referred to in the content.\n",
+    "figures": [
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page1_img1.png",
+        "page": 1,
+        "width": 500,
+        "height": 175,
+        "format": "png",
+        "size_bytes": 6447,
+        "label": "Page 1 Figure 1"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page1_img2.png",
+        "page": 1,
+        "width": 355,
+        "height": 234,
+        "format": "png",
+        "size_bytes": 4513,
+        "label": "Page 1 Figure 2"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page1_img3.png",
+        "page": 1,
+        "width": 355,
+        "height": 234,
+        "format": "png",
+        "size_bytes": 12281,
+        "label": "Page 1 Figure 3"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page1_img4.png",
+        "page": 1,
+        "width": 355,
+        "height": 234,
+        "format": "png",
+        "size_bytes": 12395,
+        "label": "Page 1 Figure 4"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page4_img1.jpeg",
+        "page": 4,
+        "width": 1106,
+        "height": 107,
+        "format": "jpeg",
+        "size_bytes": 35273,
+        "label": "Page 4 Figure 1"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page4_img2.jpeg",
+        "page": 4,
+        "width": 1106,
+        "height": 106,
+        "format": "jpeg",
+        "size_bytes": 12084,
+        "label": "Page 4 Figure 2"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page4_img3.jpeg",
+        "page": 4,
+        "width": 1106,
+        "height": 107,
+        "format": "jpeg",
+        "size_bytes": 8201,
+        "label": "Page 4 Figure 3"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page4_img4.jpeg",
+        "page": 4,
+        "width": 1106,
+        "height": 107,
+        "format": "jpeg",
+        "size_bytes": 17164,
+        "label": "Page 4 Figure 4"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page4_img5.jpeg",
+        "page": 4,
+        "width": 1106,
+        "height": 107,
+        "format": "jpeg",
+        "size_bytes": 23716,
+        "label": "Page 4 Figure 5"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page4_img6.jpeg",
+        "page": 4,
+        "width": 1106,
+        "height": 107,
+        "format": "jpeg",
+        "size_bytes": 26422,
+        "label": "Page 4 Figure 6"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page4_img7.jpeg",
+        "page": 4,
+        "width": 1106,
+        "height": 107,
+        "format": "jpeg",
+        "size_bytes": 26045,
+        "label": "Page 4 Figure 7"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page4_img8.jpeg",
+        "page": 4,
+        "width": 1106,
+        "height": 107,
+        "format": "jpeg",
+        "size_bytes": 23859,
+        "label": "Page 4 Figure 8"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page5_img1.jpeg",
+        "page": 5,
+        "width": 1357,
+        "height": 136,
+        "format": "jpeg",
+        "size_bytes": 13858,
+        "label": "Page 5 Figure 1"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page5_img2.jpeg",
+        "page": 5,
+        "width": 1357,
+        "height": 136,
+        "format": "jpeg",
+        "size_bytes": 31261,
+        "label": "Page 5 Figure 2"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page5_img3.jpeg",
+        "page": 5,
+        "width": 1357,
+        "height": 136,
+        "format": "jpeg",
+        "size_bytes": 32891,
+        "label": "Page 5 Figure 3"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page5_img4.jpeg",
+        "page": 5,
+        "width": 1357,
+        "height": 136,
+        "format": "jpeg",
+        "size_bytes": 28460,
+        "label": "Page 5 Figure 4"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page5_img5.jpeg",
+        "page": 5,
+        "width": 1357,
+        "height": 136,
+        "format": "jpeg",
+        "size_bytes": 17872,
+        "label": "Page 5 Figure 5"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page5_img6.jpeg",
+        "page": 5,
+        "width": 1357,
+        "height": 136,
+        "format": "jpeg",
+        "size_bytes": 28871,
+        "label": "Page 5 Figure 6"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page5_img7.jpeg",
+        "page": 5,
+        "width": 1357,
+        "height": 135,
+        "format": "jpeg",
+        "size_bytes": 14846,
+        "label": "Page 5 Figure 7"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page6_img1.jpeg",
+        "page": 6,
+        "width": 1067,
+        "height": 816,
+        "format": "jpeg",
+        "size_bytes": 133653,
+        "label": "Page 6 Figure 1"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page7_img1.jpeg",
+        "page": 7,
+        "width": 1081,
+        "height": 827,
+        "format": "jpeg",
+        "size_bytes": 118360,
+        "label": "Page 7 Figure 1"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page7_img2.jpeg",
+        "page": 7,
+        "width": 1081,
+        "height": 827,
+        "format": "jpeg",
+        "size_bytes": 105826,
+        "label": "Page 7 Figure 2"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img1.jpeg",
+        "page": 8,
+        "width": 1242,
+        "height": 119,
+        "format": "jpeg",
+        "size_bytes": 17749,
+        "label": "Page 8 Figure 1"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img2.jpeg",
+        "page": 8,
+        "width": 1242,
+        "height": 119,
+        "format": "jpeg",
+        "size_bytes": 28840,
+        "label": "Page 8 Figure 2"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img3.jpeg",
+        "page": 8,
+        "width": 1242,
+        "height": 119,
+        "format": "jpeg",
+        "size_bytes": 28932,
+        "label": "Page 8 Figure 3"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img4.jpeg",
+        "page": 8,
+        "width": 1242,
+        "height": 119,
+        "format": "jpeg",
+        "size_bytes": 20093,
+        "label": "Page 8 Figure 4"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img5.jpeg",
+        "page": 8,
+        "width": 1242,
+        "height": 119,
+        "format": "jpeg",
+        "size_bytes": 26788,
+        "label": "Page 8 Figure 5"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img6.jpeg",
+        "page": 8,
+        "width": 1242,
+        "height": 119,
+        "format": "jpeg",
+        "size_bytes": 23712,
+        "label": "Page 8 Figure 6"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img7.jpeg",
+        "page": 8,
+        "width": 1242,
+        "height": 119,
+        "format": "jpeg",
+        "size_bytes": 38031,
+        "label": "Page 8 Figure 7"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img8.jpeg",
+        "page": 8,
+        "width": 1242,
+        "height": 118,
+        "format": "jpeg",
+        "size_bytes": 21753,
+        "label": "Page 8 Figure 8"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img9.jpeg",
+        "page": 8,
+        "width": 1628,
+        "height": 570,
+        "format": "jpeg",
+        "size_bytes": 102775,
+        "label": "Page 8 Figure 9"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img10.jpeg",
+        "page": 8,
+        "width": 1242,
+        "height": 119,
+        "format": "jpeg",
+        "size_bytes": 17749,
+        "label": "Page 8 Figure 10"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img11.jpeg",
+        "page": 8,
+        "width": 1242,
+        "height": 119,
+        "format": "jpeg",
+        "size_bytes": 28840,
+        "label": "Page 8 Figure 11"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img12.jpeg",
+        "page": 8,
+        "width": 1242,
+        "height": 119,
+        "format": "jpeg",
+        "size_bytes": 28932,
+        "label": "Page 8 Figure 12"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img13.jpeg",
+        "page": 8,
+        "width": 1242,
+        "height": 119,
+        "format": "jpeg",
+        "size_bytes": 20093,
+        "label": "Page 8 Figure 13"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img14.jpeg",
+        "page": 8,
+        "width": 1242,
+        "height": 119,
+        "format": "jpeg",
+        "size_bytes": 26788,
+        "label": "Page 8 Figure 14"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img15.jpeg",
+        "page": 8,
+        "width": 1242,
+        "height": 119,
+        "format": "jpeg",
+        "size_bytes": 23712,
+        "label": "Page 8 Figure 15"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img16.jpeg",
+        "page": 8,
+        "width": 1242,
+        "height": 119,
+        "format": "jpeg",
+        "size_bytes": 38031,
+        "label": "Page 8 Figure 16"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img17.jpeg",
+        "page": 8,
+        "width": 1242,
+        "height": 118,
+        "format": "jpeg",
+        "size_bytes": 21753,
+        "label": "Page 8 Figure 17"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page8_img18.jpeg",
+        "page": 8,
+        "width": 1628,
+        "height": 570,
+        "format": "jpeg",
+        "size_bytes": 102775,
+        "label": "Page 8 Figure 18"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page9_img1.jpeg",
+        "page": 9,
+        "width": 1300,
+        "height": 126,
+        "format": "jpeg",
+        "size_bytes": 20519,
+        "label": "Page 9 Figure 1"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page9_img2.jpeg",
+        "page": 9,
+        "width": 1300,
+        "height": 126,
+        "format": "jpeg",
+        "size_bytes": 17545,
+        "label": "Page 9 Figure 2"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page9_img3.jpeg",
+        "page": 9,
+        "width": 1300,
+        "height": 126,
+        "format": "jpeg",
+        "size_bytes": 28684,
+        "label": "Page 9 Figure 3"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page9_img4.jpeg",
+        "page": 9,
+        "width": 1300,
+        "height": 126,
+        "format": "jpeg",
+        "size_bytes": 29818,
+        "label": "Page 9 Figure 4"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page9_img5.jpeg",
+        "page": 9,
+        "width": 1300,
+        "height": 126,
+        "format": "jpeg",
+        "size_bytes": 10237,
+        "label": "Page 9 Figure 5"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page9_img6.jpeg",
+        "page": 9,
+        "width": 1300,
+        "height": 126,
+        "format": "jpeg",
+        "size_bytes": 15521,
+        "label": "Page 9 Figure 6"
+      },
+      {
+        "path": "data\\raw\\parsed\\metformin_pharmaceutics\\images\\page9_img7.jpeg",
+        "page": 9,
+        "width": 1300,
+        "height": 124,
+        "format": "jpeg",
+        "size_bytes": 15797,
+        "label": "Page 9 Figure 7"
+      }
+    ],
+    "sections": []
+  }
+}
