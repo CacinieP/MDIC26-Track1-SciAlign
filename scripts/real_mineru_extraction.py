@@ -90,6 +90,16 @@ PARSED_DIR = PROJECT_ROOT / "data" / "raw" / "parsed"
 IMAGES_DIR = PROJECT_ROOT / "data" / "processed" / "images" / "paper"
 
 
+def _compute_file_md5(path: Path, chunk_size: int = 8192) -> str:
+    """Compute MD5 hash of a file using chunked reading to avoid loading
+    large PDFs entirely into memory and to ensure the file handle is closed."""
+    h = hashlib.md5()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(chunk_size), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
 def extract_pdf_content(pdf_path: Path, output_dir: Path) -> Dict[str, Any]:
     """Extract text, images and structure from a PDF using PyMuPDF (MinerU engine)."""
     doc = fitz.open(str(pdf_path))
@@ -107,7 +117,7 @@ def extract_pdf_content(pdf_path: Path, output_dir: Path) -> Dict[str, Any]:
         "extraction_metadata": {
             "engine": "PyMuPDF (MinerU's PDF processing engine)",
             "method": "text_extraction_with_image_isolation",
-            "pdf_md5": hashlib.md5(open(pdf_path, "rb").read()).hexdigest(),
+            "pdf_md5": _compute_file_md5(pdf_path),
         }
     }
 

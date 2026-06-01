@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 分子处理器 - 基于 RDKit 的分子数据获取与处理
 ===============================================
@@ -115,7 +116,7 @@ class MoleculeProcessor:
         if mol is None:
             return physico, druglike
 
-        physico.molecular_weight = round(Descriptors.ExactMolWt(mol), 2)
+        physico.molecular_weight = round(Descriptors.MolWt(mol), 2)
         physico.exact_mass = round(Descriptors.ExactMolWt(mol), 4)
         physico.logp = round(Descriptors.MolLogP(mol), 2)
         physico.tpsa = round(Descriptors.TPSA(mol), 2)

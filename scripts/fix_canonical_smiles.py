@@ -1,3 +1,4 @@
+from __future__ import annotations
 #!/usr/bin/env python3
 """Canonicalize all SMILES in processed MolAlign outputs using RDKit."""
 

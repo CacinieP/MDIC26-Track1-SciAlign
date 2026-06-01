@@ -243,9 +243,6 @@ KNOWN_RELATIONS = {
         {"subject": "Mometasone Furoate", "relation": "has_substructure", "object": "furoate ester", "confidence": 0.99},
         {"subject": "Mometasone Furoate", "relation": "has_substructure", "object": "corticosteroid backbone", "confidence": 0.99},
     ],
-        {"subject": "Cortisol", "relation": "binds_to", "object": "glucocorticoid receptor", "confidence": 0.99},
-        {"subject": "Cortisol", "relation": "binds_to", "object": "mineralocorticoid receptor", "confidence": 0.95},
-    ],
     6013: [  # Testosterone
         {"subject": "Testosterone", "relation": "binds_to", "object": "androgen receptor", "confidence": 0.99},
         {"subject": "Testosterone", "relation": "metabolized_to", "object": "dihydrotestosterone (DHT)", "confidence": 0.98},
@@ -356,7 +353,18 @@ def fetch_pubchem_description(cid: int) -> str:
 
 
 def build_mineru_records(cid: int, name: str) -> list:
-    """为每条记录生成 MinerU 使用记录"""
+    """为每条记录生成 MinerU 使用记录
+
+    WARNING: This function generates TEMPLATE records for molecules that do not
+    have real MinerU evidence. These template records reference PDF files and
+    outputs that may not exist. Prefer using real_mineru_extraction.py or
+    repair_dataset_integrity.py to populate mineru_usage from actual paper
+    parsing instead.
+    """
+    logger.warning(
+        f"build_mineru_records() generates template MinerU records for {name}. "
+        "Use real_mineru_extraction.py for actual paper parsing evidence."
+    )
     tools = [
         ("MinerU API", f"调用 MinerU API 批量解析{name}相关药理学论文，提取分子结构图和实验数据表格"),
         ("MinerU Open Source", f"使用 magic-pdf 本地解析{name}相关科学文献，提取结构化文本和图表"),

@@ -105,14 +105,16 @@ class AlignmentValidator:
 
         physico = record.get("properties", {}).get("physicochemical", {})
 
-        # 验证分子量（PubChem 用平均 MW，RDKit 用精确 MW，允许较大容差）
-        expected_mw = round(Descriptors.ExactMolWt(mol), 2)
+        # 验证分子量
+        # PubChem molecular_weight 是平均分子量；RDKit MolWt 也是平均分子量。
+        # 之前用 ExactMolWt（单同位素质量）会导致误报。现在统一用 MolWt 比较。
+        expected_mw = round(Descriptors.MolWt(mol), 2)
         actual_mw = physico.get("molecular_weight")
-        if actual_mw and abs(actual_mw - expected_mw) > 5.0:
+        if actual_mw and abs(actual_mw - expected_mw) > 2.0:
             self.errors.append(
                 f"Molecular weight mismatch: record={actual_mw}, calculated={expected_mw}"
             )
-        elif actual_mw and abs(actual_mw - expected_mw) > 1.0:
+        elif actual_mw and abs(actual_mw - expected_mw) > 0.5:
             self.warnings.append(
                 f"Molecular weight difference (PubChem vs RDKit): record={actual_mw}, calculated={expected_mw}"
             )

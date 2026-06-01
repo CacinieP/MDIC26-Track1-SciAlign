@@ -142,12 +142,27 @@ class MinerUClient:
 
         try:
             import subprocess
+            import shutil
+
+            # Validate paths exist to prevent command injection
+            if not os.path.isfile(pdf_path):
+                raise FileNotFoundError(f"PDF file not found: {pdf_path}")
+
             os.makedirs(output_dir, exist_ok=True)
 
+            # Use absolute paths to avoid shell injection
+            abs_pdf_path = os.path.abspath(pdf_path)
+            abs_output_dir = os.path.abspath(output_dir)
+
+            # Ensure magic-pdf is available
+            magic_pdf_bin = shutil.which("magic-pdf")
+            if not magic_pdf_bin:
+                raise FileNotFoundError("magic-pdf not found in PATH")
+
             cmd = [
-                "magic-pdf",
-                "--path", pdf_path,
-                "--output-dir", output_dir,
+                magic_pdf_bin,
+                "--path", abs_pdf_path,
+                "--output-dir", abs_output_dir,
                 "--lang", "en"
             ]
 

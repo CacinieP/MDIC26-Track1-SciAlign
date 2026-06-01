@@ -492,7 +492,7 @@ def enrich_dataset(input_path):
     print(f"ENRICHMENT SUMMARY")
     print(f"{'=' * 50}")
     print(f"Total records: {len(records)}")
-    print(f"MinerU records added: {stats['mineru_added']}")
+    print(f"MinerU records preserved: {stats['mineru_preserved']}")
     print(f"Entity relations added: {stats['relations_added']}")
     print(f"Chinese descriptions added: {stats['zh_added']}")
     print(f"English descriptions added: {stats['en_added']}")
