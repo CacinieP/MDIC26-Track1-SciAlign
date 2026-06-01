@@ -181,7 +181,297 @@
       "title": "Therapeutic Efficacy of Nanodrug Delivery Compared With Current Nonsurgical Treatments for Patients With Cutaneous Melanoma: A Systematic Review.",
       "record_id": "MOL-000279",
       "molecule": "Dacarbazine"
+    },
+    "penicillin_g_antibiotic.pdf": {
+      "task_id": "97a3676b-fd71-4fa3-a668-e314abe3176414",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4e1da56c-cf8a-4503-98fc-0a81e2aadf6c/full.md",
+      "content_length": 2859,
+      "pmc_id": "PMC12793167",
+      "pmc_num": 12793167,
+      "title": "P-724. Benzathine Penicillin G Shortage and Effects on Syphilis Patient Outcomes",
+      "record_id": "MOL-000007",
+      "molecule": "Penicillin G"
+    },
+    "amoxicillin_antibiotic.pdf": {
+      "task_id": "33b86bda-f237-4698-9423-de8f366962ee14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/80601232-4157-475e-b5a9-4cd268e3983e/full.md",
+      "content_length": 43363,
+      "pmc_id": "PMC13111529",
+      "pmc_num": 13111529,
+      "title": "Antibiotic use and adherence to Finnish treatment guidelines in pediatric acute otitis media.",
+      "record_id": "MOL-000008",
+      "molecule": "Amoxicillin"
+    },
+    "ciprofloxacin_antibiotic.pdf": {
+      "task_id": "fbdeb9ac-262b-4bca-8aae-39054e97d0ef14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e07d51a8-7dd0-4ae4-a217-210824a4fed6/full.md",
+      "content_length": 85138,
+      "pmc_id": "PMC13090387",
+      "pmc_num": 13090387,
+      "title": "Reduced ROS-associated prophage induction in a lepA mutant contributes to increased fluoroquinolone persistence in Salmonella Typhimurium.",
+      "record_id": "MOL-000009",
+      "molecule": "Ciprofloxacin"
+    },
+    "doxycycline_antibiotic.pdf": {
+      "task_id": "70db7505-6b49-46b8-9fc5-1d3cef49ac0814",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a894f931-4f0b-4698-b35e-8b0f34b26291/full.md",
+      "content_length": 45703,
+      "pmc_id": "PMC13182717",
+      "pmc_num": 13182717,
+      "title": "Beta-Lactam Plus Azithromycin or Doxycycline vs Fluoroquinolones in Adult Patients Hospitalized With Community-Acquired Pneumonia: A Systematic Review and Network Meta-analysis.",
+      "record_id": "MOL-000010",
+      "molecule": "Doxycycline"
+    },
+    "azithromycin_antibiotic.pdf": {
+      "task_id": "5bfa1b8c-c214-4dcc-b44c-51606d843f9414",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4fff3017-c760-4a45-9f26-50c4c41dd76e/full.md",
+      "content_length": 75628,
+      "pmc_id": "PMC13119893",
+      "pmc_num": 13119893,
+      "title": "A repetitive nucleotide insertion in the rplV gene is associated with in vitro resistance to azithromycin in Rickettsia typhi.",
+      "record_id": "MOL-000011",
+      "molecule": "Azithromycin"
+    },
+    "vancomycin_antibiotic.pdf": {
+      "task_id": "d52508b2-9aea-4ea6-a371-fde028c9056b14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4d8f1526-3639-4073-8ad5-5fab844b1859/full.md",
+      "content_length": 62843,
+      "pmc_id": "PMC13180884",
+      "pmc_num": 13180884,
+      "title": "Antimicrobial activity and mechanistic insights into the tick peptide persulcatusin against vancomycin-susceptible and vancomycin-resistant &lt;i&gt;Enterococcus faecium&lt;/i&gt; strains.",
+      "record_id": "MOL-000012",
+      "molecule": "Vancomycin"
+    },
+    "gentamicin_antibiotic.pdf": {
+      "task_id": "c1abd6e7-f91b-41cd-9b07-fef87a0657e814",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/03a73db7-af59-4110-8b40-54588962d69d/full.md",
+      "content_length": 57570,
+      "pmc_id": "PMC13096156",
+      "pmc_num": 13096156,
+      "title": "Amelioration of gentamicin-induced acute kidney injury by trifluoperazine: in vivo mechanistic insights.",
+      "record_id": "MOL-000013",
+      "molecule": "Gentamicin"
+    },
+    "metronidazole_antibiotic.pdf": {
+      "task_id": "056be104-ab9c-4f1a-b111-1ce0a2a3bee314",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/5193ea24-23d8-4227-a94d-0e194bd2fe98/full.md",
+      "content_length": 48204,
+      "pmc_id": "PMC13128963",
+      "pmc_num": 13128963,
+      "title": "Treatment for Dientamoeba fragilis: A Systematic Review and Meta-analysis.",
+      "record_id": "MOL-000014",
+      "molecule": "Metronidazole"
+    },
+    "cephalexin_antibiotic.pdf": {
+      "task_id": "cd000307-2133-4a9b-8df2-8868e3e6afaf14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0e6bafd3-b0d5-4dec-9abb-3d476df18695/full.md",
+      "content_length": 27672,
+      "pmc_id": "PMC12962558",
+      "pmc_num": 12962558,
+      "title": "Cephalexin-Induced Autoimmune Hemolytic Anemia: A Case Report.",
+      "record_id": "MOL-000145",
+      "molecule": "Cephalexin"
+    },
+    "ceftriaxone_antibiotic.pdf": {
+      "task_id": "d5b29331-ff55-4e66-b38c-f9f3b02d345f14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d707a0c4-f56a-4e34-a8ad-4406a8f734d9/full.md",
+      "content_length": 15865,
+      "pmc_id": "PMC13107951",
+      "pmc_num": 13107951,
+      "title": "Ceftriaxone-Associated Cholelithiasis in a Premature Toddler From Ethiopia: A Case Report.",
+      "record_id": "MOL-000146",
+      "molecule": "Ceftriaxone"
+    },
+    "ceftazidime_antibiotic.pdf": {
+      "task_id": "49881ac1-5281-4719-8c32-60ac4ba23bbb14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/115d41a2-af52-4c02-b1b6-d04aa6229237/full.md",
+      "content_length": 53459,
+      "pmc_id": "PMC13082971",
+      "pmc_num": 13082971,
+      "title": "Genomic characterization of ceftazidime/avibactam-resistant Klebsiella pneumoniae: a retrospective analysis on clinical isolates from an Italian transplant unit",
+      "record_id": "MOL-000147",
+      "molecule": "Ceftazidime"
+    },
+    "cefazolin_antibiotic.pdf": {
+      "task_id": "786e11e8-bc69-4deb-ab39-a5d6922df4b414",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/11fd8d56-1c5b-4a16-89b9-b018ffc39fc0/full.md",
+      "content_length": 53816,
+      "pmc_id": "PMC13121896",
+      "pmc_num": 13121896,
+      "title": "CoNS blood culture isolates from very preterm infants: antibiotic susceptibility, synergy testing and &lt;i&gt;mecA&lt;/i&gt; gene expression.",
+      "record_id": "MOL-000148",
+      "molecule": "Cefazolin"
+    },
+    "cefuroxime_antibiotic.pdf": {
+      "task_id": "e10c827f-36e8-4a5e-8f0a-b064e458a68114",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/587ebb56-33cd-4e13-9f08-f1885fbc933c/full.md",
+      "content_length": 29201,
+      "pmc_id": "PMC12999426",
+      "pmc_num": 12999426,
+      "title": "Case Report: Maculopathy following standard dose intracameral cefuroxime injection during ICL surgery.",
+      "record_id": "MOL-000149",
+      "molecule": "Cefuroxime"
+    },
+    "cefepime_antibiotic.pdf": {
+      "task_id": "2b7e9654-e5b8-4b35-8bba-e2b5d710705514",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b62966be-a365-496a-8297-10031b9b3b6d/full.md",
+      "content_length": 11140,
+      "pmc_id": "PMC13070699",
+      "pmc_num": 13070699,
+      "title": "Synergistic activity of cefepime/enmetazobactam with meropenem, piperacillin, piperacillin/tazobactam, cefiderocol and fosfomycin against Klebsiella pneumoniae carrying blaKPC allelic variants.",
+      "record_id": "MOL-000150",
+      "molecule": "Cefepime"
+    },
+    "cefixime_antibiotic.pdf": {
+      "task_id": "779a995c-e92a-4f7a-8a1c-621fb6e2bbe414",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4f72361a-6844-4fc8-a801-0adced69dda6/full.md",
+      "content_length": 46189,
+      "pmc_id": "PMC13023023",
+      "pmc_num": 13023023,
+      "title": "Comparison of Infectious Complications After Transrectal Prostate Biopsy Under Two Antibiotic Prophylaxis Regimens: Ceftriaxone Plus Cefixime Versus Ciprofloxacin Plus Gentamicin.",
+      "record_id": "MOL-000151",
+      "molecule": "Cefixime"
+    },
+    "cefotaxime_antibiotic.pdf": {
+      "task_id": "2fcb3a30-f168-4b8e-b7fb-903124ed406914",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/aa2e8e8f-b9f4-4ff4-9658-2dca4eaa7e98/full.md",
+      "content_length": 32256,
+      "pmc_id": "PMC13051454",
+      "pmc_num": 13051454,
+      "title": "Incidence of Cefotaxime-Resistant Haemophilus influenzae Is Linked to Regional Consumption of Oral Aminopenicillins and Parenteral Third-Generation Cephalosporins in Norway.",
+      "record_id": "MOL-000152",
+      "molecule": "Cefotaxime"
+    },
+    "cefdinir_antibiotic.pdf": {
+      "task_id": "5252b4f9-e0e1-44a2-8993-9ce6257ec3b314",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/095c1d21-18d5-4fc3-9781-76662a2494d8/full.md",
+      "content_length": 2526,
+      "pmc_id": "PMC12792213",
+      "pmc_num": 12792213,
+      "title": "P-790. Cephalexin Versus Cefdinir for the Treatment of Uncomplicated Urinary Tract Infections",
+      "record_id": "MOL-000153",
+      "molecule": "Cefdinir"
+    },
+    "cefadroxil_antibiotic.pdf": {
+      "task_id": "11f61194-3031-412b-8e95-e5554b1ad85614",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d37db59a-efe0-4072-8abe-cf20ae7349e5/full.md",
+      "content_length": 25076,
+      "pmc_id": "PMC12754559",
+      "pmc_num": 12754559,
+      "title": "Cefadroxil-Induced Drug Reaction With Eosinophilia and Systemic Symptoms (DRESS) Syndrome After Double Mastectomy for Ductal Carcinoma In Situ: A Case Report.",
+      "record_id": "MOL-000154",
+      "molecule": "Cefadroxil"
+    },
+    "cefprozil_antibiotic.pdf": {
+      "task_id": "4aae7601-1be0-4a63-b2e8-5639a33d293314",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e5f2dad9-e335-41e9-9cf5-ec003e6a92d3/full.md",
+      "content_length": 17573,
+      "pmc_id": "PMC11932131",
+      "pmc_num": 11932131,
+      "title": "Urticaria-Like Hypersensitivity Reaction Following Botulinum Toxin Injection: A Case Report of Possible Interaction with β-Lactam Antibiotics.",
+      "record_id": "MOL-000155",
+      "molecule": "Cefprozil"
+    },
+    "cefpodoxime_antibiotic.pdf": {
+      "task_id": "da0ab06d-33cb-4898-8b04-b71e9c462ff914",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/40e5e897-93bc-4162-8da8-0ed4326d85d9/full.md",
+      "content_length": 2712,
+      "pmc_id": "PMC12792384",
+      "pmc_num": 12792384,
+      "title": "P-774. High-Bioavailability vs Low-Bioavailability Beta-Lactams in the Treatment of Lower Urinary Tract Infections in Adult and Pediatric Patients",
+      "record_id": "MOL-000156",
+      "molecule": "Cefpodoxime"
+    },
+    "cefoxitin_antibiotic.pdf": {
+      "task_id": "fa3bd691-4bb0-4f92-9bcb-a2fbc158117f14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3474d1a3-1cbb-43ff-96e0-3fdeb950dc3c/full.md",
+      "content_length": 3314,
+      "pmc_id": "PMC12791771",
+      "pmc_num": 12791771,
+      "title": "P-857. Impact of Cefoxitin Monotherapy Versus Traditional Antimicrobial Therapy on Time to Antibiotic Administration in Intra-amniotic Infections",
+      "record_id": "MOL-000158",
+      "molecule": "Cefoxitin"
+    },
+    "erythromycin_antibiotic.pdf": {
+      "task_id": "559b8a3f-a100-4df0-b31a-2cc455c47e2614",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ac2271cd-86fc-44d5-8531-25851649da41/full.md",
+      "content_length": 84369,
+      "pmc_id": "PMC13099881",
+      "pmc_num": 13099881,
+      "title": "Evaluation of the efflux inhibitory potential of gallotannin to restore drug sensitivity in XDR &lt;i&gt;Acinetobacter baumannii in vitro&lt;/i&gt;, and a zebrafish infection model.",
+      "record_id": "MOL-000159",
+      "molecule": "Erythromycin"
+    },
+    "clarithromycin_antibiotic.pdf": {
+      "task_id": "0f1c0e92-3cae-43b4-99fd-f3471a6a768314",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/11959b1d-3a4e-44b3-af62-bc5e5d14ff00/full.md",
+      "content_length": 49216,
+      "pmc_id": "PMC13142728",
+      "pmc_num": 13142728,
+      "title": "Pharmacokinetic Drug-Drug Interactions of DA-8010 with Clarithromycin or Rifampicin: Influence of CYP2D6 Phenotype on the Extent of These Interactions.",
+      "record_id": "MOL-000160",
+      "molecule": "Clarithromycin"
+    },
+    "telithromycin_antibiotic.pdf": {
+      "task_id": "c5d86890-e528-4176-929b-33cd3b94133f14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ec8845c1-bdc1-44fe-bfeb-24d5d959d682/full.md",
+      "content_length": 12884,
+      "pmc_id": "PMC12584668",
+      "pmc_num": 12584668,
+      "title": "Emergence of the coexistence of &lt;i&gt;optrA&lt;/i&gt; and &lt;i&gt;fexA&lt;/i&gt; in &lt;i&gt;Campylobacter coli&lt;/i&gt; strains isolated from the market.",
+      "record_id": "MOL-000161",
+      "molecule": "Telithromycin"
+    },
+    "fidaxomicin_antibiotic.pdf": {
+      "task_id": "10a2b49a-a584-4738-9b16-d140581f215314",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/46ca2444-d9f1-4eff-b0eb-730b86c2dfce/full.md",
+      "content_length": 69470,
+      "pmc_id": "PMC12874842",
+      "pmc_num": 12874842,
+      "title": "Clinical and Pharmacoeconomic evaluation of Fidaxomicin in patients over 65 years of age and immunocompromised patients with recurrent and refractory Clostridioides difficile infection.",
+      "record_id": "MOL-000162",
+      "molecule": "Fidaxomicin"
+    },
+    "amikacin_antibiotic.pdf": {
+      "task_id": "0fa26305-d59c-44e2-a277-da335adc0f7914",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b62c61be-64af-47fe-bb8f-55e3ad07838f/full.md",
+      "content_length": 45361,
+      "pmc_id": "PMC13076408",
+      "pmc_num": 13076408,
+      "title": "Amikacin pharmacokinetics, target attainment, and predictors in critically ill children: a retrospective cohort.",
+      "record_id": "MOL-000163",
+      "molecule": "Amikacin"
+    },
+    "tobramycin_antibiotic.pdf": {
+      "task_id": "c671d0d3-90af-422d-badf-11a56b3243bb14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/cd6ef164-6523-4199-8769-f371ae02d811/full.md",
+      "content_length": 53202,
+      "pmc_id": "PMC13071791",
+      "pmc_num": 13071791,
+      "title": "Novel Non-Invasive Treatment for Canine Corneal Ulcers: Application of New Extracellular Matrix-Based Sticky Sealants.",
+      "record_id": "MOL-000164",
+      "molecule": "Tobramycin"
+    },
+    "neomycin_antibiotic.pdf": {
+      "task_id": "9db32ade-3a11-4a11-b0a0-5d61ca2c49af14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a6e7d2ae-e6b1-4a72-ae86-5e68273c1e4e/full.md",
+      "content_length": 56346,
+      "pmc_id": "PMC13120434",
+      "pmc_num": 13120434,
+      "title": "Neomycin Exhibits Immunomodulatory and Antiviral Activity Against Influenza B Virus.",
+      "record_id": "MOL-000165",
+      "molecule": "Neomycin"
+    },
+    "kanamycin_antibiotic.pdf": {
+      "task_id": "b6a0998a-9e3a-4352-91f7-920c109e4c4e14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/2a14f9a8-4e74-49d4-ad02-cb9edc71e8f9/full.md",
+      "content_length": 38025,
+      "pmc_id": "PMC12990473",
+      "pmc_num": 12990473,
+      "title": "Bicuculline reversal of aminoglycoside O-nucleotidyltransferase EanT-1-mediated kanamycin resistance.",
+      "record_id": "MOL-000166",
+      "molecule": "Kanamycin"
     }
   },
-  "last_expansion": "2026-06-01T03:19:19Z"
+  "last_expansion": "2026-06-01T04:09:44Z"
 }

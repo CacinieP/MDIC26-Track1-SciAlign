@@ -1,0 +1,17 @@
+## Abstract citation ID: ofaf695.1065
+
+P-857. Impact of Cefoxitin Monotherapy Versus Traditional Antimicrobial Therapy on Time to Antibiotic Administration in Intra-amniotic Infections Hannah Bischoff, PharmD1 ; Sarah Withers, PharmD, MS, BCIDP2 ; Caroline Jozefczyk, PharmD, BCIDP3 ; Joseph Kohn, Pharm.D.4 ; R. Jake Crocker, PharmD, BCIDP2 ; Jasmine Lewis, PharmD, BCPS5 ; Carolyn Ellison, PharmD6 ; Alex Ewing, PhD7 ; Pamela Bailey, DO, MPH8 ; Pamela Bailey, DO, MPH8 ; 1 Prisma Health Upstate - Greenville Memorial Hospital, Greenville, SC; 2 Prisma Health, Greenville, South Carolina; 3 Prisma Health - Upstate, Greenville, South Carolina; 4 Prisma Health Midlands, Columbia, South Carolina; 5 Prisma Health Greenville Memorial Hospital, Greenville, South Carolina; 6 Prisma Health Richland, Columbia, South Carolina; 7 Prisma Health-Upstate, Greenville, South Carolina; 8 University of South Carolina School of Medicine, Columbia, South Carolina
+
+Session: 129. Antibiotic Stewardship: Special Populations
+
+Tuesday, October 21, 2025: 12:15 PM
+
+Background. The American College of Obstetricians and Gynecologists (ACOG) recommends ampicillin and gentamicin as first-line therapy for intraamniotic infections (IAI) with clindamycin for cesarean sections. Safety concerns with traditional antimicrobial therapies (TAT) include nephrotoxicity from gentamicin and C. difficile infections from clindamycin. Cefoxitin has a comparable spectrum of activity and is a recommended single-agent alternative. Studies have shown similar efficacy between cefoxitin and other treatments for IAI. This study addresses a research gap on timely treatment of IAI by comparing time to effective antibiotic administration between cefoxitin and TAT.
+
+Methods. This retrospective cohort study was conducted at a large, multi-site health system in South Carolina. The TAT group, treated with ampicillin and gentamicin, with or without clindamycin from 6/2022 to 5/2023, was compared to patients treated with cefoxitin from 6/2023 to 5/2024, following an update to institutional guidelines. All pregnant individuals aged 16 and older with diagnosed or presumed IAI were included.
+
+Results. A total of 300 patients were included, 150 each in TAT and cefoxitin group. Baseline characteristics were similar between TAT and cefoxitin patients. Vaginal delivery was the most common mode of delivery and rates of cesarean delivery were similar between groups. Most patients had a negative Group B Streptococcus screen. Receipt of antimicrobials within 60–90 minutes of order entry occurred in significantly more patients in the cefoxitin group compared to TAT group (69.3% vs. 4.7%, p < 0.001). Time to effective therapy was significantly shorter in the cefoxitin group (76.4 ± 93.3 vs. 183.7 ± 228.9 minutes, p < 0.001). There were no differences in mortality, 30-day infection-related readmission, or need for additional surgical/ procedural intervention.
+
+Conclusion. Cefoxitin use for IAI significantly improves the time to effective antibiotic treatment, aligning with current guideline recommendations for prompt therapy. The absence of differences in secondary outcomes reinforces the clinical efficacy of cefoxitin, supporting its use as a first-line agent in the management of IAI.
+
+Disclosures. All Authors: No reported disclosures

@@ -36,13 +36,14 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 logger = logging.getLogger(__name__)
 
 
-def search_pmc_open_access(drug_name: str, max_results: int = 3) -> list:
-    """Search Europe PMC for open-access review papers on the drug.
+def search_pmc_open_access(drug_name: str, max_results: int = 5) -> list:
+    """Search Europe PMC for open-access papers on the drug.
 
-    Returns list of {'pmcid', 'title', 'pdf_url'}.
+    Returns list of {'pmcid', 'title', 'pdf_url', 'page_range_ok'}.
     Uses Europe PMC's REST API which has stable PDF rendering via ?pdf=render.
+    Broadens to any open-access article (not just reviews) for better hit rate.
     """
-    query = f'({drug_name}) AND (OPEN_ACCESS:Y) AND PUB_TYPE:"Review"'
+    query = f'({drug_name}) AND (OPEN_ACCESS:Y)'
     params = {
         "query": query,
         "format": "json",
@@ -70,57 +71,84 @@ def search_pmc_open_access(drug_name: str, max_results: int = 3) -> list:
         pmc_num = int(pmc_num_str)
         # Europe PMC PDF rendering endpoint (stable, returns application/pdf)
         pdf_url = f"https://europepmc.org/articles/{pmcid}?pdf=render"
+        # Track page count for prioritizing short papers (MinerU free limit: 20 pages)
+        page_count = rec.get("pageInfo", "") or rec.get("pageCount", "")
         results.append({
             "pmcid": pmcid,
             "pmc_num": pmc_num,
             "title": rec.get("title", "")[:200],
             "pdf_url": pdf_url,
             "doi": rec.get("doi", ""),
+            "page_count": page_count,
         })
+    # Sort: prefer reviews and shorter papers first
+    def sort_key(r):
+        is_review = 0 if (r.get("title", "").lower().__contains__("review")
+                          or r.get("title", "").lower().__contains__("overview")
+                          or r.get("title", "").lower().__contains__("advances")) else 1
+        return (is_review, r.get("pmcid", ""))
+    results.sort(key=sort_key)
     return results
 
 
-def download_pdf(url: str, out_path: Path, max_mb: float = 9.5) -> bool:
+def download_pdf(url: str, out_path: Path, max_mb: float = 9.5, max_retries: int = 3) -> bool:
     """Download a PDF; reject if >max_mb (MinerU free tier limit is 10MB)
-    or if the response is not a real PDF (e.g. HTML error page)."""
-    try:
-        r = requests.get(url, timeout=60, stream=True, allow_redirects=True)
-        if r.status_code != 200:
-            logger.warning(f"Download HTTP {r.status_code} for {url}")
+    or if the response is not a real PDF (e.g. HTML error page).
+    Retries with exponential backoff on connection errors."""
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    for attempt in range(max_retries):
+        try:
+            r = requests.get(url, timeout=60, stream=True, allow_redirects=True)
+            if r.status_code != 200:
+                logger.warning(f"Download HTTP {r.status_code} for {url}")
+                if r.status_code in (429, 500, 502, 503, 504) and attempt < max_retries - 1:
+                    time.sleep(2 ** attempt)
+                    continue
+                return False
+            # Verify content-type
+            ct = r.headers.get("Content-Type", "").lower()
+            if "pdf" not in ct:
+                logger.warning(f"Not a PDF (Content-Type: {ct}): {url}")
+                return False
+            # Check content-length
+            cl = r.headers.get("Content-Length")
+            if cl and int(cl) > max_mb * 1024 * 1024:
+                logger.warning(f"PDF too large ({int(cl)/1e6:.1f}MB): {url}")
+                return False
+            total = 0
+            first_bytes = b""
+            with open(out_path, "wb") as f:
+                for chunk in r.iter_content(chunk_size=8192):
+                    if chunk:
+                        if not first_bytes:
+                            first_bytes = chunk[:4]
+                        f.write(chunk)
+                        total += len(chunk)
+                        if total > max_mb * 1024 * 1024:
+                            logger.warning(f"PDF exceeded {max_mb}MB during download, aborting")
+                            out_path.unlink()
+                            return False
+            # Verify PDF magic bytes
+            if not first_bytes.startswith(b"%PDF"):
+                logger.warning(f"Downloaded file is not a PDF (first bytes: {first_bytes!r})")
+                out_path.unlink()
+                return False
+            return out_path.exists() and out_path.stat().st_size > 1000
+        except (requests.exceptions.ConnectionError,
+                requests.exceptions.ProxyError,
+                requests.exceptions.Timeout,
+                ConnectionResetError) as e:
+            if attempt < max_retries - 1:
+                wait = 2 ** (attempt + 1)
+                logger.warning(f"  download error (attempt {attempt+1}/{max_retries}), retry in {wait}s: {e}")
+                time.sleep(wait)
+                continue
+            logger.warning(f"Download failed after {max_retries} attempts for {url}: {e}")
             return False
-        # Verify content-type
-        ct = r.headers.get("Content-Type", "").lower()
-        if "pdf" not in ct:
-            logger.warning(f"Not a PDF (Content-Type: {ct}): {url}")
+        except Exception as e:
+            logger.warning(f"Download failed for {url}: {e}")
             return False
-        # Check content-length
-        cl = r.headers.get("Content-Length")
-        if cl and int(cl) > max_mb * 1024 * 1024:
-            logger.warning(f"PDF too large ({int(cl)/1e6:.1f}MB): {url}")
-            return False
-        out_path.parent.mkdir(parents=True, exist_ok=True)
-        total = 0
-        first_bytes = b""
-        with open(out_path, "wb") as f:
-            for chunk in r.iter_content(chunk_size=8192):
-                if chunk:
-                    if not first_bytes:
-                        first_bytes = chunk[:4]
-                    f.write(chunk)
-                    total += len(chunk)
-                    if total > max_mb * 1024 * 1024:
-                        logger.warning(f"PDF exceeded {max_mb}MB during download, aborting")
-                        out_path.unlink()
-                        return False
-        # Verify PDF magic bytes
-        if not first_bytes.startswith(b"%PDF"):
-            logger.warning(f"Downloaded file is not a PDF (first bytes: {first_bytes!r})")
-            out_path.unlink()
-            return False
-        return out_path.exists() and out_path.stat().st_size > 1000
-    except Exception as e:
-        logger.warning(f"Download failed for {url}: {e}")
-        return False
+    return False
 
 
 def submit_to_mineru(pdf_path: Path, file_name: str) -> str | None:

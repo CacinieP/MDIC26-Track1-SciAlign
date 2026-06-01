@@ -5,14 +5,14 @@ MOL-000003	Naproxen	1302	NSAID Drug	rdkit_canonical	rdkit_computed	curated_liter
 MOL-000004	Diclofenac	3033	NSAID Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	yes	yes	yes	B
 MOL-000005	Celecoxib	2662	NSAID Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	yes	yes	yes	B
 MOL-000006	Indomethacin	3715	NSAID Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	no	yes	yes	B
-MOL-000007	Penicillin G	5904	Antibiotic	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	yes	yes	yes	B
-MOL-000008	Amoxicillin	33613	Antibiotic	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
-MOL-000009	Ciprofloxacin	2764	Antibiotic	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	yes	yes	yes	B
-MOL-000010	Doxycycline	54671203	Antibiotic	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
-MOL-000011	Azithromycin	447043	Antibiotic	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
-MOL-000012	Vancomycin	14969	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000013	Gentamicin	3467	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
-MOL-000014	Metronidazole	4173	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000007	Penicillin G	5904	Antibiotic	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	97a3676b-fd71-4fa3-a668-e314abe3176414	no	yes	yes	yes	A
+MOL-000008	Amoxicillin	33613	Antibiotic	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	33b86bda-f237-4698-9423-de8f366962ee14	no	no	yes	yes	A
+MOL-000009	Ciprofloxacin	2764	Antibiotic	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	fbdeb9ac-262b-4bca-8aae-39054e97d0ef14	no	yes	yes	yes	A
+MOL-000010	Doxycycline	54671203	Antibiotic	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	70db7505-6b49-46b8-9fc5-1d3cef49ac0814	no	no	yes	yes	A
+MOL-000011	Azithromycin	447043	Antibiotic	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	5bfa1b8c-c214-4dcc-b44c-51606d843f9414	no	no	yes	yes	A
+MOL-000012	Vancomycin	14969	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	d52508b2-9aea-4ea6-a371-fde028c9056b14	no	no	yes	yes	A
+MOL-000013	Gentamicin	3467	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	c1abd6e7-f91b-41cd-9b07-fef87a0657e814	no	no	yes	yes	A
+MOL-000014	Metronidazole	4173	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	056be104-ab9c-4f1a-b111-1ce0a2a3bee314	no	no	yes	yes	A
 MOL-000015	Ritonavir	3976	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	yes	yes	yes	B
 MOL-000016	Oseltamivir	65028	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
 MOL-000017	Acyclovir	2022	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_en|curated_zh		no	no	yes	yes	B
@@ -143,28 +143,28 @@ MOL-000141	Dexketoprofen	667550	NSAID Drug	rdkit_canonical	rdkit_computed	curate
 MOL-000142	Aceclofenac	71771	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000143	Phenylbutazone	4781	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000144	Tenoxicam	54677971	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000145	Cephalexin	27447	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000146	Ceftriaxone	5479530	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000147	Ceftazidime	5481173	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000148	Cefazolin	33255	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000149	Cefuroxime	5479529	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000150	Cefepime	5479537	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000151	Cefixime	5362065	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000152	Cefotaxime	5742673	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000153	Cefdinir	6915944	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000154	Cefadroxil	47965	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000155	Cefprozil	62977	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
-MOL-000156	Cefpodoxime	6335986	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000145	Cephalexin	27447	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	cd000307-2133-4a9b-8df2-8868e3e6afaf14	no	no	yes	yes	A
+MOL-000146	Ceftriaxone	5479530	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	d5b29331-ff55-4e66-b38c-f9f3b02d345f14	no	no	yes	yes	A
+MOL-000147	Ceftazidime	5481173	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	49881ac1-5281-4719-8c32-60ac4ba23bbb14	no	no	yes	yes	A
+MOL-000148	Cefazolin	33255	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	786e11e8-bc69-4deb-ab39-a5d6922df4b414	no	no	yes	yes	A
+MOL-000149	Cefuroxime	5479529	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	e10c827f-36e8-4a5e-8f0a-b064e458a68114	no	no	yes	yes	A
+MOL-000150	Cefepime	5479537	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	2b7e9654-e5b8-4b35-8bba-e2b5d710705514	no	no	yes	yes	A
+MOL-000151	Cefixime	5362065	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	779a995c-e92a-4f7a-8a1c-621fb6e2bbe414	no	no	yes	yes	A
+MOL-000152	Cefotaxime	5742673	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	2fcb3a30-f168-4b8e-b7fb-903124ed406914	no	no	yes	yes	A
+MOL-000153	Cefdinir	6915944	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	5252b4f9-e0e1-44a2-8993-9ce6257ec3b314	no	no	yes	yes	A
+MOL-000154	Cefadroxil	47965	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	11f61194-3031-412b-8e95-e5554b1ad85614	no	no	yes	yes	A
+MOL-000155	Cefprozil	62977	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	4aae7601-1be0-4a63-b2e8-5639a33d293314	no	no	yes	yes	A
+MOL-000156	Cefpodoxime	6335986	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	da0ab06d-33cb-4898-8b04-b71e9c462ff914	no	no	yes	yes	A
 MOL-000157	Cefotetan	53025	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000158	Cefoxitin	441199	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000159	Erythromycin	12560	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000160	Clarithromycin	84029	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000161	Telithromycin	3002190	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
-MOL-000162	Fidaxomicin	10034073	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
-MOL-000163	Amikacin	37768	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000164	Tobramycin	36294	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000165	Neomycin	8378	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000166	Kanamycin	6032	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000158	Cefoxitin	441199	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	fa3bd691-4bb0-4f92-9bcb-a2fbc158117f14	no	no	yes	yes	A
+MOL-000159	Erythromycin	12560	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	559b8a3f-a100-4df0-b31a-2cc455c47e2614	no	no	yes	yes	A
+MOL-000160	Clarithromycin	84029	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	0f1c0e92-3cae-43b4-99fd-f3471a6a768314	no	no	yes	yes	A
+MOL-000161	Telithromycin	3002190	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	c5d86890-e528-4176-929b-33cd3b94133f14	no	no	yes	yes	A
+MOL-000162	Fidaxomicin	10034073	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	10a2b49a-a584-4738-9b16-d140581f215314	no	no	yes	yes	A
+MOL-000163	Amikacin	37768	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	0fa26305-d59c-44e2-a277-da335adc0f7914	no	no	yes	yes	A
+MOL-000164	Tobramycin	36294	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	c671d0d3-90af-422d-badf-11a56b3243bb14	no	no	yes	yes	A
+MOL-000165	Neomycin	8378	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	9db32ade-3a11-4a11-b0a0-5d61ca2c49af14	no	no	yes	yes	A
+MOL-000166	Kanamycin	6032	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	b6a0998a-9e3a-4352-91f7-920c109e4c4e14	no	no	yes	yes	A
 MOL-000167	Streptomycin	19649	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000168	Tetracycline	54675776	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000169	Minocycline	54675783	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
