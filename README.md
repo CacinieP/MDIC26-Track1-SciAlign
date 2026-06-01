@@ -128,16 +128,16 @@ print(records[0]["smiles"]["canonical"])    # CC(=O)Oc1ccccc1C(=O)O
 
 ## 🔬 MinerU Agent API 真实使用
 
-在数据集扩展过程中，我们通过 **MinerU Agent API** 提交了 **250 个** 药物化学相关论文解析任务，其中 **221 个成功、29 个失败**：
+在数据集扩展过程中，我们通过 **MinerU Agent API** 提交了 **262 个** 药物化学相关论文解析任务，其中 **231 个成功、31 个失败**：
 
-- **成功解析论文数**: 221 篇开放获取论文（涵盖药物化学、分子药理学等领域）
+- **成功解析论文数**: 231 篇开放获取论文（涵盖药物化学、分子药理学等领域）
 - **失败任务**: 超页数限制（>20 页）或解析失败的论文
 - **真实 API 调用**: 每个 API 请求提交真实任务 ID，获取完整解析结果
-- **成功解析字符数**: **11,046,842 字符** 结构化 Markdown
-- **产生数据记录**: **220 条分子记录**含真实 MinerU 使用证据
+- **成功解析字符数**: **11,426,250 字符** 结构化 Markdown
+- **产生数据记录**: **230 条分子记录**含真实 MinerU 使用证据
 - **解析文件存储**: `data/raw/parsed_mineru_api/` 保存 `parsing_log.json` 和解析输出
 
-使用的解析脚本为 `scripts/mineru_agent_parse.py`（原始 12 篇）和 `scripts/expand_mineru_coverage.py`（扩展 238 篇，PMC 开放获取论文，批处理带连接重试）。修复与证据同步脚本为 `scripts/repair_dataset_integrity.py`，它会根据 `parsing_log.json` 只保留真实可追溯的 MinerU 记录。
+使用的解析脚本为 `scripts/mineru_agent_parse.py`（原始 12 篇）和 `scripts/expand_mineru_coverage.py`（扩展 250 篇，PMC 开放获取论文，批处理带连接重试）。修复与证据同步脚本为 `scripts/repair_dataset_integrity.py`，它会根据 `parsing_log.json` 只保留真实可追溯的 MinerU 记录。
 
 ## 📊 数据集统计
 
@@ -148,11 +148,11 @@ print(records[0]["smiles"]["canonical"])    # CC(=O)Oc1ccccc1C(=O)O
 | 2D 分子结构图 | **820** (100%) |
 | 3D 分子构象 | **799** (97.4%) |
 | 论文提取图片 | **33 条记录**（35 个图像文件） |
-| MinerU Agent API 解析 | **250 个任务 / 221 个成功**，**11,046,842 字符** 结构化 Markdown，真实 task_id |
+| MinerU Agent API 解析 | **262 个任务 / 231 个成功**，**11,426,250 字符** 结构化 Markdown，真实 task_id |
 | 实验生物活性 | **30 条** (PubChem curated data) |
 | 文本描述（中英文） | **820** (100% 中英双语，平均 2.02 条/分子) |
 | 实体关系 | **820** (100%，平均 2.0 条/分子，类别→靶点映射) |
-| MinerU 使用记录 | **220 条分子记录 (26.8%)**（来源分层见 provenance.tsv） |
+| MinerU 使用记录 | **230 条分子记录 (28.0%)**（来源分层见 provenance.tsv） |
 | 验证通过率 | **820/820 (100.0%)** |
 
 ## 📖 文档

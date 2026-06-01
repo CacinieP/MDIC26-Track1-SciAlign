@@ -166,16 +166,16 @@ MOL-000164	Tobramycin	36294	Antibiotic	rdkit_canonical	rdkit_computed	curated_mi
 MOL-000165	Neomycin	8378	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	9db32ade-3a11-4a11-b0a0-5d61ca2c49af14	no	no	yes	yes	A
 MOL-000166	Kanamycin	6032	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	b6a0998a-9e3a-4352-91f7-920c109e4c4e14	no	no	yes	yes	A
 MOL-000167	Streptomycin	19649	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000168	Tetracycline	54675776	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000169	Minocycline	54675783	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000170	Tigecycline	54686904	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000171	Demeclocycline	54680690	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000168	Tetracycline	54675776	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	fd60a4da-1aa7-46be-87e2-ec8c257742eb14	no	no	yes	yes	A
+MOL-000169	Minocycline	54675783	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	2e776d11-fae6-4a6e-98a2-b43237ebc4cb14	no	no	yes	yes	A
+MOL-000170	Tigecycline	54686904	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	30e87497-dfe7-4030-ac56-67d007f2296514	no	no	yes	yes	A
+MOL-000171	Demeclocycline	54680690	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	aa32706d-265c-4f77-86ca-93bfa8b183e514	no	no	yes	yes	A
 MOL-000172	Trimethoprim	5578	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000173	Sulfamethoxazole	5329	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000174	Sulfadiazine	5215	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000175	Sulfasalazine	5339	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000176	Levofloxacin	149096	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000177	Moxifloxacin	152946	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000173	Sulfamethoxazole	5329	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	67025e58-780c-4db1-ba94-ec35a7e141f414	no	no	yes	yes	A
+MOL-000174	Sulfadiazine	5215	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	69499595-bddd-4ff1-918b-cc19f434fd8f14	no	no	yes	yes	A
+MOL-000175	Sulfasalazine	5339	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	9cf49205-f9bc-44ef-8219-d818f419d3a314	no	no	yes	yes	A
+MOL-000176	Levofloxacin	149096	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	d5c55fb6-181d-4479-8b51-14ce077d901514	no	no	yes	yes	A
+MOL-000177	Moxifloxacin	152946	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	7cd31756-2312-4ac1-8f71-c8026935ab8714	no	no	yes	yes	A
 MOL-000178	Ofloxacin	4583	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000179	Gatifloxacin	5379	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000180	Gemifloxacin	9571107	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
@@ -193,7 +193,7 @@ MOL-000191	Chloramphenicol	5959	Antibiotic	rdkit_canonical	rdkit_computed	curate
 MOL-000192	Nitrofurantoin	6604200	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000193	Fosfomycin	446987	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000194	Bacitracin	10909430	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000195	Colistin	5311054	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
+MOL-000195	Colistin	5311054	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	1c781713-3fde-475b-a220-9b956ae8cc7d14	no	no	yes	yes	A
 MOL-000196	Daptomycin	21585658	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	no	C
 MOL-000197	Linezolid	441401	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000198	Tedizolid	11234049	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C

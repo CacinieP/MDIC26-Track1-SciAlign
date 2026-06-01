@@ -22350,7 +22350,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed tetracycline_antibiotic.pdf via MinerU Agent API and aligned Markdown to Tetracycline (Antibiotic).",
+          "input": "data/raw/papers/tetracycline_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/tetracycline_antibiotic.md",
+          "task_id": "fd60a4da-1aa7-46be-87e2-ec8c257742eb14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0c1e44f3-2b7b-4165-a540-74606fafc9ee/full.md",
+          "content_length": 24407,
+          "pmc_id": "PMC13181230",
+          "detail": "task_id=fd60a4da-1aa7-46be-87e2-ec8c257742eb14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0c1e44f3-2b7b-4165-a540-74606fafc9ee/full.md; content_length=24407"
+        }
+      ],
       "created_at": "2026-05-31T12:06:36Z",
       "updated_at": "2026-05-31T12:06:36Z",
       "version": "1.0.0"
@@ -22474,7 +22486,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed minocycline_antibiotic.pdf via MinerU Agent API and aligned Markdown to Minocycline (Antibiotic).",
+          "input": "data/raw/papers/minocycline_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/minocycline_antibiotic.md",
+          "task_id": "2e776d11-fae6-4a6e-98a2-b43237ebc4cb14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8bd9b84c-f365-4b97-9dab-13bdff2bfd35/full.md",
+          "content_length": 2341,
+          "pmc_id": "PMC13146118",
+          "detail": "task_id=2e776d11-fae6-4a6e-98a2-b43237ebc4cb14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8bd9b84c-f365-4b97-9dab-13bdff2bfd35/full.md; content_length=2341"
+        }
+      ],
       "created_at": "2026-05-31T12:06:39Z",
       "updated_at": "2026-05-31T12:06:39Z",
       "version": "1.0.0"
@@ -22597,7 +22621,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed tigecycline_antibiotic.pdf via MinerU Agent API and aligned Markdown to Tigecycline (Antibiotic).",
+          "input": "data/raw/papers/tigecycline_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/tigecycline_antibiotic.md",
+          "task_id": "30e87497-dfe7-4030-ac56-67d007f2296514",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/7fd48766-aaa0-43e2-86af-de0276a4b354/full.md",
+          "content_length": 27506,
+          "pmc_id": "PMC13067050",
+          "detail": "task_id=30e87497-dfe7-4030-ac56-67d007f2296514; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/7fd48766-aaa0-43e2-86af-de0276a4b354/full.md; content_length=27506"
+        }
+      ],
       "created_at": "2026-05-31T12:06:42Z",
       "updated_at": "2026-05-31T12:06:42Z",
       "version": "1.0.0"
@@ -22720,7 +22756,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed demeclocycline_antibiotic.pdf via MinerU Agent API and aligned Markdown to Demeclocycline (Antibiotic).",
+          "input": "data/raw/papers/demeclocycline_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/demeclocycline_antibiotic.md",
+          "task_id": "aa32706d-265c-4f77-86ca-93bfa8b183e514",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e55c07b6-60de-45dc-b031-e920e9bc461d/full.md",
+          "content_length": 36742,
+          "pmc_id": "PMC12679808",
+          "detail": "task_id=aa32706d-265c-4f77-86ca-93bfa8b183e514; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e55c07b6-60de-45dc-b031-e920e9bc461d/full.md; content_length=36742"
+        }
+      ],
       "created_at": "2026-05-31T12:06:45Z",
       "updated_at": "2026-05-31T12:06:45Z",
       "version": "1.0.0"
@@ -22968,7 +23016,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed sulfamethoxazole_antibiotic.pdf via MinerU Agent API and aligned Markdown to Sulfamethoxazole (Antibiotic).",
+          "input": "data/raw/papers/sulfamethoxazole_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/sulfamethoxazole_antibiotic.md",
+          "task_id": "67025e58-780c-4db1-ba94-ec35a7e141f414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/766f96b8-2dac-4965-9e80-0529b39e47e0/full.md",
+          "content_length": 21062,
+          "pmc_id": "PMC13106879",
+          "detail": "task_id=67025e58-780c-4db1-ba94-ec35a7e141f414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/766f96b8-2dac-4965-9e80-0529b39e47e0/full.md; content_length=21062"
+        }
+      ],
       "created_at": "2026-05-31T12:06:51Z",
       "updated_at": "2026-05-31T12:06:51Z",
       "version": "1.0.0"
@@ -23091,7 +23151,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed sulfadiazine_antibiotic.pdf via MinerU Agent API and aligned Markdown to Sulfadiazine (Antibiotic).",
+          "input": "data/raw/papers/sulfadiazine_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/sulfadiazine_antibiotic.md",
+          "task_id": "69499595-bddd-4ff1-918b-cc19f434fd8f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/86416227-c619-48c5-95a3-17656efd544d/full.md",
+          "content_length": 12487,
+          "pmc_id": "PMC13032621",
+          "detail": "task_id=69499595-bddd-4ff1-918b-cc19f434fd8f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/86416227-c619-48c5-95a3-17656efd544d/full.md; content_length=12487"
+        }
+      ],
       "created_at": "2026-05-31T12:06:53Z",
       "updated_at": "2026-05-31T12:06:53Z",
       "version": "1.0.0"
@@ -23214,7 +23286,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed sulfasalazine_antibiotic.pdf via MinerU Agent API and aligned Markdown to Sulfasalazine (Antibiotic).",
+          "input": "data/raw/papers/sulfasalazine_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/sulfasalazine_antibiotic.md",
+          "task_id": "9cf49205-f9bc-44ef-8219-d818f419d3a314",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/2c0b5678-7704-40fe-8e60-953939e2f1b7/full.md",
+          "content_length": 52582,
+          "pmc_id": "PMC12887773",
+          "detail": "task_id=9cf49205-f9bc-44ef-8219-d818f419d3a314; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/2c0b5678-7704-40fe-8e60-953939e2f1b7/full.md; content_length=52582"
+        }
+      ],
       "created_at": "2026-05-31T12:06:57Z",
       "updated_at": "2026-05-31T12:06:57Z",
       "version": "1.0.0"
@@ -23338,7 +23422,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed levofloxacin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Levofloxacin (Antibiotic).",
+          "input": "data/raw/papers/levofloxacin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/levofloxacin_antibiotic.md",
+          "task_id": "d5c55fb6-181d-4479-8b51-14ce077d901514",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4e846b1c-314e-4239-beca-328a5090c8e8/full.md",
+          "content_length": 71574,
+          "pmc_id": "PMC13109396",
+          "detail": "task_id=d5c55fb6-181d-4479-8b51-14ce077d901514; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4e846b1c-314e-4239-beca-328a5090c8e8/full.md; content_length=71574"
+        }
+      ],
       "created_at": "2026-05-31T12:06:59Z",
       "updated_at": "2026-05-31T12:06:59Z",
       "version": "1.0.0"
@@ -23462,7 +23558,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed moxifloxacin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Moxifloxacin (Antibiotic).",
+          "input": "data/raw/papers/moxifloxacin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/moxifloxacin_antibiotic.md",
+          "task_id": "7cd31756-2312-4ac1-8f71-c8026935ab8714",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f4178bfb-9e58-4441-994c-04fefd4deff7/full.md",
+          "content_length": 36715,
+          "pmc_id": "PMC13068240",
+          "detail": "task_id=7cd31756-2312-4ac1-8f71-c8026935ab8714; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f4178bfb-9e58-4441-994c-04fefd4deff7/full.md; content_length=36715"
+        }
+      ],
       "created_at": "2026-05-31T12:07:02Z",
       "updated_at": "2026-05-31T12:07:02Z",
       "version": "1.0.0"
@@ -25667,7 +25775,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed colistin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Colistin (Antibiotic).",
+          "input": "data/raw/papers/colistin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/colistin_antibiotic.md",
+          "task_id": "1c781713-3fde-475b-a220-9b956ae8cc7d14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8b1491a4-c186-4a7a-9a09-a88abacac453/full.md",
+          "content_length": 93992,
+          "pmc_id": "PMC13096796",
+          "detail": "task_id=1c781713-3fde-475b-a220-9b956ae8cc7d14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8b1491a4-c186-4a7a-9a09-a88abacac453/full.md; content_length=93992"
+        }
+      ],
       "created_at": "2026-05-31T12:07:59Z",
       "updated_at": "2026-05-31T12:07:59Z",
       "version": "1.0.0"

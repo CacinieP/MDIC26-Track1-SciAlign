@@ -2441,7 +2441,127 @@
       "title": "Identification of Histone Deacetylase Inhibitor Targeting Type I Interferon and B Cell Abnormalities in Systemic Lupus Erythematosus.",
       "record_id": "MOL-000317",
       "molecule": "Vorinostat"
+    },
+    "streptomycin_antibiotic.pdf": {
+      "task_id": "0fca4218-af19-4aeb-b375-582b60b486c614",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13185590",
+      "pmc_num": 13185590,
+      "title": "Host genetics shapes the recovery of the gut microbiome after antibiotic treatment: the role of the blood group related &lt;i&gt;B4galnt2&lt;/i&gt; gene.",
+      "record_id": "MOL-000167",
+      "molecule": "Streptomycin"
+    },
+    "tetracycline_antibiotic.pdf": {
+      "task_id": "fd60a4da-1aa7-46be-87e2-ec8c257742eb14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0c1e44f3-2b7b-4165-a540-74606fafc9ee/full.md",
+      "content_length": 24407,
+      "pmc_id": "PMC13181230",
+      "pmc_num": 13181230,
+      "title": "Functional Stability of Tetracycline: Practical Information for Its Use in Bacterial Selection.",
+      "record_id": "MOL-000168",
+      "molecule": "Tetracycline"
+    },
+    "minocycline_antibiotic.pdf": {
+      "task_id": "2e776d11-fae6-4a6e-98a2-b43237ebc4cb14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8bd9b84c-f365-4b97-9dab-13bdff2bfd35/full.md",
+      "content_length": 2341,
+      "pmc_id": "PMC13146118",
+      "pmc_num": 13146118,
+      "title": "ABSTRACT NUMBER: ESOC2026A184 MINOCYCLINE IMPROVE HEALTH RELATED QUALITY OF LIFE IN PATIENTS WITH ACUTE ISCHEAMIC STROKE: RESULTS FROM THE EMPHASIS TRIAL",
+      "record_id": "MOL-000169",
+      "molecule": "Minocycline"
+    },
+    "tigecycline_antibiotic.pdf": {
+      "task_id": "30e87497-dfe7-4030-ac56-67d007f2296514",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/7fd48766-aaa0-43e2-86af-de0276a4b354/full.md",
+      "content_length": 27506,
+      "pmc_id": "PMC13067050",
+      "pmc_num": 13067050,
+      "title": "Exploring Nonantibiotic Adjuncts: Synergistic Effects of Esmolol and Carvedilol With Tigecycline.",
+      "record_id": "MOL-000170",
+      "molecule": "Tigecycline"
+    },
+    "demeclocycline_antibiotic.pdf": {
+      "task_id": "aa32706d-265c-4f77-86ca-93bfa8b183e514",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e55c07b6-60de-45dc-b031-e920e9bc461d/full.md",
+      "content_length": 36742,
+      "pmc_id": "PMC12679808",
+      "pmc_num": 12679808,
+      "title": "Decoding Hyponatremia: A Systematic Review of Diagnostic Pathways and Therapeutic Approaches Applied When Correction Fails.",
+      "record_id": "MOL-000171",
+      "molecule": "Demeclocycline"
+    },
+    "trimethoprim_antibiotic.pdf": {
+      "task_id": "ac9ea4d9-9888-497d-89f8-7b9af3a97d7d14",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13018003",
+      "pmc_num": 13018003,
+      "title": "Adverse events of trimetroprim-sulphonamide treatment of cats and dogs: a systematic review.",
+      "record_id": "MOL-000172",
+      "molecule": "Trimethoprim"
+    },
+    "sulfamethoxazole_antibiotic.pdf": {
+      "task_id": "67025e58-780c-4db1-ba94-ec35a7e141f414",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/766f96b8-2dac-4965-9e80-0529b39e47e0/full.md",
+      "content_length": 21062,
+      "pmc_id": "PMC13106879",
+      "pmc_num": 13106879,
+      "title": "Trimethoprim/Sulfamethoxazole-Induced Systemic Toxic Epidermal Necrolysis Syndrome: A Case Report.",
+      "record_id": "MOL-000173",
+      "molecule": "Sulfamethoxazole"
+    },
+    "sulfadiazine_antibiotic.pdf": {
+      "task_id": "69499595-bddd-4ff1-918b-cc19f434fd8f14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/86416227-c619-48c5-95a3-17656efd544d/full.md",
+      "content_length": 12487,
+      "pmc_id": "PMC13032621",
+      "pmc_num": 13032621,
+      "title": "Sulfadiazine-induced crystalline nephropathy: a case report of a reversible cause of acute kidney injury in advanced HIV.",
+      "record_id": "MOL-000174",
+      "molecule": "Sulfadiazine"
+    },
+    "sulfasalazine_antibiotic.pdf": {
+      "task_id": "9cf49205-f9bc-44ef-8219-d818f419d3a314",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/2c0b5678-7704-40fe-8e60-953939e2f1b7/full.md",
+      "content_length": 52582,
+      "pmc_id": "PMC12887773",
+      "pmc_num": 12887773,
+      "title": "Safety and pharmacokinetics of sulfasalazine and its metabolite sulfapyridine for treatment of preterm preeclampsia in Australia (SIP): an early phase, unblinded, single-arm, proof of concept clinical",
+      "record_id": "MOL-000175",
+      "molecule": "Sulfasalazine"
+    },
+    "levofloxacin_antibiotic.pdf": {
+      "task_id": "d5c55fb6-181d-4479-8b51-14ce077d901514",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4e846b1c-314e-4239-beca-328a5090c8e8/full.md",
+      "content_length": 71574,
+      "pmc_id": "PMC13109396",
+      "pmc_num": 13109396,
+      "title": "An eye drop combination for treating Staphylococcus aureus-induced keratitis in rats: repurposing ibuprofen.",
+      "record_id": "MOL-000176",
+      "molecule": "Levofloxacin"
+    },
+    "moxifloxacin_antibiotic.pdf": {
+      "task_id": "7cd31756-2312-4ac1-8f71-c8026935ab8714",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f4178bfb-9e58-4441-994c-04fefd4deff7/full.md",
+      "content_length": 36715,
+      "pmc_id": "PMC13068240",
+      "pmc_num": 13068240,
+      "title": "Optimizing topical antibiotic delivery in dogs: Tear film pharmacokinetics of moxifloxacin following pre-treatment with hyaluronic acid.",
+      "record_id": "MOL-000177",
+      "molecule": "Moxifloxacin"
+    },
+    "colistin_antibiotic.pdf": {
+      "task_id": "1c781713-3fde-475b-a220-9b956ae8cc7d14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8b1491a4-c186-4a7a-9a09-a88abacac453/full.md",
+      "content_length": 93992,
+      "pmc_id": "PMC13096796",
+      "pmc_num": 13096796,
+      "title": "Colistin Resistance in Bacteria: Current Updates on Mechanism of Action and Combating Strategies.",
+      "record_id": "MOL-000195",
+      "molecule": "Colistin"
     }
   },
-  "last_expansion": "2026-06-01T09:57:19Z"
+  "last_expansion": "2026-06-01T10:20:06Z"
 }

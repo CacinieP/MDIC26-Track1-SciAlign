@@ -1,0 +1,184 @@
+# Decoding Hyponatremia: A Systematic Review of Diagnostic Pathways and Therapeutic Approaches Applied When Correction Fails
+
+Review began 10/13/2025   
+Review ended 10/28/2025   
+Published 11/05/2025
+
+© Copyright 2025 Kaur et al. This is an open access article distributed under the terms of the Creative Commons Attribution License CC-BY 4.0., which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+
+DOI: 10.7759/cureus.96131
+
+Kiranjot Kaur , Sharmila Venkatachalapathi , Mashal Mumtaz , Muhammad Faizan Butt ,1, 2, 3 4, 5 6 7, 8, 9   
+Mirna Morad Mashhour , Shashwat Shetty , Maryam Zafar , Mohammed Usman Khan Wazir ,10 11 12 13   
+Neiloofar Mohmand , Ayesha Farooqi 14 15
+
+1. United States Navy, United States Armed Forces, Great Lakes, USA 2. Clinical Research, Arizona State University, Tempa, USA 3. Medicine, Shri B. M. Patil Medical College, Bijapur, IND 4. Internal Medicine, Periyar Government District Head Quarters Hospital, Mayiladuthurai, IND 5. Internal Medicine, Vadamalayan Hospitals Pvt Ltd., Dindigul, IND 6. Internal Medicine, University College of Medicine and Dentistry, Lahore, PAK 7. Gastroenterology, NHS Forth Valley, Larbert, GBR 8. Haematology, Sheffield Teaching Hospitals NHS Foundation Trust, Sheffield, GBR 9. Medical Education, NHS Highland, Inverness, GBR 10. Internal Medicine, Banha Health Insurance Hospital, Banha, EGY 11. Orthopaedics, Hillingdon Hospital, Uxbridge, GBR 12. Paediatrics, Basildon University Hospital, Basildon, GBR 13. Trauma and Orthopaedics Surgery, Northwick Park Hospital, Harrow, GBR 14. Internal Medicine, Kabul University of Medical Sciences "Abu Ali Ibn Sina", Kabul, AFG 15. General Surgery, Dr. Ruth K. M. Pfau Civil Hospital Karachi, Dow University of Health Sciences, Karachi, PAK
+
+Corresponding author: Shashwat Shetty, shashwat.shetty@nhs.net
+
+## Abstract
+
+Hyponatremia is the most common electrolyte disorder encountered in clinical practice. Conventional management strategies, including fluid restriction, hypertonic saline, and solute supplementation, often fail to achieve sustained correction, particularly in the syndrome of inappropriate antidiuretic hormone secretion (SIADH), resulting in refractory cases. A systematic search was conducted according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines. Eligible studies included randomized controlled trials, cohort studies, guideline syntheses, and mechanistic research, with risk of bias carefully evaluated. Seven studies met inclusion criteria. Tolvaptan consistently improved serum sodium concentrations in patients with SIADH and heart failure, though its use was limited by high cost and the potential for overly rapid correction. Oral urea emerged as a safe, inexpensive, and reliable option for gradual, sustained normalization of sodium levels. Vasopressin receptor antagonists (vaptans) demonstrated superiority over fluid restriction in oncology-associated hyponatremia, although relapse was frequently observed following discontinuation. Demeclocycline exhibited mechanistic efficacy but remains limited by nephrotoxicity risk. Guideline-based analyses emphasized improved diagnostic precision but revealed inconsistencies in correction thresholds and recommendations for second-line therapy. When standard correction measures fail, clinicians should reassess the underlying etiology and escalate treatment accordingly. Vaptans offer rapid correction, urea ensures safe long-term management, and demeclocycline serves as a last-line therapeutic option.
+
+Categories: Internal Medicine, Nephrology, Endocrinology/Diabetes/Metabolism   
+Keywords: diagnostic pathways, electrolyte disorders, hyponatremia, refractory hyponatremia, siadh, vasopressin   
+receptor antagonists, water balance
+
+## Introduction And Background
+
+Hyponatremia, defined as a serum sodium concentration below 135 mmol/L, is the most common electrolyte disorder in hospitalized patients. Its prevalence has been estimated at 5% in the community and up to 30- 35% among inpatients [1]. Even mild or chronic hyponatremia is clinically significant, as it is associated with gait disturbances, cognitive impairment, fractures, and increased mortality risk [2]. These findings highlight the importance of not only recognizing hyponatremia but also implementing effective corrective strategies to improve patient outcomes. Conventional management is guided by underlying volume status. In hypovolemic hyponatremia, isotonic saline infusion restores intravascular volume and suppresses nonosmotic antidiuretic hormone (ADH) release [3].
+
+Hypervolemic hyponatremia, commonly encountered in congestive heart failure or cirrhosis, is generally managed with fluid and sodium restriction together with loop diuretics and careful volume management [4,5]. In euvolemic hyponatremia, especially SIADH, first-line measures include fluid restriction, withdrawal of offending medications, and increased solute intake (e.g., oral salt or oral urea) [5,6]. Despite these measures, treatment failure is common. Fluid restriction is often poorly tolerated and ineffective when urine osmolality remains high [4].
+
+Hypertonic saline may achieve rapid correction in acute symptomatic cases, but risks of overcorrection and osmotic demyelination necessitate strict monitoring. In addition, complex or multifactorial etiologies such as coexisting kidney disease, diuretic use, or malignancy-associated ADH secretion frequently contribute to refractory cases that fail standard therapy. To address these challenges, pharmacological agents targeting the vasopressin pathway have been introduced. Vasopressin V₂ receptor antagonists (vaptans) promote aquaresis by blocking ADH activity in the renal collecting ducts. Randomized trials and meta-analyses demonstrate their ability to increase serum sodium more effectively than fluid restriction or placebo, although concerns remain regarding overly rapid correction, cost, and hepatotoxicity [7]. Oral urea has reemerged as a safe, inexpensive alternative that facilitates osmotic excretion of free water. Recent studies report comparable efficacy to vaptans in SIADH, with fewer serious side effects. Comparative data suggest that while tolvaptan achieves a faster rise in serum sodium, urea remains reliable and well-tolerated in longterm management [8].
+
+Nevertheless, the success of any intervention depends on accurate classification of the hyponatremia subtype. Diagnostic pitfalls, particularly misjudging volume status, frequently contribute to poor outcomes [9]. Guideline comparisons underscore variability in recommended approaches, correction thresholds, and second-line therapy use, further complicating management [10]. Thus, when initial therapy fails, clinicians must reassess the diagnostic framework and escalate treatment in a structured, evidence-based manner. This review aims to decode the management of refractory hyponatremia by synthesizing available evidence on diagnostic pathways and therapeutic strategies. We highlight conventional and emerging treatment modalities, discuss their relative efficacy and limitations, and propose a practical approach to guide escalation when sodium correction fails.
+
+## Review
+
+## Materials and methods
+
+## Search Strategy
+
+A systematic search was conducted in accordance with Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines [11]. The search covered PubMed, Embase, Scopus, and the Cochrane Library from inception to December 2024, using a combination of keywords and Medical Subject Headings (MeSH) terms such as “hyponatremia”, “refractory hyponatremia”, “syndrome of inappropriate antidiuretic hormone secretion (SIADH)”, “vasopressin receptor antagonists”, “oral urea”, and “demeclocycline”, with Boolean operators applied to refine results; only peer-reviewed human studies, randomized controlled trials (RCTs), cohort studies, systematic reviews, and guideline-based publications in English were included, while case reports, conference abstracts, animal studies, and narrative reviews were excluded, and reference lists of relevant articles were hand-searched to capture additional evidence.
+
+## Eligibility Criteria
+
+Studies were included according to the PICO (Population, Intervention, Comparison, and Outcome) framework [12]: (i) Population: adult or pediatric patients with hyponatremia, including refractory or persistent cases, (ii) Intervention: diagnostic frameworks or therapeutic interventions such as fluid restriction, hypertonic saline, vasopressin receptor antagonists (vaptans), oral urea, or demeclocycline, (iii) Comparators: placebo, standard fluid restriction, guideline-based management, or alternative pharmacologic therapy, and (iv) Outcomes: serum sodium correction, relapse, safety, renal impact, or mortality.
+
+Exclusion criteria comprised case reports, animal studies, conference abstracts, and editorials, in line with established systematic review standards.
+
+## Study Selection
+
+Two reviewers independently screened titles/abstracts. Full texts of eligible studies were retrieved and evaluated. Discrepancies were resolved by consensus; the PRISMA diagram documented the process.
+
+## Data Extraction
+
+Data extraction was carried out independently by two reviewers using a standardized form to ensure consistency and minimize error. Extracted variables included study design, sample size, patient demographics, underlying etiology of hyponatremia, details of the intervention, comparator groups, and primary and secondary outcomes such as sodium correction, relapse rates, renal impact, and safety profiles. Additional information on pathophysiological findings and long-term follow-up data, where available, was also collected. Discrepancies between reviewers were resolved by consensus or consultation with a third investigator to maintain methodological rigor.
+
+## Risk of Bias Assessment
+
+The methodological quality of included studies was evaluated using validated tools appropriate to the study design. RCTs were assessed with the Cochrane Risk of Bias Tool [13], observational cohorts were evaluated with the Newcastle-Ottawa Scale (NOS) [14], guideline syntheses were reviewed using AMSTAR-2 (A Measurement Tool to Assess Systematic Reviews, version 2) [15], and preclinical studies were appraised with SYRCLE (SYstematic Review Centre for Laboratory animal Experimentation)’s Risk of Bias Tool [16]. Each study was assigned a rating of low, moderate, or high risk of bias, with justifications based on study design, sample size, blinding, randomization, outcome assessment, and potential conflicts of interest. This structured approach ensured that both internal validity and external applicability of findings were critically appraised before inclusion in the qualitative synthesis.
+
+## Data Synthesis
+
+Because of heterogeneity in study design, populations, and interventions, a qualitative synthesis was undertaken. Data from RCTs, observational cohorts, guideline comparisons, and mechanistic studies were narratively integrated to assess diagnostic strategies and therapeutic outcomes in refractory hyponatremia. The analysis emphasized serum sodium correction, relapse risk, renal safety, and tolerability across different modalities, including fluid restriction, hypertonic saline, vasopressin receptor antagonists, oral urea, and demeclocycline. Findings were organized around the PICO framework to evaluate diagnostic accuracy, treatment efficacy, and safety across included studies.
+
+## Ethical Consideration
+
+As this study is a systematic review of previously published data, ethical approval was not applicable. No PROSPERO registration was obtained for this review. All included studies were sourced from peer-reviewed journals, and findings were synthesized in accordance with established methodological standards.
+
+## Results
+
+## Study Selection Process
+
+Figure 1 illustrates the PRISMA flow chart, showing the study selection process. A total of 95 records were identified across four major databases: PubMed (n = 32), Embase $( \mathrm { n } = 2 7 ) ,$ , Scopus (n = 21), and the Cochrane Library $( \mathtt { n } = 1 5 )$ . After removal of duplicates $( \mathrm { n } = 1 1 )$ , 84 records were screened by title and abstract, of which 52 were excluded for irrelevance. A total of 32 full-text reports were sought for retrieval, and all were successfully obtained. Following a detailed assessment, 25 articles were excluded, consisting of case reports $( \mathtt { n } = 1 4 )$ , animal studies $( \mathtt { n } = 5 )$ , editorials (n = 3), and conference abstracts (n = 3). Ultimately, seven studies met eligibility criteria and were included in the final qualitative synthesis.
+
+<!-- image-->  
+FIGURE 1: PRISMA 2020 flow diagram
+
+PRISMA: Preferred Reporting Items for Systematic Reviews and Meta-Analyses
+
+## Characteristics of the Selected Studies
+
+Table 1 summarizes major clinical and experimental studies on refractory hyponatremia. Tolvaptan showed sustained sodium correction in SIADH through AVP antagonism [17]. Guideline-directed care improved outcomes in mixed hyponatremia but was limited by diagnostic delays [5]. Vaptans were more effective than fluid restriction in oncology patients, though relapses occurred [18]. In heart failure, vaptans provided safe and sustained correction compared with diuretics [19]. Structured diagnostic pathways enhanced accuracy and treatment outcomes in hospitalized adults [20]. Oral urea offered a gradual yet reliable correction in chronic SIADH [6]. Demeclocycline promoted water diuresis by downregulating adenylate cyclase and AQP2 expression in experimental SIADH models [21].
+
+<table><tr><td rowspan=1 colspan=2>Authors &amp;</td><td rowspan=1 colspan=2>Population</td><td rowspan=1 colspan=1>Exposure I</td><td rowspan=1 colspan=1>Comparator</td><td rowspan=2 colspan=1>Outcomes(0)</td><td rowspan=2 colspan=2>Pathophysiological Findings</td><td rowspan=2 colspan=2>Renal Outcomes</td><td rowspan=2 colspan=1>Correction Impact</td></tr><tr><td rowspan=1 colspan=2>Year</td><td rowspan=1 colspan=2>(P)</td><td rowspan=1 colspan=1>Condition (l)</td><td rowspan=1 colspan=1>(C)</td></tr><tr><td rowspan=2 colspan=2>Verbalis etal., 2010[17]</td><td rowspan=2 colspan=2>110 Adultswith SIADH</td><td rowspan=2 colspan=1>Tolvaptantherapy</td><td rowspan=1 colspan=1>Placebo</td><td rowspan=1 colspan=1>Sodiumcorrection,</td><td rowspan=1 colspan=2>AVP-mediated water retention</td><td rowspan=2 colspan=2>Improved water clearance</td><td rowspan=2 colspan=1>Significant sustainedcorrection</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>safety</td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1>Guideline-</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=2 colspan=2>Diagnostic delays frequent</td><td rowspan=2 colspan=2>Persistent hyponatremia</td><td rowspan=5 colspan=1>Partial correction; frequentrelapse</td></tr><tr><td rowspan=1 colspan=2>Spasovski et Mixed</td><td rowspan=2 colspan=2>hyponatremia</td><td rowspan=2 colspan=1>directed</td><td rowspan=1 colspan=1>Standard care</td><td rowspan=1 colspan=1>Mortality,</td></tr><tr><td rowspan=1 colspan=2>al., 2014 [5]</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=1 colspan=1>management</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>recovery</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=2>Gralla et al.,2019 [18]</td><td rowspan=1 colspan=2>28 Oncologypatients withSIADH</td><td rowspan=1 colspan=1>Vaptans</td><td rowspan=1 colspan=1>Fluid restriction</td><td rowspan=1 colspan=1>Response,relapse</td><td rowspan=1 colspan=2>Tumor-driven ADH</td><td rowspan=1 colspan=2>Preserved renal function</td><td rowspan=1 colspan=1>Effective initial correction,relapse in some</td></tr><tr><td rowspan=1 colspan=2>Schrier et</td><td rowspan=1 colspan=2>448 Heart</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Symptom</td><td rowspan=3 colspan=2>Dilutional pathophysiology</td><td rowspan=3 colspan=2>Stable renal function</td><td rowspan=3 colspan=1>Sustained correction, safe ifmonitored</td></tr><tr><td rowspan=1 colspan=2>al., 2006</td><td rowspan=1 colspan=2>failure</td><td rowspan=1 colspan=1>Vaptans</td><td rowspan=1 colspan=1>Diuretics</td><td rowspan=1 colspan=1>relief, Na</td></tr><tr><td rowspan=1 colspan=2>[19]</td><td rowspan=1 colspan=2>patients</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>correction</td></tr><tr><td rowspan=4 colspan=2>Hoorn andZietse, 2017[20]</td><td rowspan=4 colspan=2>Hospitalizedadults</td><td rowspan=4 colspan=1>Diagnosticguidelinecomparison</td><td rowspan=2 colspan=1>Regional/clinical</td><td rowspan=2 colspan=1>Diagnosticaccuracy,</td><td rowspan=4 colspan=2>Guidelines harmonize diagnosticpitfalls</td><td rowspan=4 colspan=2>Not applicable</td><td rowspan=4 colspan=1>Improved correction withstructured guideline-basedpathways</td></tr><tr><td rowspan=1 colspan=1>Guidelines harmonize diagnostic</td></tr><tr><td rowspan=1 colspan=1>practice</td><td rowspan=1 colspan=1>treatment</td><td rowspan=1 colspan=1>pitfalls</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>outcome</td></tr><tr><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2>13 Chronic</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2></td><td rowspan=5 colspan=2>Preserved function</td><td rowspan=2 colspan=1>Gradual but reliable correction</td></tr><tr><td rowspan=1 colspan=2>Soupart et</td><td></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Oral urea</td><td rowspan=1 colspan=1>Fluid restriction</td><td rowspan=1 colspan=1>Sodium rise,</td><td rowspan=1 colspan=2>Osmotic effect via urea</td><td rowspan=1 colspan=1>Preserved function</td></tr><tr><td rowspan=1 colspan=2>al., 2012 [6]</td><td rowspan=1 colspan=2>SIADH</td><td rowspan=1 colspan=1>therapy</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>tolerability</td><td rowspan=3 colspan=2>excretion</td><td></td></tr><tr><td rowspan=2 colspan=2></td><td rowspan=2 colspan=2>patients</td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1></td><td></td></tr><tr><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Urine</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>Kortenoeven</td><td rowspan=1 colspan=2>In vitro</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>volume,</td><td rowspan=1 colspan=2>Demeclocycline reduces</td><td rowspan=1 colspan=2>Reduced AQP2 abundance</td><td rowspan=1 colspan=1>Attenuates hyponatremia:</td></tr><tr><td rowspan=4 colspan=2>et al., 2013[21]</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>mpkCCD cells</td><td rowspan=1 colspan=1>Demeclocycline</td><td rowspan=1 colspan=1>Vehicle I</td><td rowspan=1 colspan=1>serum</td><td rowspan=1 colspan=2>adenylate cyclase 5/6</td><td rowspan=1 colspan=2>in inner medulla, increased</td><td rowspan=1 colspan=1>increases serum sodium in</td></tr><tr><td rowspan=1 colspan=2>+ SIADH</td><td rowspan=1 colspan=1>treatment</td><td rowspan=1 colspan=1>untreated</td><td rowspan=1 colspan=1>sodium,</td><td rowspan=1 colspan=2>expression → lower cAMP →</td><td rowspan=1 colspan=2>urine output, reduced urine</td><td rowspan=1 colspan=1>animal model; supports a</td></tr><tr><td rowspan=1 colspan=2>rodent model</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>AQP2</td><td rowspan=1 colspan=2>decreased AQP2 transcription</td><td rowspan=1 colspan=2>osmolality</td><td rowspan=2 colspan=1>water diuresis effect</td></tr><tr><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>abundance</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2></td></tr></table>
+
+TABLE 1: Characteristics of the Selected Studies
+
+SIADH: syndrome of inappropriate antidiuretic hormone; AVP: arginine vasopressin; AQP2: aquaporin-2; mpkCCD: mouse principal kidney cortical collecting duct cells
+
+## Risk of Bias Assessment
+
+Table 2 outlines the risk of bias assessment across included studies. The RCTs by Verbalis et al. [17] and Schrier et al. [19] were rated low to low-moderate risk due to robust multicenter randomization and blinding, despite potential funding bias. Spasovski et al.'s study carried a moderate risk given its observational design and possible selection bias, though guideline application strengthened validity [5]. Gralla et al.'s study showed low-moderate risk as it represented a post hoc subgroup analysis, albeit supported by strong parent RCTs [18]. Hoorn and Zietse provided a low-risk synthesis through a comprehensive and transparent guideline-based methodology [20]. The study by Soupart et al. was rated low-moderate risk due to its small sample size but benefited from prospective follow-up [6]. Finally, the study by Kortenoeven et al. carried a moderate risk, reflecting the inherent translational limitations of preclinical animal and cell models despite providing mechanistic clarity [21].
+
+<table><tr><td rowspan=2 colspan=1>Study</td><td rowspan=2 colspan=1>Study Design</td><td rowspan=1 colspan=1>Risk of Bias Tool</td><td rowspan=2 colspan=1>Risk ofBiasRating</td><td rowspan=2 colspan=1>Justification</td></tr><tr><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Verbalis et al.,2010 [17]</td><td rowspan=1 colspan=1>Ranomizd Controllerial RCCochrane Riskof ias</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Low</td><td rowspan=1 colspan=1>Placebo-controlled, multicenter design, lowattrition</td></tr><tr><td rowspan=1 colspan=1>Spasovski etal., 2014 [5]</td><td rowspan=1 colspan=1>Guideline-basedcohort/observational</td><td rowspan=1 colspan=1>NOS</td><td rowspan=1 colspan=1>Moderate</td><td rowspan=1 colspan=1>Observational, selection bias possible;applied guideline framework</td></tr><tr><td rowspan=1 colspan=1>Gralla et al.,2019 [18]</td><td rowspan=1 colspan=1>Post hoc subgroup analysis ofRCTs (SALT-1/2)</td><td rowspan=1 colspan=1>Cochrane</td><td rowspan=1 colspan=1>Low-Moderate</td><td rowspan=1 colspan=1>Small oncology subgroup, secondaryanalysis but robust parent RCTs</td></tr><tr><td rowspan=1 colspan=1>Schrier et al.,2006 [19]</td><td rowspan=1 colspan=1>RCT</td><td rowspan=1 colspan=1>Cochrane</td><td rowspan=1 colspan=1>Low-Moderate</td><td rowspan=1 colspan=1>Industry-funded but rigorous randomizationand blinding</td></tr><tr><td rowspan=1 colspan=1>Hoornand Zietse,2017 [20]</td><td rowspan=1 colspan=1>Systematic Review / GuidelineCompilation</td><td rowspan=1 colspan=1>AMSTAR-2</td><td rowspan=1 colspan=1>Low</td><td rowspan=1 colspan=1>Comprehensive synthesis across multipleguidelines, transparent methodology</td></tr><tr><td rowspan=2 colspan=1>Soupart et al.,2012 [6]</td><td rowspan=2 colspan=1>Prospective cohort (small sample) NOS</td><td rowspan=2 colspan=1></td><td rowspan=1 colspan=1>Low-</td><td rowspan=2 colspan=1>Small size (n=13), prospective design withconsistent follow-up</td></tr><tr><td rowspan=1 colspan=1>Moderate</td></tr><tr><td rowspan=1 colspan=1>Kortenoeven et</td><td rowspan=2 colspan=1>Kortenoeven et Preclinical mechanistic study (cellculture + rodent SIADH model)</td><td rowspan=2 colspan=1>SYRCLE&#x27;s Risk of BiasTool (animal studies)</td><td rowspan=2 colspan=1>Moderate</td><td rowspan=2 colspan=1>Preclinical setting, translational limitations,robust mechanistic data</td></tr><tr><td rowspan=1 colspan=1>al., 2013 [21]</td></tr></table>
+
+TABLE 2: Risk of Bias Assessment
+
+RCT: randomized controlled trial; NOS: Newcastle-Ottawa Scale; AMSTAR-2: A Measurement Tool to Assess Systematic Reviews 2; SYRCLE: Systematic Review Centre for Laboratory Animal Experimentation
+
+## Discussion
+
+Hyponatremia remains the most common electrolyte disorder in clinical practice and continues to challenge physicians when correction fails despite standard approaches. Conventional management is guided by volume assessment. Hypovolemic hyponatremia usually responds to isotonic saline infusion, while hypervolemic states such as heart failure or cirrhosis are managed with fluid and sodium restriction, often combined with loop diuretics. In SIADH and other euvolemic states, fluid restriction and solute supplementation have long served as first-line therapies [22].
+
+However, conventional strategies are often limited by poor patient tolerance (e.g., difficulty adhering to strict fluid restriction), slow onset of effect, and high failure rates-particularly when urine osmolality remains high or the inciting stimulus for ADH secretion persists-resulting in a substantial proportion of patients with refractory hyponatremia who require stepwise, evidence-based escalation of therapy [5,9,20]. Second-line treatments targeting the vasopressin pathway have reshaped the therapeutic landscape. Verbalis et al. demonstrated in a randomized controlled trial that tolvaptan, a selective V₂ receptor antagonist, provides a significant and sustained increase in serum sodium in SIADH patients, surpassing placebo in both efficacy and safety outcomes [17]. Similarly, Schrier et al. confirmed the role of vaptans in hypervolemic hyponatremia related to heart failure, showing symptomatic improvement and stable renal function with careful monitoring [19]. Gralla et al. extended these findings to oncology populations, where vaptans offered superior correction compared with fluid restriction, although relapse remained a concern [18]. Collectively, these studies establish vaptans as a more predictable and effective option than conventional fluid restriction, though cost, availability, and the potential for overly rapid correction remain barriers to universal adoption.
+
+Oral urea has re-emerged as an effective and inexpensive alternative for chronic SIADH. Soupart et al. reported that urea produces gradual but reliable sodium correction with preserved renal function and good long-term tolerability [6]. Compared with tolvaptan, urea induces a slower but steadier rise in sodium, making it particularly useful for long-term outpatient management. In settings where access to vaptans is limited, urea provides an attractive, evidence-based therapy supported by prospective cohort data. Another pharmacological option, demeclocycline, was historically employed for chronic SIADH but has been relegated to a third-line role. Preclinical work by Kortenoeven et al. demonstrated that demeclocycline reduces AQP2 expression via adenylate cyclase inhibition, leading to water diuresis and improved sodium in SIADH models [21]. While mechanistically sound, clinical use is limited by nephrotoxicity, delayed onset, and variable efficacy. These drawbacks restrict its role to selected refractory cases where safer alternatives are unavailable.
+
+Beyond treatment escalation, diagnostic accuracy is pivotal. Misclassification of volume status remains one of the most frequent pitfalls. Spasovski et al. highlighted that guideline-directed management improves outcomes compared with routine care, but also revealed that diagnostic delays and inconsistencies contribute to persistent hyponatremia and relapse [5]. Hoorn and Zietse, in their systematic comparison of international guidelines, emphasized how variability in correction thresholds and second-line
+
+recommendations complicates management and creates heterogeneity in clinical practice [20]. Together, these findings stress that successful correction depends not only on therapeutic choice but also on accurate and timely diagnostic frameworks. Several limitations across the evidence base warrant attention. Many of the vaptan trials, while rigorous, were industry-sponsored, introducing potential bias. Oncology subgroup analyses, as reported by Gralla et al., were limited by small sample size and secondary endpoints, reducing external generalizability [18]. Cohort studies such as Soupart et al. [6] were prospective but underpowered, while preclinical data from Kortenoeven et al. cannot be directly extrapolated to clinical care [21]. Guideline comparisons by Hoorn and Zietse reflect methodological transparency but also highlight the absence of universally accepted correction strategies [20]. Overall, while the collective evidence supports escalation beyond fluid restriction, heterogeneity in populations, study design, and outcome reporting continues to limit the strength of pooled conclusions.
+
+Future directions should focus on harmonizing guideline recommendations to reduce variability in practice, particularly regarding thresholds for initiating pharmacological therapy and monitoring strategies for rapid correction. Comparative head-to-head studies of tolvaptan versus urea are urgently needed to establish clear therapeutic hierarchies across different patient populations. Longitudinal follow-up should address relapse, renal outcomes, and patient-centered metrics such as cognitive recovery and functional improvement, which remain underreported in current literature. Moreover, the integration of structured diagnostic algorithms and decision-support systems, as emphasized by Hoorn and Zietse [20], could minimize misclassification and optimize individualized treatment pathways.
+
+## Conclusions
+
+Hyponatremia that fails to correct requires both diagnostic reassessment and escalation of therapy. Conventional measures such as fluid restriction and solute intake are often inadequate, especially in SIADH. Evidence supports the use of vasopressin receptor antagonists, which achieve faster and more predictable correction but carry risks of rapid overcorrection and high cost. Oral urea has re-emerged as an effective, inexpensive, and well-tolerated option, particularly for long-term management. Demeclocycline remains a last-line therapy due to delayed onset and nephrotoxicity. Diagnostic accuracy is equally important, as misclassification of volume status and variability among guidelines continue to hinder outcomes. Future progress will depend on standardized correction thresholds, comparative head-to-head studies of tolvaptan versus urea, and greater focus on patient-centered outcomes such as cognitive recovery and quality of life.
+
+## Additional Information
+
+## Author Contributions
+
+All authors have reviewed the final version to be published and agreed to be accountable for all aspects of the work.
+
+Concept and design: Ayesha Farooqi, Kiranjot Kaur, Sharmila Venkatachalapathi, Mashal Mumtaz, Mirna Morad Mashhour, Shashwat Shetty, Maryam Zafar, Mohammed Usman Khan Wazir, Neiloofar Mohmand
+
+Critical review of the manuscript for important intellectual content: Ayesha Farooqi, Kiranjot Kaur, Sharmila Venkatachalapathi, Shashwat Shetty
+
+Acquisition, analysis, or interpretation of data: Kiranjot Kaur, Sharmila Venkatachalapathi, Muhammad Faizan Butt
+
+Drafting of the manuscript: Kiranjot Kaur, Sharmila Venkatachalapathi, Mashal Mumtaz, Muhammad Faizan Butt, Mirna Morad Mashhour, Shashwat Shetty, Maryam Zafar, Mohammed Usman Khan Wazir, Neiloofar Mohmand
+
+Supervision: Kiranjot Kaur, Sharmila Venkatachalapathi, Mirna Morad Mashhour, Shashwat Shetty
+
+## Disclosures
+
+Conflicts of interest: In compliance with the ICMJE uniform disclosure form, all authors declare the following: Payment/services info: All authors have declared that no financial support was received from any organization for the submitted work. Financial relationships: All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work. Other relationships: All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work.
+
+## References
+
+1. Heinrich S, Wagner A, Gross P: Hyponatremia [Article in German]. Med Klin Intensivmed Notfmed. 2013, 108:53-8. 10.1007/s00063-012-0120-3
+
+2. Renneboog B, Musch W, Vandemergel X, Manto MU, Decaux G: Mild chronic hyponatremia is associated with falls, unsteadiness, and attention deficits. Am J Med. 2006, 119:71.e1-8. 10.1016/j.amjmed.2005.09.026
+
+3. Adrogué HJ, Madias NE: Hyponatremia. N Engl J Med. 2000, 342:1581-9. 10.1056/NEJM200005253422107
+
+4. Rodriguez M, Hernandez M, Cheungpasitporn W, et al.: Hyponatremia in heart failure: pathogenesis and management. Curr Cardiol Rev. 2019, 15:252-61. 10.2174/1573403X15666190306111812
+
+5. Villabona C: Vasopressin receptor antagonists: the vaptans [Article in Spanish] . Endocrinol Nutr. 2010, 57:41-52. 10.1016/S1575-0922(10)70021-8
+
+6. Martínez González Á, González Nunes M, Rodeiro Escobar P, et al.: Comparative study of the effectiveness of tolvaptan versus urea in patients with hyponatremia caused by SIADH. Rev Clin Esp (Barc). 2025, 225:85- 91. 10.1016/j.rceng.2024.12.001
+
+7. McGreal K, Budhiraja P, Jain N, Yu AS: Current challenges in the evaluation and management of hyponatremia. Kidney Dis (Basel). 2016, 2:56-63. 10.1159/000446267
+
+8. Spasovski G: Hyponatraemia-treatment standard 2024. Nephrol Dial Transplant. 2024, 39:1583-92. 10.1093/ndt/gfae162
+
+9. Page MJ, McKenzie JE, Bossuyt PM, et al.: Updating guidance for reporting systematic reviews: development of the PRISMA 2020 statement. J Clin Epidemiol. 2021, 134:103-12. 10.1016/j.jclinepi.2021.02.003
+
+10. Eldawlatly A, Alshehri H, Alqahtani A, Ahmad A, Al-Dammas F, Marzouk A: Appearance of population, intervention, comparison, and outcome as research question in the title of articles of three different anesthesia journals: a pilot study. Saudi J Anaesth. 2018, 12:283-6. 10.4103/sja.SJA_767_17
+
+11. Higgins JP, Altman DG, Gøtzsche PC, et al.: The Cochrane Collaboration's tool for assessing risk of bias in randomised trials. BMJ. 2011, 343:d5928. 10.1136/bmj.d5928
+
+12. The Ottawa Hospital Research Institute: The Newcastle-Ottawa Scale (NOS) for assessing the quality of nonrandomised studies in meta-analyses. (2021). Accessed: 2025: https://www.ohri.ca/programs/clinical_epidemiology/oxford.asp.
+
+13. Shea BJ, Reeves BC, Wells G, et al.: AMSTAR 2: a critical appraisal tool for systematic reviews that include randomised or non-randomised studies of healthcare interventions, or both. BMJ. 2017, 358:j4008. 10.1136/bmj.j4008
+
+14. Hooijmans CR, Rovers MM, de Vries RB, Leenaars M, Ritskes-Hoitinga M, Langendam MW: SYRCLE's risk of bias tool for animal studies. BMC Med Res Methodol. 2014, 14:43. 10.1186/1471-2288-14-43
+
+15. Verbalis JG, Adler S, Schrier RW, Berl T, Zhao Q, Czerwiec FS: Efficacy and safety of oral tolvaptan therapy in patients with the syndrome of inappropriate antidiuretic hormone secretion. Eur J Endocrinol. 2011, 164:725-32. 10.1530/EJE-10-1078
+
+16. Spasovski G, Vanholder R, Allolio B, et al.: Clinical practice guideline on diagnosis and treatment of hyponatraemia. Eur J Endocrinol. 2014, 170:G1-47. 10.1530/EJE-13-1020
+
+17. Gralla RJ, Ahmad F, Blais JD, Chiodo J 3rd, Zhou W, Glaser LA, Czerwiec FS: Tolvaptan use in cancer patients with hyponatremia due to the syndrome of inappropriate antidiuretic hormone: a post hoc analysis of the SALT-1 and SALT-2 trials. Cancer Med. 2017, 6:723-9. 10.1002/cam4.805
+
+18. Schrier RW, Gross P, Gheorghiade M, Berl T, Verbalis JG, Czerwiec FS, Orlandi C: Tolvaptan, a selective oral vasopressin V2-receptor antagonist, for hyponatremia. N Engl J Med. 2006, 355:2099-112. 10.1056/NEJMoa065181
+
+19. Hoorn EJ, Zietse R: Diagnosis and treatment of hyponatremia: compilation of the guidelines . J Am Soc Nephrol. 2017, 28:1340-9. 10.1681/ASN.2016101139
+
+20. Soupart A, Coffernils M, Couturier B, Gankam-Kengne F, Decaux G: Efficacy and tolerance of urea compared with vaptans for long-term treatment of patients with SIADH. Clin J Am Soc Nephrol. 2012, 7:742-7. 10.2215/CJN.06990711
+
+21. Kortenoeven ML, Sinke AP, Hadrup N, Trimpert C, Wetzels JF, Fenton RA, Deen PM: Demeclocycline attenuates hyponatremia by reducing aquaporin-2 expression in the renal inner medulla. Am J Physiol Renal Physiol. 2013, 305:F1705-18. 10.1152/ajprenal.00723.2012
+
+22. Gross P: Clinical management of SIADH. Ther Adv Endocrinol Metab. 2012, 3:61-73. 10.1177/2042018812437561
