@@ -10,9 +10,12 @@ Tier C: Template-based enrichment (relations from CATEGORY_TARGET_MAP, ZH from t
 """
 import json
 import csv
+import logging
 import os
 import sys
 from pathlib import Path
+
+logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 INPUT = PROJECT_ROOT / "data" / "processed" / "molalign_dataset.jsonl"
@@ -23,22 +26,22 @@ try:
     sys.path.insert(0, str(PROJECT_ROOT))
     from scripts.enrich_dataset import KNOWN_RELATIONS
     CURATED_RELATION_CIDS = set(KNOWN_RELATIONS.keys())
-except Exception:
-    pass
+except Exception as e:
+    logger.warning(f"Could not import KNOWN_RELATIONS: {e}")
 
 CURATED_ZH_CIDS = set()
 try:
     from scripts.enrich_dataset import CHINESE_DESCRIPTIONS
     CURATED_ZH_CIDS = set(CHINESE_DESCRIPTIONS.keys())
-except Exception:
-    pass
+except Exception as e:
+    logger.warning(f"Could not import CHINESE_DESCRIPTIONS: {e}")
 
 CURATED_BIO_CIDS = set()
 try:
     from scripts.enrich_pubchem_bioactivity import KNOWN_BIOACTIVITY
     CURATED_BIO_CIDS = set(KNOWN_BIOACTIVITY.keys())
-except Exception:
-    pass
+except Exception as e:
+    logger.warning(f"Could not import KNOWN_BIOACTIVITY: {e}")
 
 
 def classify_descriptions(descs):

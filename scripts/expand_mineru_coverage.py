@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """
 Expand MinerU paper coverage via free MinerU Agent API
 ========================================================
@@ -382,12 +384,22 @@ def main():
         processed += 1
         time.sleep(3)  # Rate limit between papers
 
-    # Save updated dataset
-    with open(DATASET_JSONL, "w", encoding="utf-8") as f:
-        for r in records:
-            f.write(json.dumps(r, ensure_ascii=False) + "\n")
-    with open(DATASET_JSON, "w", encoding="utf-8") as f:
-        json.dump(records, f, ensure_ascii=False, indent=2)
+    # Save updated dataset (atomic write via temp file + rename)
+    import tempfile
+    for target_path, write_fn in [
+        (DATASET_JSONL, lambda f: [f.write(json.dumps(r, ensure_ascii=False) + "
+") for r in records]),
+        (DATASET_JSON, lambda f: json.dump(records, f, ensure_ascii=False, indent=2)),
+    ]:
+        tmp_fd, tmp_path = tempfile.mkstemp(suffix=".tmp", dir=str(target_path.parent))
+        try:
+            with os.fdopen(tmp_fd, "w", encoding="utf-8") as f:
+                write_fn(f)
+            os.replace(tmp_path, str(target_path))
+        except BaseException:
+            if os.path.exists(tmp_path):
+                os.unlink(tmp_path)
+            raise
 
     # Update parsing_log
     existing_log["results"].update(new_results)

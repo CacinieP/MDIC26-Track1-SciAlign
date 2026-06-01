@@ -36,7 +36,7 @@ MolAlign/
 │   │   ├── sample_dataset.jsonl
 │   │   └── sample_dataset.json
 │   └── raw/                          # 原始数据
-│       └── parsed_mineru_api/        # MinerU Agent API 日志与 10 篇成功解析 Markdown
+│       └── parsed_mineru_api/        # MinerU Agent API 日志与 89 篇成功解析 Markdown
 ├── src/
 │   ├── schema.py                     # JSON Schema 定义
 │   ├── molecule_processor.py         # 分子数据处理器 (RDKit + PubChem)
@@ -120,7 +120,7 @@ print(records[0]["smiles"]["canonical"])    # CC(=O)Oc1ccccc1C(=O)O
 
 | 工具 | 用途 | 使用范围 |
 |------|------|----------|
-| **MinerU Agent API** | 解析开放获取论文 PDF，获取结构化 Markdown | 12 个提交任务，10 个成功，2 个失败；成功输出共 **597,454** 字符 |
+| **MinerU Agent API** | 解析开放获取论文 PDF，获取结构化 Markdown | 99 个提交任务，89 个成功，10 个失败；成功输出共 **4,712,803** 字符 |
 | **RDKit** | SMILES 标准化、2D/3D 结构生成、物化属性统一计算 | 820 条记录 |
 | **PubChem REST API** | 分子标识符、同义词、基础描述与公共属性来源 | 820 条记录 |
 
@@ -148,7 +148,7 @@ print(records[0]["smiles"]["canonical"])    # CC(=O)Oc1ccccc1C(=O)O
 | 2D 分子结构图 | **820** (100%) |
 | 3D 分子构象 | **799** (97.4%) |
 | 论文提取图片 | **33 条记录**（35 个图像文件） |
-| MinerU Agent API 解析 | **99 个任务 / 89 个成功**，**4,712,803 字符** 结构化 Markdown，真实 task_id |
+| MinerU Agent API 解析 | **99 个任务 / 89 个成功 / 10 个失败**，**4,712,803 字符** 结构化 Markdown，真实 task_id |
 | 实验生物活性 | **30 条** (PubChem curated data) |
 | 文本描述（中英文） | **820** (100% 中英双语，平均 2.02 条/分子) |
 | 实体关系 | **820** (100%，平均 2.0 条/分子，类别→靶点映射) |
