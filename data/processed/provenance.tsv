@@ -258,41 +258,41 @@ MOL-000256	Carboplatin	10339178	Anticancer Drug	rdkit_canonical	rdkit_computed	c
 MOL-000257	Oxaliplatin	9887053	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	c2e40d0d-2308-4b44-9fbc-d47414daccd314	no	no	yes	yes	A
 MOL-000258	Cisplatin	5460033	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	316e824b-3133-42a6-9ecc-e381f2ad496d14	no	no	yes	yes	A
 MOL-000259	Gemcitabine	60750	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000260	Capecitabine	60953	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000261	Pemetrexed	135410875	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000262	Raltitrexed	135400182	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
-MOL-000263	Cladribine	20279	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000264	Clofarabine	119182	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000265	Nelarabine	3011155	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000260	Capecitabine	60953	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	d0417461-dc7c-457a-9dfe-3bd70b7bb50714	no	no	yes	yes	A
+MOL-000261	Pemetrexed	135410875	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	67db5d78-abdc-4a5e-afb6-bfd10aa3cd5014	no	no	yes	yes	A
+MOL-000262	Raltitrexed	135400182	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	77a80995-d205-4e69-8cd3-40ffc0da921814	no	no	yes	yes	A
+MOL-000263	Cladribine	20279	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	01c63393-ac63-49a8-88be-12b9043fd29e14	no	no	yes	yes	A
+MOL-000264	Clofarabine	119182	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	fc6afa37-d79c-4ef1-b51a-c30bf89aa2ff14	no	no	yes	yes	A
+MOL-000265	Nelarabine	3011155	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	29e475e9-5dca-4743-b32a-120eff6f442c14	no	no	yes	yes	A
 MOL-000266	Fludarabine	657237	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000267	Cytarabine	6253	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000268	Mercaptopurine	667490	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000267	Cytarabine	6253	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	85f88ade-0b65-40cb-bffb-1df97d25cf0414	no	no	yes	yes	A
+MOL-000268	Mercaptopurine	667490	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	9e2a7e78-fc36-4139-b1bb-4535a89f36cd14	no	no	yes	yes	A
 MOL-000269	Thioguanine	2723601	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	6a3e5c13-56dd-425a-977a-36da8369ed2c14	no	no	yes	yes	A
 MOL-000270	Floxuridine	5790	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	0ce19f71-ee22-4ee4-a4a0-35bff529a88114	no	no	yes	yes	A
 MOL-000271	Temozolomide	5394	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000272	Ifosfamide	3690	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	f5563c64-c746-405a-bf4a-055244de0c5f14	no	no	yes	yes	A
 MOL-000273	Busulfan	2478	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000274	Carmustine	2578	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000274	Carmustine	2578	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	9eaa227d-862f-4c68-aabb-3fa75c31d16814	no	no	yes	yes	A
 MOL-000275	Lomustine	3950	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000276	Melphalan	460612	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	49d833d0-c2c0-4eb3-90b8-a433e1efab7a14	no	no	yes	yes	A
 MOL-000277	Chlorambucil	2708	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	69076204-bc23-4c04-8688-219b89d1224f14	no	no	yes	yes	A
 MOL-000278	Bendamustine	65628	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	d52afe42-e460-4cd6-84f0-5cb55e880a2f14	no	no	yes	yes	A
 MOL-000279	Dacarbazine	135398738	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	2e8cbd08-c19c-4355-9c8b-72ea372f0ca214	no	no	yes	yes	A
-MOL-000280	Procarbazine	4915	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000281	Thiotepa	5453	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000282	Anastrozole	2187	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000283	Letrozole	3902	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000280	Procarbazine	4915	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	395806f7-9caf-47eb-836d-15e11e2cfd1e14	no	no	yes	yes	A
+MOL-000281	Thiotepa	5453	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	d7cbb85c-13d7-49ad-8b83-ef73ba03ef7114	no	no	yes	yes	A
+MOL-000282	Anastrozole	2187	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	e3b74277-1781-4bcd-bc5a-39a43b7a136014	no	no	yes	yes	A
+MOL-000283	Letrozole	3902	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	d577f144-b829-44f6-8b24-7dadec52554a14	no	no	yes	yes	A
 MOL-000284	Exemestane	60198	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000285	Tamoxifen Citrate	2733525	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000286	Fulvestrant	104741	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000287	Bicalutamide	2375	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000288	Flutamide	3397	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000289	Enzalutamide	15951529	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000290	Abiraterone	132971	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000291	Leuprolide	657181	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000292	Goserelin	5311128	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	no	C
-MOL-000293	Degarelix	16136245	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	no	C
-MOL-000294	Etoposide	36462	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000285	Tamoxifen Citrate	2733525	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	33978cb6-00a0-4a95-8bc7-b8cfd988ddba14	no	no	yes	yes	A
+MOL-000286	Fulvestrant	104741	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	c35d00d7-eac1-47ca-957f-f5b65fc2ae0114	no	no	yes	yes	A
+MOL-000287	Bicalutamide	2375	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	042a99d6-be64-4a6b-86de-a3ba997ef44a14	no	no	yes	yes	A
+MOL-000288	Flutamide	3397	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	27776fca-6280-46a5-80b3-f4bf837a98fd14	no	no	yes	yes	A
+MOL-000289	Enzalutamide	15951529	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	2be5b6ae-a10d-4c2d-9db3-6d533cc7616a14	no	no	yes	yes	A
+MOL-000290	Abiraterone	132971	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	39e39082-46aa-4b6a-88ff-00d78c619fe414	no	no	yes	yes	A
+MOL-000291	Leuprolide	657181	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	706ffec4-d593-453c-a35d-f1099e4cdd8214	no	no	yes	yes	A
+MOL-000292	Goserelin	5311128	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	52e26578-3acf-43e0-962c-1f66f8787a6114	no	no	yes	no	A
+MOL-000293	Degarelix	16136245	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	c636c701-a7a6-437b-9b48-2cbbefea7e7014	no	no	yes	no	A
+MOL-000294	Etoposide	36462	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	01a0b059-82e0-48c6-9148-208422a63c2a14	no	no	yes	yes	A
 MOL-000295	Teniposide	452548	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000296	Irinotecan	60838	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000297	Topotecan	60700	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C

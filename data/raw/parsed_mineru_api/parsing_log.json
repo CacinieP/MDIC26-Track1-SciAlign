@@ -931,7 +931,287 @@
       "title": "Clevidipine infusion for blood pressure management after successful revascularisation in acute ischaemic stroke: the CLEVER study.",
       "record_id": "MOL-000449",
       "molecule": "Clevidipine"
+    },
+    "capecitabine_anticancer_drug.pdf": {
+      "task_id": "d0417461-dc7c-457a-9dfe-3bd70b7bb50714",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/feadb2b1-4288-4acd-922f-bba2e72d2407/full.md",
+      "content_length": 57571,
+      "pmc_id": "PMC13035565",
+      "pmc_num": 13035565,
+      "title": "Adjuvant capecitabine in women with triple-negative breast cancer with residual disease after carboplatin-containing neoadjuvant chemotherapy.",
+      "record_id": "MOL-000260",
+      "molecule": "Capecitabine"
+    },
+    "pemetrexed_anticancer_drug.pdf": {
+      "task_id": "67db5d78-abdc-4a5e-afb6-bfd10aa3cd5014",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6046c58e-2e69-43e6-8dd4-21bc01800a7b/full.md",
+      "content_length": 52507,
+      "pmc_id": "PMC12969177",
+      "pmc_num": 12969177,
+      "title": "Maintenance therapy for metastatic non-squamous non-small cell lung cancer: efficacy and biomarker analysis of pemetrexed discontinuation.",
+      "record_id": "MOL-000261",
+      "molecule": "Pemetrexed"
+    },
+    "raltitrexed_anticancer_drug.pdf": {
+      "task_id": "77a80995-d205-4e69-8cd3-40ffc0da921814",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b7652bd7-6773-4f8a-b5f1-bee414676424/full.md",
+      "content_length": 25410,
+      "pmc_id": "PMC12953104",
+      "pmc_num": 12953104,
+      "title": "Hyperthermic intraperitoneal chemotherapy with raltitrexed for peritoneal recurrence presenting with massive ascites following radical surgery for advanced gastric cancer: a case report.",
+      "record_id": "MOL-000262",
+      "molecule": "Raltitrexed"
+    },
+    "cladribine_anticancer_drug.pdf": {
+      "task_id": "01c63393-ac63-49a8-88be-12b9043fd29e14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b9a6fee2-ee7a-48f8-998a-40bad1258625/full.md",
+      "content_length": 48814,
+      "pmc_id": "PMC12996015",
+      "pmc_num": 12996015,
+      "title": "Treatment-free remission in MS: long-term disease control with cladribine tablets.",
+      "record_id": "MOL-000263",
+      "molecule": "Cladribine"
+    },
+    "clofarabine_anticancer_drug.pdf": {
+      "task_id": "fc6afa37-d79c-4ef1-b51a-c30bf89aa2ff14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/73eee011-974c-4458-99e4-108292d1f57c/full.md",
+      "content_length": 49471,
+      "pmc_id": "PMC12987827",
+      "pmc_num": 12987827,
+      "title": "Phase I trial of the combination of bortezomib and clofarabine in adults with refractory tumors",
+      "record_id": "MOL-000264",
+      "molecule": "Clofarabine"
+    },
+    "nelarabine_anticancer_drug.pdf": {
+      "task_id": "29e475e9-5dca-4743-b32a-120eff6f442c14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b7162941-33ac-46c5-bad5-83e9300ca6bc/full.md",
+      "content_length": 31349,
+      "pmc_id": "PMC13046595",
+      "pmc_num": 13046595,
+      "title": "Correspondance: Venetoclax combined with FLAG-based chemotherapy induces rapid and deep responses in early T-cell precursor lymphoblastic leukemia/lymphoma. Report of two cases and review of the liter",
+      "record_id": "MOL-000265",
+      "molecule": "Nelarabine"
+    },
+    "fludarabine_anticancer_drug.pdf": {
+      "task_id": "decb7b2f-46ac-401f-ae30-281b6d4936b414",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13187023",
+      "pmc_num": 13187023,
+      "title": "Targeting phenol-soluble modulin α3-driven M1 macrophage polarization and necroptosis mitigates MRSA infection in mice.",
+      "record_id": "MOL-000266",
+      "molecule": "Fludarabine"
+    },
+    "cytarabine_anticancer_drug.pdf": {
+      "task_id": "85f88ade-0b65-40cb-bffb-1df97d25cf0414",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/514bdb5e-3681-4232-8910-6f6eb866b238/full.md",
+      "content_length": 25501,
+      "pmc_id": "PMC13083873",
+      "pmc_num": 13083873,
+      "title": "Fixed-duration cytarabine consolidation improves relapse-free survival over indefinite AZA-VEN in younger AML.",
+      "record_id": "MOL-000267",
+      "molecule": "Cytarabine"
+    },
+    "mercaptopurine_anticancer_drug.pdf": {
+      "task_id": "9e2a7e78-fc36-4139-b1bb-4535a89f36cd14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/5a506a17-5d70-4d57-8c8e-76d69c1b24fb/full.md",
+      "content_length": 60629,
+      "pmc_id": "PMC12997511",
+      "pmc_num": 12997511,
+      "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guideline for Thiopurine Dosing Based on TPMT and NUDT15 Genotypes: 2025 Update.",
+      "record_id": "MOL-000268",
+      "molecule": "Mercaptopurine"
+    },
+    "temozolomide_anticancer_drug.pdf": {
+      "task_id": "c902d92b-6687-4af1-ac6c-3cbd78512b8e14",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13125373",
+      "pmc_num": 13125373,
+      "title": "Advancements in Glioblastoma Multiforme Treatment: A Comprehensive Systematic Review and Meta-Analysis.",
+      "record_id": "MOL-000271",
+      "molecule": "Temozolomide"
+    },
+    "busulfan_anticancer_drug.pdf": {
+      "task_id": "c4121f49-0192-46a5-8247-d980a088ce8414",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC12811581",
+      "pmc_num": 12811581,
+      "title": "Efficacy and safety of Busulfan-Fludarabine versus Busulfan-Cyclophosphamide as a conditioning regimen prior to hematopoietic stem cell transplant in hematologic malignancy patients: a meta-analysis o",
+      "record_id": "MOL-000273",
+      "molecule": "Busulfan"
+    },
+    "carmustine_anticancer_drug.pdf": {
+      "task_id": "9eaa227d-862f-4c68-aabb-3fa75c31d16814",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6f9b6810-7a8e-4839-820a-7120d25cd82d/full.md",
+      "content_length": 101608,
+      "pmc_id": "PMC12805317",
+      "pmc_num": 12805317,
+      "title": "High-Throughput 3D Glioblastoma Model in Glycosaminoglycan Hydrogels for Personalized Therapeutic Screening.",
+      "record_id": "MOL-000274",
+      "molecule": "Carmustine"
+    },
+    "lomustine_anticancer_drug.pdf": {
+      "task_id": "732970e1-5a16-47f1-8b73-62a9afebe24d14",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13125373",
+      "pmc_num": 13125373,
+      "title": "Advancements in Glioblastoma Multiforme Treatment: A Comprehensive Systematic Review and Meta-Analysis.",
+      "record_id": "MOL-000275",
+      "molecule": "Lomustine"
+    },
+    "procarbazine_anticancer_drug.pdf": {
+      "task_id": "395806f7-9caf-47eb-836d-15e11e2cfd1e14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3989724c-7337-4fba-84ed-fe8b863cf250/full.md",
+      "content_length": 42636,
+      "pmc_id": "PMC12625344",
+      "pmc_num": 12625344,
+      "title": "Adjuvant chemoradiotherapy with procarbazine, lomustine, and vincristine (PCV) or temozolomide for 1p/19q Co-deleted anaplastic oligodendroglioma: a systematic review and network meta-analysis.",
+      "record_id": "MOL-000280",
+      "molecule": "Procarbazine"
+    },
+    "thiotepa_anticancer_drug.pdf": {
+      "task_id": "d7cbb85c-13d7-49ad-8b83-ef73ba03ef7114",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/187af17d-1482-4427-afbe-d9b941dccb8e/full.md",
+      "content_length": 87898,
+      "pmc_id": "PMC13189747",
+      "pmc_num": 13189747,
+      "title": "Translating advances in primary central nervous system lymphoma: from prognostic stratification to treatment innovation.",
+      "record_id": "MOL-000281",
+      "molecule": "Thiotepa"
+    },
+    "anastrozole_anticancer_drug.pdf": {
+      "task_id": "e3b74277-1781-4bcd-bc5a-39a43b7a136014",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/667d9e6f-c9e3-46a8-9987-e11185b9a7b0/full.md",
+      "content_length": 20317,
+      "pmc_id": "PMC12908689",
+      "pmc_num": 12908689,
+      "title": "Acute Portal Vein Thrombosis Associated With Anastrozole Therapy: A Report of a Rare Case.",
+      "record_id": "MOL-000282",
+      "molecule": "Anastrozole"
+    },
+    "letrozole_anticancer_drug.pdf": {
+      "task_id": "d577f144-b829-44f6-8b24-7dadec52554a14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/53e2a4d9-7794-408b-a726-88c5dda5a4b8/full.md",
+      "content_length": 47374,
+      "pmc_id": "PMC13090412",
+      "pmc_num": 13090412,
+      "title": "Estrogen Deprivation During Primate (Papio anubis) Pregnancy: Impact on Systemic Microvascular Flow and Cardiovascular Development and Function After Birth in Offspring.",
+      "record_id": "MOL-000283",
+      "molecule": "Letrozole"
+    },
+    "exemestane_anticancer_drug.pdf": {
+      "task_id": "96bee8a2-6aab-4fdd-b9a3-7d8f7b6806bd14",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC12984507",
+      "pmc_num": 12984507,
+      "title": "Cannabinoids in Combination with Conventional Breast Cancer Therapies: Mechanistic Insights and the Gap to Clinical Translation",
+      "record_id": "MOL-000284",
+      "molecule": "Exemestane"
+    },
+    "tamoxifen_citrate_anticancer_drug.pdf": {
+      "task_id": "33978cb6-00a0-4a95-8bc7-b8cfd988ddba14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3bcd8fad-5bc6-4586-84b6-59211f3faffd/full.md",
+      "content_length": 56586,
+      "pmc_id": "PMC10927891",
+      "pmc_num": 10927891,
+      "title": "Folic acid grafted mixed polymeric micelles as a targeted delivery strategy for tamoxifen citrate in treatment of breast cancer.",
+      "record_id": "MOL-000285",
+      "molecule": "Tamoxifen Citrate"
+    },
+    "fulvestrant_anticancer_drug.pdf": {
+      "task_id": "c35d00d7-eac1-47ca-957f-f5b65fc2ae0114",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ec743a6b-36f4-4dfd-8fbc-fa40a94842e9/full.md",
+      "content_length": 51778,
+      "pmc_id": "PMC13194341",
+      "pmc_num": 13194341,
+      "title": "Oestrogen receptors regulate vascular β₁- and β₃-adrenoceptor expression and shape sex-specific adrenergic control of vascular tone.",
+      "record_id": "MOL-000286",
+      "molecule": "Fulvestrant"
+    },
+    "bicalutamide_anticancer_drug.pdf": {
+      "task_id": "042a99d6-be64-4a6b-86de-a3ba997ef44a14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6478b2ad-88f0-4796-abe6-b4d536e98eca/full.md",
+      "content_length": 2583,
+      "pmc_id": "PMC13028174",
+      "pmc_num": 13028174,
+      "title": "Correction: Chen et al. Bicalutamide Exhibits Potential to Damage Kidney via Destroying Complex I and Affecting Mitochondrial Dynamics. &lt;i&gt;J. Clin. Med.&lt;/i&gt; 2022, &lt;i&gt;11&lt;/i&gt;, 13",
+      "record_id": "MOL-000287",
+      "molecule": "Bicalutamide"
+    },
+    "flutamide_anticancer_drug.pdf": {
+      "task_id": "27776fca-6280-46a5-80b3-f4bf837a98fd14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/55f388a4-c0da-45ac-8be0-c16a870c3529/full.md",
+      "content_length": 45182,
+      "pmc_id": "PMC12937922",
+      "pmc_num": 12937922,
+      "title": "Drug repurposing to combat multidrug-resistant hookworm.",
+      "record_id": "MOL-000288",
+      "molecule": "Flutamide"
+    },
+    "enzalutamide_anticancer_drug.pdf": {
+      "task_id": "2be5b6ae-a10d-4c2d-9db3-6d533cc7616a14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3fdfd022-6417-4795-b39a-b276e9649bc4/full.md",
+      "content_length": 45909,
+      "pmc_id": "PMC13183711",
+      "pmc_num": 13183711,
+      "title": "Effect of Enzalutamide on Morphine Exposure in Patients with Prostate Cancer.",
+      "record_id": "MOL-000289",
+      "molecule": "Enzalutamide"
+    },
+    "abiraterone_anticancer_drug.pdf": {
+      "task_id": "39e39082-46aa-4b6a-88ff-00d78c619fe414",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/394fb342-4bc7-400a-ba69-a6f794cf59d2/full.md",
+      "content_length": 31333,
+      "pmc_id": "PMC13090860",
+      "pmc_num": 13090860,
+      "title": "Temporal trends in diagnostic work-up, treatment, and mortality in locally advanced prostate cancer in 2016-2024: nationwide, population-based study in Sweden.",
+      "record_id": "MOL-000290",
+      "molecule": "Abiraterone"
+    },
+    "leuprolide_anticancer_drug.pdf": {
+      "task_id": "706ffec4-d593-453c-a35d-f1099e4cdd8214",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bb871fb4-3651-4d02-bbcc-0554d7d6f4cc/full.md",
+      "content_length": 65862,
+      "pmc_id": "PMC13050778",
+      "pmc_num": 13050778,
+      "title": "Cost-effectiveness of degarelix versus LHRH agonists in prostate cancer: a systematic review.",
+      "record_id": "MOL-000291",
+      "molecule": "Leuprolide"
+    },
+    "goserelin_anticancer_drug.pdf": {
+      "task_id": "52e26578-3acf-43e0-962c-1f66f8787a6114",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b82c28a6-23ce-479a-8e1c-4e4d931d8683/full.md",
+      "content_length": 65862,
+      "pmc_id": "PMC13050778",
+      "pmc_num": 13050778,
+      "title": "Cost-effectiveness of degarelix versus LHRH agonists in prostate cancer: a systematic review.",
+      "record_id": "MOL-000292",
+      "molecule": "Goserelin"
+    },
+    "degarelix_anticancer_drug.pdf": {
+      "task_id": "c636c701-a7a6-437b-9b48-2cbbefea7e7014",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3a7b587c-742d-4c65-95cb-356217d05fe6/full.md",
+      "content_length": 28877,
+      "pmc_id": "PMC12983153",
+      "pmc_num": 12983153,
+      "title": "Research Status of Androgen Deprivation Therapy Monotherapy and Combination Therapy for Prostate Cancer: A Scoping Review",
+      "record_id": "MOL-000293",
+      "molecule": "Degarelix"
+    },
+    "etoposide_anticancer_drug.pdf": {
+      "task_id": "01a0b059-82e0-48c6-9148-208422a63c2a14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/09e469e9-0a5c-4120-9553-50879e7e7075/full.md",
+      "content_length": 60442,
+      "pmc_id": "PMC13071998",
+      "pmc_num": 13071998,
+      "title": "Etoposide Hypersensitivity Reactions in Pediatric Oncology: Understanding Mechanisms and Optimizing Management.",
+      "record_id": "MOL-000294",
+      "molecule": "Etoposide"
     }
   },
-  "last_expansion": "2026-06-01T06:07:35Z"
+  "last_expansion": "2026-06-01T06:45:12Z"
 }

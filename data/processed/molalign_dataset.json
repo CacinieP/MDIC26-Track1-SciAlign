@@ -33265,7 +33265,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed capecitabine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Capecitabine (Anticancer Drug).",
+          "input": "data/raw/papers/capecitabine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/capecitabine_anticancer_drug.md",
+          "task_id": "d0417461-dc7c-457a-9dfe-3bd70b7bb50714",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/feadb2b1-4288-4acd-922f-bba2e72d2407/full.md",
+          "content_length": 57571,
+          "pmc_id": "PMC13035565",
+          "detail": "task_id=d0417461-dc7c-457a-9dfe-3bd70b7bb50714; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/feadb2b1-4288-4acd-922f-bba2e72d2407/full.md; content_length=57571"
+        }
+      ],
       "created_at": "2026-05-31T12:11:05Z",
       "updated_at": "2026-05-31T12:11:05Z",
       "version": "1.0.0"
@@ -33388,7 +33400,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed pemetrexed_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Pemetrexed (Anticancer Drug).",
+          "input": "data/raw/papers/pemetrexed_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/pemetrexed_anticancer_drug.md",
+          "task_id": "67db5d78-abdc-4a5e-afb6-bfd10aa3cd5014",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6046c58e-2e69-43e6-8dd4-21bc01800a7b/full.md",
+          "content_length": 52507,
+          "pmc_id": "PMC12969177",
+          "detail": "task_id=67db5d78-abdc-4a5e-afb6-bfd10aa3cd5014; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6046c58e-2e69-43e6-8dd4-21bc01800a7b/full.md; content_length=52507"
+        }
+      ],
       "created_at": "2026-05-31T12:11:08Z",
       "updated_at": "2026-05-31T12:11:08Z",
       "version": "1.0.0"
@@ -33511,7 +33535,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed raltitrexed_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Raltitrexed (Anticancer Drug).",
+          "input": "data/raw/papers/raltitrexed_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/raltitrexed_anticancer_drug.md",
+          "task_id": "77a80995-d205-4e69-8cd3-40ffc0da921814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b7652bd7-6773-4f8a-b5f1-bee414676424/full.md",
+          "content_length": 25410,
+          "pmc_id": "PMC12953104",
+          "detail": "task_id=77a80995-d205-4e69-8cd3-40ffc0da921814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b7652bd7-6773-4f8a-b5f1-bee414676424/full.md; content_length=25410"
+        }
+      ],
       "created_at": "2026-05-31T12:11:11Z",
       "updated_at": "2026-05-31T12:11:11Z",
       "version": "1.0.0"
@@ -33634,7 +33670,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cladribine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Cladribine (Anticancer Drug).",
+          "input": "data/raw/papers/cladribine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/cladribine_anticancer_drug.md",
+          "task_id": "01c63393-ac63-49a8-88be-12b9043fd29e14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b9a6fee2-ee7a-48f8-998a-40bad1258625/full.md",
+          "content_length": 48814,
+          "pmc_id": "PMC12996015",
+          "detail": "task_id=01c63393-ac63-49a8-88be-12b9043fd29e14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b9a6fee2-ee7a-48f8-998a-40bad1258625/full.md; content_length=48814"
+        }
+      ],
       "created_at": "2026-05-31T12:11:13Z",
       "updated_at": "2026-05-31T12:11:13Z",
       "version": "1.0.0"
@@ -33757,7 +33805,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed clofarabine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Clofarabine (Anticancer Drug).",
+          "input": "data/raw/papers/clofarabine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/clofarabine_anticancer_drug.md",
+          "task_id": "fc6afa37-d79c-4ef1-b51a-c30bf89aa2ff14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/73eee011-974c-4458-99e4-108292d1f57c/full.md",
+          "content_length": 49471,
+          "pmc_id": "PMC12987827",
+          "detail": "task_id=fc6afa37-d79c-4ef1-b51a-c30bf89aa2ff14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/73eee011-974c-4458-99e4-108292d1f57c/full.md; content_length=49471"
+        }
+      ],
       "created_at": "2026-05-31T12:11:14Z",
       "updated_at": "2026-05-31T12:11:14Z",
       "version": "1.0.0"
@@ -33880,7 +33940,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed nelarabine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Nelarabine (Anticancer Drug).",
+          "input": "data/raw/papers/nelarabine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/nelarabine_anticancer_drug.md",
+          "task_id": "29e475e9-5dca-4743-b32a-120eff6f442c14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b7162941-33ac-46c5-bad5-83e9300ca6bc/full.md",
+          "content_length": 31349,
+          "pmc_id": "PMC13046595",
+          "detail": "task_id=29e475e9-5dca-4743-b32a-120eff6f442c14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b7162941-33ac-46c5-bad5-83e9300ca6bc/full.md; content_length=31349"
+        }
+      ],
       "created_at": "2026-05-31T12:11:16Z",
       "updated_at": "2026-05-31T12:11:16Z",
       "version": "1.0.0"
@@ -34126,7 +34198,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cytarabine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Cytarabine (Anticancer Drug).",
+          "input": "data/raw/papers/cytarabine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/cytarabine_anticancer_drug.md",
+          "task_id": "85f88ade-0b65-40cb-bffb-1df97d25cf0414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/514bdb5e-3681-4232-8910-6f6eb866b238/full.md",
+          "content_length": 25501,
+          "pmc_id": "PMC13083873",
+          "detail": "task_id=85f88ade-0b65-40cb-bffb-1df97d25cf0414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/514bdb5e-3681-4232-8910-6f6eb866b238/full.md; content_length=25501"
+        }
+      ],
       "created_at": "2026-05-31T12:11:21Z",
       "updated_at": "2026-05-31T12:11:21Z",
       "version": "1.0.0"
@@ -34249,7 +34333,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed mercaptopurine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Mercaptopurine (Anticancer Drug).",
+          "input": "data/raw/papers/mercaptopurine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/mercaptopurine_anticancer_drug.md",
+          "task_id": "9e2a7e78-fc36-4139-b1bb-4535a89f36cd14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/5a506a17-5d70-4d57-8c8e-76d69c1b24fb/full.md",
+          "content_length": 60629,
+          "pmc_id": "PMC12997511",
+          "detail": "task_id=9e2a7e78-fc36-4139-b1bb-4535a89f36cd14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/5a506a17-5d70-4d57-8c8e-76d69c1b24fb/full.md; content_length=60629"
+        }
+      ],
       "created_at": "2026-05-31T12:11:26Z",
       "updated_at": "2026-05-31T12:11:26Z",
       "version": "1.0.0"
@@ -35023,7 +35119,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed carmustine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Carmustine (Anticancer Drug).",
+          "input": "data/raw/papers/carmustine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/carmustine_anticancer_drug.md",
+          "task_id": "9eaa227d-862f-4c68-aabb-3fa75c31d16814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6f9b6810-7a8e-4839-820a-7120d25cd82d/full.md",
+          "content_length": 101608,
+          "pmc_id": "PMC12805317",
+          "detail": "task_id=9eaa227d-862f-4c68-aabb-3fa75c31d16814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6f9b6810-7a8e-4839-820a-7120d25cd82d/full.md; content_length=101608"
+        }
+      ],
       "created_at": "2026-05-31T12:11:42Z",
       "updated_at": "2026-05-31T12:11:42Z",
       "version": "1.0.0"
@@ -35809,7 +35917,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed procarbazine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Procarbazine (Anticancer Drug).",
+          "input": "data/raw/papers/procarbazine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/procarbazine_anticancer_drug.md",
+          "task_id": "395806f7-9caf-47eb-836d-15e11e2cfd1e14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3989724c-7337-4fba-84ed-fe8b863cf250/full.md",
+          "content_length": 42636,
+          "pmc_id": "PMC12625344",
+          "detail": "task_id=395806f7-9caf-47eb-836d-15e11e2cfd1e14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3989724c-7337-4fba-84ed-fe8b863cf250/full.md; content_length=42636"
+        }
+      ],
       "created_at": "2026-05-31T12:12:00Z",
       "updated_at": "2026-05-31T12:12:00Z",
       "version": "1.0.0"
@@ -35932,7 +36052,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed thiotepa_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Thiotepa (Anticancer Drug).",
+          "input": "data/raw/papers/thiotepa_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/thiotepa_anticancer_drug.md",
+          "task_id": "d7cbb85c-13d7-49ad-8b83-ef73ba03ef7114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/187af17d-1482-4427-afbe-d9b941dccb8e/full.md",
+          "content_length": 87898,
+          "pmc_id": "PMC13189747",
+          "detail": "task_id=d7cbb85c-13d7-49ad-8b83-ef73ba03ef7114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/187af17d-1482-4427-afbe-d9b941dccb8e/full.md; content_length=87898"
+        }
+      ],
       "created_at": "2026-05-31T12:12:02Z",
       "updated_at": "2026-05-31T12:12:02Z",
       "version": "1.0.0"
@@ -36056,7 +36188,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed anastrozole_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Anastrozole (Anticancer Drug).",
+          "input": "data/raw/papers/anastrozole_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/anastrozole_anticancer_drug.md",
+          "task_id": "e3b74277-1781-4bcd-bc5a-39a43b7a136014",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/667d9e6f-c9e3-46a8-9987-e11185b9a7b0/full.md",
+          "content_length": 20317,
+          "pmc_id": "PMC12908689",
+          "detail": "task_id=e3b74277-1781-4bcd-bc5a-39a43b7a136014; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/667d9e6f-c9e3-46a8-9987-e11185b9a7b0/full.md; content_length=20317"
+        }
+      ],
       "created_at": "2026-05-31T12:12:07Z",
       "updated_at": "2026-05-31T12:12:07Z",
       "version": "1.0.0"
@@ -36179,7 +36323,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed letrozole_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Letrozole (Anticancer Drug).",
+          "input": "data/raw/papers/letrozole_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/letrozole_anticancer_drug.md",
+          "task_id": "d577f144-b829-44f6-8b24-7dadec52554a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/53e2a4d9-7794-408b-a726-88c5dda5a4b8/full.md",
+          "content_length": 47374,
+          "pmc_id": "PMC13090412",
+          "detail": "task_id=d577f144-b829-44f6-8b24-7dadec52554a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/53e2a4d9-7794-408b-a726-88c5dda5a4b8/full.md; content_length=47374"
+        }
+      ],
       "created_at": "2026-05-31T12:12:09Z",
       "updated_at": "2026-05-31T12:12:09Z",
       "version": "1.0.0"
@@ -36426,7 +36582,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed tamoxifen_citrate_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Tamoxifen Citrate (Anticancer Drug).",
+          "input": "data/raw/papers/tamoxifen_citrate_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/tamoxifen_citrate_anticancer_drug.md",
+          "task_id": "33978cb6-00a0-4a95-8bc7-b8cfd988ddba14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3bcd8fad-5bc6-4586-84b6-59211f3faffd/full.md",
+          "content_length": 56586,
+          "pmc_id": "PMC10927891",
+          "detail": "task_id=33978cb6-00a0-4a95-8bc7-b8cfd988ddba14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3bcd8fad-5bc6-4586-84b6-59211f3faffd/full.md; content_length=56586"
+        }
+      ],
       "created_at": "2026-05-31T12:12:13Z",
       "updated_at": "2026-05-31T12:12:13Z",
       "version": "1.0.0"
@@ -36549,7 +36717,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed fulvestrant_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Fulvestrant (Anticancer Drug).",
+          "input": "data/raw/papers/fulvestrant_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/fulvestrant_anticancer_drug.md",
+          "task_id": "c35d00d7-eac1-47ca-957f-f5b65fc2ae0114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ec743a6b-36f4-4dfd-8fbc-fa40a94842e9/full.md",
+          "content_length": 51778,
+          "pmc_id": "PMC13194341",
+          "detail": "task_id=c35d00d7-eac1-47ca-957f-f5b65fc2ae0114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ec743a6b-36f4-4dfd-8fbc-fa40a94842e9/full.md; content_length=51778"
+        }
+      ],
       "created_at": "2026-05-31T12:12:16Z",
       "updated_at": "2026-05-31T12:12:16Z",
       "version": "1.0.0"
@@ -36672,7 +36852,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed bicalutamide_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Bicalutamide (Anticancer Drug).",
+          "input": "data/raw/papers/bicalutamide_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/bicalutamide_anticancer_drug.md",
+          "task_id": "042a99d6-be64-4a6b-86de-a3ba997ef44a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6478b2ad-88f0-4796-abe6-b4d536e98eca/full.md",
+          "content_length": 2583,
+          "pmc_id": "PMC13028174",
+          "detail": "task_id=042a99d6-be64-4a6b-86de-a3ba997ef44a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6478b2ad-88f0-4796-abe6-b4d536e98eca/full.md; content_length=2583"
+        }
+      ],
       "created_at": "2026-05-31T12:12:19Z",
       "updated_at": "2026-05-31T12:12:19Z",
       "version": "1.0.0"
@@ -36795,7 +36987,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed flutamide_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Flutamide (Anticancer Drug).",
+          "input": "data/raw/papers/flutamide_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/flutamide_anticancer_drug.md",
+          "task_id": "27776fca-6280-46a5-80b3-f4bf837a98fd14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/55f388a4-c0da-45ac-8be0-c16a870c3529/full.md",
+          "content_length": 45182,
+          "pmc_id": "PMC12937922",
+          "detail": "task_id=27776fca-6280-46a5-80b3-f4bf837a98fd14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/55f388a4-c0da-45ac-8be0-c16a870c3529/full.md; content_length=45182"
+        }
+      ],
       "created_at": "2026-05-31T12:12:22Z",
       "updated_at": "2026-05-31T12:12:22Z",
       "version": "1.0.0"
@@ -36918,7 +37122,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed enzalutamide_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Enzalutamide (Anticancer Drug).",
+          "input": "data/raw/papers/enzalutamide_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/enzalutamide_anticancer_drug.md",
+          "task_id": "2be5b6ae-a10d-4c2d-9db3-6d533cc7616a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3fdfd022-6417-4795-b39a-b276e9649bc4/full.md",
+          "content_length": 45909,
+          "pmc_id": "PMC13183711",
+          "detail": "task_id=2be5b6ae-a10d-4c2d-9db3-6d533cc7616a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3fdfd022-6417-4795-b39a-b276e9649bc4/full.md; content_length=45909"
+        }
+      ],
       "created_at": "2026-05-31T12:12:24Z",
       "updated_at": "2026-05-31T12:12:24Z",
       "version": "1.0.0"
@@ -37041,7 +37257,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed abiraterone_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Abiraterone (Anticancer Drug).",
+          "input": "data/raw/papers/abiraterone_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/abiraterone_anticancer_drug.md",
+          "task_id": "39e39082-46aa-4b6a-88ff-00d78c619fe414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/394fb342-4bc7-400a-ba69-a6f794cf59d2/full.md",
+          "content_length": 31333,
+          "pmc_id": "PMC13090860",
+          "detail": "task_id=39e39082-46aa-4b6a-88ff-00d78c619fe414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/394fb342-4bc7-400a-ba69-a6f794cf59d2/full.md; content_length=31333"
+        }
+      ],
       "created_at": "2026-05-31T12:12:25Z",
       "updated_at": "2026-05-31T12:12:25Z",
       "version": "1.0.0"
@@ -37164,7 +37392,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed leuprolide_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Leuprolide (Anticancer Drug).",
+          "input": "data/raw/papers/leuprolide_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/leuprolide_anticancer_drug.md",
+          "task_id": "706ffec4-d593-453c-a35d-f1099e4cdd8214",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bb871fb4-3651-4d02-bbcc-0554d7d6f4cc/full.md",
+          "content_length": 65862,
+          "pmc_id": "PMC13050778",
+          "detail": "task_id=706ffec4-d593-453c-a35d-f1099e4cdd8214; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bb871fb4-3651-4d02-bbcc-0554d7d6f4cc/full.md; content_length=65862"
+        }
+      ],
       "created_at": "2026-05-31T12:12:30Z",
       "updated_at": "2026-05-31T12:12:30Z",
       "version": "1.0.0"
@@ -37284,7 +37524,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed goserelin_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Goserelin (Anticancer Drug).",
+          "input": "data/raw/papers/goserelin_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/goserelin_anticancer_drug.md",
+          "task_id": "52e26578-3acf-43e0-962c-1f66f8787a6114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b82c28a6-23ce-479a-8e1c-4e4d931d8683/full.md",
+          "content_length": 65862,
+          "pmc_id": "PMC13050778",
+          "detail": "task_id=52e26578-3acf-43e0-962c-1f66f8787a6114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b82c28a6-23ce-479a-8e1c-4e4d931d8683/full.md; content_length=65862"
+        }
+      ],
       "created_at": "2026-05-31T12:12:40Z",
       "updated_at": "2026-05-31T12:12:40Z",
       "version": "1.0.0"
@@ -37404,7 +37656,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed degarelix_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Degarelix (Anticancer Drug).",
+          "input": "data/raw/papers/degarelix_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/degarelix_anticancer_drug.md",
+          "task_id": "c636c701-a7a6-437b-9b48-2cbbefea7e7014",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3a7b587c-742d-4c65-95cb-356217d05fe6/full.md",
+          "content_length": 28877,
+          "pmc_id": "PMC12983153",
+          "detail": "task_id=c636c701-a7a6-437b-9b48-2cbbefea7e7014; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3a7b587c-742d-4c65-95cb-356217d05fe6/full.md; content_length=28877"
+        }
+      ],
       "created_at": "2026-05-31T12:12:42Z",
       "updated_at": "2026-05-31T12:12:42Z",
       "version": "1.0.0"
@@ -37528,7 +37792,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed etoposide_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Etoposide (Anticancer Drug).",
+          "input": "data/raw/papers/etoposide_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/etoposide_anticancer_drug.md",
+          "task_id": "01a0b059-82e0-48c6-9148-208422a63c2a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/09e469e9-0a5c-4120-9553-50879e7e7075/full.md",
+          "content_length": 60442,
+          "pmc_id": "PMC13071998",
+          "detail": "task_id=01a0b059-82e0-48c6-9148-208422a63c2a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/09e469e9-0a5c-4120-9553-50879e7e7075/full.md; content_length=60442"
+        }
+      ],
       "created_at": "2026-05-31T12:12:44Z",
       "updated_at": "2026-05-31T12:12:44Z",
       "version": "1.0.0"
