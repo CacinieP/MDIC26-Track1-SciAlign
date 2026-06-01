@@ -721,7 +721,217 @@
       "title": "Factors Associated With Cocaine Use Disorder: Results From the French Nationwide Repeated Cross-Sectional OPPIDUM Study (2019-2023).",
       "record_id": "MOL-000595",
       "molecule": "Cocaine"
+    },
+    "lisinopril_antihypertensive.pdf": {
+      "task_id": "a92f7115-4c5c-4ee5-83f5-8f73a21f246814",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/09f41ddd-ced6-4c9f-83de-faa4057112ce/full.md",
+      "content_length": 61322,
+      "pmc_id": "PMC12986413",
+      "pmc_num": 12986413,
+      "title": "Molecular Lung Imaging Following Exposure to Radiation Predicts Long-Term Survival in Rats",
+      "record_id": "MOL-000044",
+      "molecule": "Lisinopril"
+    },
+    "losartan_antihypertensive.pdf": {
+      "task_id": "aa084ae4-1f50-4856-bef4-0e054c8066a914",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bdd06365-3eef-4cd6-9982-fa1186143acd/full.md",
+      "content_length": 55126,
+      "pmc_id": "PMC13100804",
+      "pmc_num": 13100804,
+      "title": "Multi-Omics Reveals Mechanisms of Metabolic Rejuvenation in Aged Mice and Pre-Frail Older Men by Losartan.",
+      "record_id": "MOL-000045",
+      "molecule": "Losartan"
+    },
+    "amlodipine_antihypertensive.pdf": {
+      "task_id": "248f2f39-1d4c-46b8-98e1-2b363f76f8d614",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/58da615a-d363-4197-b002-742f3fd086f0/full.md",
+      "content_length": 41267,
+      "pmc_id": "PMC13062482",
+      "pmc_num": 13062482,
+      "title": "Comparative pharmacokinetics of a candesartan/amlodipine/atorvastatin fixed-dose combination 8 mg/5 mg/10 mg versus separate tablets in healthy subjects: a partial replicated crossover study.",
+      "record_id": "MOL-000046",
+      "molecule": "Amlodipine"
+    },
+    "enalapril_antihypertensive.pdf": {
+      "task_id": "aa3c0ae7-c1bf-44b0-8d72-0b9abb93f8c914",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0b3f7534-42e5-425d-8948-f17b13269bf3/full.md",
+      "content_length": 110671,
+      "pmc_id": "PMC12950259",
+      "pmc_num": 12950259,
+      "title": "Efficacy and Safety of Sacubitril/Valsartan Versus Enalapril in the Treatment of Heart Failure With Reduced Ejection Fraction: A Systematic Review and Meta-Analysis.",
+      "record_id": "MOL-000047",
+      "molecule": "Enalapril"
+    },
+    "valsartan_antihypertensive.pdf": {
+      "task_id": "e27db636-512a-4746-acf2-549c20e6bed414",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a1943d47-d3dd-4aeb-8e0c-216fa1a0e069/full.md",
+      "content_length": 52614,
+      "pmc_id": "PMC13051583",
+      "pmc_num": 13051583,
+      "title": "Efficacy and safety of sacubitril/valsartan in patients on peritoneal dialysis: a systematic review and meta-analysis.",
+      "record_id": "MOL-000048",
+      "molecule": "Valsartan"
+    },
+    "metoprolol_antihypertensive.pdf": {
+      "task_id": "e5198c95-7a70-42af-981c-f7b25fe422ec14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d0ae7bc2-f762-410d-bb0c-2ed40ec3e9bb/full.md",
+      "content_length": 4447,
+      "pmc_id": "PMC13035396",
+      "pmc_num": 13035396,
+      "title": "Drug-induced Raynaud phenomenon following initiation of metoprolol succinate",
+      "record_id": "MOL-000049",
+      "molecule": "Metoprolol"
+    },
+    "telmisartan_antihypertensive.pdf": {
+      "task_id": "b0695a14-bfed-42e3-b26c-4ce54975a49514",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d7829583-b533-4995-83aa-32addda93301/full.md",
+      "content_length": 73820,
+      "pmc_id": "PMC13034393",
+      "pmc_num": 13034393,
+      "title": "Telmisartan increases olaparib efficacy in homologous recombination proficient tumors by augmenting type I interferon production.",
+      "record_id": "MOL-000435",
+      "molecule": "Telmisartan"
+    },
+    "irbesartan_antihypertensive.pdf": {
+      "task_id": "0724e87b-a604-4b3f-8770-66bdf335649214",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d47542f2-2727-4574-a746-6b8cc13be2b1/full.md",
+      "content_length": 37852,
+      "pmc_id": "PMC12673777",
+      "pmc_num": 12673777,
+      "title": "Antihypertensive drugs for hyperuricemia in patients with hypertension: a systematic review and network meta-analysis of Chinese trials.",
+      "record_id": "MOL-000436",
+      "molecule": "Irbesartan"
+    },
+    "candesartan_antihypertensive.pdf": {
+      "task_id": "b0d1bf31-2f48-49c3-bc3e-817943c0297914",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13005972",
+      "pmc_num": 13005972,
+      "title": "Long-Term Safety and Effectiveness of Calcium Channel Blockers in Hypertension: A Systematic Review.",
+      "record_id": "MOL-000437",
+      "molecule": "Candesartan"
+    },
+    "olmesartan_antihypertensive.pdf": {
+      "task_id": "3c8aa834-e058-404e-9443-0d390bd7adb314",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0903863e-eef3-48b9-8bfa-cff64a265782/full.md",
+      "content_length": 46569,
+      "pmc_id": "PMC13121351",
+      "pmc_num": 13121351,
+      "title": "Reversal of left ventricular hypertrophy with sacubitril/valsartan vs. standard antihypertensive agents in hypertension: a systematic review and network meta-analysis.",
+      "record_id": "MOL-000438",
+      "molecule": "Olmesartan"
+    },
+    "eprosartan_antihypertensive.pdf": {
+      "task_id": "2676dd2a-1f5c-48fe-bdd8-3634f4f18dd714",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13199609",
+      "pmc_num": 13199609,
+      "title": "Enhancing Therapeutic Efficacy Through Tailored Pharmacokinetics: A Review of Mesoporous Silica Nanoparticle-Based Delivery Systems",
+      "record_id": "MOL-000439",
+      "molecule": "Eprosartan"
+    },
+    "fimasartan_antihypertensive.pdf": {
+      "task_id": "4a6cb516-0d8f-44bb-afce-79d27240a4de14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/fa17ed81-3981-49f0-bf37-16d3c3246e2e/full.md",
+      "content_length": 47258,
+      "pmc_id": "PMC12580586",
+      "pmc_num": 12580586,
+      "title": "ACE Inhibitors and ARBs in Chronic Kidney Disease: A Systematic Review of Randomized Controlled Trials on Albuminuria Reduction, eGFR Decline, and Safety.",
+      "record_id": "MOL-000440",
+      "molecule": "Fimasartan"
+    },
+    "azilsartan_antihypertensive.pdf": {
+      "task_id": "87dc7f85-fc77-4957-8a90-d4a87f69afb414",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC12999530",
+      "pmc_num": 12999530,
+      "title": "Newfangled Combination Azilsartan and Ceftriaxone Exhibited Potential Effects in &lt;i&gt;In-Vitro&lt;/i&gt; and &lt;i&gt;In-Vivo&lt;/i&gt; Models of Cerebral Ischemia: A Comprehensive Pharmacological",
+      "record_id": "MOL-000441",
+      "molecule": "Azilsartan"
+    },
+    "nifedipine_antihypertensive.pdf": {
+      "task_id": "8b800c35-c91a-4047-80ce-722f9bb01fab14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3af27609-7a4e-4658-8748-81bc79240d98/full.md",
+      "content_length": 58199,
+      "pmc_id": "PMC13119240",
+      "pmc_num": 13119240,
+      "title": "The Molecular Structures of Liquid and Glassy Nifedipine and Felodipine and Their Incorporation into PVP.",
+      "record_id": "MOL-000442",
+      "molecule": "Nifedipine"
+    },
+    "diltiazem_antihypertensive.pdf": {
+      "task_id": "4037bff4-e523-40ac-9336-c8aba078fed814",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/12212668-9ba9-4765-8823-84d445bbb197/full.md",
+      "content_length": 69355,
+      "pmc_id": "PMC13096578",
+      "pmc_num": 13096578,
+      "title": "Sustainable Ethanol-Based Reversed-Phase Liquid Chromatography for Determination of Diltiazem pKa and Quantification with Integrated Green and White Analytical Metrics.",
+      "record_id": "MOL-000443",
+      "molecule": "Diltiazem"
+    },
+    "verapamil_antihypertensive.pdf": {
+      "task_id": "65069179-1e0d-4201-aba6-f6d7429a027b14",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13027264",
+      "pmc_num": 13027264,
+      "title": "Drug Repurposing of Verapamil for H1N1 Influenza Virus Infection: A Multi-Target Strategy Revealed by Network Pharmacology and Experimental Validation.",
+      "record_id": "MOL-000444",
+      "molecule": "Verapamil"
+    },
+    "felodipine_antihypertensive.pdf": {
+      "task_id": "236d4f28-88f8-46f9-97ff-2f738026865414",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8b6022c1-0a7c-4d4c-bbba-d27516dff95a/full.md",
+      "content_length": 64074,
+      "pmc_id": "PMC13118446",
+      "pmc_num": 13118446,
+      "title": "Signal Detection of Adverse Events Associated with Four Dihydropyridine Calcium Channel Blockers Based on the FAERS Database.",
+      "record_id": "MOL-000445",
+      "molecule": "Felodipine"
+    },
+    "isradipine_antihypertensive.pdf": {
+      "task_id": "317c9c0e-1634-47df-be36-52a4c8c99dd114",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/2edfa50e-7d02-448c-86d3-0b891bf42bfa/full.md",
+      "content_length": 108423,
+      "pmc_id": "PMC13050871",
+      "pmc_num": 13050871,
+      "title": "Patterned pre-sensory spontaneous activity drives the structural refinement of developing cochlear ribbon synapses.",
+      "record_id": "MOL-000446",
+      "molecule": "Isradipine"
+    },
+    "nicardipine_antihypertensive.pdf": {
+      "task_id": "feac9001-abd7-4ac7-88c9-6c2f964f141414",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d5aa88e9-e8bc-4861-ae4f-262bdc83a6e6/full.md",
+      "content_length": 50359,
+      "pmc_id": "PMC12967427",
+      "pmc_num": 12967427,
+      "title": "Compatibility and Stability Study of Butorphanol, Nicardipine, Urapidil, and Tirofiban During Multidrug Simultaneous Infusion.",
+      "record_id": "MOL-000447",
+      "molecule": "Nicardipine"
+    },
+    "nimodipine_antihypertensive.pdf": {
+      "task_id": "2763f336-24a7-43eb-bc68-af0d2e0b32b314",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ae8e6046-5a51-4313-9c78-4e693a92b652/full.md",
+      "content_length": 61904,
+      "pmc_id": "PMC13001945",
+      "pmc_num": 13001945,
+      "title": "Therapeutic efficacy of nimodipine and topiramate on migraine and vestibular migraine; A prospective multicenter open-label study.",
+      "record_id": "MOL-000448",
+      "molecule": "Nimodipine"
+    },
+    "clevidipine_antihypertensive.pdf": {
+      "task_id": "b6df6341-6250-4cee-8aa8-48b15327b68814",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f9332db1-4064-41b9-9b8c-05b2a02f58bf/full.md",
+      "content_length": 39396,
+      "pmc_id": "PMC12911921",
+      "pmc_num": 12911921,
+      "title": "Clevidipine infusion for blood pressure management after successful revascularisation in acute ischaemic stroke: the CLEVER study.",
+      "record_id": "MOL-000449",
+      "molecule": "Clevidipine"
     }
   },
-  "last_expansion": "2026-06-01T05:35:12Z"
+  "last_expansion": "2026-06-01T06:07:35Z"
 }

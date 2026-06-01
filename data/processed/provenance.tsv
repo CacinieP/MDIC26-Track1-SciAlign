@@ -42,12 +42,12 @@ MOL-000040	Paroxetine	43815	Antidepressant	rdkit_canonical	rdkit_computed	curate
 MOL-000041	Venlafaxine	5656	Antidepressant	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	no	yes	yes	B
 MOL-000042	Amitriptyline	2160	Antidepressant	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000043	Citalopram	2771	Antidepressant	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000044	Lisinopril	5362119	Antihypertensive	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
-MOL-000045	Losartan	3961	Antihypertensive	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
-MOL-000046	Amlodipine	2162	Antihypertensive	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
-MOL-000047	Enalapril	5388962	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000048	Valsartan	60846	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000049	Metoprolol	4171	Antihypertensive	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
+MOL-000044	Lisinopril	5362119	Antihypertensive	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	a92f7115-4c5c-4ee5-83f5-8f73a21f246814	no	no	yes	yes	A
+MOL-000045	Losartan	3961	Antihypertensive	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	aa084ae4-1f50-4856-bef4-0e054c8066a914	no	no	yes	yes	A
+MOL-000046	Amlodipine	2162	Antihypertensive	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	248f2f39-1d4c-46b8-98e1-2b363f76f8d614	no	no	yes	yes	A
+MOL-000047	Enalapril	5388962	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	aa3c0ae7-c1bf-44b0-8d72-0b9abb93f8c914	no	no	yes	yes	A
+MOL-000048	Valsartan	60846	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	e27db636-512a-4746-acf2-549c20e6bed414	no	no	yes	yes	A
+MOL-000049	Metoprolol	4171	Antihypertensive	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	e5198c95-7a70-42af-981c-f7b25fe422ec14	no	no	yes	yes	A
 MOL-000050	Atorvastatin	60823	Statin	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	yes	yes	yes	B
 MOL-000051	Simvastatin	54454	Statin	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
 MOL-000052	Rosuvastatin	446157	Statin	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
@@ -433,21 +433,21 @@ MOL-000431	Agomelatine	82148	Antidepressant	rdkit_canonical	rdkit_computed	curat
 MOL-000432	Reboxetine	127151	Antidepressant	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
 MOL-000433	Amoxapine	2170	Antidepressant	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000434	Maprotiline	4011	Antidepressant	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
-MOL-000435	Telmisartan	65999	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000436	Irbesartan	3749	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000435	Telmisartan	65999	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	b0695a14-bfed-42e3-b26c-4ce54975a49514	no	no	yes	yes	A
+MOL-000436	Irbesartan	3749	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	0724e87b-a604-4b3f-8770-66bdf335649214	no	no	yes	yes	A
 MOL-000437	Candesartan	2541	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000438	Olmesartan	158781	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000438	Olmesartan	158781	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	3c8aa834-e058-404e-9443-0d390bd7adb314	no	no	yes	yes	A
 MOL-000439	Eprosartan	5281037	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000440	Fimasartan	9870652	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
+MOL-000440	Fimasartan	9870652	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	4a6cb516-0d8f-44bb-afce-79d27240a4de14	no	no	yes	yes	A
 MOL-000441	Azilsartan	135415867	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000442	Nifedipine	4485	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000443	Diltiazem	39186	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000442	Nifedipine	4485	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	8b800c35-c91a-4047-80ce-722f9bb01fab14	no	no	yes	yes	A
+MOL-000443	Diltiazem	39186	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	4037bff4-e523-40ac-9336-c8aba078fed814	no	no	yes	yes	A
 MOL-000444	Verapamil	2520	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000445	Felodipine	3333	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000446	Isradipine	3784	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000447	Nicardipine	4474	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000448	Nimodipine	4497	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000449	Clevidipine	153994	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
+MOL-000445	Felodipine	3333	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	236d4f28-88f8-46f9-97ff-2f738026865414	no	no	yes	yes	A
+MOL-000446	Isradipine	3784	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	317c9c0e-1634-47df-be36-52a4c8c99dd114	no	no	yes	yes	A
+MOL-000447	Nicardipine	4474	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	feac9001-abd7-4ac7-88c9-6c2f964f141414	no	no	yes	yes	A
+MOL-000448	Nimodipine	4497	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	2763f336-24a7-43eb-bc68-af0d2e0b32b314	no	no	yes	yes	A
+MOL-000449	Clevidipine	153994	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	b6df6341-6250-4cee-8aa8-48b15327b68814	no	no	yes	yes	A
 MOL-000450	Lercanidipine	65866	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
 MOL-000451	Manidipine	4008	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
 MOL-000452	Ramipril	5362129	Antihypertensive	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C

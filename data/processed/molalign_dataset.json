@@ -5943,7 +5943,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed lisinopril_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Lisinopril (Antihypertensive).",
+          "input": "data/raw/papers/lisinopril_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/lisinopril_antihypertensive.md",
+          "task_id": "a92f7115-4c5c-4ee5-83f5-8f73a21f246814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/09f41ddd-ced6-4c9f-83de-faa4057112ce/full.md",
+          "content_length": 61322,
+          "pmc_id": "PMC12986413",
+          "detail": "task_id=a92f7115-4c5c-4ee5-83f5-8f73a21f246814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/09f41ddd-ced6-4c9f-83de-faa4057112ce/full.md; content_length=61322"
+        }
+      ],
       "created_at": "2026-05-31T12:01:33Z",
       "updated_at": "2026-05-31T12:01:33Z",
       "version": "1.0.0"
@@ -6067,7 +6079,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed losartan_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Losartan (Antihypertensive).",
+          "input": "data/raw/papers/losartan_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/losartan_antihypertensive.md",
+          "task_id": "aa084ae4-1f50-4856-bef4-0e054c8066a914",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bdd06365-3eef-4cd6-9982-fa1186143acd/full.md",
+          "content_length": 55126,
+          "pmc_id": "PMC13100804",
+          "detail": "task_id=aa084ae4-1f50-4856-bef4-0e054c8066a914; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bdd06365-3eef-4cd6-9982-fa1186143acd/full.md; content_length=55126"
+        }
+      ],
       "created_at": "2026-05-31T12:01:40Z",
       "updated_at": "2026-05-31T12:01:40Z",
       "version": "1.0.0"
@@ -6191,7 +6215,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed amlodipine_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Amlodipine (Antihypertensive).",
+          "input": "data/raw/papers/amlodipine_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/amlodipine_antihypertensive.md",
+          "task_id": "248f2f39-1d4c-46b8-98e1-2b363f76f8d614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/58da615a-d363-4197-b002-742f3fd086f0/full.md",
+          "content_length": 41267,
+          "pmc_id": "PMC13062482",
+          "detail": "task_id=248f2f39-1d4c-46b8-98e1-2b363f76f8d614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/58da615a-d363-4197-b002-742f3fd086f0/full.md; content_length=41267"
+        }
+      ],
       "created_at": "2026-05-31T12:01:42Z",
       "updated_at": "2026-05-31T12:01:42Z",
       "version": "1.0.0"
@@ -6314,7 +6350,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed enalapril_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Enalapril (Antihypertensive).",
+          "input": "data/raw/papers/enalapril_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/enalapril_antihypertensive.md",
+          "task_id": "aa3c0ae7-c1bf-44b0-8d72-0b9abb93f8c914",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0b3f7534-42e5-425d-8948-f17b13269bf3/full.md",
+          "content_length": 110671,
+          "pmc_id": "PMC12950259",
+          "detail": "task_id=aa3c0ae7-c1bf-44b0-8d72-0b9abb93f8c914; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0b3f7534-42e5-425d-8948-f17b13269bf3/full.md; content_length=110671"
+        }
+      ],
       "created_at": "2026-05-31T12:01:44Z",
       "updated_at": "2026-05-31T12:01:44Z",
       "version": "1.0.0"
@@ -6437,7 +6485,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed valsartan_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Valsartan (Antihypertensive).",
+          "input": "data/raw/papers/valsartan_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/valsartan_antihypertensive.md",
+          "task_id": "e27db636-512a-4746-acf2-549c20e6bed414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a1943d47-d3dd-4aeb-8e0c-216fa1a0e069/full.md",
+          "content_length": 52614,
+          "pmc_id": "PMC13051583",
+          "detail": "task_id=e27db636-512a-4746-acf2-549c20e6bed414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a1943d47-d3dd-4aeb-8e0c-216fa1a0e069/full.md; content_length=52614"
+        }
+      ],
       "created_at": "2026-05-31T12:01:46Z",
       "updated_at": "2026-05-31T12:01:46Z",
       "version": "1.0.0"
@@ -6560,7 +6620,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed metoprolol_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Metoprolol (Antihypertensive).",
+          "input": "data/raw/papers/metoprolol_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/metoprolol_antihypertensive.md",
+          "task_id": "e5198c95-7a70-42af-981c-f7b25fe422ec14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d0ae7bc2-f762-410d-bb0c-2ed40ec3e9bb/full.md",
+          "content_length": 4447,
+          "pmc_id": "PMC13035396",
+          "detail": "task_id=e5198c95-7a70-42af-981c-f7b25fe422ec14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d0ae7bc2-f762-410d-bb0c-2ed40ec3e9bb/full.md; content_length=4447"
+        }
+      ],
       "created_at": "2026-05-31T12:01:48Z",
       "updated_at": "2026-05-31T12:01:48Z",
       "version": "1.0.0"
@@ -54795,7 +54867,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed telmisartan_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Telmisartan (Antihypertensive).",
+          "input": "data/raw/papers/telmisartan_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/telmisartan_antihypertensive.md",
+          "task_id": "b0695a14-bfed-42e3-b26c-4ce54975a49514",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d7829583-b533-4995-83aa-32addda93301/full.md",
+          "content_length": 73820,
+          "pmc_id": "PMC13034393",
+          "detail": "task_id=b0695a14-bfed-42e3-b26c-4ce54975a49514; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d7829583-b533-4995-83aa-32addda93301/full.md; content_length=73820"
+        }
+      ],
       "created_at": "2026-05-31T12:20:55Z",
       "updated_at": "2026-05-31T12:20:55Z",
       "version": "1.0.0"
@@ -54918,7 +55002,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed irbesartan_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Irbesartan (Antihypertensive).",
+          "input": "data/raw/papers/irbesartan_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/irbesartan_antihypertensive.md",
+          "task_id": "0724e87b-a604-4b3f-8770-66bdf335649214",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d47542f2-2727-4574-a746-6b8cc13be2b1/full.md",
+          "content_length": 37852,
+          "pmc_id": "PMC12673777",
+          "detail": "task_id=0724e87b-a604-4b3f-8770-66bdf335649214; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d47542f2-2727-4574-a746-6b8cc13be2b1/full.md; content_length=37852"
+        }
+      ],
       "created_at": "2026-05-31T12:20:56Z",
       "updated_at": "2026-05-31T12:20:56Z",
       "version": "1.0.0"
@@ -55164,7 +55260,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed olmesartan_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Olmesartan (Antihypertensive).",
+          "input": "data/raw/papers/olmesartan_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/olmesartan_antihypertensive.md",
+          "task_id": "3c8aa834-e058-404e-9443-0d390bd7adb314",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0903863e-eef3-48b9-8bfa-cff64a265782/full.md",
+          "content_length": 46569,
+          "pmc_id": "PMC13121351",
+          "detail": "task_id=3c8aa834-e058-404e-9443-0d390bd7adb314; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0903863e-eef3-48b9-8bfa-cff64a265782/full.md; content_length=46569"
+        }
+      ],
       "created_at": "2026-05-31T12:21:00Z",
       "updated_at": "2026-05-31T12:21:00Z",
       "version": "1.0.0"
@@ -55410,7 +55518,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed fimasartan_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Fimasartan (Antihypertensive).",
+          "input": "data/raw/papers/fimasartan_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/fimasartan_antihypertensive.md",
+          "task_id": "4a6cb516-0d8f-44bb-afce-79d27240a4de14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/fa17ed81-3981-49f0-bf37-16d3c3246e2e/full.md",
+          "content_length": 47258,
+          "pmc_id": "PMC12580586",
+          "detail": "task_id=4a6cb516-0d8f-44bb-afce-79d27240a4de14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/fa17ed81-3981-49f0-bf37-16d3c3246e2e/full.md; content_length=47258"
+        }
+      ],
       "created_at": "2026-05-31T12:21:03Z",
       "updated_at": "2026-05-31T12:21:03Z",
       "version": "1.0.0"
@@ -55656,7 +55776,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed nifedipine_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Nifedipine (Antihypertensive).",
+          "input": "data/raw/papers/nifedipine_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/nifedipine_antihypertensive.md",
+          "task_id": "8b800c35-c91a-4047-80ce-722f9bb01fab14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3af27609-7a4e-4658-8748-81bc79240d98/full.md",
+          "content_length": 58199,
+          "pmc_id": "PMC13119240",
+          "detail": "task_id=8b800c35-c91a-4047-80ce-722f9bb01fab14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3af27609-7a4e-4658-8748-81bc79240d98/full.md; content_length=58199"
+        }
+      ],
       "created_at": "2026-05-31T12:21:07Z",
       "updated_at": "2026-05-31T12:21:07Z",
       "version": "1.0.0"
@@ -55779,7 +55911,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed diltiazem_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Diltiazem (Antihypertensive).",
+          "input": "data/raw/papers/diltiazem_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/diltiazem_antihypertensive.md",
+          "task_id": "4037bff4-e523-40ac-9336-c8aba078fed814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/12212668-9ba9-4765-8823-84d445bbb197/full.md",
+          "content_length": 69355,
+          "pmc_id": "PMC13096578",
+          "detail": "task_id=4037bff4-e523-40ac-9336-c8aba078fed814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/12212668-9ba9-4765-8823-84d445bbb197/full.md; content_length=69355"
+        }
+      ],
       "created_at": "2026-05-31T12:21:09Z",
       "updated_at": "2026-05-31T12:21:09Z",
       "version": "1.0.0"
@@ -56025,7 +56169,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed felodipine_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Felodipine (Antihypertensive).",
+          "input": "data/raw/papers/felodipine_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/felodipine_antihypertensive.md",
+          "task_id": "236d4f28-88f8-46f9-97ff-2f738026865414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8b6022c1-0a7c-4d4c-bbba-d27516dff95a/full.md",
+          "content_length": 64074,
+          "pmc_id": "PMC13118446",
+          "detail": "task_id=236d4f28-88f8-46f9-97ff-2f738026865414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8b6022c1-0a7c-4d4c-bbba-d27516dff95a/full.md; content_length=64074"
+        }
+      ],
       "created_at": "2026-05-31T12:21:14Z",
       "updated_at": "2026-05-31T12:21:14Z",
       "version": "1.0.0"
@@ -56148,7 +56304,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed isradipine_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Isradipine (Antihypertensive).",
+          "input": "data/raw/papers/isradipine_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/isradipine_antihypertensive.md",
+          "task_id": "317c9c0e-1634-47df-be36-52a4c8c99dd114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/2edfa50e-7d02-448c-86d3-0b891bf42bfa/full.md",
+          "content_length": 108423,
+          "pmc_id": "PMC13050871",
+          "detail": "task_id=317c9c0e-1634-47df-be36-52a4c8c99dd114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/2edfa50e-7d02-448c-86d3-0b891bf42bfa/full.md; content_length=108423"
+        }
+      ],
       "created_at": "2026-05-31T12:21:15Z",
       "updated_at": "2026-05-31T12:21:15Z",
       "version": "1.0.0"
@@ -56271,7 +56439,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed nicardipine_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Nicardipine (Antihypertensive).",
+          "input": "data/raw/papers/nicardipine_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/nicardipine_antihypertensive.md",
+          "task_id": "feac9001-abd7-4ac7-88c9-6c2f964f141414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d5aa88e9-e8bc-4861-ae4f-262bdc83a6e6/full.md",
+          "content_length": 50359,
+          "pmc_id": "PMC12967427",
+          "detail": "task_id=feac9001-abd7-4ac7-88c9-6c2f964f141414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d5aa88e9-e8bc-4861-ae4f-262bdc83a6e6/full.md; content_length=50359"
+        }
+      ],
       "created_at": "2026-05-31T12:21:18Z",
       "updated_at": "2026-05-31T12:21:18Z",
       "version": "1.0.0"
@@ -56394,7 +56574,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed nimodipine_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Nimodipine (Antihypertensive).",
+          "input": "data/raw/papers/nimodipine_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/nimodipine_antihypertensive.md",
+          "task_id": "2763f336-24a7-43eb-bc68-af0d2e0b32b314",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ae8e6046-5a51-4313-9c78-4e693a92b652/full.md",
+          "content_length": 61904,
+          "pmc_id": "PMC13001945",
+          "detail": "task_id=2763f336-24a7-43eb-bc68-af0d2e0b32b314; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ae8e6046-5a51-4313-9c78-4e693a92b652/full.md; content_length=61904"
+        }
+      ],
       "created_at": "2026-05-31T12:21:20Z",
       "updated_at": "2026-05-31T12:21:20Z",
       "version": "1.0.0"
@@ -56517,7 +56709,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed clevidipine_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Clevidipine (Antihypertensive).",
+          "input": "data/raw/papers/clevidipine_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/clevidipine_antihypertensive.md",
+          "task_id": "b6df6341-6250-4cee-8aa8-48b15327b68814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f9332db1-4064-41b9-9b8c-05b2a02f58bf/full.md",
+          "content_length": 39396,
+          "pmc_id": "PMC12911921",
+          "detail": "task_id=b6df6341-6250-4cee-8aa8-48b15327b68814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f9332db1-4064-41b9-9b8c-05b2a02f58bf/full.md; content_length=39396"
+        }
+      ],
       "created_at": "2026-05-31T12:21:22Z",
       "updated_at": "2026-05-31T12:21:22Z",
       "version": "1.0.0"

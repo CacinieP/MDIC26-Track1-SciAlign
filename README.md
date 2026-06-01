@@ -128,16 +128,16 @@ print(records[0]["smiles"]["canonical"])    # CC(=O)Oc1ccccc1C(=O)O
 
 ## 🔬 MinerU Agent API 真实使用
 
-在数据集扩展过程中，我们通过 **MinerU Agent API** 提交了 **73 个** 药物化学相关论文解析任务，其中 **71 个成功、2 个失败**：
+在数据集扩展过程中，我们通过 **MinerU Agent API** 提交了 **99 个** 药物化学相关论文解析任务，其中 **89 个成功、10 个失败**：
 
-- **成功解析论文数**: 71 篇开放获取论文（涵盖药物化学、分子药理学等领域）
-- **失败任务**: `fluoxetine_ijms.pdf`、`vitamins_pharmaceuticals.pdf`（`markdown_url=null`、`content_length=0`）
+- **成功解析论文数**: 89 篇开放获取论文（涵盖药物化学、分子药理学等领域）
+- **失败任务**: `fluoxetine_ijms.pdf`、`vitamins_pharmaceuticals.pdf` 等（超页数限制或解析失败）
 - **真实 API 调用**: 每个 API 请求提交真实任务 ID，获取完整解析结果
-- **成功解析字符数**: **3,648,370 字符** 结构化 Markdown
-- **产生数据记录**: **71 条分子记录**含真实 MinerU 使用证据，**72 条文本描述**来自 MinerU 解析 Markdown
-- **解析文件存储**: `data/raw/parsed_mineru_api/` 保存 `parsing_log.json` 和 72 个 `.md` 输出
+- **成功解析字符数**: **4,712,803 字符** 结构化 Markdown
+- **产生数据记录**: **88 条分子记录**含真实 MinerU 使用证据，**89 条文本描述**来自 MinerU 解析 Markdown
+- **解析文件存储**: `data/raw/parsed_mineru_api/` 保存 `parsing_log.json` 和 89 个 `.md` 输出
 
-使用的解析脚本为 `scripts/mineru_agent_parse.py`（原始 12 篇）和 `scripts/expand_mineru_coverage.py`（扩展 60 篇，PMC 开放获取论文，批处理带连接重试）。修复与证据同步脚本为 `scripts/repair_dataset_integrity.py`，它会根据 `parsing_log.json` 只保留真实可追溯的 MinerU 记录。
+使用的解析脚本为 `scripts/mineru_agent_parse.py`（原始 12 篇）和 `scripts/expand_mineru_coverage.py`（扩展 87 篇，PMC 开放获取论文，批处理带连接重试）。修复与证据同步脚本为 `scripts/repair_dataset_integrity.py`，它会根据 `parsing_log.json` 只保留真实可追溯的 MinerU 记录。
 
 ## 📊 数据集统计
 
@@ -148,11 +148,11 @@ print(records[0]["smiles"]["canonical"])    # CC(=O)Oc1ccccc1C(=O)O
 | 2D 分子结构图 | **820** (100%) |
 | 3D 分子构象 | **799** (97.4%) |
 | 论文提取图片 | **33 条记录**（35 个图像文件） |
-| MinerU Agent API 解析 | **12 个任务 / 10 个成功**，**597,454 字符** 结构化 Markdown，真实 task_id |
+| MinerU Agent API 解析 | **99 个任务 / 89 个成功**，**4,712,803 字符** 结构化 Markdown，真实 task_id |
 | 实验生物活性 | **30 条** (PubChem curated data) |
 | 文本描述（中英文） | **820** (100% 中英双语，平均 2.02 条/分子) |
 | 实体关系 | **820** (100%，平均 2.0 条/分子，类别→靶点映射) |
-| MinerU 使用记录 | **71 条分子记录**（72 个真实 Agent API 任务证据） |
+| MinerU 使用记录 | **88 条分子记录**（89 个真实 Agent API 任务证据，来源分层见 provenance.tsv） |
 | 验证通过率 | **820/820 (100.0%)** |
 
 ## 📖 文档
