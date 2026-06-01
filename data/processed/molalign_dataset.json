@@ -443,7 +443,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed naproxen_nsaid_drug.pdf via MinerU Agent API and aligned Markdown to Naproxen (NSAID Drug).",
+          "input": "data/raw/papers/naproxen_nsaid_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/naproxen_nsaid_drug.md",
+          "task_id": "dc14c0a9-7a6b-4b84-9a73-5d07ac42412414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0f950ce9-a818-4732-afaf-3e8df1b1c450/full.md",
+          "content_length": 51923,
+          "pmc_id": "PMC13116112",
+          "detail": "task_id=dc14c0a9-7a6b-4b84-9a73-5d07ac42412414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0f950ce9-a818-4732-afaf-3e8df1b1c450/full.md; content_length=51923"
+        }
+      ],
       "created_at": "2026-05-31T11:59:43Z",
       "updated_at": "2026-05-31T11:59:43Z",
       "version": "1.0.0"
@@ -7387,7 +7399,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cetirizine_antihistamine.pdf via MinerU Agent API and aligned Markdown to Cetirizine (Antihistamine).",
+          "input": "data/raw/papers/cetirizine_antihistamine.pdf",
+          "output": "data/raw/parsed_mineru_api/cetirizine_antihistamine.md",
+          "task_id": "49f80ce7-c1bf-438a-b69b-c2b22063650614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f7434395-7527-4546-9e06-c07f5ae08656/full.md",
+          "content_length": 72610,
+          "pmc_id": "PMC12827542",
+          "detail": "task_id=49f80ce7-c1bf-438a-b69b-c2b22063650614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f7434395-7527-4546-9e06-c07f5ae08656/full.md; content_length=72610"
+        }
+      ],
       "created_at": "2026-05-31T12:01:59Z",
       "updated_at": "2026-05-31T12:01:59Z",
       "version": "1.0.0"
@@ -7633,7 +7657,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed fexofenadine_antihistamine.pdf via MinerU Agent API and aligned Markdown to Fexofenadine (Antihistamine).",
+          "input": "data/raw/papers/fexofenadine_antihistamine.pdf",
+          "output": "data/raw/parsed_mineru_api/fexofenadine_antihistamine.md",
+          "task_id": "a5e452f2-8173-43ba-b2b6-88d0aa07acf714",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/64050f94-f1f1-44d1-ac72-905f170fa1d3/full.md",
+          "content_length": 14715,
+          "pmc_id": "PMC12852044",
+          "detail": "task_id=a5e452f2-8173-43ba-b2b6-88d0aa07acf714; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/64050f94-f1f1-44d1-ac72-905f170fa1d3/full.md; content_length=14715"
+        }
+      ],
       "created_at": "2026-05-31T12:02:06Z",
       "updated_at": "2026-05-31T12:02:06Z",
       "version": "1.0.0"
@@ -7756,7 +7792,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed diphenhydramine_antihistamine.pdf via MinerU Agent API and aligned Markdown to Diphenhydramine (Antihistamine).",
+          "input": "data/raw/papers/diphenhydramine_antihistamine.pdf",
+          "output": "data/raw/parsed_mineru_api/diphenhydramine_antihistamine.md",
+          "task_id": "81ecd2b1-4e43-491d-b460-5730d7667cdf14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/293f15bb-c83d-4d7a-ad42-abb4e491f152/full.md",
+          "content_length": 16867,
+          "pmc_id": "PMC12860533",
+          "detail": "task_id=81ecd2b1-4e43-491d-b460-5730d7667cdf14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/293f15bb-c83d-4d7a-ad42-abb4e491f152/full.md; content_length=16867"
+        }
+      ],
       "created_at": "2026-05-31T12:02:07Z",
       "updated_at": "2026-05-31T12:02:07Z",
       "version": "1.0.0"
@@ -9691,7 +9739,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed fluconazole_antifungal_drug.pdf via MinerU Agent API and aligned Markdown to Fluconazole (Antifungal Drug).",
+          "input": "data/raw/papers/fluconazole_antifungal_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/fluconazole_antifungal_drug.md",
+          "task_id": "7977c62e-986c-4d0c-838c-44cbfad4abcc14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d95c343a-b86b-41fe-8a80-fa69f65c5af5/full.md",
+          "content_length": 69368,
+          "pmc_id": "PMC13110046",
+          "detail": "task_id=7977c62e-986c-4d0c-838c-44cbfad4abcc14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d95c343a-b86b-41fe-8a80-fa69f65c5af5/full.md; content_length=69368"
+        }
+      ],
       "created_at": "2026-05-31T12:02:37Z",
       "updated_at": "2026-05-31T12:02:37Z",
       "version": "1.0.0"
@@ -9814,7 +9874,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed amphotericin_b_antifungal_drug.pdf via MinerU Agent API and aligned Markdown to Amphotericin B (Antifungal Drug).",
+          "input": "data/raw/papers/amphotericin_b_antifungal_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/amphotericin_b_antifungal_drug.md",
+          "task_id": "14a9f5ba-711a-4e43-ade9-39ad08eff9bf14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/943738d6-5ccf-4672-b8b6-dae947bee4a7/full.md",
+          "content_length": 42265,
+          "pmc_id": "PMC12958629",
+          "detail": "task_id=14a9f5ba-711a-4e43-ade9-39ad08eff9bf14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/943738d6-5ccf-4672-b8b6-dae947bee4a7/full.md; content_length=42265"
+        }
+      ],
       "created_at": "2026-05-31T12:02:40Z",
       "updated_at": "2026-05-31T12:02:40Z",
       "version": "1.0.0"
@@ -9937,7 +10009,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed ketoconazole_antifungal_drug.pdf via MinerU Agent API and aligned Markdown to Ketoconazole (Antifungal Drug).",
+          "input": "data/raw/papers/ketoconazole_antifungal_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/ketoconazole_antifungal_drug.md",
+          "task_id": "5732293d-754f-453c-b3fd-96446d690b8314",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/9689c291-46d9-4f43-b96a-c99e1c0139b7/full.md",
+          "content_length": 25548,
+          "pmc_id": "PMC13106942",
+          "detail": "task_id=5732293d-754f-453c-b3fd-96446d690b8314; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/9689c291-46d9-4f43-b96a-c99e1c0139b7/full.md; content_length=25548"
+        }
+      ],
       "created_at": "2026-05-31T12:02:41Z",
       "updated_at": "2026-05-31T12:02:41Z",
       "version": "1.0.0"
@@ -10052,7 +10136,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed itraconazole_antifungal_drug.pdf via MinerU Agent API and aligned Markdown to Itraconazole (Antifungal Drug).",
+          "input": "data/raw/papers/itraconazole_antifungal_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/itraconazole_antifungal_drug.md",
+          "task_id": "cfe0b1d0-8752-4f68-b088-b8594fb1642714",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/5a3e59f4-5a9e-4b36-848d-443587bb4935/full.md",
+          "content_length": 28180,
+          "pmc_id": "PMC13034668",
+          "detail": "task_id=cfe0b1d0-8752-4f68-b088-b8594fb1642714; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/5a3e59f4-5a9e-4b36-848d-443587bb4935/full.md; content_length=28180"
+        }
+      ],
       "created_at": "2026-05-31T12:02:43Z",
       "updated_at": "2026-05-31T12:02:43Z",
       "version": "1.0.0"
@@ -12397,7 +12493,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed insulin_(human)_hormone.pdf via MinerU Agent API and aligned Markdown to Insulin (human) (Hormone).",
+          "input": "data/raw/papers/insulin_(human)_hormone.pdf",
+          "output": "data/raw/parsed_mineru_api/insulin_(human)_hormone.md",
+          "task_id": "2fdf7b60-d638-4573-8940-5cca0b45957b14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a922ac3c-45e6-4ce6-9677-94c667e3bc83/full.md",
+          "content_length": 44993,
+          "pmc_id": "PMC13182422",
+          "detail": "task_id=2fdf7b60-d638-4573-8940-5cca0b45957b14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a922ac3c-45e6-4ce6-9677-94c667e3bc83/full.md; content_length=44993"
+        }
+      ],
       "created_at": "2026-05-31T12:03:18Z",
       "updated_at": "2026-05-31T12:03:18Z",
       "version": "1.0.0"
@@ -12659,7 +12767,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed testosterone_hormone.pdf via MinerU Agent API and aligned Markdown to Testosterone (Hormone).",
+          "input": "data/raw/papers/testosterone_hormone.pdf",
+          "output": "data/raw/parsed_mineru_api/testosterone_hormone.md",
+          "task_id": "d59c401e-8a5e-47f2-bd50-9d94371a1b1614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d876e5fe-ef22-4c37-8643-aaeebdbd675f/full.md",
+          "content_length": 89048,
+          "pmc_id": "PMC13189809",
+          "detail": "task_id=d59c401e-8a5e-47f2-bd50-9d94371a1b1614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d876e5fe-ef22-4c37-8643-aaeebdbd675f/full.md; content_length=89048"
+        }
+      ],
       "created_at": "2026-05-31T12:03:22Z",
       "updated_at": "2026-05-31T12:03:22Z",
       "version": "1.0.0"
@@ -12782,7 +12902,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed estradiol_hormone.pdf via MinerU Agent API and aligned Markdown to Estradiol (Hormone).",
+          "input": "data/raw/papers/estradiol_hormone.pdf",
+          "output": "data/raw/parsed_mineru_api/estradiol_hormone.md",
+          "task_id": "83d04771-f5a5-4a6c-95b1-d73b9e18232114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d41449b9-fab8-4ae6-bdaf-3ec4393c2339/full.md",
+          "content_length": 47374,
+          "pmc_id": "PMC13090412",
+          "detail": "task_id=83d04771-f5a5-4a6c-95b1-d73b9e18232114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d41449b9-fab8-4ae6-bdaf-3ec4393c2339/full.md; content_length=47374"
+        }
+      ],
       "created_at": "2026-05-31T12:03:25Z",
       "updated_at": "2026-05-31T12:03:25Z",
       "version": "1.0.0"
@@ -13028,7 +13160,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed melatonin_hormone.pdf via MinerU Agent API and aligned Markdown to Melatonin (Hormone).",
+          "input": "data/raw/papers/melatonin_hormone.pdf",
+          "output": "data/raw/parsed_mineru_api/melatonin_hormone.md",
+          "task_id": "1731624b-9535-45b5-99dd-8394a1ec7de214",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b54c1c68-99e8-44f4-bd53-29d066d2c5a3/full.md",
+          "content_length": 35772,
+          "pmc_id": "PMC13205452",
+          "detail": "task_id=1731624b-9535-45b5-99dd-8394a1ec7de214; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b54c1c68-99e8-44f4-bd53-29d066d2c5a3/full.md; content_length=35772"
+        }
+      ],
       "created_at": "2026-05-31T12:03:28Z",
       "updated_at": "2026-05-31T12:03:28Z",
       "version": "1.0.0"
@@ -13151,7 +13295,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed progesterone_hormone.pdf via MinerU Agent API and aligned Markdown to Progesterone (Hormone).",
+          "input": "data/raw/papers/progesterone_hormone.pdf",
+          "output": "data/raw/parsed_mineru_api/progesterone_hormone.md",
+          "task_id": "fcad87be-1b46-4114-8760-1143ff1d0b3c14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1a4f3ce2-9086-4625-8a46-ac1f3b2c5746/full.md",
+          "content_length": 43578,
+          "pmc_id": "PMC13124754",
+          "detail": "task_id=fcad87be-1b46-4114-8760-1143ff1d0b3c14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1a4f3ce2-9086-4625-8a46-ac1f3b2c5746/full.md; content_length=43578"
+        }
+      ],
       "created_at": "2026-05-31T12:03:29Z",
       "updated_at": "2026-05-31T12:03:29Z",
       "version": "1.0.0"
@@ -15988,7 +16144,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed meloxicam_nsaid_drug.pdf via MinerU Agent API and aligned Markdown to Meloxicam (NSAID Drug).",
+          "input": "data/raw/papers/meloxicam_nsaid_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/meloxicam_nsaid_drug.md",
+          "task_id": "479acf74-2d3d-4ca0-817f-1aa1f9f1a73614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bfaceda0-cf82-4b8b-8c36-2f7c1f31d6fa/full.md",
+          "content_length": 12768,
+          "pmc_id": "PMC12968519",
+          "detail": "task_id=479acf74-2d3d-4ca0-817f-1aa1f9f1a73614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bfaceda0-cf82-4b8b-8c36-2f7c1f31d6fa/full.md; content_length=12768"
+        }
+      ],
       "created_at": "2026-05-31T12:04:09Z",
       "updated_at": "2026-05-31T12:04:09Z",
       "version": "1.0.0"
@@ -16112,7 +16280,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed piroxicam_nsaid_drug.pdf via MinerU Agent API and aligned Markdown to Piroxicam (NSAID Drug).",
+          "input": "data/raw/papers/piroxicam_nsaid_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/piroxicam_nsaid_drug.md",
+          "task_id": "086a776e-d84e-49a0-8840-f9ba026cf2ff14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/898e0043-6f6c-4ca1-8b2b-6b6cd3b8e874/full.md",
+          "content_length": 73790,
+          "pmc_id": "PMC13004739",
+          "detail": "task_id=086a776e-d84e-49a0-8840-f9ba026cf2ff14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/898e0043-6f6c-4ca1-8b2b-6b6cd3b8e874/full.md; content_length=73790"
+        }
+      ],
       "created_at": "2026-05-31T12:04:12Z",
       "updated_at": "2026-05-31T12:04:12Z",
       "version": "1.0.0"
@@ -16236,7 +16416,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed sulindac_nsaid_drug.pdf via MinerU Agent API and aligned Markdown to Sulindac (NSAID Drug).",
+          "input": "data/raw/papers/sulindac_nsaid_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/sulindac_nsaid_drug.md",
+          "task_id": "57ab8a55-a734-461c-b607-75575e1068a614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/33517cee-b38e-4139-8a3a-5844cff211ae/full.md",
+          "content_length": 48154,
+          "pmc_id": "PMC13204362",
+          "detail": "task_id=57ab8a55-a734-461c-b607-75575e1068a614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/33517cee-b38e-4139-8a3a-5844cff211ae/full.md; content_length=48154"
+        }
+      ],
       "created_at": "2026-05-31T12:04:14Z",
       "updated_at": "2026-05-31T12:04:14Z",
       "version": "1.0.0"
@@ -16360,7 +16552,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed etodolac_nsaid_drug.pdf via MinerU Agent API and aligned Markdown to Etodolac (NSAID Drug).",
+          "input": "data/raw/papers/etodolac_nsaid_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/etodolac_nsaid_drug.md",
+          "task_id": "13a06d44-8197-493c-9269-498ec1c6bc9414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3e64def8-9d5a-4ef7-9579-0224c78aed96/full.md",
+          "content_length": 51815,
+          "pmc_id": "PMC13081246",
+          "detail": "task_id=13a06d44-8197-493c-9269-498ec1c6bc9414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3e64def8-9d5a-4ef7-9579-0224c78aed96/full.md; content_length=51815"
+        }
+      ],
       "created_at": "2026-05-31T12:04:16Z",
       "updated_at": "2026-05-31T12:04:16Z",
       "version": "1.0.0"
@@ -16484,7 +16688,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed ketorolac_nsaid_drug.pdf via MinerU Agent API and aligned Markdown to Ketorolac (NSAID Drug).",
+          "input": "data/raw/papers/ketorolac_nsaid_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/ketorolac_nsaid_drug.md",
+          "task_id": "80cafec3-93c3-46c6-aa63-f335eb3f3ff614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4aa7e949-fb10-4a0a-b6e5-8c6c191f8949/full.md",
+          "content_length": 46962,
+          "pmc_id": "PMC12914131",
+          "detail": "task_id=80cafec3-93c3-46c6-aa63-f335eb3f3ff614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4aa7e949-fb10-4a0a-b6e5-8c6c191f8949/full.md; content_length=46962"
+        }
+      ],
       "created_at": "2026-05-31T12:04:19Z",
       "updated_at": "2026-05-31T12:04:19Z",
       "version": "1.0.0"
@@ -16732,7 +16948,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed mefenamic_acid_nsaid_drug.pdf via MinerU Agent API and aligned Markdown to Mefenamic Acid (NSAID Drug).",
+          "input": "data/raw/papers/mefenamic_acid_nsaid_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/mefenamic_acid_nsaid_drug.md",
+          "task_id": "a76eee17-c78c-47cb-801c-46f3b3f0ce0814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/89a103b4-7874-4835-89d3-638b03c3b5cf/full.md",
+          "content_length": 6318,
+          "pmc_id": "PMC12662608",
+          "detail": "task_id=a76eee17-c78c-47cb-801c-46f3b3f0ce0814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/89a103b4-7874-4835-89d3-638b03c3b5cf/full.md; content_length=6318"
+        }
+      ],
       "created_at": "2026-05-31T12:04:23Z",
       "updated_at": "2026-05-31T12:04:23Z",
       "version": "1.0.0"
@@ -16856,7 +17084,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed diclofenac_sodium_nsaid_drug.pdf via MinerU Agent API and aligned Markdown to Diclofenac Sodium (NSAID Drug).",
+          "input": "data/raw/papers/diclofenac_sodium_nsaid_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/diclofenac_sodium_nsaid_drug.md",
+          "task_id": "e1a2db7a-a40a-459d-83a2-dd970b8b7a0914",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d4a5d8b6-a1c8-41fa-9720-4b81be58ee6b/full.md",
+          "content_length": 68939,
+          "pmc_id": "PMC13124999",
+          "detail": "task_id=e1a2db7a-a40a-459d-83a2-dd970b8b7a0914; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d4a5d8b6-a1c8-41fa-9720-4b81be58ee6b/full.md; content_length=68939"
+        }
+      ],
       "created_at": "2026-05-31T12:04:26Z",
       "updated_at": "2026-05-31T12:04:26Z",
       "version": "1.0.0"
@@ -16980,7 +17220,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed flurbiprofen_nsaid_drug.pdf via MinerU Agent API and aligned Markdown to Flurbiprofen (NSAID Drug).",
+          "input": "data/raw/papers/flurbiprofen_nsaid_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/flurbiprofen_nsaid_drug.md",
+          "task_id": "a12dfc1d-b787-4986-a96c-e818b73d104114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/669a2219-eeee-4d8c-a57a-2bf74c239b3c/full.md",
+          "content_length": 59657,
+          "pmc_id": "PMC13073214",
+          "detail": "task_id=a12dfc1d-b787-4986-a96c-e818b73d104114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/669a2219-eeee-4d8c-a57a-2bf74c239b3c/full.md; content_length=59657"
+        }
+      ],
       "created_at": "2026-05-31T12:04:28Z",
       "updated_at": "2026-05-31T12:04:28Z",
       "version": "1.0.0"
@@ -17104,7 +17356,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed ketoprofen_nsaid_drug.pdf via MinerU Agent API and aligned Markdown to Ketoprofen (NSAID Drug).",
+          "input": "data/raw/papers/ketoprofen_nsaid_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/ketoprofen_nsaid_drug.md",
+          "task_id": "6a6ec08a-d14e-4f30-aeda-93459d8ea23014",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/7c8840f8-eade-4bdd-8136-18428286e517/full.md",
+          "content_length": 56844,
+          "pmc_id": "PMC12878335",
+          "detail": "task_id=6a6ec08a-d14e-4f30-aeda-93459d8ea23014; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/7c8840f8-eade-4bdd-8136-18428286e517/full.md; content_length=56844"
+        }
+      ],
       "created_at": "2026-05-31T12:04:31Z",
       "updated_at": "2026-05-31T12:04:31Z",
       "version": "1.0.0"
@@ -17228,7 +17492,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed fenoprofen_nsaid_drug.pdf via MinerU Agent API and aligned Markdown to Fenoprofen (NSAID Drug).",
+          "input": "data/raw/papers/fenoprofen_nsaid_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/fenoprofen_nsaid_drug.md",
+          "task_id": "d3f2aa90-d3c7-4b15-8742-64dd1a1277d314",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1fce7316-7616-4a5f-9fb1-c25781ed88bd/full.md",
+          "content_length": 68505,
+          "pmc_id": "PMC12475962",
+          "detail": "task_id=d3f2aa90-d3c7-4b15-8742-64dd1a1277d314; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1fce7316-7616-4a5f-9fb1-c25781ed88bd/full.md; content_length=68505"
+        }
+      ],
       "created_at": "2026-05-31T12:04:33Z",
       "updated_at": "2026-05-31T12:04:33Z",
       "version": "1.0.0"
@@ -17352,7 +17628,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed tolmetin_nsaid_drug.pdf via MinerU Agent API and aligned Markdown to Tolmetin (NSAID Drug).",
+          "input": "data/raw/papers/tolmetin_nsaid_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/tolmetin_nsaid_drug.md",
+          "task_id": "2ceeebd9-8fc3-4b9f-9c3a-df803b0be28814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/54dc94cf-4f29-4a15-8ced-1fbbebd69dad/full.md",
+          "content_length": 70672,
+          "pmc_id": "PMC11103698",
+          "detail": "task_id=2ceeebd9-8fc3-4b9f-9c3a-df803b0be28814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/54dc94cf-4f29-4a15-8ced-1fbbebd69dad/full.md; content_length=70672"
+        }
+      ],
       "created_at": "2026-05-31T12:04:36Z",
       "updated_at": "2026-05-31T12:04:36Z",
       "version": "1.0.0"
@@ -17600,7 +17888,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed indomethacin_sodium_nsaid_drug.pdf via MinerU Agent API and aligned Markdown to Indomethacin Sodium (NSAID Drug).",
+          "input": "data/raw/papers/indomethacin_sodium_nsaid_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/indomethacin_sodium_nsaid_drug.md",
+          "task_id": "6d3bb64e-c4fb-47c5-9355-2193865d5db514",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c93b52bf-9e2e-43ab-a705-6ad3b8eb3830/full.md",
+          "content_length": 67583,
+          "pmc_id": "PMC12587442",
+          "detail": "task_id=6d3bb64e-c4fb-47c5-9355-2193865d5db514; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c93b52bf-9e2e-43ab-a705-6ad3b8eb3830/full.md; content_length=67583"
+        }
+      ],
       "created_at": "2026-05-31T12:04:40Z",
       "updated_at": "2026-05-31T12:04:40Z",
       "version": "1.0.0"

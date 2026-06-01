@@ -1,7 +1,7 @@
 record_id	common_name	pubchem_cid	category	smiles_source	properties_source	relations_source	descriptions_source	mineru_task_id	paper_image	bioactivity	has_2d	has_3d	evidence_quality_tier
 MOL-000001	Aspirin	2244	NSAID Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	yes	yes	yes	B
 MOL-000002	Ibuprofen	3672	NSAID Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|mineru_paper_text|pubchem_text	4cb5fba7-6ac0-44e1-80e9-4fe875ef263b09	yes	yes	yes	yes	A
-MOL-000003	Naproxen	1302	NSAID Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	yes	yes	yes	B
+MOL-000003	Naproxen	1302	NSAID Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	dc14c0a9-7a6b-4b84-9a73-5d07ac42412414	no	yes	yes	yes	A
 MOL-000004	Diclofenac	3033	NSAID Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	yes	yes	yes	B
 MOL-000005	Celecoxib	2662	NSAID Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	yes	yes	yes	B
 MOL-000006	Indomethacin	3715	NSAID Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	no	yes	yes	B
@@ -52,10 +52,10 @@ MOL-000050	Atorvastatin	60823	Statin	rdkit_canonical	rdkit_computed	curated_lite
 MOL-000051	Simvastatin	54454	Statin	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
 MOL-000052	Rosuvastatin	446157	Statin	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000053	Pravastatin	54687	Statin	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000054	Cetirizine	2678	Antihistamine	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	yes	yes	yes	B
+MOL-000054	Cetirizine	2678	Antihistamine	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	49f80ce7-c1bf-438a-b69b-c2b22063650614	no	yes	yes	yes	A
 MOL-000055	Loratadine	3957	Antihistamine	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000056	Fexofenadine	3348	Antihistamine	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000057	Diphenhydramine	3100	Antihistamine	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000056	Fexofenadine	3348	Antihistamine	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	a5e452f2-8173-43ba-b2b6-88d0aa07acf714	no	no	yes	yes	A
+MOL-000057	Diphenhydramine	3100	Antihistamine	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	81ecd2b1-4e43-491d-b460-5730d7667cdf14	no	no	yes	yes	A
 MOL-000058	Morphine	5288826	Opioid Analgesic	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|mineru_paper_text|pubchem_text	1aed079e-5391-42ee-a918-5c92febe7d0d09	yes	yes	yes	yes	A
 MOL-000059	Codeine	5284371	Opioid Analgesic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		yes	no	yes	yes	B
 MOL-000060	Fentanyl	3345	Opioid Analgesic	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	no	yes	yes	B
@@ -70,10 +70,10 @@ MOL-000068	Cyclosporine	5284373	Immunosuppressant	rdkit_canonical	rdkit_computed
 MOL-000069	Tacrolimus	445643	Immunosuppressant	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
 MOL-000070	Mycophenolate mofetil	5281078	Immunosuppressant	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000071	Sirolimus	5284616	Immunosuppressant	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000072	Fluconazole	3365	Antifungal Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	yes	yes	yes	B
-MOL-000073	Amphotericin B	5280965	Antifungal Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000074	Ketoconazole	47576	Antifungal Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000075	Itraconazole	55183	Antifungal Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
+MOL-000072	Fluconazole	3365	Antifungal Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	7977c62e-986c-4d0c-838c-44cbfad4abcc14	no	yes	yes	yes	A
+MOL-000073	Amphotericin B	5280965	Antifungal Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	14a9f5ba-711a-4e43-ade9-39ad08eff9bf14	no	no	yes	yes	A
+MOL-000074	Ketoconazole	47576	Antifungal Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	5732293d-754f-453c-b3fd-96446d690b8314	no	no	yes	yes	A
+MOL-000075	Itraconazole	55183	Antifungal Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	cfe0b1d0-8752-4f68-b088-b8594fb1642714	no	no	yes	yes	A
 MOL-000076	Chloroquine	2719	Antimalarial Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
 MOL-000077	Artemisinin	68827	Antimalarial Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	yes	yes	yes	B
 MOL-000078	Quinine	3034034	Antimalarial Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
@@ -91,13 +91,13 @@ MOL-000089	GABA	119	Neurotransmitter	rdkit_canonical	rdkit_computed	curated_lite
 MOL-000090	Acetylcholine	187	Neurotransmitter	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
 MOL-000091	Glutamate	33032	Neurotransmitter	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000092	Histamine	774	Neurotransmitter	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000093	Insulin (human)	16132438	Hormone	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	no	C
+MOL-000093	Insulin (human)	16132438	Hormone	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	2fdf7b60-d638-4573-8940-5cca0b45957b14	no	no	yes	no	A
 MOL-000094	Cortisol	5754	Hormone	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	yes	yes	yes	B
-MOL-000095	Testosterone	6013	Hormone	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
-MOL-000096	Estradiol	5757	Hormone	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
+MOL-000095	Testosterone	6013	Hormone	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	d59c401e-8a5e-47f2-bd50-9d94371a1b1614	no	no	yes	yes	A
+MOL-000096	Estradiol	5757	Hormone	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	83d04771-f5a5-4a6c-95b1-d73b9e18232114	no	no	yes	yes	A
 MOL-000097	Thyroxine	5819	Hormone	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000098	Melatonin	896	Hormone	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
-MOL-000099	Progesterone	5994	Hormone	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000098	Melatonin	896	Hormone	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	1731624b-9535-45b5-99dd-8394a1ec7de214	no	no	yes	yes	A
+MOL-000099	Progesterone	5994	Hormone	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	fcad87be-1b46-4114-8760-1143ff1d0b3c14	no	no	yes	yes	A
 MOL-000100	Ascorbic acid	54670067	Vitamin	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	yes	yes	yes	B
 MOL-000101	Retinol	445354	Vitamin	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000102	Tocopherol	14986	Vitamin	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
@@ -119,20 +119,20 @@ MOL-000117	Pantoprazole	4679	Gastrointestinal Drug	rdkit_canonical	rdkit_compute
 MOL-000118	Ranitidine	3001055	Gastrointestinal Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		yes	no	yes	yes	B
 MOL-000119	Allopurinol	2094	Antigout Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
 MOL-000120	Acetaminophen	1983	Analgesic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|mineru_paper_text|pubchem_text	31984e49-0e05-4531-82cd-b09e373b683f09	yes	yes	yes	yes	A
-MOL-000121	Meloxicam	54677470	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000122	Piroxicam	54676228	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000123	Sulindac	1548887	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000124	Etodolac	3308	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000125	Ketorolac	3826	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000121	Meloxicam	54677470	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	479acf74-2d3d-4ca0-817f-1aa1f9f1a73614	no	no	yes	yes	A
+MOL-000122	Piroxicam	54676228	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	086a776e-d84e-49a0-8840-f9ba026cf2ff14	no	no	yes	yes	A
+MOL-000123	Sulindac	1548887	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	57ab8a55-a734-461c-b607-75575e1068a614	no	no	yes	yes	A
+MOL-000124	Etodolac	3308	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	13a06d44-8197-493c-9269-498ec1c6bc9414	no	no	yes	yes	A
+MOL-000125	Ketorolac	3826	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	80cafec3-93c3-46c6-aa63-f335eb3f3ff614	no	no	yes	yes	A
 MOL-000126	Nabumetone	4409	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000127	Mefenamic Acid	4044	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000128	Diclofenac Sodium	5018304	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000129	Flurbiprofen	3394	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000130	Ketoprofen	3825	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000131	Fenoprofen	3342	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000132	Tolmetin	5509	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000127	Mefenamic Acid	4044	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	a76eee17-c78c-47cb-801c-46f3b3f0ce0814	no	no	yes	yes	A
+MOL-000128	Diclofenac Sodium	5018304	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	e1a2db7a-a40a-459d-83a2-dd970b8b7a0914	no	no	yes	yes	A
+MOL-000129	Flurbiprofen	3394	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	a12dfc1d-b787-4986-a96c-e818b73d104114	no	no	yes	yes	A
+MOL-000130	Ketoprofen	3825	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	6a6ec08a-d14e-4f30-aeda-93459d8ea23014	no	no	yes	yes	A
+MOL-000131	Fenoprofen	3342	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	d3f2aa90-d3c7-4b15-8742-64dd1a1277d314	no	no	yes	yes	A
+MOL-000132	Tolmetin	5509	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	2ceeebd9-8fc3-4b9f-9c3a-df803b0be28814	no	no	yes	yes	A
 MOL-000133	Oxaprozin	4614	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000134	Indomethacin Sodium	23675763	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
+MOL-000134	Indomethacin Sodium	23675763	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	6d3bb64e-c4fb-47c5-9355-2193865d5db514	no	no	yes	yes	A
 MOL-000135	Diflunisal	3059	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000136	Salsalate	5161	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000137	Valdecoxib	119607	NSAID Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C

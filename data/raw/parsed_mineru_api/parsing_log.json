@@ -1921,7 +1921,297 @@
       "title": "Efficacy of azacitidine and trametinib against leptomeningeal melanosis associated with congenital melanocytic nevus syndrome.",
       "record_id": "MOL-000347",
       "molecule": "Trametinib"
+    },
+    "aspirin_nsaid_drug.pdf": {
+      "task_id": "023fae72-f80b-4cfc-9cb3-a66700aa843214",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13193131",
+      "pmc_num": 13193131,
+      "title": "Integrating genetically predicted transcriptomic signatures with longitudinal real-world data enables scalable drug repurposing for Alzheimer’s disease",
+      "record_id": "MOL-000001",
+      "molecule": "Aspirin"
+    },
+    "naproxen_nsaid_drug.pdf": {
+      "task_id": "dc14c0a9-7a6b-4b84-9a73-5d07ac42412414",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0f950ce9-a818-4732-afaf-3e8df1b1c450/full.md",
+      "content_length": 51923,
+      "pmc_id": "PMC13116112",
+      "pmc_num": 13116112,
+      "title": "Prenatal Naproxen Reprograms Histopathological and Molecular Facets of the Sex-Based Lung Injury in Adult Offspring of Preeclamptic Rats.",
+      "record_id": "MOL-000003",
+      "molecule": "Naproxen"
+    },
+    "cetirizine_antihistamine.pdf": {
+      "task_id": "49f80ce7-c1bf-438a-b69b-c2b22063650614",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f7434395-7527-4546-9e06-c07f5ae08656/full.md",
+      "content_length": 72610,
+      "pmc_id": "PMC12827542",
+      "pmc_num": 12827542,
+      "title": "Gender and age variations in neuropsychiatric adverse events of cetirizine and levocetirizine: a disproportionality analysis of ICSRs from FAERS and EudraVigilance data.",
+      "record_id": "MOL-000054",
+      "molecule": "Cetirizine"
+    },
+    "loratadine_antihistamine.pdf": {
+      "task_id": "4f5fcecf-3fd0-445f-a611-c0e6185b10a614",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13194122",
+      "pmc_num": 13194122,
+      "title": "Multi-targeted protection of Yuping Tongqiao against allergic rhinitis: suppression of inflammatory response via TSLP signaling and reinforcement of epithelial barrier integrity via AhR signaling.",
+      "record_id": "MOL-000055",
+      "molecule": "Loratadine"
+    },
+    "fexofenadine_antihistamine.pdf": {
+      "task_id": "a5e452f2-8173-43ba-b2b6-88d0aa07acf714",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/64050f94-f1f1-44d1-ac72-905f170fa1d3/full.md",
+      "content_length": 14715,
+      "pmc_id": "PMC12852044",
+      "pmc_num": 12852044,
+      "title": "Restless Legs Syndrome Associated With Fexofenadine Use: A Case Report.",
+      "record_id": "MOL-000056",
+      "molecule": "Fexofenadine"
+    },
+    "diphenhydramine_antihistamine.pdf": {
+      "task_id": "81ecd2b1-4e43-491d-b460-5730d7667cdf14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/293f15bb-c83d-4d7a-ad42-abb4e491f152/full.md",
+      "content_length": 16867,
+      "pmc_id": "PMC12860533",
+      "pmc_num": 12860533,
+      "title": "An Effective Critical Care Unit Admission Policy for Patients With Diphenhydramine Overdose: A Case Report.",
+      "record_id": "MOL-000057",
+      "molecule": "Diphenhydramine"
+    },
+    "fluconazole_antifungal_drug.pdf": {
+      "task_id": "7977c62e-986c-4d0c-838c-44cbfad4abcc14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d95c343a-b86b-41fe-8a80-fa69f65c5af5/full.md",
+      "content_length": 69368,
+      "pmc_id": "PMC13110046",
+      "pmc_num": 13110046,
+      "title": "A Drug-Drug Interaction of Ainuovirine with Fluconazole in Healthy Adults and Dose Optimization Informed by Pharmacokinetics Modelling.",
+      "record_id": "MOL-000072",
+      "molecule": "Fluconazole"
+    },
+    "amphotericin_b_antifungal_drug.pdf": {
+      "task_id": "14a9f5ba-711a-4e43-ade9-39ad08eff9bf14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/943738d6-5ccf-4672-b8b6-dae947bee4a7/full.md",
+      "content_length": 42265,
+      "pmc_id": "PMC12958629",
+      "pmc_num": 12958629,
+      "title": "Liposomal amphotericin B in the treatment of pediatric gastrointestinal basidiobolomycosis.",
+      "record_id": "MOL-000073",
+      "molecule": "Amphotericin B"
+    },
+    "ketoconazole_antifungal_drug.pdf": {
+      "task_id": "5732293d-754f-453c-b3fd-96446d690b8314",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/9689c291-46d9-4f43-b96a-c99e1c0139b7/full.md",
+      "content_length": 25548,
+      "pmc_id": "PMC13106942",
+      "pmc_num": 13106942,
+      "title": "Atrophying Pityriasis Versicolor: A Rare Presentation of a Common Dermatological Disorder and Literature Review.",
+      "record_id": "MOL-000074",
+      "molecule": "Ketoconazole"
+    },
+    "itraconazole_antifungal_drug.pdf": {
+      "task_id": "cfe0b1d0-8752-4f68-b088-b8594fb1642714",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/5a3e59f4-5a9e-4b36-848d-443587bb4935/full.md",
+      "content_length": 28180,
+      "pmc_id": "PMC13034668",
+      "pmc_num": 13034668,
+      "title": "Comparing Efficacy and Safety of Itraconazole Solution Versus Posaconazole for Antifungal Prophylaxis After Heart Transplant.",
+      "record_id": "MOL-000075",
+      "molecule": "Itraconazole"
+    },
+    "insulin_(human)_hormone.pdf": {
+      "task_id": "2fdf7b60-d638-4573-8940-5cca0b45957b14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a922ac3c-45e6-4ce6-9677-94c667e3bc83/full.md",
+      "content_length": 44993,
+      "pmc_id": "PMC13182422",
+      "pmc_num": 13182422,
+      "title": "Regular human insulins versus rapid-acting insulin analogues in children and adolescents with type 1 diabetes: a systematic review with meta-analysis and trial sequential analysis.",
+      "record_id": "MOL-000093",
+      "molecule": "Insulin (human)"
+    },
+    "testosterone_hormone.pdf": {
+      "task_id": "d59c401e-8a5e-47f2-bd50-9d94371a1b1614",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d876e5fe-ef22-4c37-8643-aaeebdbd675f/full.md",
+      "content_length": 89048,
+      "pmc_id": "PMC13189809",
+      "pmc_num": 13189809,
+      "title": "Testosterone and androgen receptor pathway modulation in sepsis: immunometabolic mechanisms and therapeutic implications - a scoping review.",
+      "record_id": "MOL-000095",
+      "molecule": "Testosterone"
+    },
+    "estradiol_hormone.pdf": {
+      "task_id": "83d04771-f5a5-4a6c-95b1-d73b9e18232114",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d41449b9-fab8-4ae6-bdaf-3ec4393c2339/full.md",
+      "content_length": 47374,
+      "pmc_id": "PMC13090412",
+      "pmc_num": 13090412,
+      "title": "Estrogen Deprivation During Primate (Papio anubis) Pregnancy: Impact on Systemic Microvascular Flow and Cardiovascular Development and Function After Birth in Offspring.",
+      "record_id": "MOL-000096",
+      "molecule": "Estradiol"
+    },
+    "thyroxine_hormone.pdf": {
+      "task_id": "d465e442-f656-407a-9979-580039040e5d14",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13082284",
+      "pmc_num": 13082284,
+      "title": "In clinically hyperthyroid cats, is I-131 treatment superior to thyroidectomy in normalising serum T4 level?",
+      "record_id": "MOL-000097",
+      "molecule": "Thyroxine"
+    },
+    "melatonin_hormone.pdf": {
+      "task_id": "1731624b-9535-45b5-99dd-8394a1ec7de214",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b54c1c68-99e8-44f4-bd53-29d066d2c5a3/full.md",
+      "content_length": 35772,
+      "pmc_id": "PMC13205452",
+      "pmc_num": 13205452,
+      "title": "Evaluating Whether Melatonin Impacts Postoperative Sleep Following Total Joint Arthroplasty: A Systematic Review and Meta-analysis of Randomized Controlled Trials",
+      "record_id": "MOL-000098",
+      "molecule": "Melatonin"
+    },
+    "progesterone_hormone.pdf": {
+      "task_id": "fcad87be-1b46-4114-8760-1143ff1d0b3c14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1a4f3ce2-9086-4625-8a46-ac1f3b2c5746/full.md",
+      "content_length": 43578,
+      "pmc_id": "PMC13124754",
+      "pmc_num": 13124754,
+      "title": "Role of placental glucose metabolism in steroidogenesis in healthy pregnancies at term.",
+      "record_id": "MOL-000099",
+      "molecule": "Progesterone"
+    },
+    "meloxicam_nsaid_drug.pdf": {
+      "task_id": "479acf74-2d3d-4ca0-817f-1aa1f9f1a73614",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bfaceda0-cf82-4b8b-8c36-2f7c1f31d6fa/full.md",
+      "content_length": 12768,
+      "pmc_id": "PMC12968519",
+      "pmc_num": 12968519,
+      "title": "Should Injectable Meloxicam Be Approved for Use in Cats?",
+      "record_id": "MOL-000121",
+      "molecule": "Meloxicam"
+    },
+    "piroxicam_nsaid_drug.pdf": {
+      "task_id": "086a776e-d84e-49a0-8840-f9ba026cf2ff14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/898e0043-6f6c-4ca1-8b2b-6b6cd3b8e874/full.md",
+      "content_length": 73790,
+      "pmc_id": "PMC13004739",
+      "pmc_num": 13004739,
+      "title": "In vitro and in vivo synergistic effects of cyclizine and piroxicam in combination with linezolid against methicillin-resistant Staphylococcus aureus.",
+      "record_id": "MOL-000122",
+      "molecule": "Piroxicam"
+    },
+    "sulindac_nsaid_drug.pdf": {
+      "task_id": "57ab8a55-a734-461c-b607-75575e1068a614",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/33517cee-b38e-4139-8a3a-5844cff211ae/full.md",
+      "content_length": 48154,
+      "pmc_id": "PMC13204362",
+      "pmc_num": 13204362,
+      "title": "Systemic Therapies for Desmoid Tumors: A Review of Past, Present, and Future Treatments",
+      "record_id": "MOL-000123",
+      "molecule": "Sulindac"
+    },
+    "etodolac_nsaid_drug.pdf": {
+      "task_id": "13a06d44-8197-493c-9269-498ec1c6bc9414",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3e64def8-9d5a-4ef7-9579-0224c78aed96/full.md",
+      "content_length": 51815,
+      "pmc_id": "PMC13081246",
+      "pmc_num": 13081246,
+      "title": "Comparative effects of thiocolchicoside and etodolac on fracture healing in a rat femur model.",
+      "record_id": "MOL-000124",
+      "molecule": "Etodolac"
+    },
+    "ketorolac_nsaid_drug.pdf": {
+      "task_id": "80cafec3-93c3-46c6-aa63-f335eb3f3ff614",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4aa7e949-fb10-4a0a-b6e5-8c6c191f8949/full.md",
+      "content_length": 46962,
+      "pmc_id": "PMC12914131",
+      "pmc_num": 12914131,
+      "title": "The Effectiveness of Ketorolac in Relieving Pain Associated With Root Canal Therapy: A Systematic Review and Meta-Analysis.",
+      "record_id": "MOL-000125",
+      "molecule": "Ketorolac"
+    },
+    "mefenamic_acid_nsaid_drug.pdf": {
+      "task_id": "a76eee17-c78c-47cb-801c-46f3b3f0ce0814",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/89a103b4-7874-4835-89d3-638b03c3b5cf/full.md",
+      "content_length": 6318,
+      "pmc_id": "PMC12662608",
+      "pmc_num": 12662608,
+      "title": "Anaphylactic shock due to mefenamic acid.",
+      "record_id": "MOL-000127",
+      "molecule": "Mefenamic Acid"
+    },
+    "diclofenac_sodium_nsaid_drug.pdf": {
+      "task_id": "e1a2db7a-a40a-459d-83a2-dd970b8b7a0914",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d4a5d8b6-a1c8-41fa-9720-4b81be58ee6b/full.md",
+      "content_length": 68939,
+      "pmc_id": "PMC13124999",
+      "pmc_num": 13124999,
+      "title": "Clinical outcomes and safety of preservative-free diclofenac sodium eye drops in SPT-assisted transepithelial photorefractive keratectomy.",
+      "record_id": "MOL-000128",
+      "molecule": "Diclofenac Sodium"
+    },
+    "flurbiprofen_nsaid_drug.pdf": {
+      "task_id": "a12dfc1d-b787-4986-a96c-e818b73d104114",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/669a2219-eeee-4d8c-a57a-2bf74c239b3c/full.md",
+      "content_length": 59657,
+      "pmc_id": "PMC13073214",
+      "pmc_num": 13073214,
+      "title": "The Activation of Aldehyde Dehydrogenase 2 (ALDH2) by Alda-1 and Flurbiprofen as a Common Mechanism to Reduce Alcohol Intake in Rats.",
+      "record_id": "MOL-000129",
+      "molecule": "Flurbiprofen"
+    },
+    "ketoprofen_nsaid_drug.pdf": {
+      "task_id": "6a6ec08a-d14e-4f30-aeda-93459d8ea23014",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/7c8840f8-eade-4bdd-8136-18428286e517/full.md",
+      "content_length": 56844,
+      "pmc_id": "PMC12878335",
+      "pmc_num": 12878335,
+      "title": "Investigation of Properties and Structure-Activity Relationship of Ketoprofen-Based Ionic Liquids Using Density Functional Quantum Chemical Theory Calculations.",
+      "record_id": "MOL-000130",
+      "molecule": "Ketoprofen"
+    },
+    "fenoprofen_nsaid_drug.pdf": {
+      "task_id": "d3f2aa90-d3c7-4b15-8742-64dd1a1277d314",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1fce7316-7616-4a5f-9fb1-c25781ed88bd/full.md",
+      "content_length": 68505,
+      "pmc_id": "PMC12475962",
+      "pmc_num": 12475962,
+      "title": "Development, Optimization, and Application of Molecularly Imprinted Polymers-Solid Phase Extraction Procedure for the Analysis of Selected Pharmaceuticals in Vegetable Samples.",
+      "record_id": "MOL-000131",
+      "molecule": "Fenoprofen"
+    },
+    "tolmetin_nsaid_drug.pdf": {
+      "task_id": "2ceeebd9-8fc3-4b9f-9c3a-df803b0be28814",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/54dc94cf-4f29-4a15-8ced-1fbbebd69dad/full.md",
+      "content_length": 70672,
+      "pmc_id": "PMC11103698",
+      "pmc_num": 11103698,
+      "title": "Potential-Modulated Surface-Enhanced Raman Spectroscopy of Tolmetin at Gold Nanoparticle Film Functionalized Polarizable Liquid-Liquid Interfaces.",
+      "record_id": "MOL-000132",
+      "molecule": "Tolmetin"
+    },
+    "oxaprozin_nsaid_drug.pdf": {
+      "task_id": "1981ab86-47cb-4a6c-b53e-4fa154fe89b314",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC12708636",
+      "pmc_num": 12708636,
+      "title": "Computational drug repositioning approach to predict multi-target therapeutics for epilepsy.",
+      "record_id": "MOL-000133",
+      "molecule": "Oxaprozin"
+    },
+    "indomethacin_sodium_nsaid_drug.pdf": {
+      "task_id": "6d3bb64e-c4fb-47c5-9355-2193865d5db514",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c93b52bf-9e2e-43ab-a705-6ad3b8eb3830/full.md",
+      "content_length": 67583,
+      "pmc_id": "PMC12587442",
+      "pmc_num": 12587442,
+      "title": "Looking behind the Solubilization Curtain: Microdialysis Provides Near-Real-Time Noncolloidal Drug Concentrations during In Vitro Lipolysis.",
+      "record_id": "MOL-000134",
+      "molecule": "Indomethacin Sodium"
     }
   },
-  "last_expansion": "2026-06-01T08:52:14Z"
+  "last_expansion": "2026-06-01T09:22:23Z"
 }
