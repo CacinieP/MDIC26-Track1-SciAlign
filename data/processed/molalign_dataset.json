@@ -1007,7 +1007,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed penicillin_g_antibiotic.pdf via MinerU Agent API and aligned Markdown to Penicillin G (Antibiotic).",
+          "input": "data/raw/papers/penicillin_g_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/penicillin_g_antibiotic.md",
+          "task_id": "97a3676b-fd71-4fa3-a668-e314abe3176414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4e1da56c-cf8a-4503-98fc-0a81e2aadf6c/full.md",
+          "content_length": 2859,
+          "pmc_id": "PMC12793167",
+          "detail": "task_id=97a3676b-fd71-4fa3-a668-e314abe3176414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4e1da56c-cf8a-4503-98fc-0a81e2aadf6c/full.md; content_length=2859"
+        }
+      ],
       "created_at": "2026-05-31T11:59:51Z",
       "updated_at": "2026-05-31T11:59:51Z",
       "version": "1.0.0"
@@ -1130,7 +1142,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed amoxicillin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Amoxicillin (Antibiotic).",
+          "input": "data/raw/papers/amoxicillin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/amoxicillin_antibiotic.md",
+          "task_id": "33b86bda-f237-4698-9423-de8f366962ee14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/80601232-4157-475e-b5a9-4cd268e3983e/full.md",
+          "content_length": 43363,
+          "pmc_id": "PMC13111529",
+          "detail": "task_id=33b86bda-f237-4698-9423-de8f366962ee14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/80601232-4157-475e-b5a9-4cd268e3983e/full.md; content_length=43363"
+        }
+      ],
       "created_at": "2026-05-31T11:59:57Z",
       "updated_at": "2026-05-31T11:59:57Z",
       "version": "1.0.0"
@@ -1271,7 +1295,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed ciprofloxacin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Ciprofloxacin (Antibiotic).",
+          "input": "data/raw/papers/ciprofloxacin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/ciprofloxacin_antibiotic.md",
+          "task_id": "fbdeb9ac-262b-4bca-8aae-39054e97d0ef14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e07d51a8-7dd0-4ae4-a217-210824a4fed6/full.md",
+          "content_length": 85138,
+          "pmc_id": "PMC13090387",
+          "detail": "task_id=fbdeb9ac-262b-4bca-8aae-39054e97d0ef14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e07d51a8-7dd0-4ae4-a217-210824a4fed6/full.md; content_length=85138"
+        }
+      ],
       "created_at": "2026-05-31T12:00:00Z",
       "updated_at": "2026-05-31T12:00:00Z",
       "version": "1.0.0"
@@ -1394,7 +1430,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed doxycycline_antibiotic.pdf via MinerU Agent API and aligned Markdown to Doxycycline (Antibiotic).",
+          "input": "data/raw/papers/doxycycline_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/doxycycline_antibiotic.md",
+          "task_id": "70db7505-6b49-46b8-9fc5-1d3cef49ac0814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a894f931-4f0b-4698-b35e-8b0f34b26291/full.md",
+          "content_length": 45703,
+          "pmc_id": "PMC13182717",
+          "detail": "task_id=70db7505-6b49-46b8-9fc5-1d3cef49ac0814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a894f931-4f0b-4698-b35e-8b0f34b26291/full.md; content_length=45703"
+        }
+      ],
       "created_at": "2026-05-31T12:00:02Z",
       "updated_at": "2026-05-31T12:00:02Z",
       "version": "1.0.0"
@@ -1518,7 +1566,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed azithromycin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Azithromycin (Antibiotic).",
+          "input": "data/raw/papers/azithromycin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/azithromycin_antibiotic.md",
+          "task_id": "5bfa1b8c-c214-4dcc-b44c-51606d843f9414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4fff3017-c760-4a45-9f26-50c4c41dd76e/full.md",
+          "content_length": 75628,
+          "pmc_id": "PMC13119893",
+          "detail": "task_id=5bfa1b8c-c214-4dcc-b44c-51606d843f9414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4fff3017-c760-4a45-9f26-50c4c41dd76e/full.md; content_length=75628"
+        }
+      ],
       "created_at": "2026-05-31T12:00:06Z",
       "updated_at": "2026-05-31T12:00:06Z",
       "version": "1.0.0"
@@ -1642,7 +1702,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed vancomycin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Vancomycin (Antibiotic).",
+          "input": "data/raw/papers/vancomycin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/vancomycin_antibiotic.md",
+          "task_id": "d52508b2-9aea-4ea6-a371-fde028c9056b14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4d8f1526-3639-4073-8ad5-5fab844b1859/full.md",
+          "content_length": 62843,
+          "pmc_id": "PMC13180884",
+          "detail": "task_id=d52508b2-9aea-4ea6-a371-fde028c9056b14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4d8f1526-3639-4073-8ad5-5fab844b1859/full.md; content_length=62843"
+        }
+      ],
       "created_at": "2026-05-31T12:00:09Z",
       "updated_at": "2026-05-31T12:00:09Z",
       "version": "1.0.0"
@@ -1766,7 +1838,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed gentamicin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Gentamicin (Antibiotic).",
+          "input": "data/raw/papers/gentamicin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/gentamicin_antibiotic.md",
+          "task_id": "c1abd6e7-f91b-41cd-9b07-fef87a0657e814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/03a73db7-af59-4110-8b40-54588962d69d/full.md",
+          "content_length": 57570,
+          "pmc_id": "PMC13096156",
+          "detail": "task_id=c1abd6e7-f91b-41cd-9b07-fef87a0657e814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/03a73db7-af59-4110-8b40-54588962d69d/full.md; content_length=57570"
+        }
+      ],
       "created_at": "2026-05-31T12:00:12Z",
       "updated_at": "2026-05-31T12:00:12Z",
       "version": "1.0.0"
@@ -1889,7 +1973,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed metronidazole_antibiotic.pdf via MinerU Agent API and aligned Markdown to Metronidazole (Antibiotic).",
+          "input": "data/raw/papers/metronidazole_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/metronidazole_antibiotic.md",
+          "task_id": "056be104-ab9c-4f1a-b111-1ce0a2a3bee314",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/5193ea24-23d8-4227-a94d-0e194bd2fe98/full.md",
+          "content_length": 48204,
+          "pmc_id": "PMC13128963",
+          "detail": "task_id=056be104-ab9c-4f1a-b111-1ce0a2a3bee314; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/5193ea24-23d8-4227-a94d-0e194bd2fe98/full.md; content_length=48204"
+        }
+      ],
       "created_at": "2026-05-31T12:00:14Z",
       "updated_at": "2026-05-31T12:00:14Z",
       "version": "1.0.0"
@@ -3484,7 +3580,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed imatinib_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Imatinib (Anticancer Drug).",
+          "input": "data/raw/papers/imatinib_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/imatinib_anticancer_drug.md",
+          "task_id": "161714fc-6d94-4842-8725-7568f1ff838f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/69b76480-1ec9-4dd2-a3ba-714324f18410/full.md",
+          "content_length": 81777,
+          "pmc_id": "PMC13090219",
+          "detail": "task_id=161714fc-6d94-4842-8725-7568f1ff838f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/69b76480-1ec9-4dd2-a3ba-714324f18410/full.md; content_length=81777"
+        }
+      ],
       "created_at": "2026-05-31T12:00:50Z",
       "updated_at": "2026-05-31T12:00:50Z",
       "version": "1.0.0"
@@ -3607,7 +3715,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cyclophosphamide_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Cyclophosphamide (Anticancer Drug).",
+          "input": "data/raw/papers/cyclophosphamide_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/cyclophosphamide_anticancer_drug.md",
+          "task_id": "10f718c6-4898-4bb9-be8d-75b869cf6e9a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/61260350-8e43-4075-a413-717c52c52700/full.md",
+          "content_length": 60772,
+          "pmc_id": "PMC13203293",
+          "detail": "task_id=10f718c6-4898-4bb9-be8d-75b869cf6e9a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/61260350-8e43-4075-a413-717c52c52700/full.md; content_length=60772"
+        }
+      ],
       "created_at": "2026-05-31T12:00:52Z",
       "updated_at": "2026-05-31T12:00:52Z",
       "version": "1.0.0"
@@ -4802,7 +4922,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed pioglitazone_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Pioglitazone (Antidiabetic Drug).",
+          "input": "data/raw/papers/pioglitazone_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/pioglitazone_antidiabetic_drug.md",
+          "task_id": "2bd0a793-e15a-406c-bc0f-af8cf54d011514",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a08b0222-d3fa-43dd-a359-49b0f043606a/full.md",
+          "content_length": 51372,
+          "pmc_id": "PMC13116796",
+          "detail": "task_id=2bd0a793-e15a-406c-bc0f-af8cf54d011514; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a08b0222-d3fa-43dd-a359-49b0f043606a/full.md; content_length=51372"
+        }
+      ],
       "created_at": "2026-05-31T12:01:14Z",
       "updated_at": "2026-05-31T12:01:14Z",
       "version": "1.0.0"
@@ -4925,7 +5057,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed empagliflozin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Empagliflozin (Antidiabetic Drug).",
+          "input": "data/raw/papers/empagliflozin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/empagliflozin_antidiabetic_drug.md",
+          "task_id": "9ddbf7f9-6dc0-482b-89d6-dda8b94b2e6414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/74ee0dc0-8d0c-473e-9040-59dc4998bd9e/full.md",
+          "content_length": 49837,
+          "pmc_id": "PMC13090579",
+          "detail": "task_id=9ddbf7f9-6dc0-482b-89d6-dda8b94b2e6414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/74ee0dc0-8d0c-473e-9040-59dc4998bd9e/full.md; content_length=49837"
+        }
+      ],
       "created_at": "2026-05-31T12:01:17Z",
       "updated_at": "2026-05-31T12:01:17Z",
       "version": "1.0.0"
@@ -5823,7 +5967,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed lisinopril_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Lisinopril (Antihypertensive).",
+          "input": "data/raw/papers/lisinopril_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/lisinopril_antihypertensive.md",
+          "task_id": "a92f7115-4c5c-4ee5-83f5-8f73a21f246814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/09f41ddd-ced6-4c9f-83de-faa4057112ce/full.md",
+          "content_length": 61322,
+          "pmc_id": "PMC12986413",
+          "detail": "task_id=a92f7115-4c5c-4ee5-83f5-8f73a21f246814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/09f41ddd-ced6-4c9f-83de-faa4057112ce/full.md; content_length=61322"
+        }
+      ],
       "created_at": "2026-05-31T12:01:33Z",
       "updated_at": "2026-05-31T12:01:33Z",
       "version": "1.0.0"
@@ -5947,7 +6103,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed losartan_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Losartan (Antihypertensive).",
+          "input": "data/raw/papers/losartan_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/losartan_antihypertensive.md",
+          "task_id": "aa084ae4-1f50-4856-bef4-0e054c8066a914",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bdd06365-3eef-4cd6-9982-fa1186143acd/full.md",
+          "content_length": 55126,
+          "pmc_id": "PMC13100804",
+          "detail": "task_id=aa084ae4-1f50-4856-bef4-0e054c8066a914; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bdd06365-3eef-4cd6-9982-fa1186143acd/full.md; content_length=55126"
+        }
+      ],
       "created_at": "2026-05-31T12:01:40Z",
       "updated_at": "2026-05-31T12:01:40Z",
       "version": "1.0.0"
@@ -6071,7 +6239,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed amlodipine_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Amlodipine (Antihypertensive).",
+          "input": "data/raw/papers/amlodipine_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/amlodipine_antihypertensive.md",
+          "task_id": "248f2f39-1d4c-46b8-98e1-2b363f76f8d614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/58da615a-d363-4197-b002-742f3fd086f0/full.md",
+          "content_length": 41267,
+          "pmc_id": "PMC13062482",
+          "detail": "task_id=248f2f39-1d4c-46b8-98e1-2b363f76f8d614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/58da615a-d363-4197-b002-742f3fd086f0/full.md; content_length=41267"
+        }
+      ],
       "created_at": "2026-05-31T12:01:42Z",
       "updated_at": "2026-05-31T12:01:42Z",
       "version": "1.0.0"
@@ -6194,7 +6374,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed enalapril_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Enalapril (Antihypertensive).",
+          "input": "data/raw/papers/enalapril_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/enalapril_antihypertensive.md",
+          "task_id": "aa3c0ae7-c1bf-44b0-8d72-0b9abb93f8c914",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0b3f7534-42e5-425d-8948-f17b13269bf3/full.md",
+          "content_length": 110671,
+          "pmc_id": "PMC12950259",
+          "detail": "task_id=aa3c0ae7-c1bf-44b0-8d72-0b9abb93f8c914; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0b3f7534-42e5-425d-8948-f17b13269bf3/full.md; content_length=110671"
+        }
+      ],
       "created_at": "2026-05-31T12:01:44Z",
       "updated_at": "2026-05-31T12:01:44Z",
       "version": "1.0.0"
@@ -6317,7 +6509,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed valsartan_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Valsartan (Antihypertensive).",
+          "input": "data/raw/papers/valsartan_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/valsartan_antihypertensive.md",
+          "task_id": "e27db636-512a-4746-acf2-549c20e6bed414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a1943d47-d3dd-4aeb-8e0c-216fa1a0e069/full.md",
+          "content_length": 52614,
+          "pmc_id": "PMC13051583",
+          "detail": "task_id=e27db636-512a-4746-acf2-549c20e6bed414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a1943d47-d3dd-4aeb-8e0c-216fa1a0e069/full.md; content_length=52614"
+        }
+      ],
       "created_at": "2026-05-31T12:01:46Z",
       "updated_at": "2026-05-31T12:01:46Z",
       "version": "1.0.0"
@@ -6440,7 +6644,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed metoprolol_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Metoprolol (Antihypertensive).",
+          "input": "data/raw/papers/metoprolol_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/metoprolol_antihypertensive.md",
+          "task_id": "e5198c95-7a70-42af-981c-f7b25fe422ec14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d0ae7bc2-f762-410d-bb0c-2ed40ec3e9bb/full.md",
+          "content_length": 4447,
+          "pmc_id": "PMC13035396",
+          "detail": "task_id=e5198c95-7a70-42af-981c-f7b25fe422ec14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d0ae7bc2-f762-410d-bb0c-2ed40ec3e9bb/full.md; content_length=4447"
+        }
+      ],
       "created_at": "2026-05-31T12:01:48Z",
       "updated_at": "2026-05-31T12:01:48Z",
       "version": "1.0.0"
@@ -10765,7 +10981,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed epigallocatechin_gallate_natural_product.pdf via MinerU Agent API and aligned Markdown to Epigallocatechin gallate (Natural Product).",
+          "input": "data/raw/papers/epigallocatechin_gallate_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/epigallocatechin_gallate_natural_product.md",
+          "task_id": "79660c30-ea31-4e82-ae4c-ebbd0234aa3614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/60111961-46a3-4e3b-beff-abb16ce8072c/full.md",
+          "content_length": 60631,
+          "pmc_id": "PMC12953839",
+          "detail": "task_id=79660c30-ea31-4e82-ae4c-ebbd0234aa3614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/60111961-46a3-4e3b-beff-abb16ce8072c/full.md; content_length=60631"
+        }
+      ],
       "created_at": "2026-05-31T12:02:59Z",
       "updated_at": "2026-05-31T12:02:59Z",
       "version": "1.0.0"
@@ -10888,7 +11116,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed berberine_natural_product.pdf via MinerU Agent API and aligned Markdown to Berberine (Natural Product).",
+          "input": "data/raw/papers/berberine_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/berberine_natural_product.md",
+          "task_id": "98d08635-3117-449f-b382-39da1806964114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8a8085ba-acff-4faf-9d33-bb83b1952a38/full.md",
+          "content_length": 65169,
+          "pmc_id": "PMC13106774",
+          "detail": "task_id=98d08635-3117-449f-b382-39da1806964114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8a8085ba-acff-4faf-9d33-bb83b1952a38/full.md; content_length=65169"
+        }
+      ],
       "created_at": "2026-05-31T12:03:01Z",
       "updated_at": "2026-05-31T12:03:01Z",
       "version": "1.0.0"
@@ -11011,7 +11251,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed genistein_natural_product.pdf via MinerU Agent API and aligned Markdown to Genistein (Natural Product).",
+          "input": "data/raw/papers/genistein_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/genistein_natural_product.md",
+          "task_id": "c9fd28c3-108e-45d1-807e-f65f6eb40b5414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/2af33823-779b-4184-a956-4d88078ec156/full.md",
+          "content_length": 32712,
+          "pmc_id": "PMC13109164",
+          "detail": "task_id=c9fd28c3-108e-45d1-807e-f65f6eb40b5414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/2af33823-779b-4184-a956-4d88078ec156/full.md; content_length=32712"
+        }
+      ],
       "created_at": "2026-05-31T12:03:02Z",
       "updated_at": "2026-05-31T12:03:02Z",
       "version": "1.0.0"
@@ -18616,7 +18868,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cephalexin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Cephalexin (Antibiotic).",
+          "input": "data/raw/papers/cephalexin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/cephalexin_antibiotic.md",
+          "task_id": "cd000307-2133-4a9b-8df2-8868e3e6afaf14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0e6bafd3-b0d5-4dec-9abb-3d476df18695/full.md",
+          "content_length": 27672,
+          "pmc_id": "PMC12962558",
+          "detail": "task_id=cd000307-2133-4a9b-8df2-8868e3e6afaf14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0e6bafd3-b0d5-4dec-9abb-3d476df18695/full.md; content_length=27672"
+        }
+      ],
       "created_at": "2026-05-31T12:05:15Z",
       "updated_at": "2026-05-31T12:05:15Z",
       "version": "1.0.0"
@@ -18740,7 +19004,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed ceftriaxone_antibiotic.pdf via MinerU Agent API and aligned Markdown to Ceftriaxone (Antibiotic).",
+          "input": "data/raw/papers/ceftriaxone_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/ceftriaxone_antibiotic.md",
+          "task_id": "d5b29331-ff55-4e66-b38c-f9f3b02d345f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d707a0c4-f56a-4e34-a8ad-4406a8f734d9/full.md",
+          "content_length": 15865,
+          "pmc_id": "PMC13107951",
+          "detail": "task_id=d5b29331-ff55-4e66-b38c-f9f3b02d345f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d707a0c4-f56a-4e34-a8ad-4406a8f734d9/full.md; content_length=15865"
+        }
+      ],
       "created_at": "2026-05-31T12:05:19Z",
       "updated_at": "2026-05-31T12:05:19Z",
       "version": "1.0.0"
@@ -18863,7 +19139,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed ceftazidime_antibiotic.pdf via MinerU Agent API and aligned Markdown to Ceftazidime (Antibiotic).",
+          "input": "data/raw/papers/ceftazidime_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/ceftazidime_antibiotic.md",
+          "task_id": "49881ac1-5281-4719-8c32-60ac4ba23bbb14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/115d41a2-af52-4c02-b1b6-d04aa6229237/full.md",
+          "content_length": 53459,
+          "pmc_id": "PMC13082971",
+          "detail": "task_id=49881ac1-5281-4719-8c32-60ac4ba23bbb14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/115d41a2-af52-4c02-b1b6-d04aa6229237/full.md; content_length=53459"
+        }
+      ],
       "created_at": "2026-05-31T12:05:22Z",
       "updated_at": "2026-05-31T12:05:22Z",
       "version": "1.0.0"
@@ -18986,7 +19274,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cefazolin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Cefazolin (Antibiotic).",
+          "input": "data/raw/papers/cefazolin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/cefazolin_antibiotic.md",
+          "task_id": "786e11e8-bc69-4deb-ab39-a5d6922df4b414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/11fd8d56-1c5b-4a16-89b9-b018ffc39fc0/full.md",
+          "content_length": 53816,
+          "pmc_id": "PMC13121896",
+          "detail": "task_id=786e11e8-bc69-4deb-ab39-a5d6922df4b414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/11fd8d56-1c5b-4a16-89b9-b018ffc39fc0/full.md; content_length=53816"
+        }
+      ],
       "created_at": "2026-05-31T12:05:25Z",
       "updated_at": "2026-05-31T12:05:25Z",
       "version": "1.0.0"
@@ -19109,7 +19409,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cefuroxime_antibiotic.pdf via MinerU Agent API and aligned Markdown to Cefuroxime (Antibiotic).",
+          "input": "data/raw/papers/cefuroxime_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/cefuroxime_antibiotic.md",
+          "task_id": "e10c827f-36e8-4a5e-8f0a-b064e458a68114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/587ebb56-33cd-4e13-9f08-f1885fbc933c/full.md",
+          "content_length": 29201,
+          "pmc_id": "PMC12999426",
+          "detail": "task_id=e10c827f-36e8-4a5e-8f0a-b064e458a68114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/587ebb56-33cd-4e13-9f08-f1885fbc933c/full.md; content_length=29201"
+        }
+      ],
       "created_at": "2026-05-31T12:05:28Z",
       "updated_at": "2026-05-31T12:05:28Z",
       "version": "1.0.0"
@@ -19232,7 +19544,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cefepime_antibiotic.pdf via MinerU Agent API and aligned Markdown to Cefepime (Antibiotic).",
+          "input": "data/raw/papers/cefepime_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/cefepime_antibiotic.md",
+          "task_id": "2b7e9654-e5b8-4b35-8bba-e2b5d710705514",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b62966be-a365-496a-8297-10031b9b3b6d/full.md",
+          "content_length": 11140,
+          "pmc_id": "PMC13070699",
+          "detail": "task_id=2b7e9654-e5b8-4b35-8bba-e2b5d710705514; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b62966be-a365-496a-8297-10031b9b3b6d/full.md; content_length=11140"
+        }
+      ],
       "created_at": "2026-05-31T12:05:31Z",
       "updated_at": "2026-05-31T12:05:31Z",
       "version": "1.0.0"
@@ -19355,7 +19679,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cefixime_antibiotic.pdf via MinerU Agent API and aligned Markdown to Cefixime (Antibiotic).",
+          "input": "data/raw/papers/cefixime_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/cefixime_antibiotic.md",
+          "task_id": "779a995c-e92a-4f7a-8a1c-621fb6e2bbe414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4f72361a-6844-4fc8-a801-0adced69dda6/full.md",
+          "content_length": 46189,
+          "pmc_id": "PMC13023023",
+          "detail": "task_id=779a995c-e92a-4f7a-8a1c-621fb6e2bbe414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4f72361a-6844-4fc8-a801-0adced69dda6/full.md; content_length=46189"
+        }
+      ],
       "created_at": "2026-05-31T12:05:35Z",
       "updated_at": "2026-05-31T12:05:35Z",
       "version": "1.0.0"
@@ -19478,7 +19814,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cefotaxime_antibiotic.pdf via MinerU Agent API and aligned Markdown to Cefotaxime (Antibiotic).",
+          "input": "data/raw/papers/cefotaxime_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/cefotaxime_antibiotic.md",
+          "task_id": "2fcb3a30-f168-4b8e-b7fb-903124ed406914",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/aa2e8e8f-b9f4-4ff4-9658-2dca4eaa7e98/full.md",
+          "content_length": 32256,
+          "pmc_id": "PMC13051454",
+          "detail": "task_id=2fcb3a30-f168-4b8e-b7fb-903124ed406914; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/aa2e8e8f-b9f4-4ff4-9658-2dca4eaa7e98/full.md; content_length=32256"
+        }
+      ],
       "created_at": "2026-05-31T12:05:38Z",
       "updated_at": "2026-05-31T12:05:38Z",
       "version": "1.0.0"
@@ -19601,7 +19949,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cefdinir_antibiotic.pdf via MinerU Agent API and aligned Markdown to Cefdinir (Antibiotic).",
+          "input": "data/raw/papers/cefdinir_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/cefdinir_antibiotic.md",
+          "task_id": "5252b4f9-e0e1-44a2-8993-9ce6257ec3b314",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/095c1d21-18d5-4fc3-9781-76662a2494d8/full.md",
+          "content_length": 2526,
+          "pmc_id": "PMC12792213",
+          "detail": "task_id=5252b4f9-e0e1-44a2-8993-9ce6257ec3b314; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/095c1d21-18d5-4fc3-9781-76662a2494d8/full.md; content_length=2526"
+        }
+      ],
       "created_at": "2026-05-31T12:05:41Z",
       "updated_at": "2026-05-31T12:05:41Z",
       "version": "1.0.0"
@@ -19724,7 +20084,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cefadroxil_antibiotic.pdf via MinerU Agent API and aligned Markdown to Cefadroxil (Antibiotic).",
+          "input": "data/raw/papers/cefadroxil_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/cefadroxil_antibiotic.md",
+          "task_id": "11f61194-3031-412b-8e95-e5554b1ad85614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d37db59a-efe0-4072-8abe-cf20ae7349e5/full.md",
+          "content_length": 25076,
+          "pmc_id": "PMC12754559",
+          "detail": "task_id=11f61194-3031-412b-8e95-e5554b1ad85614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d37db59a-efe0-4072-8abe-cf20ae7349e5/full.md; content_length=25076"
+        }
+      ],
       "created_at": "2026-05-31T12:05:44Z",
       "updated_at": "2026-05-31T12:05:44Z",
       "version": "1.0.0"
@@ -19847,7 +20219,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cefprozil_antibiotic.pdf via MinerU Agent API and aligned Markdown to Cefprozil (Antibiotic).",
+          "input": "data/raw/papers/cefprozil_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/cefprozil_antibiotic.md",
+          "task_id": "4aae7601-1be0-4a63-b2e8-5639a33d293314",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e5f2dad9-e335-41e9-9cf5-ec003e6a92d3/full.md",
+          "content_length": 17573,
+          "pmc_id": "PMC11932131",
+          "detail": "task_id=4aae7601-1be0-4a63-b2e8-5639a33d293314; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e5f2dad9-e335-41e9-9cf5-ec003e6a92d3/full.md; content_length=17573"
+        }
+      ],
       "created_at": "2026-05-31T12:05:46Z",
       "updated_at": "2026-05-31T12:05:46Z",
       "version": "1.0.0"
@@ -19970,7 +20354,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cefpodoxime_antibiotic.pdf via MinerU Agent API and aligned Markdown to Cefpodoxime (Antibiotic).",
+          "input": "data/raw/papers/cefpodoxime_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/cefpodoxime_antibiotic.md",
+          "task_id": "da0ab06d-33cb-4898-8b04-b71e9c462ff914",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/40e5e897-93bc-4162-8da8-0ed4326d85d9/full.md",
+          "content_length": 2712,
+          "pmc_id": "PMC12792384",
+          "detail": "task_id=da0ab06d-33cb-4898-8b04-b71e9c462ff914; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/40e5e897-93bc-4162-8da8-0ed4326d85d9/full.md; content_length=2712"
+        }
+      ],
       "created_at": "2026-05-31T12:05:50Z",
       "updated_at": "2026-05-31T12:05:50Z",
       "version": "1.0.0"
@@ -20216,7 +20612,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cefoxitin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Cefoxitin (Antibiotic).",
+          "input": "data/raw/papers/cefoxitin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/cefoxitin_antibiotic.md",
+          "task_id": "fa3bd691-4bb0-4f92-9bcb-a2fbc158117f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3474d1a3-1cbb-43ff-96e0-3fdeb950dc3c/full.md",
+          "content_length": 3314,
+          "pmc_id": "PMC12791771",
+          "detail": "task_id=fa3bd691-4bb0-4f92-9bcb-a2fbc158117f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3474d1a3-1cbb-43ff-96e0-3fdeb950dc3c/full.md; content_length=3314"
+        }
+      ],
       "created_at": "2026-05-31T12:06:00Z",
       "updated_at": "2026-05-31T12:06:00Z",
       "version": "1.0.0"
@@ -20340,7 +20748,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed erythromycin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Erythromycin (Antibiotic).",
+          "input": "data/raw/papers/erythromycin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/erythromycin_antibiotic.md",
+          "task_id": "559b8a3f-a100-4df0-b31a-2cc455c47e2614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ac2271cd-86fc-44d5-8531-25851649da41/full.md",
+          "content_length": 84369,
+          "pmc_id": "PMC13099881",
+          "detail": "task_id=559b8a3f-a100-4df0-b31a-2cc455c47e2614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ac2271cd-86fc-44d5-8531-25851649da41/full.md; content_length=84369"
+        }
+      ],
       "created_at": "2026-05-31T12:06:04Z",
       "updated_at": "2026-05-31T12:06:04Z",
       "version": "1.0.0"
@@ -20464,7 +20884,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed clarithromycin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Clarithromycin (Antibiotic).",
+          "input": "data/raw/papers/clarithromycin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/clarithromycin_antibiotic.md",
+          "task_id": "0f1c0e92-3cae-43b4-99fd-f3471a6a768314",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/11959b1d-3a4e-44b3-af62-bc5e5d14ff00/full.md",
+          "content_length": 49216,
+          "pmc_id": "PMC13142728",
+          "detail": "task_id=0f1c0e92-3cae-43b4-99fd-f3471a6a768314; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/11959b1d-3a4e-44b3-af62-bc5e5d14ff00/full.md; content_length=49216"
+        }
+      ],
       "created_at": "2026-05-31T12:06:08Z",
       "updated_at": "2026-05-31T12:06:08Z",
       "version": "1.0.0"
@@ -20587,7 +21019,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed telithromycin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Telithromycin (Antibiotic).",
+          "input": "data/raw/papers/telithromycin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/telithromycin_antibiotic.md",
+          "task_id": "c5d86890-e528-4176-929b-33cd3b94133f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ec8845c1-bdc1-44fe-bfeb-24d5d959d682/full.md",
+          "content_length": 12884,
+          "pmc_id": "PMC12584668",
+          "detail": "task_id=c5d86890-e528-4176-929b-33cd3b94133f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ec8845c1-bdc1-44fe-bfeb-24d5d959d682/full.md; content_length=12884"
+        }
+      ],
       "created_at": "2026-05-31T12:06:13Z",
       "updated_at": "2026-05-31T12:06:13Z",
       "version": "1.0.0"
@@ -20710,7 +21154,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed fidaxomicin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Fidaxomicin (Antibiotic).",
+          "input": "data/raw/papers/fidaxomicin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/fidaxomicin_antibiotic.md",
+          "task_id": "10a2b49a-a584-4738-9b16-d140581f215314",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/46ca2444-d9f1-4eff-b0eb-730b86c2dfce/full.md",
+          "content_length": 69470,
+          "pmc_id": "PMC12874842",
+          "detail": "task_id=10a2b49a-a584-4738-9b16-d140581f215314; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/46ca2444-d9f1-4eff-b0eb-730b86c2dfce/full.md; content_length=69470"
+        }
+      ],
       "created_at": "2026-05-31T12:06:18Z",
       "updated_at": "2026-05-31T12:06:18Z",
       "version": "1.0.0"
@@ -20834,7 +21290,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed amikacin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Amikacin (Antibiotic).",
+          "input": "data/raw/papers/amikacin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/amikacin_antibiotic.md",
+          "task_id": "0fa26305-d59c-44e2-a277-da335adc0f7914",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b62c61be-64af-47fe-bb8f-55e3ad07838f/full.md",
+          "content_length": 45361,
+          "pmc_id": "PMC13076408",
+          "detail": "task_id=0fa26305-d59c-44e2-a277-da335adc0f7914; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b62c61be-64af-47fe-bb8f-55e3ad07838f/full.md; content_length=45361"
+        }
+      ],
       "created_at": "2026-05-31T12:06:21Z",
       "updated_at": "2026-05-31T12:06:21Z",
       "version": "1.0.0"
@@ -20957,7 +21425,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed tobramycin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Tobramycin (Antibiotic).",
+          "input": "data/raw/papers/tobramycin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/tobramycin_antibiotic.md",
+          "task_id": "c671d0d3-90af-422d-badf-11a56b3243bb14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/cd6ef164-6523-4199-8769-f371ae02d811/full.md",
+          "content_length": 53202,
+          "pmc_id": "PMC13071791",
+          "detail": "task_id=c671d0d3-90af-422d-badf-11a56b3243bb14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/cd6ef164-6523-4199-8769-f371ae02d811/full.md; content_length=53202"
+        }
+      ],
       "created_at": "2026-05-31T12:06:24Z",
       "updated_at": "2026-05-31T12:06:24Z",
       "version": "1.0.0"
@@ -21080,7 +21560,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed neomycin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Neomycin (Antibiotic).",
+          "input": "data/raw/papers/neomycin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/neomycin_antibiotic.md",
+          "task_id": "9db32ade-3a11-4a11-b0a0-5d61ca2c49af14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a6e7d2ae-e6b1-4a72-ae86-5e68273c1e4e/full.md",
+          "content_length": 56346,
+          "pmc_id": "PMC13120434",
+          "detail": "task_id=9db32ade-3a11-4a11-b0a0-5d61ca2c49af14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a6e7d2ae-e6b1-4a72-ae86-5e68273c1e4e/full.md; content_length=56346"
+        }
+      ],
       "created_at": "2026-05-31T12:06:27Z",
       "updated_at": "2026-05-31T12:06:27Z",
       "version": "1.0.0"
@@ -21203,7 +21695,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed kanamycin_antibiotic.pdf via MinerU Agent API and aligned Markdown to Kanamycin (Antibiotic).",
+          "input": "data/raw/papers/kanamycin_antibiotic.pdf",
+          "output": "data/raw/parsed_mineru_api/kanamycin_antibiotic.md",
+          "task_id": "b6a0998a-9e3a-4352-91f7-920c109e4c4e14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/2a14f9a8-4e74-49d4-ad02-cb9edc71e8f9/full.md",
+          "content_length": 38025,
+          "pmc_id": "PMC12990473",
+          "detail": "task_id=b6a0998a-9e3a-4352-91f7-920c109e4c4e14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/2a14f9a8-4e74-49d4-ad02-cb9edc71e8f9/full.md; content_length=38025"
+        }
+      ],
       "created_at": "2026-05-31T12:06:30Z",
       "updated_at": "2026-05-31T12:06:30Z",
       "version": "1.0.0"
@@ -32390,7 +32894,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed oxaliplatin_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Oxaliplatin (Anticancer Drug).",
+          "input": "data/raw/papers/oxaliplatin_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/oxaliplatin_anticancer_drug.md",
+          "task_id": "c2e40d0d-2308-4b44-9fbc-d47414daccd314",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d833f3fe-7523-4e9e-a923-a743881b6a70/full.md",
+          "content_length": 73714,
+          "pmc_id": "PMC12979269",
+          "detail": "task_id=c2e40d0d-2308-4b44-9fbc-d47414daccd314; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d833f3fe-7523-4e9e-a923-a743881b6a70/full.md; content_length=73714"
+        }
+      ],
       "created_at": "2026-05-31T12:10:59Z",
       "updated_at": "2026-05-31T12:10:59Z",
       "version": "1.0.0"
@@ -32514,7 +33030,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cisplatin_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Cisplatin (Anticancer Drug).",
+          "input": "data/raw/papers/cisplatin_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/cisplatin_anticancer_drug.md",
+          "task_id": "316e824b-3133-42a6-9ecc-e381f2ad496d14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/486140d1-c6b1-4e47-88f9-8d4656a7e325/full.md",
+          "content_length": 67425,
+          "pmc_id": "PMC13210263",
+          "detail": "task_id=316e824b-3133-42a6-9ecc-e381f2ad496d14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/486140d1-c6b1-4e47-88f9-8d4656a7e325/full.md; content_length=67425"
+        }
+      ],
       "created_at": "2026-05-31T12:11:00Z",
       "updated_at": "2026-05-31T12:11:00Z",
       "version": "1.0.0"
@@ -32761,7 +33289,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed capecitabine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Capecitabine (Anticancer Drug).",
+          "input": "data/raw/papers/capecitabine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/capecitabine_anticancer_drug.md",
+          "task_id": "d0417461-dc7c-457a-9dfe-3bd70b7bb50714",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/feadb2b1-4288-4acd-922f-bba2e72d2407/full.md",
+          "content_length": 57571,
+          "pmc_id": "PMC13035565",
+          "detail": "task_id=d0417461-dc7c-457a-9dfe-3bd70b7bb50714; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/feadb2b1-4288-4acd-922f-bba2e72d2407/full.md; content_length=57571"
+        }
+      ],
       "created_at": "2026-05-31T12:11:05Z",
       "updated_at": "2026-05-31T12:11:05Z",
       "version": "1.0.0"
@@ -32884,7 +33424,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed pemetrexed_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Pemetrexed (Anticancer Drug).",
+          "input": "data/raw/papers/pemetrexed_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/pemetrexed_anticancer_drug.md",
+          "task_id": "67db5d78-abdc-4a5e-afb6-bfd10aa3cd5014",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6046c58e-2e69-43e6-8dd4-21bc01800a7b/full.md",
+          "content_length": 52507,
+          "pmc_id": "PMC12969177",
+          "detail": "task_id=67db5d78-abdc-4a5e-afb6-bfd10aa3cd5014; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6046c58e-2e69-43e6-8dd4-21bc01800a7b/full.md; content_length=52507"
+        }
+      ],
       "created_at": "2026-05-31T12:11:08Z",
       "updated_at": "2026-05-31T12:11:08Z",
       "version": "1.0.0"
@@ -33007,7 +33559,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed raltitrexed_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Raltitrexed (Anticancer Drug).",
+          "input": "data/raw/papers/raltitrexed_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/raltitrexed_anticancer_drug.md",
+          "task_id": "77a80995-d205-4e69-8cd3-40ffc0da921814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b7652bd7-6773-4f8a-b5f1-bee414676424/full.md",
+          "content_length": 25410,
+          "pmc_id": "PMC12953104",
+          "detail": "task_id=77a80995-d205-4e69-8cd3-40ffc0da921814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b7652bd7-6773-4f8a-b5f1-bee414676424/full.md; content_length=25410"
+        }
+      ],
       "created_at": "2026-05-31T12:11:11Z",
       "updated_at": "2026-05-31T12:11:11Z",
       "version": "1.0.0"
@@ -33130,7 +33694,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cladribine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Cladribine (Anticancer Drug).",
+          "input": "data/raw/papers/cladribine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/cladribine_anticancer_drug.md",
+          "task_id": "01c63393-ac63-49a8-88be-12b9043fd29e14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b9a6fee2-ee7a-48f8-998a-40bad1258625/full.md",
+          "content_length": 48814,
+          "pmc_id": "PMC12996015",
+          "detail": "task_id=01c63393-ac63-49a8-88be-12b9043fd29e14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b9a6fee2-ee7a-48f8-998a-40bad1258625/full.md; content_length=48814"
+        }
+      ],
       "created_at": "2026-05-31T12:11:13Z",
       "updated_at": "2026-05-31T12:11:13Z",
       "version": "1.0.0"
@@ -33253,7 +33829,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed clofarabine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Clofarabine (Anticancer Drug).",
+          "input": "data/raw/papers/clofarabine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/clofarabine_anticancer_drug.md",
+          "task_id": "fc6afa37-d79c-4ef1-b51a-c30bf89aa2ff14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/73eee011-974c-4458-99e4-108292d1f57c/full.md",
+          "content_length": 49471,
+          "pmc_id": "PMC12987827",
+          "detail": "task_id=fc6afa37-d79c-4ef1-b51a-c30bf89aa2ff14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/73eee011-974c-4458-99e4-108292d1f57c/full.md; content_length=49471"
+        }
+      ],
       "created_at": "2026-05-31T12:11:14Z",
       "updated_at": "2026-05-31T12:11:14Z",
       "version": "1.0.0"
@@ -33376,7 +33964,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed nelarabine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Nelarabine (Anticancer Drug).",
+          "input": "data/raw/papers/nelarabine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/nelarabine_anticancer_drug.md",
+          "task_id": "29e475e9-5dca-4743-b32a-120eff6f442c14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b7162941-33ac-46c5-bad5-83e9300ca6bc/full.md",
+          "content_length": 31349,
+          "pmc_id": "PMC13046595",
+          "detail": "task_id=29e475e9-5dca-4743-b32a-120eff6f442c14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b7162941-33ac-46c5-bad5-83e9300ca6bc/full.md; content_length=31349"
+        }
+      ],
       "created_at": "2026-05-31T12:11:16Z",
       "updated_at": "2026-05-31T12:11:16Z",
       "version": "1.0.0"
@@ -33622,7 +34222,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cytarabine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Cytarabine (Anticancer Drug).",
+          "input": "data/raw/papers/cytarabine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/cytarabine_anticancer_drug.md",
+          "task_id": "85f88ade-0b65-40cb-bffb-1df97d25cf0414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/514bdb5e-3681-4232-8910-6f6eb866b238/full.md",
+          "content_length": 25501,
+          "pmc_id": "PMC13083873",
+          "detail": "task_id=85f88ade-0b65-40cb-bffb-1df97d25cf0414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/514bdb5e-3681-4232-8910-6f6eb866b238/full.md; content_length=25501"
+        }
+      ],
       "created_at": "2026-05-31T12:11:21Z",
       "updated_at": "2026-05-31T12:11:21Z",
       "version": "1.0.0"
@@ -33745,7 +34357,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed mercaptopurine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Mercaptopurine (Anticancer Drug).",
+          "input": "data/raw/papers/mercaptopurine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/mercaptopurine_anticancer_drug.md",
+          "task_id": "9e2a7e78-fc36-4139-b1bb-4535a89f36cd14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/5a506a17-5d70-4d57-8c8e-76d69c1b24fb/full.md",
+          "content_length": 60629,
+          "pmc_id": "PMC12997511",
+          "detail": "task_id=9e2a7e78-fc36-4139-b1bb-4535a89f36cd14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/5a506a17-5d70-4d57-8c8e-76d69c1b24fb/full.md; content_length=60629"
+        }
+      ],
       "created_at": "2026-05-31T12:11:26Z",
       "updated_at": "2026-05-31T12:11:26Z",
       "version": "1.0.0"
@@ -33868,7 +34492,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed thioguanine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Thioguanine (Anticancer Drug).",
+          "input": "data/raw/papers/thioguanine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/thioguanine_anticancer_drug.md",
+          "task_id": "6a3e5c13-56dd-425a-977a-36da8369ed2c14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e73ae802-9f05-4b48-bb28-d067e3de3a4f/full.md",
+          "content_length": 45551,
+          "pmc_id": "PMC12865446",
+          "detail": "task_id=6a3e5c13-56dd-425a-977a-36da8369ed2c14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e73ae802-9f05-4b48-bb28-d067e3de3a4f/full.md; content_length=45551"
+        }
+      ],
       "created_at": "2026-05-31T12:11:30Z",
       "updated_at": "2026-05-31T12:11:30Z",
       "version": "1.0.0"
@@ -33991,7 +34627,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed floxuridine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Floxuridine (Anticancer Drug).",
+          "input": "data/raw/papers/floxuridine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/floxuridine_anticancer_drug.md",
+          "task_id": "0ce19f71-ee22-4ee4-a4a0-35bff529a88114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8129b6ec-44a5-4ecc-95ae-7602bc390faf/full.md",
+          "content_length": 44184,
+          "pmc_id": "PMC12459136",
+          "detail": "task_id=0ce19f71-ee22-4ee4-a4a0-35bff529a88114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8129b6ec-44a5-4ecc-95ae-7602bc390faf/full.md; content_length=44184"
+        }
+      ],
       "created_at": "2026-05-31T12:11:33Z",
       "updated_at": "2026-05-31T12:11:33Z",
       "version": "1.0.0"
@@ -34237,7 +34885,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed ifosfamide_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Ifosfamide (Anticancer Drug).",
+          "input": "data/raw/papers/ifosfamide_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/ifosfamide_anticancer_drug.md",
+          "task_id": "f5563c64-c746-405a-bf4a-055244de0c5f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d99f9106-3a62-448a-ab63-ef64db274188/full.md",
+          "content_length": 77331,
+          "pmc_id": "PMC13190490",
+          "detail": "task_id=f5563c64-c746-405a-bf4a-055244de0c5f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d99f9106-3a62-448a-ab63-ef64db274188/full.md; content_length=77331"
+        }
+      ],
       "created_at": "2026-05-31T12:11:37Z",
       "updated_at": "2026-05-31T12:11:37Z",
       "version": "1.0.0"
@@ -34483,7 +35143,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed carmustine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Carmustine (Anticancer Drug).",
+          "input": "data/raw/papers/carmustine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/carmustine_anticancer_drug.md",
+          "task_id": "9eaa227d-862f-4c68-aabb-3fa75c31d16814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6f9b6810-7a8e-4839-820a-7120d25cd82d/full.md",
+          "content_length": 101608,
+          "pmc_id": "PMC12805317",
+          "detail": "task_id=9eaa227d-862f-4c68-aabb-3fa75c31d16814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6f9b6810-7a8e-4839-820a-7120d25cd82d/full.md; content_length=101608"
+        }
+      ],
       "created_at": "2026-05-31T12:11:42Z",
       "updated_at": "2026-05-31T12:11:42Z",
       "version": "1.0.0"
@@ -34729,7 +35401,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed melphalan_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Melphalan (Anticancer Drug).",
+          "input": "data/raw/papers/melphalan_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/melphalan_anticancer_drug.md",
+          "task_id": "49d833d0-c2c0-4eb3-90b8-a433e1efab7a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/88a5b64e-f93c-49fe-ab1f-07fd16e13b69/full.md",
+          "content_length": 60167,
+          "pmc_id": "PMC13204213",
+          "detail": "task_id=49d833d0-c2c0-4eb3-90b8-a433e1efab7a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/88a5b64e-f93c-49fe-ab1f-07fd16e13b69/full.md; content_length=60167"
+        }
+      ],
       "created_at": "2026-05-31T12:11:51Z",
       "updated_at": "2026-05-31T12:11:51Z",
       "version": "1.0.0"
@@ -34852,7 +35536,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed chlorambucil_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Chlorambucil (Anticancer Drug).",
+          "input": "data/raw/papers/chlorambucil_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/chlorambucil_anticancer_drug.md",
+          "task_id": "69076204-bc23-4c04-8688-219b89d1224f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ee908a39-a9cf-4f6c-adfc-3355b7bcefe7/full.md",
+          "content_length": 80194,
+          "pmc_id": "PMC13080162",
+          "detail": "task_id=69076204-bc23-4c04-8688-219b89d1224f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ee908a39-a9cf-4f6c-adfc-3355b7bcefe7/full.md; content_length=80194"
+        }
+      ],
       "created_at": "2026-05-31T12:11:52Z",
       "updated_at": "2026-05-31T12:11:52Z",
       "version": "1.0.0"
@@ -34975,7 +35671,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed bendamustine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Bendamustine (Anticancer Drug).",
+          "input": "data/raw/papers/bendamustine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/bendamustine_anticancer_drug.md",
+          "task_id": "d52afe42-e460-4cd6-84f0-5cb55e880a2f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/5f28f4fb-c91a-4b94-864c-713ca1951e86/full.md",
+          "content_length": 69635,
+          "pmc_id": "PMC12992741",
+          "detail": "task_id=d52afe42-e460-4cd6-84f0-5cb55e880a2f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/5f28f4fb-c91a-4b94-864c-713ca1951e86/full.md; content_length=69635"
+        }
+      ],
       "created_at": "2026-05-31T12:11:54Z",
       "updated_at": "2026-05-31T12:11:54Z",
       "version": "1.0.0"
@@ -35098,7 +35806,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed dacarbazine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Dacarbazine (Anticancer Drug).",
+          "input": "data/raw/papers/dacarbazine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/dacarbazine_anticancer_drug.md",
+          "task_id": "2e8cbd08-c19c-4355-9c8b-72ea372f0ca214",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/627e187d-f933-445c-b060-30504d0c80d6/full.md",
+          "content_length": 62597,
+          "pmc_id": "PMC13195254",
+          "detail": "task_id=2e8cbd08-c19c-4355-9c8b-72ea372f0ca214; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/627e187d-f933-445c-b060-30504d0c80d6/full.md; content_length=62597"
+        }
+      ],
       "created_at": "2026-05-31T12:11:57Z",
       "updated_at": "2026-05-31T12:11:57Z",
       "version": "1.0.0"
@@ -35221,7 +35941,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed procarbazine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Procarbazine (Anticancer Drug).",
+          "input": "data/raw/papers/procarbazine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/procarbazine_anticancer_drug.md",
+          "task_id": "395806f7-9caf-47eb-836d-15e11e2cfd1e14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3989724c-7337-4fba-84ed-fe8b863cf250/full.md",
+          "content_length": 42636,
+          "pmc_id": "PMC12625344",
+          "detail": "task_id=395806f7-9caf-47eb-836d-15e11e2cfd1e14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3989724c-7337-4fba-84ed-fe8b863cf250/full.md; content_length=42636"
+        }
+      ],
       "created_at": "2026-05-31T12:12:00Z",
       "updated_at": "2026-05-31T12:12:00Z",
       "version": "1.0.0"
@@ -35344,7 +36076,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed thiotepa_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Thiotepa (Anticancer Drug).",
+          "input": "data/raw/papers/thiotepa_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/thiotepa_anticancer_drug.md",
+          "task_id": "d7cbb85c-13d7-49ad-8b83-ef73ba03ef7114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/187af17d-1482-4427-afbe-d9b941dccb8e/full.md",
+          "content_length": 87898,
+          "pmc_id": "PMC13189747",
+          "detail": "task_id=d7cbb85c-13d7-49ad-8b83-ef73ba03ef7114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/187af17d-1482-4427-afbe-d9b941dccb8e/full.md; content_length=87898"
+        }
+      ],
       "created_at": "2026-05-31T12:12:02Z",
       "updated_at": "2026-05-31T12:12:02Z",
       "version": "1.0.0"
@@ -35468,7 +36212,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed anastrozole_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Anastrozole (Anticancer Drug).",
+          "input": "data/raw/papers/anastrozole_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/anastrozole_anticancer_drug.md",
+          "task_id": "e3b74277-1781-4bcd-bc5a-39a43b7a136014",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/667d9e6f-c9e3-46a8-9987-e11185b9a7b0/full.md",
+          "content_length": 20317,
+          "pmc_id": "PMC12908689",
+          "detail": "task_id=e3b74277-1781-4bcd-bc5a-39a43b7a136014; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/667d9e6f-c9e3-46a8-9987-e11185b9a7b0/full.md; content_length=20317"
+        }
+      ],
       "created_at": "2026-05-31T12:12:07Z",
       "updated_at": "2026-05-31T12:12:07Z",
       "version": "1.0.0"
@@ -35591,7 +36347,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed letrozole_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Letrozole (Anticancer Drug).",
+          "input": "data/raw/papers/letrozole_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/letrozole_anticancer_drug.md",
+          "task_id": "d577f144-b829-44f6-8b24-7dadec52554a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/53e2a4d9-7794-408b-a726-88c5dda5a4b8/full.md",
+          "content_length": 47374,
+          "pmc_id": "PMC13090412",
+          "detail": "task_id=d577f144-b829-44f6-8b24-7dadec52554a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/53e2a4d9-7794-408b-a726-88c5dda5a4b8/full.md; content_length=47374"
+        }
+      ],
       "created_at": "2026-05-31T12:12:09Z",
       "updated_at": "2026-05-31T12:12:09Z",
       "version": "1.0.0"
@@ -35838,7 +36606,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed tamoxifen_citrate_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Tamoxifen Citrate (Anticancer Drug).",
+          "input": "data/raw/papers/tamoxifen_citrate_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/tamoxifen_citrate_anticancer_drug.md",
+          "task_id": "33978cb6-00a0-4a95-8bc7-b8cfd988ddba14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3bcd8fad-5bc6-4586-84b6-59211f3faffd/full.md",
+          "content_length": 56586,
+          "pmc_id": "PMC10927891",
+          "detail": "task_id=33978cb6-00a0-4a95-8bc7-b8cfd988ddba14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3bcd8fad-5bc6-4586-84b6-59211f3faffd/full.md; content_length=56586"
+        }
+      ],
       "created_at": "2026-05-31T12:12:13Z",
       "updated_at": "2026-05-31T12:12:13Z",
       "version": "1.0.0"
@@ -35961,7 +36741,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed fulvestrant_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Fulvestrant (Anticancer Drug).",
+          "input": "data/raw/papers/fulvestrant_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/fulvestrant_anticancer_drug.md",
+          "task_id": "c35d00d7-eac1-47ca-957f-f5b65fc2ae0114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ec743a6b-36f4-4dfd-8fbc-fa40a94842e9/full.md",
+          "content_length": 51778,
+          "pmc_id": "PMC13194341",
+          "detail": "task_id=c35d00d7-eac1-47ca-957f-f5b65fc2ae0114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ec743a6b-36f4-4dfd-8fbc-fa40a94842e9/full.md; content_length=51778"
+        }
+      ],
       "created_at": "2026-05-31T12:12:16Z",
       "updated_at": "2026-05-31T12:12:16Z",
       "version": "1.0.0"
@@ -36084,7 +36876,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed bicalutamide_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Bicalutamide (Anticancer Drug).",
+          "input": "data/raw/papers/bicalutamide_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/bicalutamide_anticancer_drug.md",
+          "task_id": "042a99d6-be64-4a6b-86de-a3ba997ef44a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6478b2ad-88f0-4796-abe6-b4d536e98eca/full.md",
+          "content_length": 2583,
+          "pmc_id": "PMC13028174",
+          "detail": "task_id=042a99d6-be64-4a6b-86de-a3ba997ef44a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6478b2ad-88f0-4796-abe6-b4d536e98eca/full.md; content_length=2583"
+        }
+      ],
       "created_at": "2026-05-31T12:12:19Z",
       "updated_at": "2026-05-31T12:12:19Z",
       "version": "1.0.0"
@@ -36207,7 +37011,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed flutamide_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Flutamide (Anticancer Drug).",
+          "input": "data/raw/papers/flutamide_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/flutamide_anticancer_drug.md",
+          "task_id": "27776fca-6280-46a5-80b3-f4bf837a98fd14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/55f388a4-c0da-45ac-8be0-c16a870c3529/full.md",
+          "content_length": 45182,
+          "pmc_id": "PMC12937922",
+          "detail": "task_id=27776fca-6280-46a5-80b3-f4bf837a98fd14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/55f388a4-c0da-45ac-8be0-c16a870c3529/full.md; content_length=45182"
+        }
+      ],
       "created_at": "2026-05-31T12:12:22Z",
       "updated_at": "2026-05-31T12:12:22Z",
       "version": "1.0.0"
@@ -36330,7 +37146,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed enzalutamide_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Enzalutamide (Anticancer Drug).",
+          "input": "data/raw/papers/enzalutamide_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/enzalutamide_anticancer_drug.md",
+          "task_id": "2be5b6ae-a10d-4c2d-9db3-6d533cc7616a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3fdfd022-6417-4795-b39a-b276e9649bc4/full.md",
+          "content_length": 45909,
+          "pmc_id": "PMC13183711",
+          "detail": "task_id=2be5b6ae-a10d-4c2d-9db3-6d533cc7616a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3fdfd022-6417-4795-b39a-b276e9649bc4/full.md; content_length=45909"
+        }
+      ],
       "created_at": "2026-05-31T12:12:24Z",
       "updated_at": "2026-05-31T12:12:24Z",
       "version": "1.0.0"
@@ -36453,7 +37281,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed abiraterone_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Abiraterone (Anticancer Drug).",
+          "input": "data/raw/papers/abiraterone_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/abiraterone_anticancer_drug.md",
+          "task_id": "39e39082-46aa-4b6a-88ff-00d78c619fe414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/394fb342-4bc7-400a-ba69-a6f794cf59d2/full.md",
+          "content_length": 31333,
+          "pmc_id": "PMC13090860",
+          "detail": "task_id=39e39082-46aa-4b6a-88ff-00d78c619fe414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/394fb342-4bc7-400a-ba69-a6f794cf59d2/full.md; content_length=31333"
+        }
+      ],
       "created_at": "2026-05-31T12:12:25Z",
       "updated_at": "2026-05-31T12:12:25Z",
       "version": "1.0.0"
@@ -36576,7 +37416,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed leuprolide_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Leuprolide (Anticancer Drug).",
+          "input": "data/raw/papers/leuprolide_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/leuprolide_anticancer_drug.md",
+          "task_id": "706ffec4-d593-453c-a35d-f1099e4cdd8214",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bb871fb4-3651-4d02-bbcc-0554d7d6f4cc/full.md",
+          "content_length": 65862,
+          "pmc_id": "PMC13050778",
+          "detail": "task_id=706ffec4-d593-453c-a35d-f1099e4cdd8214; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bb871fb4-3651-4d02-bbcc-0554d7d6f4cc/full.md; content_length=65862"
+        }
+      ],
       "created_at": "2026-05-31T12:12:30Z",
       "updated_at": "2026-05-31T12:12:30Z",
       "version": "1.0.0"
@@ -36696,7 +37548,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed goserelin_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Goserelin (Anticancer Drug).",
+          "input": "data/raw/papers/goserelin_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/goserelin_anticancer_drug.md",
+          "task_id": "52e26578-3acf-43e0-962c-1f66f8787a6114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b82c28a6-23ce-479a-8e1c-4e4d931d8683/full.md",
+          "content_length": 65862,
+          "pmc_id": "PMC13050778",
+          "detail": "task_id=52e26578-3acf-43e0-962c-1f66f8787a6114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b82c28a6-23ce-479a-8e1c-4e4d931d8683/full.md; content_length=65862"
+        }
+      ],
       "created_at": "2026-05-31T12:12:40Z",
       "updated_at": "2026-05-31T12:12:40Z",
       "version": "1.0.0"
@@ -36816,7 +37680,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed degarelix_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Degarelix (Anticancer Drug).",
+          "input": "data/raw/papers/degarelix_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/degarelix_anticancer_drug.md",
+          "task_id": "c636c701-a7a6-437b-9b48-2cbbefea7e7014",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3a7b587c-742d-4c65-95cb-356217d05fe6/full.md",
+          "content_length": 28877,
+          "pmc_id": "PMC12983153",
+          "detail": "task_id=c636c701-a7a6-437b-9b48-2cbbefea7e7014; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3a7b587c-742d-4c65-95cb-356217d05fe6/full.md; content_length=28877"
+        }
+      ],
       "created_at": "2026-05-31T12:12:42Z",
       "updated_at": "2026-05-31T12:12:42Z",
       "version": "1.0.0"
@@ -36940,7 +37816,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed etoposide_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Etoposide (Anticancer Drug).",
+          "input": "data/raw/papers/etoposide_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/etoposide_anticancer_drug.md",
+          "task_id": "01a0b059-82e0-48c6-9148-208422a63c2a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/09e469e9-0a5c-4120-9553-50879e7e7075/full.md",
+          "content_length": 60442,
+          "pmc_id": "PMC13071998",
+          "detail": "task_id=01a0b059-82e0-48c6-9148-208422a63c2a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/09e469e9-0a5c-4120-9553-50879e7e7075/full.md; content_length=60442"
+        }
+      ],
       "created_at": "2026-05-31T12:12:44Z",
       "updated_at": "2026-05-31T12:12:44Z",
       "version": "1.0.0"
@@ -46786,7 +47674,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed glimepiride_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Glimepiride (Antidiabetic Drug).",
+          "input": "data/raw/papers/glimepiride_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/glimepiride_antidiabetic_drug.md",
+          "task_id": "0f0aa4f3-3a83-4627-821f-c452e654ade514",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0ec7377e-72c8-476e-8bf6-4860a8ff5028/full.md",
+          "content_length": 50605,
+          "pmc_id": "PMC13077774",
+          "detail": "task_id=0f0aa4f3-3a83-4627-821f-c452e654ade514; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0ec7377e-72c8-476e-8bf6-4860a8ff5028/full.md; content_length=50605"
+        }
+      ],
       "created_at": "2026-05-31T12:15:51Z",
       "updated_at": "2026-05-31T12:15:51Z",
       "version": "1.0.0"
@@ -46909,7 +47809,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed glipizide_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Glipizide (Antidiabetic Drug).",
+          "input": "data/raw/papers/glipizide_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/glipizide_antidiabetic_drug.md",
+          "task_id": "1d932236-6645-41ac-bc0d-e9a9a93484a114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d6060aed-1870-4a0a-a2a8-0bf14b0c9c26/full.md",
+          "content_length": 63045,
+          "pmc_id": "PMC12958991",
+          "detail": "task_id=1d932236-6645-41ac-bc0d-e9a9a93484a114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d6060aed-1870-4a0a-a2a8-0bf14b0c9c26/full.md; content_length=63045"
+        }
+      ],
       "created_at": "2026-05-31T12:15:54Z",
       "updated_at": "2026-05-31T12:15:54Z",
       "version": "1.0.0"
@@ -47032,7 +47944,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed gliclazide_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Gliclazide (Antidiabetic Drug).",
+          "input": "data/raw/papers/gliclazide_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/gliclazide_antidiabetic_drug.md",
+          "task_id": "21681f0d-4dac-4118-bccd-c767fb0d75c014",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1144b584-f51c-48cb-ad36-4cce84be2dfb/full.md",
+          "content_length": 29333,
+          "pmc_id": "PMC12996347",
+          "detail": "task_id=21681f0d-4dac-4118-bccd-c767fb0d75c014; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1144b584-f51c-48cb-ad36-4cce84be2dfb/full.md; content_length=29333"
+        }
+      ],
       "created_at": "2026-05-31T12:16:00Z",
       "updated_at": "2026-05-31T12:16:00Z",
       "version": "1.0.0"
@@ -47278,7 +48202,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed chlorpropamide_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Chlorpropamide (Antidiabetic Drug).",
+          "input": "data/raw/papers/chlorpropamide_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/chlorpropamide_antidiabetic_drug.md",
+          "task_id": "7911505d-210d-4292-93d2-03390600cde714",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/7d886407-8056-4e0c-ab20-1b0821bfa4e0/full.md",
+          "content_length": 6962,
+          "pmc_id": "PMC12951831",
+          "detail": "task_id=7911505d-210d-4292-93d2-03390600cde714; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/7d886407-8056-4e0c-ab20-1b0821bfa4e0/full.md; content_length=6962"
+        }
+      ],
       "created_at": "2026-05-31T12:16:23Z",
       "updated_at": "2026-05-31T12:16:23Z",
       "version": "1.0.0"
@@ -47525,7 +48461,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed canagliflozin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Canagliflozin (Antidiabetic Drug).",
+          "input": "data/raw/papers/canagliflozin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/canagliflozin_antidiabetic_drug.md",
+          "task_id": "99eab120-6849-4286-ac11-460a1533365614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b76c4b89-2c7f-4205-968c-7d657345572f/full.md",
+          "content_length": 53176,
+          "pmc_id": "PMC13180688",
+          "detail": "task_id=99eab120-6849-4286-ac11-460a1533365614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b76c4b89-2c7f-4205-968c-7d657345572f/full.md; content_length=53176"
+        }
+      ],
       "created_at": "2026-05-31T12:16:27Z",
       "updated_at": "2026-05-31T12:16:27Z",
       "version": "1.0.0"
@@ -47648,7 +48596,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed ertugliflozin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Ertugliflozin (Antidiabetic Drug).",
+          "input": "data/raw/papers/ertugliflozin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/ertugliflozin_antidiabetic_drug.md",
+          "task_id": "81fbe796-8ef0-40e6-832d-e8ca181f591f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4ad470be-7a37-4fb5-ab08-ff67871065fe/full.md",
+          "content_length": 53760,
+          "pmc_id": "PMC13022961",
+          "detail": "task_id=81fbe796-8ef0-40e6-832d-e8ca181f591f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4ad470be-7a37-4fb5-ab08-ff67871065fe/full.md; content_length=53760"
+        }
+      ],
       "created_at": "2026-05-31T12:16:28Z",
       "updated_at": "2026-05-31T12:16:28Z",
       "version": "1.0.0"
@@ -47771,7 +48731,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed ipragliflozin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Ipragliflozin (Antidiabetic Drug).",
+          "input": "data/raw/papers/ipragliflozin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/ipragliflozin_antidiabetic_drug.md",
+          "task_id": "b5935ecf-544e-4669-9ed6-0e5dc9d171c614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b24b3afa-5306-47d1-9c3c-818514d11b07/full.md",
+          "content_length": 53270,
+          "pmc_id": "PMC12744807",
+          "detail": "task_id=b5935ecf-544e-4669-9ed6-0e5dc9d171c614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b24b3afa-5306-47d1-9c3c-818514d11b07/full.md; content_length=53270"
+        }
+      ],
       "created_at": "2026-05-31T12:16:30Z",
       "updated_at": "2026-05-31T12:16:30Z",
       "version": "1.0.0"
@@ -47894,7 +48866,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed tofogliflozin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Tofogliflozin (Antidiabetic Drug).",
+          "input": "data/raw/papers/tofogliflozin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/tofogliflozin_antidiabetic_drug.md",
+          "task_id": "ce46efb5-163c-4be1-b0a0-574ac292b40614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/12bdd5f5-3e85-413f-bc36-1f8c617f2b9e/full.md",
+          "content_length": 46653,
+          "pmc_id": "PMC12715907",
+          "detail": "task_id=ce46efb5-163c-4be1-b0a0-574ac292b40614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/12bdd5f5-3e85-413f-bc36-1f8c617f2b9e/full.md; content_length=46653"
+        }
+      ],
       "created_at": "2026-05-31T12:16:32Z",
       "updated_at": "2026-05-31T12:16:32Z",
       "version": "1.0.0"
@@ -48017,7 +49001,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed luseogliflozin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Luseogliflozin (Antidiabetic Drug).",
+          "input": "data/raw/papers/luseogliflozin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/luseogliflozin_antidiabetic_drug.md",
+          "task_id": "2caa2ff4-9e30-4ae4-83ad-fbd77e72611214",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/24257a0a-9229-4253-8b44-a72f759ca833/full.md",
+          "content_length": 62998,
+          "pmc_id": "PMC12681282",
+          "detail": "task_id=2caa2ff4-9e30-4ae4-83ad-fbd77e72611214; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/24257a0a-9229-4253-8b44-a72f759ca833/full.md; content_length=62998"
+        }
+      ],
       "created_at": "2026-05-31T12:16:34Z",
       "updated_at": "2026-05-31T12:16:34Z",
       "version": "1.0.0"
@@ -48137,7 +49133,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed semaglutide_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Semaglutide (Antidiabetic Drug).",
+          "input": "data/raw/papers/semaglutide_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/semaglutide_antidiabetic_drug.md",
+          "task_id": "55074333-99a1-451f-9e89-c44a9979663814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/7baab7de-a13a-421d-9666-c4ea037d0eee/full.md",
+          "content_length": 43185,
+          "pmc_id": "PMC13191398",
+          "detail": "task_id=55074333-99a1-451f-9e89-c44a9979663814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/7baab7de-a13a-421d-9666-c4ea037d0eee/full.md; content_length=43185"
+        }
+      ],
       "created_at": "2026-05-31T12:16:56Z",
       "updated_at": "2026-05-31T12:16:56Z",
       "version": "1.0.0"
@@ -48377,7 +49385,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed exenatide_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Exenatide (Antidiabetic Drug).",
+          "input": "data/raw/papers/exenatide_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/exenatide_antidiabetic_drug.md",
+          "task_id": "44e6b291-bd2e-45f8-9b78-0e10468609da14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1910cbd5-0b87-4fa1-95d5-e30c341cb2fa/full.md",
+          "content_length": 40274,
+          "pmc_id": "PMC13090280",
+          "detail": "task_id=44e6b291-bd2e-45f8-9b78-0e10468609da14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1910cbd5-0b87-4fa1-95d5-e30c341cb2fa/full.md; content_length=40274"
+        }
+      ],
       "created_at": "2026-05-31T12:17:57Z",
       "updated_at": "2026-05-31T12:17:57Z",
       "version": "1.0.0"
@@ -48497,7 +49517,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed lixisenatide_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Lixisenatide (Antidiabetic Drug).",
+          "input": "data/raw/papers/lixisenatide_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/lixisenatide_antidiabetic_drug.md",
+          "task_id": "0d22a661-64be-4dc8-9c53-520152e6ecb814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/78d19527-c6e5-4ca9-a607-38bea1ed24d1/full.md",
+          "content_length": 47857,
+          "pmc_id": "PMC12992176",
+          "detail": "task_id=0d22a661-64be-4dc8-9c53-520152e6ecb814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/78d19527-c6e5-4ca9-a607-38bea1ed24d1/full.md; content_length=47857"
+        }
+      ],
       "created_at": "2026-05-31T12:18:41Z",
       "updated_at": "2026-05-31T12:18:41Z",
       "version": "1.0.0"
@@ -48620,7 +49652,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed vildagliptin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Vildagliptin (Antidiabetic Drug).",
+          "input": "data/raw/papers/vildagliptin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/vildagliptin_antidiabetic_drug.md",
+          "task_id": "ebb0bc3d-ff0b-44a6-b1eb-58bd57df59e314",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bf3b8cb6-dd68-4f94-a59d-b973a09cb6fa/full.md",
+          "content_length": 77204,
+          "pmc_id": "PMC13194605",
+          "detail": "task_id=ebb0bc3d-ff0b-44a6-b1eb-58bd57df59e314; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bf3b8cb6-dd68-4f94-a59d-b973a09cb6fa/full.md; content_length=77204"
+        }
+      ],
       "created_at": "2026-05-31T12:18:48Z",
       "updated_at": "2026-05-31T12:18:48Z",
       "version": "1.0.0"
@@ -48743,7 +49787,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed saxagliptin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Saxagliptin (Antidiabetic Drug).",
+          "input": "data/raw/papers/saxagliptin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/saxagliptin_antidiabetic_drug.md",
+          "task_id": "aee20371-ee32-4aa5-b297-22607570d23e14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bd1492ac-8c4d-435b-a85f-9f331163d132/full.md",
+          "content_length": 70689,
+          "pmc_id": "PMC13009257",
+          "detail": "task_id=aee20371-ee32-4aa5-b297-22607570d23e14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bd1492ac-8c4d-435b-a85f-9f331163d132/full.md; content_length=70689"
+        }
+      ],
       "created_at": "2026-05-31T12:18:50Z",
       "updated_at": "2026-05-31T12:18:50Z",
       "version": "1.0.0"
@@ -48866,7 +49922,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed alogliptin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Alogliptin (Antidiabetic Drug).",
+          "input": "data/raw/papers/alogliptin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/alogliptin_antidiabetic_drug.md",
+          "task_id": "a3e5d015-4b22-4235-bc68-a51add97b7eb14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/9f9db308-0cda-4739-aeda-100b4bb717e3/full.md",
+          "content_length": 74963,
+          "pmc_id": "PMC12799724",
+          "detail": "task_id=a3e5d015-4b22-4235-bc68-a51add97b7eb14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/9f9db308-0cda-4739-aeda-100b4bb717e3/full.md; content_length=74963"
+        }
+      ],
       "created_at": "2026-05-31T12:18:52Z",
       "updated_at": "2026-05-31T12:18:52Z",
       "version": "1.0.0"
@@ -49112,7 +50180,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed gemigliptin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Gemigliptin (Antidiabetic Drug).",
+          "input": "data/raw/papers/gemigliptin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/gemigliptin_antidiabetic_drug.md",
+          "task_id": "2ccd59e3-b586-4759-8c96-a1a442bf627414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ed8f8327-b5db-43a7-be9e-111f7c7ded66/full.md",
+          "content_length": 42054,
+          "pmc_id": "PMC12518504",
+          "detail": "task_id=2ccd59e3-b586-4759-8c96-a1a442bf627414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ed8f8327-b5db-43a7-be9e-111f7c7ded66/full.md; content_length=42054"
+        }
+      ],
       "created_at": "2026-05-31T12:18:56Z",
       "updated_at": "2026-05-31T12:18:56Z",
       "version": "1.0.0"
@@ -49235,7 +50315,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed teneligliptin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Teneligliptin (Antidiabetic Drug).",
+          "input": "data/raw/papers/teneligliptin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/teneligliptin_antidiabetic_drug.md",
+          "task_id": "1a5bacae-809b-49e2-a11d-0877d027167a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8b4299db-4d2b-45f3-aae9-99f7f2899e6d/full.md",
+          "content_length": 59299,
+          "pmc_id": "PMC12648778",
+          "detail": "task_id=1a5bacae-809b-49e2-a11d-0877d027167a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8b4299db-4d2b-45f3-aae9-99f7f2899e6d/full.md; content_length=59299"
+        }
+      ],
       "created_at": "2026-05-31T12:18:59Z",
       "updated_at": "2026-05-31T12:18:59Z",
       "version": "1.0.0"
@@ -49358,7 +50450,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed anagliptin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Anagliptin (Antidiabetic Drug).",
+          "input": "data/raw/papers/anagliptin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/anagliptin_antidiabetic_drug.md",
+          "task_id": "6e3d2b42-4f64-4bb1-9a41-3db6ec4e542914",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/53e1e2e5-145f-4757-842d-4bf15b14395b/full.md",
+          "content_length": 28686,
+          "pmc_id": "PMC12539324",
+          "detail": "task_id=6e3d2b42-4f64-4bb1-9a41-3db6ec4e542914; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/53e1e2e5-145f-4757-842d-4bf15b14395b/full.md; content_length=28686"
+        }
+      ],
       "created_at": "2026-05-31T12:19:04Z",
       "updated_at": "2026-05-31T12:19:04Z",
       "version": "1.0.0"
@@ -49604,7 +50708,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed rosiglitazone_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Rosiglitazone (Antidiabetic Drug).",
+          "input": "data/raw/papers/rosiglitazone_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/rosiglitazone_antidiabetic_drug.md",
+          "task_id": "e710ea4a-94a8-49be-91a4-1bd36ec80d0514",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4704c396-583f-4390-aeae-bc5e8b95eb5a/full.md",
+          "content_length": 41665,
+          "pmc_id": "PMC13091264",
+          "detail": "task_id=e710ea4a-94a8-49be-91a4-1bd36ec80d0514; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4704c396-583f-4390-aeae-bc5e8b95eb5a/full.md; content_length=41665"
+        }
+      ],
       "created_at": "2026-05-31T12:19:08Z",
       "updated_at": "2026-05-31T12:19:08Z",
       "version": "1.0.0"
@@ -49727,7 +50843,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed troglitazone_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Troglitazone (Antidiabetic Drug).",
+          "input": "data/raw/papers/troglitazone_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/troglitazone_antidiabetic_drug.md",
+          "task_id": "c212cc13-9ac1-40de-a8dc-5a56740be9ee14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f3b8257b-cab0-4916-9bbd-b1c74807d1e7/full.md",
+          "content_length": 50277,
+          "pmc_id": "PMC12652496",
+          "detail": "task_id=c212cc13-9ac1-40de-a8dc-5a56740be9ee14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f3b8257b-cab0-4916-9bbd-b1c74807d1e7/full.md; content_length=50277"
+        }
+      ],
       "created_at": "2026-05-31T12:19:10Z",
       "updated_at": "2026-05-31T12:19:10Z",
       "version": "1.0.0"
@@ -54279,7 +55407,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed telmisartan_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Telmisartan (Antihypertensive).",
+          "input": "data/raw/papers/telmisartan_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/telmisartan_antihypertensive.md",
+          "task_id": "b0695a14-bfed-42e3-b26c-4ce54975a49514",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d7829583-b533-4995-83aa-32addda93301/full.md",
+          "content_length": 73820,
+          "pmc_id": "PMC13034393",
+          "detail": "task_id=b0695a14-bfed-42e3-b26c-4ce54975a49514; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d7829583-b533-4995-83aa-32addda93301/full.md; content_length=73820"
+        }
+      ],
       "created_at": "2026-05-31T12:20:55Z",
       "updated_at": "2026-05-31T12:20:55Z",
       "version": "1.0.0"
@@ -54402,7 +55542,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed irbesartan_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Irbesartan (Antihypertensive).",
+          "input": "data/raw/papers/irbesartan_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/irbesartan_antihypertensive.md",
+          "task_id": "0724e87b-a604-4b3f-8770-66bdf335649214",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d47542f2-2727-4574-a746-6b8cc13be2b1/full.md",
+          "content_length": 37852,
+          "pmc_id": "PMC12673777",
+          "detail": "task_id=0724e87b-a604-4b3f-8770-66bdf335649214; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d47542f2-2727-4574-a746-6b8cc13be2b1/full.md; content_length=37852"
+        }
+      ],
       "created_at": "2026-05-31T12:20:56Z",
       "updated_at": "2026-05-31T12:20:56Z",
       "version": "1.0.0"
@@ -54648,7 +55800,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed olmesartan_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Olmesartan (Antihypertensive).",
+          "input": "data/raw/papers/olmesartan_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/olmesartan_antihypertensive.md",
+          "task_id": "3c8aa834-e058-404e-9443-0d390bd7adb314",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0903863e-eef3-48b9-8bfa-cff64a265782/full.md",
+          "content_length": 46569,
+          "pmc_id": "PMC13121351",
+          "detail": "task_id=3c8aa834-e058-404e-9443-0d390bd7adb314; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0903863e-eef3-48b9-8bfa-cff64a265782/full.md; content_length=46569"
+        }
+      ],
       "created_at": "2026-05-31T12:21:00Z",
       "updated_at": "2026-05-31T12:21:00Z",
       "version": "1.0.0"
@@ -54894,7 +56058,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed fimasartan_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Fimasartan (Antihypertensive).",
+          "input": "data/raw/papers/fimasartan_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/fimasartan_antihypertensive.md",
+          "task_id": "4a6cb516-0d8f-44bb-afce-79d27240a4de14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/fa17ed81-3981-49f0-bf37-16d3c3246e2e/full.md",
+          "content_length": 47258,
+          "pmc_id": "PMC12580586",
+          "detail": "task_id=4a6cb516-0d8f-44bb-afce-79d27240a4de14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/fa17ed81-3981-49f0-bf37-16d3c3246e2e/full.md; content_length=47258"
+        }
+      ],
       "created_at": "2026-05-31T12:21:03Z",
       "updated_at": "2026-05-31T12:21:03Z",
       "version": "1.0.0"
@@ -55140,7 +56316,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed nifedipine_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Nifedipine (Antihypertensive).",
+          "input": "data/raw/papers/nifedipine_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/nifedipine_antihypertensive.md",
+          "task_id": "8b800c35-c91a-4047-80ce-722f9bb01fab14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3af27609-7a4e-4658-8748-81bc79240d98/full.md",
+          "content_length": 58199,
+          "pmc_id": "PMC13119240",
+          "detail": "task_id=8b800c35-c91a-4047-80ce-722f9bb01fab14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3af27609-7a4e-4658-8748-81bc79240d98/full.md; content_length=58199"
+        }
+      ],
       "created_at": "2026-05-31T12:21:07Z",
       "updated_at": "2026-05-31T12:21:07Z",
       "version": "1.0.0"
@@ -55263,7 +56451,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed diltiazem_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Diltiazem (Antihypertensive).",
+          "input": "data/raw/papers/diltiazem_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/diltiazem_antihypertensive.md",
+          "task_id": "4037bff4-e523-40ac-9336-c8aba078fed814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/12212668-9ba9-4765-8823-84d445bbb197/full.md",
+          "content_length": 69355,
+          "pmc_id": "PMC13096578",
+          "detail": "task_id=4037bff4-e523-40ac-9336-c8aba078fed814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/12212668-9ba9-4765-8823-84d445bbb197/full.md; content_length=69355"
+        }
+      ],
       "created_at": "2026-05-31T12:21:09Z",
       "updated_at": "2026-05-31T12:21:09Z",
       "version": "1.0.0"
@@ -55509,7 +56709,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed felodipine_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Felodipine (Antihypertensive).",
+          "input": "data/raw/papers/felodipine_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/felodipine_antihypertensive.md",
+          "task_id": "236d4f28-88f8-46f9-97ff-2f738026865414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8b6022c1-0a7c-4d4c-bbba-d27516dff95a/full.md",
+          "content_length": 64074,
+          "pmc_id": "PMC13118446",
+          "detail": "task_id=236d4f28-88f8-46f9-97ff-2f738026865414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8b6022c1-0a7c-4d4c-bbba-d27516dff95a/full.md; content_length=64074"
+        }
+      ],
       "created_at": "2026-05-31T12:21:14Z",
       "updated_at": "2026-05-31T12:21:14Z",
       "version": "1.0.0"
@@ -55632,7 +56844,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed isradipine_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Isradipine (Antihypertensive).",
+          "input": "data/raw/papers/isradipine_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/isradipine_antihypertensive.md",
+          "task_id": "317c9c0e-1634-47df-be36-52a4c8c99dd114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/2edfa50e-7d02-448c-86d3-0b891bf42bfa/full.md",
+          "content_length": 108423,
+          "pmc_id": "PMC13050871",
+          "detail": "task_id=317c9c0e-1634-47df-be36-52a4c8c99dd114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/2edfa50e-7d02-448c-86d3-0b891bf42bfa/full.md; content_length=108423"
+        }
+      ],
       "created_at": "2026-05-31T12:21:15Z",
       "updated_at": "2026-05-31T12:21:15Z",
       "version": "1.0.0"
@@ -55755,7 +56979,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed nicardipine_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Nicardipine (Antihypertensive).",
+          "input": "data/raw/papers/nicardipine_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/nicardipine_antihypertensive.md",
+          "task_id": "feac9001-abd7-4ac7-88c9-6c2f964f141414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d5aa88e9-e8bc-4861-ae4f-262bdc83a6e6/full.md",
+          "content_length": 50359,
+          "pmc_id": "PMC12967427",
+          "detail": "task_id=feac9001-abd7-4ac7-88c9-6c2f964f141414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d5aa88e9-e8bc-4861-ae4f-262bdc83a6e6/full.md; content_length=50359"
+        }
+      ],
       "created_at": "2026-05-31T12:21:18Z",
       "updated_at": "2026-05-31T12:21:18Z",
       "version": "1.0.0"
@@ -55878,7 +57114,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed nimodipine_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Nimodipine (Antihypertensive).",
+          "input": "data/raw/papers/nimodipine_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/nimodipine_antihypertensive.md",
+          "task_id": "2763f336-24a7-43eb-bc68-af0d2e0b32b314",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ae8e6046-5a51-4313-9c78-4e693a92b652/full.md",
+          "content_length": 61904,
+          "pmc_id": "PMC13001945",
+          "detail": "task_id=2763f336-24a7-43eb-bc68-af0d2e0b32b314; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ae8e6046-5a51-4313-9c78-4e693a92b652/full.md; content_length=61904"
+        }
+      ],
       "created_at": "2026-05-31T12:21:20Z",
       "updated_at": "2026-05-31T12:21:20Z",
       "version": "1.0.0"
@@ -56001,7 +57249,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed clevidipine_antihypertensive.pdf via MinerU Agent API and aligned Markdown to Clevidipine (Antihypertensive).",
+          "input": "data/raw/papers/clevidipine_antihypertensive.pdf",
+          "output": "data/raw/parsed_mineru_api/clevidipine_antihypertensive.md",
+          "task_id": "b6df6341-6250-4cee-8aa8-48b15327b68814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f9332db1-4064-41b9-9b8c-05b2a02f58bf/full.md",
+          "content_length": 39396,
+          "pmc_id": "PMC12911921",
+          "detail": "task_id=b6df6341-6250-4cee-8aa8-48b15327b68814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f9332db1-4064-41b9-9b8c-05b2a02f58bf/full.md; content_length=39396"
+        }
+      ],
       "created_at": "2026-05-31T12:21:22Z",
       "updated_at": "2026-05-31T12:21:22Z",
       "version": "1.0.0"
@@ -70756,7 +72016,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed luteolin_natural_product.pdf via MinerU Agent API and aligned Markdown to Luteolin (Natural Product).",
+          "input": "data/raw/papers/luteolin_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/luteolin_natural_product.md",
+          "task_id": "f881fed4-5565-4ccc-8745-24e320aacc3914",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/34b3a9fd-c68d-4e14-91ec-aec98319c2f0/full.md",
+          "content_length": 89623,
+          "pmc_id": "PMC13096073",
+          "detail": "task_id=f881fed4-5565-4ccc-8745-24e320aacc3914; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/34b3a9fd-c68d-4e14-91ec-aec98319c2f0/full.md; content_length=89623"
+        }
+      ],
       "created_at": "2026-05-31T12:26:21Z",
       "updated_at": "2026-05-31T12:26:21Z",
       "version": "1.0.0"
@@ -70879,7 +72151,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed apigenin_natural_product.pdf via MinerU Agent API and aligned Markdown to Apigenin (Natural Product).",
+          "input": "data/raw/papers/apigenin_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/apigenin_natural_product.md",
+          "task_id": "44753aa2-9550-4a03-b183-44f77b3d4e6814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/094439b1-2e56-427b-a2fb-fa1b31b6a134/full.md",
+          "content_length": 64674,
+          "pmc_id": "PMC13074212",
+          "detail": "task_id=44753aa2-9550-4a03-b183-44f77b3d4e6814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/094439b1-2e56-427b-a2fb-fa1b31b6a134/full.md; content_length=64674"
+        }
+      ],
       "created_at": "2026-05-31T12:26:23Z",
       "updated_at": "2026-05-31T12:26:23Z",
       "version": "1.0.0"
@@ -71248,7 +72532,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed daidzein_natural_product.pdf via MinerU Agent API and aligned Markdown to Daidzein (Natural Product).",
+          "input": "data/raw/papers/daidzein_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/daidzein_natural_product.md",
+          "task_id": "1ef907cd-e089-43b7-9c8a-54176ebe447d14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1fdfdfde-4de8-40c1-b016-e196467b317f/full.md",
+          "content_length": 34607,
+          "pmc_id": "PMC13120853",
+          "detail": "task_id=1ef907cd-e089-43b7-9c8a-54176ebe447d14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1fdfdfde-4de8-40c1-b016-e196467b317f/full.md; content_length=34607"
+        }
+      ],
       "created_at": "2026-05-31T12:26:27Z",
       "updated_at": "2026-05-31T12:26:27Z",
       "version": "1.0.0"
@@ -71371,7 +72667,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed baicalein_natural_product.pdf via MinerU Agent API and aligned Markdown to Baicalein (Natural Product).",
+          "input": "data/raw/papers/baicalein_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/baicalein_natural_product.md",
+          "task_id": "ae132cfd-fc43-4dff-a58a-cef7e57c09f814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a8268e58-10c0-4b11-9b2a-4ceb07d12c3c/full.md",
+          "content_length": 76474,
+          "pmc_id": "PMC13183200",
+          "detail": "task_id=ae132cfd-fc43-4dff-a58a-cef7e57c09f814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a8268e58-10c0-4b11-9b2a-4ceb07d12c3c/full.md; content_length=76474"
+        }
+      ],
       "created_at": "2026-05-31T12:26:29Z",
       "updated_at": "2026-05-31T12:26:29Z",
       "version": "1.0.0"
@@ -71740,7 +73048,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed hesperetin_natural_product.pdf via MinerU Agent API and aligned Markdown to Hesperetin (Natural Product).",
+          "input": "data/raw/papers/hesperetin_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/hesperetin_natural_product.md",
+          "task_id": "129738e0-aa6b-4546-a6a1-ec9cb16189df14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ec3f8d3c-ffdd-45d9-a85a-aec146397205/full.md",
+          "content_length": 69724,
+          "pmc_id": "PMC12930279",
+          "detail": "task_id=129738e0-aa6b-4546-a6a1-ec9cb16189df14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ec3f8d3c-ffdd-45d9-a85a-aec146397205/full.md; content_length=69724"
+        }
+      ],
       "created_at": "2026-05-31T12:26:33Z",
       "updated_at": "2026-05-31T12:26:33Z",
       "version": "1.0.0"
@@ -71863,7 +73183,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed chrysin_natural_product.pdf via MinerU Agent API and aligned Markdown to Chrysin (Natural Product).",
+          "input": "data/raw/papers/chrysin_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/chrysin_natural_product.md",
+          "task_id": "e51707ce-e511-4406-abdb-40b84806ca2214",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3e13fdbd-fc9f-4472-b6e9-927a2321a2f7/full.md",
+          "content_length": 42101,
+          "pmc_id": "PMC12862122",
+          "detail": "task_id=e51707ce-e511-4406-abdb-40b84806ca2214; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3e13fdbd-fc9f-4472-b6e9-927a2321a2f7/full.md; content_length=42101"
+        }
+      ],
       "created_at": "2026-05-31T12:26:35Z",
       "updated_at": "2026-05-31T12:26:35Z",
       "version": "1.0.0"
@@ -71986,7 +73318,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed fisetin_natural_product.pdf via MinerU Agent API and aligned Markdown to Fisetin (Natural Product).",
+          "input": "data/raw/papers/fisetin_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/fisetin_natural_product.md",
+          "task_id": "2719ae37-3650-41ad-94fa-27d1e019847a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f7cc9e4c-7d01-42fc-bb3a-b90cb165d020/full.md",
+          "content_length": 74043,
+          "pmc_id": "PMC13180696",
+          "detail": "task_id=2719ae37-3650-41ad-94fa-27d1e019847a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f7cc9e4c-7d01-42fc-bb3a-b90cb165d020/full.md; content_length=74043"
+        }
+      ],
       "created_at": "2026-05-31T12:26:36Z",
       "updated_at": "2026-05-31T12:26:36Z",
       "version": "1.0.0"
@@ -72109,7 +73453,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed morin_natural_product.pdf via MinerU Agent API and aligned Markdown to Morin (Natural Product).",
+          "input": "data/raw/papers/morin_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/morin_natural_product.md",
+          "task_id": "772bfa95-f910-49d4-bd06-77af077ea29114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c6080e39-df74-4a8c-928f-93ef902908fc/full.md",
+          "content_length": 70522,
+          "pmc_id": "PMC12992387",
+          "detail": "task_id=772bfa95-f910-49d4-bd06-77af077ea29114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c6080e39-df74-4a8c-928f-93ef902908fc/full.md; content_length=70522"
+        }
+      ],
       "created_at": "2026-05-31T12:26:39Z",
       "updated_at": "2026-05-31T12:26:39Z",
       "version": "1.0.0"
@@ -72355,7 +73711,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed menthol_natural_product.pdf via MinerU Agent API and aligned Markdown to Menthol (Natural Product).",
+          "input": "data/raw/papers/menthol_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/menthol_natural_product.md",
+          "task_id": "2037530c-fa82-40a4-b184-96ed371ea73414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/836e1301-0c79-4e6c-896e-d5b8da7833c0/full.md",
+          "content_length": 29753,
+          "pmc_id": "PMC12369238",
+          "detail": "task_id=2037530c-fa82-40a4-b184-96ed371ea73414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/836e1301-0c79-4e6c-896e-d5b8da7833c0/full.md; content_length=29753"
+        }
+      ],
       "created_at": "2026-05-31T12:26:44Z",
       "updated_at": "2026-05-31T12:26:44Z",
       "version": "1.0.0"
@@ -72478,7 +73846,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed camphor_natural_product.pdf via MinerU Agent API and aligned Markdown to Camphor (Natural Product).",
+          "input": "data/raw/papers/camphor_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/camphor_natural_product.md",
+          "task_id": "c79db595-1b49-4ea8-af40-2bdafda87a4a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4cc4f973-0725-4f93-9290-6ea7e012995f/full.md",
+          "content_length": 56095,
+          "pmc_id": "PMC13109404",
+          "detail": "task_id=c79db595-1b49-4ea8-af40-2bdafda87a4a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4cc4f973-0725-4f93-9290-6ea7e012995f/full.md; content_length=56095"
+        }
+      ],
       "created_at": "2026-05-31T12:26:46Z",
       "updated_at": "2026-05-31T12:26:46Z",
       "version": "1.0.0"
@@ -72707,7 +74087,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed pinene_natural_product.pdf via MinerU Agent API and aligned Markdown to Pinene (Natural Product).",
+          "input": "data/raw/papers/pinene_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/pinene_natural_product.md",
+          "task_id": "e2e7dbe1-a334-446a-863b-b94db40b7d0b14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/744d0c85-11d3-450d-83e0-952683f28d48/full.md",
+          "content_length": 42172,
+          "pmc_id": "PMC13036620",
+          "detail": "task_id=e2e7dbe1-a334-446a-863b-b94db40b7d0b14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/744d0c85-11d3-450d-83e0-952683f28d48/full.md; content_length=42172"
+        }
+      ],
       "created_at": "2026-05-31T12:26:52Z",
       "updated_at": "2026-05-31T12:26:52Z",
       "version": "1.0.0"
@@ -72830,7 +74222,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed linalool_natural_product.pdf via MinerU Agent API and aligned Markdown to Linalool (Natural Product).",
+          "input": "data/raw/papers/linalool_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/linalool_natural_product.md",
+          "task_id": "70c02c7c-40ea-454c-a1b3-880582ca5b8914",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/57d9afb7-bf16-4837-8336-563eb0e2f0d1/full.md",
+          "content_length": 72351,
+          "pmc_id": "PMC13076906",
+          "detail": "task_id=70c02c7c-40ea-454c-a1b3-880582ca5b8914; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/57d9afb7-bf16-4837-8336-563eb0e2f0d1/full.md; content_length=72351"
+        }
+      ],
       "created_at": "2026-05-31T12:26:54Z",
       "updated_at": "2026-05-31T12:26:54Z",
       "version": "1.0.0"
@@ -73199,7 +74603,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed geraniol_natural_product.pdf via MinerU Agent API and aligned Markdown to Geraniol (Natural Product).",
+          "input": "data/raw/papers/geraniol_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/geraniol_natural_product.md",
+          "task_id": "bc1f255c-98c8-4082-b107-218e9b62982f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c75ab8b3-901b-4ace-9778-8a524a60b48c/full.md",
+          "content_length": 58434,
+          "pmc_id": "PMC13100220",
+          "detail": "task_id=bc1f255c-98c8-4082-b107-218e9b62982f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c75ab8b3-901b-4ace-9778-8a524a60b48c/full.md; content_length=58434"
+        }
+      ],
       "created_at": "2026-05-31T12:27:03Z",
       "updated_at": "2026-05-31T12:27:03Z",
       "version": "1.0.0"
@@ -73322,7 +74738,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed citronellol_natural_product.pdf via MinerU Agent API and aligned Markdown to Citronellol (Natural Product).",
+          "input": "data/raw/papers/citronellol_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/citronellol_natural_product.md",
+          "task_id": "3728aa4c-84af-4eb4-9027-a00b50f743bd14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4f9d1c5f-978b-44fd-84a9-ca55e40888c9/full.md",
+          "content_length": 59024,
+          "pmc_id": "PMC13072962",
+          "detail": "task_id=3728aa4c-84af-4eb4-9027-a00b50f743bd14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4f9d1c5f-978b-44fd-84a9-ca55e40888c9/full.md; content_length=59024"
+        }
+      ],
       "created_at": "2026-05-31T12:27:05Z",
       "updated_at": "2026-05-31T12:27:05Z",
       "version": "1.0.0"
@@ -73445,7 +74873,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed nicotine_natural_product.pdf via MinerU Agent API and aligned Markdown to Nicotine (Natural Product).",
+          "input": "data/raw/papers/nicotine_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/nicotine_natural_product.md",
+          "task_id": "3489853e-def0-404f-a88a-2781d659b90714",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f87dfca4-1322-4d52-9126-6118023fa54a/full.md",
+          "content_length": 7186,
+          "pmc_id": "PMC13183172",
+          "detail": "task_id=3489853e-def0-404f-a88a-2781d659b90714; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f87dfca4-1322-4d52-9126-6118023fa54a/full.md; content_length=7186"
+        }
+      ],
       "created_at": "2026-05-31T12:27:07Z",
       "updated_at": "2026-05-31T12:27:07Z",
       "version": "1.0.0"
@@ -73568,7 +75008,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed strychnine_natural_product.pdf via MinerU Agent API and aligned Markdown to Strychnine (Natural Product).",
+          "input": "data/raw/papers/strychnine_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/strychnine_natural_product.md",
+          "task_id": "e9682a29-36a3-4bc6-ac86-128762eec47f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b47e7938-2aa6-4b35-9159-ffbcee4aba4f/full.md",
+          "content_length": 93729,
+          "pmc_id": "PMC12904182",
+          "detail": "task_id=e9682a29-36a3-4bc6-ac86-128762eec47f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b47e7938-2aa6-4b35-9159-ffbcee4aba4f/full.md; content_length=93729"
+        }
+      ],
       "created_at": "2026-05-31T12:27:09Z",
       "updated_at": "2026-05-31T12:27:09Z",
       "version": "1.0.0"
@@ -73691,7 +75143,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed atropine_natural_product.pdf via MinerU Agent API and aligned Markdown to Atropine (Natural Product).",
+          "input": "data/raw/papers/atropine_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/atropine_natural_product.md",
+          "task_id": "d14d3bc7-565b-43fe-8014-e136a5a237b014",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f05ab1e9-0603-4061-a22a-6fe7e1048de8/full.md",
+          "content_length": 54097,
+          "pmc_id": "PMC13110049",
+          "detail": "task_id=d14d3bc7-565b-43fe-8014-e136a5a237b014; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f05ab1e9-0603-4061-a22a-6fe7e1048de8/full.md; content_length=54097"
+        }
+      ],
       "created_at": "2026-05-31T12:27:11Z",
       "updated_at": "2026-05-31T12:27:11Z",
       "version": "1.0.0"
@@ -73814,7 +75278,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed scopolamine_natural_product.pdf via MinerU Agent API and aligned Markdown to Scopolamine (Natural Product).",
+          "input": "data/raw/papers/scopolamine_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/scopolamine_natural_product.md",
+          "task_id": "9a43652c-be53-4875-ad18-691e61f0d9a814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/631673dc-763d-4707-828c-9a0fcb5a4538/full.md",
+          "content_length": 62955,
+          "pmc_id": "PMC13075120",
+          "detail": "task_id=9a43652c-be53-4875-ad18-691e61f0d9a814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/631673dc-763d-4707-828c-9a0fcb5a4538/full.md; content_length=62955"
+        }
+      ],
       "created_at": "2026-05-31T12:27:15Z",
       "updated_at": "2026-05-31T12:27:15Z",
       "version": "1.0.0"
@@ -73937,7 +75413,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cocaine_natural_product.pdf via MinerU Agent API and aligned Markdown to Cocaine (Natural Product).",
+          "input": "data/raw/papers/cocaine_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/cocaine_natural_product.md",
+          "task_id": "5e26bf87-a480-474f-831c-f806df1b6faa14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/71cc23e2-7054-4c15-9c83-7d4255d11c31/full.md",
+          "content_length": 42290,
+          "pmc_id": "PMC13019272",
+          "detail": "task_id=5e26bf87-a480-474f-831c-f806df1b6faa14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/71cc23e2-7054-4c15-9c83-7d4255d11c31/full.md; content_length=42290"
+        }
+      ],
       "created_at": "2026-05-31T12:27:18Z",
       "updated_at": "2026-05-31T12:27:18Z",
       "version": "1.0.0"
