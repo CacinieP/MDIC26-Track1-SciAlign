@@ -61,6 +61,127 @@
       "task_id": "a7d22358-f60b-4861-8073-f271cc9318f209",
       "markdown_url": null,
       "content_length": 0
+    },
+    "imatinib_anticancer_drug.pdf": {
+      "task_id": "161714fc-6d94-4842-8725-7568f1ff838f14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/69b76480-1ec9-4dd2-a3ba-714324f18410/full.md",
+      "content_length": 81777,
+      "pmc_id": "PMC13090219",
+      "pmc_num": 13090219,
+      "title": "Roles of extracellular vesicles in the pathogenesis of chronic myeloid leukemia.",
+      "record_id": "MOL-000026",
+      "molecule": "Imatinib"
+    },
+    "cyclophosphamide_anticancer_drug.pdf": {
+      "task_id": "10f718c6-4898-4bb9-be8d-75b869cf6e9a14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/61260350-8e43-4075-a413-717c52c52700/full.md",
+      "content_length": 60772,
+      "pmc_id": "PMC13203293",
+      "pmc_num": 13203293,
+      "title": "Deconvolution of Red Blood Cells Thermal Fluid Biopsy Following Systematic Cyclophosphamide or Cilostazol Drug Therapies.",
+      "record_id": "MOL-000027",
+      "molecule": "Cyclophosphamide"
+    },
+    "carboplatin_anticancer_drug.pdf": {
+      "task_id": "bbae5a60-6b1b-4972-ac7e-b064eae84aa914",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13204043",
+      "pmc_num": 13204043,
+      "title": "Non-Cisplatin Concurrent Systemic Therapy with Radiotherapy for Locally Advanced Head and Neck Squamous Cell Carcinoma: A Network Meta-Analysis of Randomized Clinical Trials",
+      "record_id": "MOL-000256",
+      "molecule": "Carboplatin"
+    },
+    "oxaliplatin_anticancer_drug.pdf": {
+      "task_id": "c2e40d0d-2308-4b44-9fbc-d47414daccd314",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d833f3fe-7523-4e9e-a923-a743881b6a70/full.md",
+      "content_length": 73714,
+      "pmc_id": "PMC12979269",
+      "pmc_num": 12979269,
+      "title": "Oxaliplatin-induced peripheral neuropathy: from pathogenesis to treatment.",
+      "record_id": "MOL-000257",
+      "molecule": "Oxaliplatin"
+    },
+    "cisplatin_anticancer_drug.pdf": {
+      "task_id": "316e824b-3133-42a6-9ecc-e381f2ad496d14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/486140d1-c6b1-4e47-88f9-8d4656a7e325/full.md",
+      "content_length": 67425,
+      "pmc_id": "PMC13210263",
+      "pmc_num": 13210263,
+      "title": "Progressive Sensorineural Hearing Loss Following Cisplatin Chemotherapy: Mechanisms Underlying Cochlear Retention and Long-Term Ototoxicity",
+      "record_id": "MOL-000258",
+      "molecule": "Cisplatin"
+    },
+    "thioguanine_anticancer_drug.pdf": {
+      "task_id": "6a3e5c13-56dd-425a-977a-36da8369ed2c14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e73ae802-9f05-4b48-bb28-d067e3de3a4f/full.md",
+      "content_length": 45551,
+      "pmc_id": "PMC12865446",
+      "pmc_num": 12865446,
+      "title": "Late hepatotoxicity after treatment for childhood cancer.",
+      "record_id": "MOL-000269",
+      "molecule": "Thioguanine"
+    },
+    "floxuridine_anticancer_drug.pdf": {
+      "task_id": "0ce19f71-ee22-4ee4-a4a0-35bff529a88114",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8129b6ec-44a5-4ecc-95ae-7602bc390faf/full.md",
+      "content_length": 44184,
+      "pmc_id": "PMC12459136",
+      "pmc_num": 12459136,
+      "title": "Key Drivers and Mitigation Strategies of Oncology Drug Shortages 2023 to 2025.",
+      "record_id": "MOL-000270",
+      "molecule": "Floxuridine"
+    },
+    "ifosfamide_anticancer_drug.pdf": {
+      "task_id": "f5563c64-c746-405a-bf4a-055244de0c5f14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d99f9106-3a62-448a-ab63-ef64db274188/full.md",
+      "content_length": 77331,
+      "pmc_id": "PMC13190490",
+      "pmc_num": 13190490,
+      "title": "Sarcomas in Adolescents and Young Adults.",
+      "record_id": "MOL-000272",
+      "molecule": "Ifosfamide"
+    },
+    "melphalan_anticancer_drug.pdf": {
+      "task_id": "49d833d0-c2c0-4eb3-90b8-a433e1efab7a14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/88a5b64e-f93c-49fe-ab1f-07fd16e13b69/full.md",
+      "content_length": 60167,
+      "pmc_id": "PMC13204213",
+      "pmc_num": 13204213,
+      "title": "Melflufen in Multiple Myeloma: Clinical Limitations, Biological Rationale, and Future Perspectives",
+      "record_id": "MOL-000276",
+      "molecule": "Melphalan"
+    },
+    "chlorambucil_anticancer_drug.pdf": {
+      "task_id": "69076204-bc23-4c04-8688-219b89d1224f14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ee908a39-a9cf-4f6c-adfc-3355b7bcefe7/full.md",
+      "content_length": 80194,
+      "pmc_id": "PMC13080162",
+      "pmc_num": 13080162,
+      "title": "Oral chemotherapy agents in cats: clinical uses, administration and side effects.",
+      "record_id": "MOL-000277",
+      "molecule": "Chlorambucil"
+    },
+    "bendamustine_anticancer_drug.pdf": {
+      "task_id": "d52afe42-e460-4cd6-84f0-5cb55e880a2f14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/5f28f4fb-c91a-4b94-864c-713ca1951e86/full.md",
+      "content_length": 69635,
+      "pmc_id": "PMC12992741",
+      "pmc_num": 12992741,
+      "title": "Venetoclax Plus Rituximab for Relapse/Refractory Chronic Lymphocytic Leukemia: A Systematic Review and Network Meta-analysis of Treatments Available in Brazil.",
+      "record_id": "MOL-000278",
+      "molecule": "Bendamustine"
+    },
+    "dacarbazine_anticancer_drug.pdf": {
+      "task_id": "2e8cbd08-c19c-4355-9c8b-72ea372f0ca214",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/627e187d-f933-445c-b060-30504d0c80d6/full.md",
+      "content_length": 62597,
+      "pmc_id": "PMC13195254",
+      "pmc_num": 13195254,
+      "title": "Therapeutic Efficacy of Nanodrug Delivery Compared With Current Nonsurgical Treatments for Patients With Cutaneous Melanoma: A Systematic Review.",
+      "record_id": "MOL-000279",
+      "molecule": "Dacarbazine"
     }
-  }
+  },
+  "last_expansion": "2026-06-01T03:19:19Z"
 }

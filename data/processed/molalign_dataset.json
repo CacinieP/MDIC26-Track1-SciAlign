@@ -3484,7 +3484,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed imatinib_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Imatinib (Anticancer Drug).",
+          "input": "data/raw/papers/imatinib_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/imatinib_anticancer_drug.md",
+          "task_id": "161714fc-6d94-4842-8725-7568f1ff838f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/69b76480-1ec9-4dd2-a3ba-714324f18410/full.md",
+          "content_length": 81777,
+          "pmc_id": "PMC13090219",
+          "detail": "task_id=161714fc-6d94-4842-8725-7568f1ff838f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/69b76480-1ec9-4dd2-a3ba-714324f18410/full.md; content_length=81777"
+        }
+      ],
       "created_at": "2026-05-31T12:00:50Z",
       "updated_at": "2026-05-31T12:00:50Z",
       "version": "1.0.0"
@@ -3607,7 +3619,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cyclophosphamide_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Cyclophosphamide (Anticancer Drug).",
+          "input": "data/raw/papers/cyclophosphamide_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/cyclophosphamide_anticancer_drug.md",
+          "task_id": "10f718c6-4898-4bb9-be8d-75b869cf6e9a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/61260350-8e43-4075-a413-717c52c52700/full.md",
+          "content_length": 60772,
+          "pmc_id": "PMC13203293",
+          "detail": "task_id=10f718c6-4898-4bb9-be8d-75b869cf6e9a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/61260350-8e43-4075-a413-717c52c52700/full.md; content_length=60772"
+        }
+      ],
       "created_at": "2026-05-31T12:00:52Z",
       "updated_at": "2026-05-31T12:00:52Z",
       "version": "1.0.0"
@@ -32390,7 +32414,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed oxaliplatin_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Oxaliplatin (Anticancer Drug).",
+          "input": "data/raw/papers/oxaliplatin_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/oxaliplatin_anticancer_drug.md",
+          "task_id": "c2e40d0d-2308-4b44-9fbc-d47414daccd314",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d833f3fe-7523-4e9e-a923-a743881b6a70/full.md",
+          "content_length": 73714,
+          "pmc_id": "PMC12979269",
+          "detail": "task_id=c2e40d0d-2308-4b44-9fbc-d47414daccd314; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d833f3fe-7523-4e9e-a923-a743881b6a70/full.md; content_length=73714"
+        }
+      ],
       "created_at": "2026-05-31T12:10:59Z",
       "updated_at": "2026-05-31T12:10:59Z",
       "version": "1.0.0"
@@ -32514,7 +32550,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cisplatin_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Cisplatin (Anticancer Drug).",
+          "input": "data/raw/papers/cisplatin_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/cisplatin_anticancer_drug.md",
+          "task_id": "316e824b-3133-42a6-9ecc-e381f2ad496d14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/486140d1-c6b1-4e47-88f9-8d4656a7e325/full.md",
+          "content_length": 67425,
+          "pmc_id": "PMC13210263",
+          "detail": "task_id=316e824b-3133-42a6-9ecc-e381f2ad496d14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/486140d1-c6b1-4e47-88f9-8d4656a7e325/full.md; content_length=67425"
+        }
+      ],
       "created_at": "2026-05-31T12:11:00Z",
       "updated_at": "2026-05-31T12:11:00Z",
       "version": "1.0.0"
@@ -33868,7 +33916,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed thioguanine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Thioguanine (Anticancer Drug).",
+          "input": "data/raw/papers/thioguanine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/thioguanine_anticancer_drug.md",
+          "task_id": "6a3e5c13-56dd-425a-977a-36da8369ed2c14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e73ae802-9f05-4b48-bb28-d067e3de3a4f/full.md",
+          "content_length": 45551,
+          "pmc_id": "PMC12865446",
+          "detail": "task_id=6a3e5c13-56dd-425a-977a-36da8369ed2c14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e73ae802-9f05-4b48-bb28-d067e3de3a4f/full.md; content_length=45551"
+        }
+      ],
       "created_at": "2026-05-31T12:11:30Z",
       "updated_at": "2026-05-31T12:11:30Z",
       "version": "1.0.0"
@@ -33991,7 +34051,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed floxuridine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Floxuridine (Anticancer Drug).",
+          "input": "data/raw/papers/floxuridine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/floxuridine_anticancer_drug.md",
+          "task_id": "0ce19f71-ee22-4ee4-a4a0-35bff529a88114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8129b6ec-44a5-4ecc-95ae-7602bc390faf/full.md",
+          "content_length": 44184,
+          "pmc_id": "PMC12459136",
+          "detail": "task_id=0ce19f71-ee22-4ee4-a4a0-35bff529a88114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8129b6ec-44a5-4ecc-95ae-7602bc390faf/full.md; content_length=44184"
+        }
+      ],
       "created_at": "2026-05-31T12:11:33Z",
       "updated_at": "2026-05-31T12:11:33Z",
       "version": "1.0.0"
@@ -34237,7 +34309,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed ifosfamide_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Ifosfamide (Anticancer Drug).",
+          "input": "data/raw/papers/ifosfamide_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/ifosfamide_anticancer_drug.md",
+          "task_id": "f5563c64-c746-405a-bf4a-055244de0c5f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d99f9106-3a62-448a-ab63-ef64db274188/full.md",
+          "content_length": 77331,
+          "pmc_id": "PMC13190490",
+          "detail": "task_id=f5563c64-c746-405a-bf4a-055244de0c5f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d99f9106-3a62-448a-ab63-ef64db274188/full.md; content_length=77331"
+        }
+      ],
       "created_at": "2026-05-31T12:11:37Z",
       "updated_at": "2026-05-31T12:11:37Z",
       "version": "1.0.0"
@@ -34729,7 +34813,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed melphalan_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Melphalan (Anticancer Drug).",
+          "input": "data/raw/papers/melphalan_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/melphalan_anticancer_drug.md",
+          "task_id": "49d833d0-c2c0-4eb3-90b8-a433e1efab7a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/88a5b64e-f93c-49fe-ab1f-07fd16e13b69/full.md",
+          "content_length": 60167,
+          "pmc_id": "PMC13204213",
+          "detail": "task_id=49d833d0-c2c0-4eb3-90b8-a433e1efab7a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/88a5b64e-f93c-49fe-ab1f-07fd16e13b69/full.md; content_length=60167"
+        }
+      ],
       "created_at": "2026-05-31T12:11:51Z",
       "updated_at": "2026-05-31T12:11:51Z",
       "version": "1.0.0"
@@ -34852,7 +34948,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed chlorambucil_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Chlorambucil (Anticancer Drug).",
+          "input": "data/raw/papers/chlorambucil_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/chlorambucil_anticancer_drug.md",
+          "task_id": "69076204-bc23-4c04-8688-219b89d1224f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ee908a39-a9cf-4f6c-adfc-3355b7bcefe7/full.md",
+          "content_length": 80194,
+          "pmc_id": "PMC13080162",
+          "detail": "task_id=69076204-bc23-4c04-8688-219b89d1224f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ee908a39-a9cf-4f6c-adfc-3355b7bcefe7/full.md; content_length=80194"
+        }
+      ],
       "created_at": "2026-05-31T12:11:52Z",
       "updated_at": "2026-05-31T12:11:52Z",
       "version": "1.0.0"
@@ -34975,7 +35083,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed bendamustine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Bendamustine (Anticancer Drug).",
+          "input": "data/raw/papers/bendamustine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/bendamustine_anticancer_drug.md",
+          "task_id": "d52afe42-e460-4cd6-84f0-5cb55e880a2f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/5f28f4fb-c91a-4b94-864c-713ca1951e86/full.md",
+          "content_length": 69635,
+          "pmc_id": "PMC12992741",
+          "detail": "task_id=d52afe42-e460-4cd6-84f0-5cb55e880a2f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/5f28f4fb-c91a-4b94-864c-713ca1951e86/full.md; content_length=69635"
+        }
+      ],
       "created_at": "2026-05-31T12:11:54Z",
       "updated_at": "2026-05-31T12:11:54Z",
       "version": "1.0.0"
@@ -35098,7 +35218,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed dacarbazine_anticancer_drug.pdf via MinerU Agent API and aligned Markdown to Dacarbazine (Anticancer Drug).",
+          "input": "data/raw/papers/dacarbazine_anticancer_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/dacarbazine_anticancer_drug.md",
+          "task_id": "2e8cbd08-c19c-4355-9c8b-72ea372f0ca214",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/627e187d-f933-445c-b060-30504d0c80d6/full.md",
+          "content_length": 62597,
+          "pmc_id": "PMC13195254",
+          "detail": "task_id=2e8cbd08-c19c-4355-9c8b-72ea372f0ca214; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/627e187d-f933-445c-b060-30504d0c80d6/full.md; content_length=62597"
+        }
+      ],
       "created_at": "2026-05-31T12:11:57Z",
       "updated_at": "2026-05-31T12:11:57Z",
       "version": "1.0.0"
