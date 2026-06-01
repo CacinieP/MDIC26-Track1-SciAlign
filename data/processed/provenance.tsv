@@ -81,9 +81,9 @@ MOL-000079	Mefloquine	4069	Antimalarial Drug	rdkit_canonical	rdkit_computed	cura
 MOL-000080	Curcumin	969516	Natural Product	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|mineru_paper_text|pubchem_text	322f9eed-649b-4503-9558-0a317edf9e8809	yes	yes	yes	yes	A
 MOL-000081	Resveratrol	445154	Natural Product	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	no	yes	yes	B
 MOL-000082	Quercetin	5280343	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		yes	no	yes	yes	B
-MOL-000083	Epigallocatechin gallate	65064	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000084	Berberine	2353	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000085	Genistein	5280961	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000083	Epigallocatechin gallate	65064	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	79660c30-ea31-4e82-ae4c-ebbd0234aa3614	no	no	yes	yes	A
+MOL-000084	Berberine	2353	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	98d08635-3117-449f-b382-39da1806964114	no	no	yes	yes	A
+MOL-000085	Genistein	5280961	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	c9fd28c3-108e-45d1-807e-f65f6eb40b5414	no	no	yes	yes	A
 MOL-000086	Dopamine	681	Neurotransmitter	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|mineru_paper_text|pubchem_text	fd2f1298-04ea-40bc-ba56-358fb4e55fff09	yes	yes	yes	yes	A
 MOL-000087	Serotonin	5202	Neurotransmitter	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	no	yes	yes	B
 MOL-000088	Norepinephrine	439260	Neurotransmitter	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	no	yes	yes	B
@@ -567,33 +567,33 @@ MOL-000565	Dihydroartemisinin	3000518	Antimalarial Drug	rdkit_canonical	rdkit_co
 MOL-000566	Chloroquine Phosphate	64927	Antimalarial Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
 MOL-000567	Piperaquine	122262	Antimalarial Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000568	Tafenoquine	115358	Antimalarial Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000569	Luteolin	5280445	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000570	Apigenin	5280443	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000569	Luteolin	5280445	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	f881fed4-5565-4ccc-8745-24e320aacc3914	no	no	yes	yes	A
+MOL-000570	Apigenin	5280443	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	44753aa2-9550-4a03-b183-44f77b3d4e6814	no	no	yes	yes	A
 MOL-000571	Kaempferol	5280863	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000572	Myricetin	5281672	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000573	Daidzein	5281708	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000574	Baicalein	5281605	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000573	Daidzein	5281708	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	1ef907cd-e089-43b7-9c8a-54176ebe447d14	no	no	yes	yes	A
+MOL-000574	Baicalein	5281605	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	ae132cfd-fc43-4dff-a58a-cef7e57c09f814	no	no	yes	yes	A
 MOL-000575	Wogonin	5281703	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000576	Naringenin	439246	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000577	Hesperetin	72281	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000578	Chrysin	5281607	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000579	Fisetin	5281614	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000580	Morin	5281670	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000577	Hesperetin	72281	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	129738e0-aa6b-4546-a6a1-ec9cb16189df14	no	no	yes	yes	A
+MOL-000578	Chrysin	5281607	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	e51707ce-e511-4406-abdb-40b84806ca2214	no	no	yes	yes	A
+MOL-000579	Fisetin	5281614	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	2719ae37-3650-41ad-94fa-27d1e019847a14	no	no	yes	yes	A
+MOL-000580	Morin	5281670	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	772bfa95-f910-49d4-bd06-77af077ea29114	no	no	yes	yes	A
 MOL-000581	Tangeretin	68077	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000582	Menthol	1254	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000583	Camphor	2537	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000582	Menthol	1254	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	2037530c-fa82-40a4-b184-96ed371ea73414	no	no	yes	yes	A
+MOL-000583	Camphor	2537	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	c79db595-1b49-4ea8-af40-2bdafda87a4a14	no	no	yes	yes	A
 MOL-000584	Limonene	22311	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000585	Pinene	15837102	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	no	C
-MOL-000586	Linalool	6549	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000585	Pinene	15837102	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	e2e7dbe1-a334-446a-863b-b94db40b7d0b14	no	no	yes	no	A
+MOL-000586	Linalool	6549	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	70c02c7c-40ea-454c-a1b3-880582ca5b8914	no	no	yes	yes	A
 MOL-000587	Thymol	6989	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000588	Carvacrol	10364	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000589	Geraniol	637566	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000590	Citronellol	8842	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000591	Nicotine	89594	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000592	Strychnine	441071	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000593	Atropine	174174	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000594	Scopolamine	3000322	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000595	Cocaine	446220	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000589	Geraniol	637566	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	bc1f255c-98c8-4082-b107-218e9b62982f14	no	no	yes	yes	A
+MOL-000590	Citronellol	8842	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	3728aa4c-84af-4eb4-9027-a00b50f743bd14	no	no	yes	yes	A
+MOL-000591	Nicotine	89594	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	3489853e-def0-404f-a88a-2781d659b90714	no	no	yes	yes	A
+MOL-000592	Strychnine	441071	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	e9682a29-36a3-4bc6-ac86-128762eec47f14	no	no	yes	yes	A
+MOL-000593	Atropine	174174	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	d14d3bc7-565b-43fe-8014-e136a5a237b014	no	no	yes	yes	A
+MOL-000594	Scopolamine	3000322	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	9a43652c-be53-4875-ad18-691e61f0d9a814	no	no	yes	yes	A
+MOL-000595	Cocaine	446220	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	5e26bf87-a480-474f-831c-f806df1b6faa14	no	no	yes	yes	A
 MOL-000596	Quinidine	441074	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000597	Vincamine	15376	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000598	Yohimbine	8969	Natural Product	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C

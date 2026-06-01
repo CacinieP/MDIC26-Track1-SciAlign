@@ -10885,7 +10885,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed epigallocatechin_gallate_natural_product.pdf via MinerU Agent API and aligned Markdown to Epigallocatechin gallate (Natural Product).",
+          "input": "data/raw/papers/epigallocatechin_gallate_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/epigallocatechin_gallate_natural_product.md",
+          "task_id": "79660c30-ea31-4e82-ae4c-ebbd0234aa3614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/60111961-46a3-4e3b-beff-abb16ce8072c/full.md",
+          "content_length": 60631,
+          "pmc_id": "PMC12953839",
+          "detail": "task_id=79660c30-ea31-4e82-ae4c-ebbd0234aa3614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/60111961-46a3-4e3b-beff-abb16ce8072c/full.md; content_length=60631"
+        }
+      ],
       "created_at": "2026-05-31T12:02:59Z",
       "updated_at": "2026-05-31T12:02:59Z",
       "version": "1.0.0"
@@ -11008,7 +11020,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed berberine_natural_product.pdf via MinerU Agent API and aligned Markdown to Berberine (Natural Product).",
+          "input": "data/raw/papers/berberine_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/berberine_natural_product.md",
+          "task_id": "98d08635-3117-449f-b382-39da1806964114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8a8085ba-acff-4faf-9d33-bb83b1952a38/full.md",
+          "content_length": 65169,
+          "pmc_id": "PMC13106774",
+          "detail": "task_id=98d08635-3117-449f-b382-39da1806964114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8a8085ba-acff-4faf-9d33-bb83b1952a38/full.md; content_length=65169"
+        }
+      ],
       "created_at": "2026-05-31T12:03:01Z",
       "updated_at": "2026-05-31T12:03:01Z",
       "version": "1.0.0"
@@ -11131,7 +11155,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed genistein_natural_product.pdf via MinerU Agent API and aligned Markdown to Genistein (Natural Product).",
+          "input": "data/raw/papers/genistein_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/genistein_natural_product.md",
+          "task_id": "c9fd28c3-108e-45d1-807e-f65f6eb40b5414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/2af33823-779b-4184-a956-4d88078ec156/full.md",
+          "content_length": 32712,
+          "pmc_id": "PMC13109164",
+          "detail": "task_id=c9fd28c3-108e-45d1-807e-f65f6eb40b5414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/2af33823-779b-4184-a956-4d88078ec156/full.md; content_length=32712"
+        }
+      ],
       "created_at": "2026-05-31T12:03:02Z",
       "updated_at": "2026-05-31T12:03:02Z",
       "version": "1.0.0"
@@ -71236,7 +71272,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed luteolin_natural_product.pdf via MinerU Agent API and aligned Markdown to Luteolin (Natural Product).",
+          "input": "data/raw/papers/luteolin_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/luteolin_natural_product.md",
+          "task_id": "f881fed4-5565-4ccc-8745-24e320aacc3914",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/34b3a9fd-c68d-4e14-91ec-aec98319c2f0/full.md",
+          "content_length": 89623,
+          "pmc_id": "PMC13096073",
+          "detail": "task_id=f881fed4-5565-4ccc-8745-24e320aacc3914; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/34b3a9fd-c68d-4e14-91ec-aec98319c2f0/full.md; content_length=89623"
+        }
+      ],
       "created_at": "2026-05-31T12:26:21Z",
       "updated_at": "2026-05-31T12:26:21Z",
       "version": "1.0.0"
@@ -71359,7 +71407,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed apigenin_natural_product.pdf via MinerU Agent API and aligned Markdown to Apigenin (Natural Product).",
+          "input": "data/raw/papers/apigenin_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/apigenin_natural_product.md",
+          "task_id": "44753aa2-9550-4a03-b183-44f77b3d4e6814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/094439b1-2e56-427b-a2fb-fa1b31b6a134/full.md",
+          "content_length": 64674,
+          "pmc_id": "PMC13074212",
+          "detail": "task_id=44753aa2-9550-4a03-b183-44f77b3d4e6814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/094439b1-2e56-427b-a2fb-fa1b31b6a134/full.md; content_length=64674"
+        }
+      ],
       "created_at": "2026-05-31T12:26:23Z",
       "updated_at": "2026-05-31T12:26:23Z",
       "version": "1.0.0"
@@ -71728,7 +71788,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed daidzein_natural_product.pdf via MinerU Agent API and aligned Markdown to Daidzein (Natural Product).",
+          "input": "data/raw/papers/daidzein_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/daidzein_natural_product.md",
+          "task_id": "1ef907cd-e089-43b7-9c8a-54176ebe447d14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1fdfdfde-4de8-40c1-b016-e196467b317f/full.md",
+          "content_length": 34607,
+          "pmc_id": "PMC13120853",
+          "detail": "task_id=1ef907cd-e089-43b7-9c8a-54176ebe447d14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1fdfdfde-4de8-40c1-b016-e196467b317f/full.md; content_length=34607"
+        }
+      ],
       "created_at": "2026-05-31T12:26:27Z",
       "updated_at": "2026-05-31T12:26:27Z",
       "version": "1.0.0"
@@ -71851,7 +71923,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed baicalein_natural_product.pdf via MinerU Agent API and aligned Markdown to Baicalein (Natural Product).",
+          "input": "data/raw/papers/baicalein_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/baicalein_natural_product.md",
+          "task_id": "ae132cfd-fc43-4dff-a58a-cef7e57c09f814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a8268e58-10c0-4b11-9b2a-4ceb07d12c3c/full.md",
+          "content_length": 76474,
+          "pmc_id": "PMC13183200",
+          "detail": "task_id=ae132cfd-fc43-4dff-a58a-cef7e57c09f814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a8268e58-10c0-4b11-9b2a-4ceb07d12c3c/full.md; content_length=76474"
+        }
+      ],
       "created_at": "2026-05-31T12:26:29Z",
       "updated_at": "2026-05-31T12:26:29Z",
       "version": "1.0.0"
@@ -72220,7 +72304,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed hesperetin_natural_product.pdf via MinerU Agent API and aligned Markdown to Hesperetin (Natural Product).",
+          "input": "data/raw/papers/hesperetin_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/hesperetin_natural_product.md",
+          "task_id": "129738e0-aa6b-4546-a6a1-ec9cb16189df14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ec3f8d3c-ffdd-45d9-a85a-aec146397205/full.md",
+          "content_length": 69724,
+          "pmc_id": "PMC12930279",
+          "detail": "task_id=129738e0-aa6b-4546-a6a1-ec9cb16189df14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ec3f8d3c-ffdd-45d9-a85a-aec146397205/full.md; content_length=69724"
+        }
+      ],
       "created_at": "2026-05-31T12:26:33Z",
       "updated_at": "2026-05-31T12:26:33Z",
       "version": "1.0.0"
@@ -72343,7 +72439,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed chrysin_natural_product.pdf via MinerU Agent API and aligned Markdown to Chrysin (Natural Product).",
+          "input": "data/raw/papers/chrysin_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/chrysin_natural_product.md",
+          "task_id": "e51707ce-e511-4406-abdb-40b84806ca2214",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3e13fdbd-fc9f-4472-b6e9-927a2321a2f7/full.md",
+          "content_length": 42101,
+          "pmc_id": "PMC12862122",
+          "detail": "task_id=e51707ce-e511-4406-abdb-40b84806ca2214; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3e13fdbd-fc9f-4472-b6e9-927a2321a2f7/full.md; content_length=42101"
+        }
+      ],
       "created_at": "2026-05-31T12:26:35Z",
       "updated_at": "2026-05-31T12:26:35Z",
       "version": "1.0.0"
@@ -72466,7 +72574,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed fisetin_natural_product.pdf via MinerU Agent API and aligned Markdown to Fisetin (Natural Product).",
+          "input": "data/raw/papers/fisetin_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/fisetin_natural_product.md",
+          "task_id": "2719ae37-3650-41ad-94fa-27d1e019847a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f7cc9e4c-7d01-42fc-bb3a-b90cb165d020/full.md",
+          "content_length": 74043,
+          "pmc_id": "PMC13180696",
+          "detail": "task_id=2719ae37-3650-41ad-94fa-27d1e019847a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f7cc9e4c-7d01-42fc-bb3a-b90cb165d020/full.md; content_length=74043"
+        }
+      ],
       "created_at": "2026-05-31T12:26:36Z",
       "updated_at": "2026-05-31T12:26:36Z",
       "version": "1.0.0"
@@ -72589,7 +72709,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed morin_natural_product.pdf via MinerU Agent API and aligned Markdown to Morin (Natural Product).",
+          "input": "data/raw/papers/morin_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/morin_natural_product.md",
+          "task_id": "772bfa95-f910-49d4-bd06-77af077ea29114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c6080e39-df74-4a8c-928f-93ef902908fc/full.md",
+          "content_length": 70522,
+          "pmc_id": "PMC12992387",
+          "detail": "task_id=772bfa95-f910-49d4-bd06-77af077ea29114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c6080e39-df74-4a8c-928f-93ef902908fc/full.md; content_length=70522"
+        }
+      ],
       "created_at": "2026-05-31T12:26:39Z",
       "updated_at": "2026-05-31T12:26:39Z",
       "version": "1.0.0"
@@ -72835,7 +72967,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed menthol_natural_product.pdf via MinerU Agent API and aligned Markdown to Menthol (Natural Product).",
+          "input": "data/raw/papers/menthol_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/menthol_natural_product.md",
+          "task_id": "2037530c-fa82-40a4-b184-96ed371ea73414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/836e1301-0c79-4e6c-896e-d5b8da7833c0/full.md",
+          "content_length": 29753,
+          "pmc_id": "PMC12369238",
+          "detail": "task_id=2037530c-fa82-40a4-b184-96ed371ea73414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/836e1301-0c79-4e6c-896e-d5b8da7833c0/full.md; content_length=29753"
+        }
+      ],
       "created_at": "2026-05-31T12:26:44Z",
       "updated_at": "2026-05-31T12:26:44Z",
       "version": "1.0.0"
@@ -72958,7 +73102,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed camphor_natural_product.pdf via MinerU Agent API and aligned Markdown to Camphor (Natural Product).",
+          "input": "data/raw/papers/camphor_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/camphor_natural_product.md",
+          "task_id": "c79db595-1b49-4ea8-af40-2bdafda87a4a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4cc4f973-0725-4f93-9290-6ea7e012995f/full.md",
+          "content_length": 56095,
+          "pmc_id": "PMC13109404",
+          "detail": "task_id=c79db595-1b49-4ea8-af40-2bdafda87a4a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4cc4f973-0725-4f93-9290-6ea7e012995f/full.md; content_length=56095"
+        }
+      ],
       "created_at": "2026-05-31T12:26:46Z",
       "updated_at": "2026-05-31T12:26:46Z",
       "version": "1.0.0"
@@ -73187,7 +73343,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed pinene_natural_product.pdf via MinerU Agent API and aligned Markdown to Pinene (Natural Product).",
+          "input": "data/raw/papers/pinene_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/pinene_natural_product.md",
+          "task_id": "e2e7dbe1-a334-446a-863b-b94db40b7d0b14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/744d0c85-11d3-450d-83e0-952683f28d48/full.md",
+          "content_length": 42172,
+          "pmc_id": "PMC13036620",
+          "detail": "task_id=e2e7dbe1-a334-446a-863b-b94db40b7d0b14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/744d0c85-11d3-450d-83e0-952683f28d48/full.md; content_length=42172"
+        }
+      ],
       "created_at": "2026-05-31T12:26:52Z",
       "updated_at": "2026-05-31T12:26:52Z",
       "version": "1.0.0"
@@ -73310,7 +73478,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed linalool_natural_product.pdf via MinerU Agent API and aligned Markdown to Linalool (Natural Product).",
+          "input": "data/raw/papers/linalool_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/linalool_natural_product.md",
+          "task_id": "70c02c7c-40ea-454c-a1b3-880582ca5b8914",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/57d9afb7-bf16-4837-8336-563eb0e2f0d1/full.md",
+          "content_length": 72351,
+          "pmc_id": "PMC13076906",
+          "detail": "task_id=70c02c7c-40ea-454c-a1b3-880582ca5b8914; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/57d9afb7-bf16-4837-8336-563eb0e2f0d1/full.md; content_length=72351"
+        }
+      ],
       "created_at": "2026-05-31T12:26:54Z",
       "updated_at": "2026-05-31T12:26:54Z",
       "version": "1.0.0"
@@ -73679,7 +73859,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed geraniol_natural_product.pdf via MinerU Agent API and aligned Markdown to Geraniol (Natural Product).",
+          "input": "data/raw/papers/geraniol_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/geraniol_natural_product.md",
+          "task_id": "bc1f255c-98c8-4082-b107-218e9b62982f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c75ab8b3-901b-4ace-9778-8a524a60b48c/full.md",
+          "content_length": 58434,
+          "pmc_id": "PMC13100220",
+          "detail": "task_id=bc1f255c-98c8-4082-b107-218e9b62982f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c75ab8b3-901b-4ace-9778-8a524a60b48c/full.md; content_length=58434"
+        }
+      ],
       "created_at": "2026-05-31T12:27:03Z",
       "updated_at": "2026-05-31T12:27:03Z",
       "version": "1.0.0"
@@ -73802,7 +73994,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed citronellol_natural_product.pdf via MinerU Agent API and aligned Markdown to Citronellol (Natural Product).",
+          "input": "data/raw/papers/citronellol_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/citronellol_natural_product.md",
+          "task_id": "3728aa4c-84af-4eb4-9027-a00b50f743bd14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4f9d1c5f-978b-44fd-84a9-ca55e40888c9/full.md",
+          "content_length": 59024,
+          "pmc_id": "PMC13072962",
+          "detail": "task_id=3728aa4c-84af-4eb4-9027-a00b50f743bd14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4f9d1c5f-978b-44fd-84a9-ca55e40888c9/full.md; content_length=59024"
+        }
+      ],
       "created_at": "2026-05-31T12:27:05Z",
       "updated_at": "2026-05-31T12:27:05Z",
       "version": "1.0.0"
@@ -73925,7 +74129,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed nicotine_natural_product.pdf via MinerU Agent API and aligned Markdown to Nicotine (Natural Product).",
+          "input": "data/raw/papers/nicotine_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/nicotine_natural_product.md",
+          "task_id": "3489853e-def0-404f-a88a-2781d659b90714",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f87dfca4-1322-4d52-9126-6118023fa54a/full.md",
+          "content_length": 7186,
+          "pmc_id": "PMC13183172",
+          "detail": "task_id=3489853e-def0-404f-a88a-2781d659b90714; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f87dfca4-1322-4d52-9126-6118023fa54a/full.md; content_length=7186"
+        }
+      ],
       "created_at": "2026-05-31T12:27:07Z",
       "updated_at": "2026-05-31T12:27:07Z",
       "version": "1.0.0"
@@ -74048,7 +74264,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed strychnine_natural_product.pdf via MinerU Agent API and aligned Markdown to Strychnine (Natural Product).",
+          "input": "data/raw/papers/strychnine_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/strychnine_natural_product.md",
+          "task_id": "e9682a29-36a3-4bc6-ac86-128762eec47f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b47e7938-2aa6-4b35-9159-ffbcee4aba4f/full.md",
+          "content_length": 93729,
+          "pmc_id": "PMC12904182",
+          "detail": "task_id=e9682a29-36a3-4bc6-ac86-128762eec47f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b47e7938-2aa6-4b35-9159-ffbcee4aba4f/full.md; content_length=93729"
+        }
+      ],
       "created_at": "2026-05-31T12:27:09Z",
       "updated_at": "2026-05-31T12:27:09Z",
       "version": "1.0.0"
@@ -74171,7 +74399,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed atropine_natural_product.pdf via MinerU Agent API and aligned Markdown to Atropine (Natural Product).",
+          "input": "data/raw/papers/atropine_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/atropine_natural_product.md",
+          "task_id": "d14d3bc7-565b-43fe-8014-e136a5a237b014",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f05ab1e9-0603-4061-a22a-6fe7e1048de8/full.md",
+          "content_length": 54097,
+          "pmc_id": "PMC13110049",
+          "detail": "task_id=d14d3bc7-565b-43fe-8014-e136a5a237b014; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f05ab1e9-0603-4061-a22a-6fe7e1048de8/full.md; content_length=54097"
+        }
+      ],
       "created_at": "2026-05-31T12:27:11Z",
       "updated_at": "2026-05-31T12:27:11Z",
       "version": "1.0.0"
@@ -74294,7 +74534,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed scopolamine_natural_product.pdf via MinerU Agent API and aligned Markdown to Scopolamine (Natural Product).",
+          "input": "data/raw/papers/scopolamine_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/scopolamine_natural_product.md",
+          "task_id": "9a43652c-be53-4875-ad18-691e61f0d9a814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/631673dc-763d-4707-828c-9a0fcb5a4538/full.md",
+          "content_length": 62955,
+          "pmc_id": "PMC13075120",
+          "detail": "task_id=9a43652c-be53-4875-ad18-691e61f0d9a814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/631673dc-763d-4707-828c-9a0fcb5a4538/full.md; content_length=62955"
+        }
+      ],
       "created_at": "2026-05-31T12:27:15Z",
       "updated_at": "2026-05-31T12:27:15Z",
       "version": "1.0.0"
@@ -74417,7 +74669,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed cocaine_natural_product.pdf via MinerU Agent API and aligned Markdown to Cocaine (Natural Product).",
+          "input": "data/raw/papers/cocaine_natural_product.pdf",
+          "output": "data/raw/parsed_mineru_api/cocaine_natural_product.md",
+          "task_id": "5e26bf87-a480-474f-831c-f806df1b6faa14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/71cc23e2-7054-4c15-9c83-7d4255d11c31/full.md",
+          "content_length": 42290,
+          "pmc_id": "PMC13019272",
+          "detail": "task_id=5e26bf87-a480-474f-831c-f806df1b6faa14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/71cc23e2-7054-4c15-9c83-7d4255d11c31/full.md; content_length=42290"
+        }
+      ],
       "created_at": "2026-05-31T12:27:18Z",
       "updated_at": "2026-05-31T12:27:18Z",
       "version": "1.0.0"

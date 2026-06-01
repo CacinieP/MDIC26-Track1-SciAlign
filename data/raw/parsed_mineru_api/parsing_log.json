@@ -471,7 +471,257 @@
       "title": "Bicuculline reversal of aminoglycoside O-nucleotidyltransferase EanT-1-mediated kanamycin resistance.",
       "record_id": "MOL-000166",
       "molecule": "Kanamycin"
+    },
+    "epigallocatechin_gallate_natural_product.pdf": {
+      "task_id": "79660c30-ea31-4e82-ae4c-ebbd0234aa3614",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/60111961-46a3-4e3b-beff-abb16ce8072c/full.md",
+      "content_length": 60631,
+      "pmc_id": "PMC12953839",
+      "pmc_num": 12953839,
+      "title": "Enzymatic preparation of epigallocatechin gallate diglucoside and bioactivity assessment.",
+      "record_id": "MOL-000083",
+      "molecule": "Epigallocatechin gallate"
+    },
+    "berberine_natural_product.pdf": {
+      "task_id": "98d08635-3117-449f-b382-39da1806964114",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8a8085ba-acff-4faf-9d33-bb83b1952a38/full.md",
+      "content_length": 65169,
+      "pmc_id": "PMC13106774",
+      "pmc_num": 13106774,
+      "title": "Cost-effectiveness of statins, berberine, and combination for primary cardiovascular disease prevention in Scotland.",
+      "record_id": "MOL-000084",
+      "molecule": "Berberine"
+    },
+    "genistein_natural_product.pdf": {
+      "task_id": "c9fd28c3-108e-45d1-807e-f65f6eb40b5414",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/2af33823-779b-4184-a956-4d88078ec156/full.md",
+      "content_length": 32712,
+      "pmc_id": "PMC13109164",
+      "pmc_num": 13109164,
+      "title": "ROS-Mediated Apoptosis-Like Death Induced by Genistein in Candida albicans.",
+      "record_id": "MOL-000085",
+      "molecule": "Genistein"
+    },
+    "luteolin_natural_product.pdf": {
+      "task_id": "f881fed4-5565-4ccc-8745-24e320aacc3914",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/34b3a9fd-c68d-4e14-91ec-aec98319c2f0/full.md",
+      "content_length": 89623,
+      "pmc_id": "PMC13096073",
+      "pmc_num": 13096073,
+      "title": "Luteolin as a dietary flavonoid for brain health: modulating neuroinflammation and cognitive decline in neurodegenerative disorders.",
+      "record_id": "MOL-000569",
+      "molecule": "Luteolin"
+    },
+    "apigenin_natural_product.pdf": {
+      "task_id": "44753aa2-9550-4a03-b183-44f77b3d4e6814",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/094439b1-2e56-427b-a2fb-fa1b31b6a134/full.md",
+      "content_length": 64674,
+      "pmc_id": "PMC13074212",
+      "pmc_num": 13074212,
+      "title": "The Flavonoid Apigenin Modulates Oligodendroglial Plasticity and Has a Neuroprotective Effect in Cerebellar Slice Cultures with Oxygen Glucose Deprivation.",
+      "record_id": "MOL-000570",
+      "molecule": "Apigenin"
+    },
+    "daidzein_natural_product.pdf": {
+      "task_id": "1ef907cd-e089-43b7-9c8a-54176ebe447d14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1fdfdfde-4de8-40c1-b016-e196467b317f/full.md",
+      "content_length": 34607,
+      "pmc_id": "PMC13120853",
+      "pmc_num": 13120853,
+      "title": "Is There a Relationship Between Secondary Metabolites of Leaves and the Growth of Eucalyptus Species?",
+      "record_id": "MOL-000573",
+      "molecule": "Daidzein"
+    },
+    "baicalein_natural_product.pdf": {
+      "task_id": "ae132cfd-fc43-4dff-a58a-cef7e57c09f814",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a8268e58-10c0-4b11-9b2a-4ceb07d12c3c/full.md",
+      "content_length": 76474,
+      "pmc_id": "PMC13183200",
+      "pmc_num": 13183200,
+      "title": "In-silico prediction of multi‑target mechanisms of Pinellia ternata phytochemicals in lung cancer: Evidence from a graph‑attention‑guided virtual screening and multi‑scale simulations.",
+      "record_id": "MOL-000574",
+      "molecule": "Baicalein"
+    },
+    "hesperetin_natural_product.pdf": {
+      "task_id": "129738e0-aa6b-4546-a6a1-ec9cb16189df14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ec3f8d3c-ffdd-45d9-a85a-aec146397205/full.md",
+      "content_length": 69724,
+      "pmc_id": "PMC12930279",
+      "pmc_num": 12930279,
+      "title": "Optimized Bioconversion of Naringenin to Hesperetin in &lt;i&gt;Escherichia coli&lt;/i&gt; With Halide Methyltransferase-Mediated &lt;i&gt;S&lt;/i&gt;-Adenosylmethionine Regeneration.",
+      "record_id": "MOL-000577",
+      "molecule": "Hesperetin"
+    },
+    "chrysin_natural_product.pdf": {
+      "task_id": "e51707ce-e511-4406-abdb-40b84806ca2214",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3e13fdbd-fc9f-4472-b6e9-927a2321a2f7/full.md",
+      "content_length": 42101,
+      "pmc_id": "PMC12862122",
+      "pmc_num": 12862122,
+      "title": "Chrysin Exhibits Bone-Protective Effects Through Osteoclastogenesis Inhibition: In Vitro and In Vivo Evaluation in RAW 264.7 Murine Macrophages and Sprague-Dawley Rats.",
+      "record_id": "MOL-000578",
+      "molecule": "Chrysin"
+    },
+    "fisetin_natural_product.pdf": {
+      "task_id": "2719ae37-3650-41ad-94fa-27d1e019847a14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f7cc9e4c-7d01-42fc-bb3a-b90cb165d020/full.md",
+      "content_length": 74043,
+      "pmc_id": "PMC13180696",
+      "pmc_num": 13180696,
+      "title": "Fisetin Supplementation Attenuates Premature Vascular Aging Induced by Doxorubicin via Suppression of Cellular Senescence and Mitochondrial Oxidative Stress.",
+      "record_id": "MOL-000579",
+      "molecule": "Fisetin"
+    },
+    "morin_natural_product.pdf": {
+      "task_id": "772bfa95-f910-49d4-bd06-77af077ea29114",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c6080e39-df74-4a8c-928f-93ef902908fc/full.md",
+      "content_length": 70522,
+      "pmc_id": "PMC12992387",
+      "pmc_num": 12992387,
+      "title": "Morin Improves Cognitive Deficits in an in Vivo Model of Vascular Dementia by Modulating the N-methyl-D-aspartate Receptor Signaling Pathways.",
+      "record_id": "MOL-000580",
+      "molecule": "Morin"
+    },
+    "menthol_natural_product.pdf": {
+      "task_id": "2037530c-fa82-40a4-b184-96ed371ea73414",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/836e1301-0c79-4e6c-896e-d5b8da7833c0/full.md",
+      "content_length": 29753,
+      "pmc_id": "PMC12369238",
+      "pmc_num": 12369238,
+      "title": "Recommended self-report measures for use of menthol, mint and cooling-flavoured nicotine and tobacco products.",
+      "record_id": "MOL-000582",
+      "molecule": "Menthol"
+    },
+    "camphor_natural_product.pdf": {
+      "task_id": "c79db595-1b49-4ea8-af40-2bdafda87a4a14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4cc4f973-0725-4f93-9290-6ea7e012995f/full.md",
+      "content_length": 56095,
+      "pmc_id": "PMC13109404",
+      "pmc_num": 13109404,
+      "title": "Biological activities (antimicrobial, anti-inflammatory, anti-coronavirus (229E)) and chemical composition of some essential oils.",
+      "record_id": "MOL-000583",
+      "molecule": "Camphor"
+    },
+    "limonene_natural_product.pdf": {
+      "task_id": "588ce142-fbff-4646-9468-dd9f2edd162414",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13119783",
+      "pmc_num": 13119783,
+      "title": "Sustainable Bio-Based Plasticizers: Advances in Polyols and Natural Compound Derivatives from Sorbitol, Glycerol, Cardanol, and Limonene.",
+      "record_id": "MOL-000584",
+      "molecule": "Limonene"
+    },
+    "pinene_natural_product.pdf": {
+      "task_id": "e2e7dbe1-a334-446a-863b-b94db40b7d0b14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/744d0c85-11d3-450d-83e0-952683f28d48/full.md",
+      "content_length": 42172,
+      "pmc_id": "PMC13036620",
+      "pmc_num": 13036620,
+      "title": "Alpha-pinene modulates feeding behavior and hypothalamic orexin-A expression in a rat model of painful temporomandibular disorder.",
+      "record_id": "MOL-000585",
+      "molecule": "Pinene"
+    },
+    "linalool_natural_product.pdf": {
+      "task_id": "70c02c7c-40ea-454c-a1b3-880582ca5b8914",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/57d9afb7-bf16-4837-8336-563eb0e2f0d1/full.md",
+      "content_length": 72351,
+      "pmc_id": "PMC13076906",
+      "pmc_num": 13076906,
+      "title": "Activity of linalool based silver nanoconjugates against brain tumor through in silico, in vitro and in vivo evaluations.",
+      "record_id": "MOL-000586",
+      "molecule": "Linalool"
+    },
+    "thymol_natural_product.pdf": {
+      "task_id": "73159c03-6550-445f-ab7a-0d5cf0566a5414",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13109784",
+      "pmc_num": 13109784,
+      "title": "Sustainable Applications of Thymol: Advances in Formulation Technologies, Drug Delivery Systems, and Food Preservation Strategies.",
+      "record_id": "MOL-000587",
+      "molecule": "Thymol"
+    },
+    "carvacrol_natural_product.pdf": {
+      "task_id": "46cd348c-2db8-47db-9391-df0e6134a96314",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13088325",
+      "pmc_num": 13088325,
+      "title": "Phytochemistry and Bioactivities of Thymol and Carvacrol: Molecular Pathways, Metabolism, and Therapeutic Insights.",
+      "record_id": "MOL-000588",
+      "molecule": "Carvacrol"
+    },
+    "geraniol_natural_product.pdf": {
+      "task_id": "bc1f255c-98c8-4082-b107-218e9b62982f14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c75ab8b3-901b-4ace-9778-8a524a60b48c/full.md",
+      "content_length": 58434,
+      "pmc_id": "PMC13100220",
+      "pmc_num": 13100220,
+      "title": "Natural monoterpenoid geraniol promotes antioxidant defense and stress tolerance via SKN-1/Nrf2 activation in Caenorhabditis elegans.",
+      "record_id": "MOL-000589",
+      "molecule": "Geraniol"
+    },
+    "citronellol_natural_product.pdf": {
+      "task_id": "3728aa4c-84af-4eb4-9027-a00b50f743bd14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4f9d1c5f-978b-44fd-84a9-ca55e40888c9/full.md",
+      "content_length": 59024,
+      "pmc_id": "PMC13072962",
+      "pmc_num": 13072962,
+      "title": "Anti-Inflammatory Effects of Pingyin Rose Essential Oil in LPS-Induced HaCaT Cells: An in Vitro and in Silico Study.",
+      "record_id": "MOL-000590",
+      "molecule": "Citronellol"
+    },
+    "nicotine_natural_product.pdf": {
+      "task_id": "3489853e-def0-404f-a88a-2781d659b90714",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f87dfca4-1322-4d52-9126-6118023fa54a/full.md",
+      "content_length": 7186,
+      "pmc_id": "PMC13183172",
+      "pmc_num": 13183172,
+      "title": "Unmasking flawed exposure attribution in nicotine and cardiovascular risk.",
+      "record_id": "MOL-000591",
+      "molecule": "Nicotine"
+    },
+    "strychnine_natural_product.pdf": {
+      "task_id": "e9682a29-36a3-4bc6-ac86-128762eec47f14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b47e7938-2aa6-4b35-9159-ffbcee4aba4f/full.md",
+      "content_length": 93729,
+      "pmc_id": "PMC12904182",
+      "pmc_num": 12904182,
+      "title": "Structural basis for domain coupling in heteromeric glycine receptors revealed by an atypical allosteric agonist.",
+      "record_id": "MOL-000592",
+      "molecule": "Strychnine"
+    },
+    "atropine_natural_product.pdf": {
+      "task_id": "d14d3bc7-565b-43fe-8014-e136a5a237b014",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f05ab1e9-0603-4061-a22a-6fe7e1048de8/full.md",
+      "content_length": 54097,
+      "pmc_id": "PMC13110049",
+      "pmc_num": 13110049,
+      "title": "Relationship of Atropine in Controlling Myopia Progression Among Pediatric Patients: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+      "record_id": "MOL-000593",
+      "molecule": "Atropine"
+    },
+    "scopolamine_natural_product.pdf": {
+      "task_id": "9a43652c-be53-4875-ad18-691e61f0d9a814",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/631673dc-763d-4707-828c-9a0fcb5a4538/full.md",
+      "content_length": 62955,
+      "pmc_id": "PMC13075120",
+      "pmc_num": 13075120,
+      "title": "Exploring the Evolving Role of Scopolamine in Pharmacotherapy: From Cognitive Impairment to Neuroplasticity?-A Narrative Review.",
+      "record_id": "MOL-000594",
+      "molecule": "Scopolamine"
+    },
+    "cocaine_natural_product.pdf": {
+      "task_id": "5e26bf87-a480-474f-831c-f806df1b6faa14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/71cc23e2-7054-4c15-9c83-7d4255d11c31/full.md",
+      "content_length": 42290,
+      "pmc_id": "PMC13019272",
+      "pmc_num": 13019272,
+      "title": "Factors Associated With Cocaine Use Disorder: Results From the French Nationwide Repeated Cross-Sectional OPPIDUM Study (2019-2023).",
+      "record_id": "MOL-000595",
+      "molecule": "Cocaine"
     }
   },
-  "last_expansion": "2026-06-01T04:09:44Z"
+  "last_expansion": "2026-06-01T05:35:12Z"
 }
