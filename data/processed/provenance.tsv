@@ -13,11 +13,11 @@ MOL-000011	Azithromycin	447043	Antibiotic	rdkit_canonical	rdkit_computed	curated
 MOL-000012	Vancomycin	14969	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	d52508b2-9aea-4ea6-a371-fde028c9056b14	no	no	yes	yes	A
 MOL-000013	Gentamicin	3467	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	c1abd6e7-f91b-41cd-9b07-fef87a0657e814	no	no	yes	yes	A
 MOL-000014	Metronidazole	4173	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	056be104-ab9c-4f1a-b111-1ce0a2a3bee314	no	no	yes	yes	A
-MOL-000015	Ritonavir	3976	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	yes	yes	yes	B
-MOL-000016	Oseltamivir	65028	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
-MOL-000017	Acyclovir	2022	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_en|curated_zh		no	no	yes	yes	B
-MOL-000018	Remdesivir	121304016	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000019	Zidovudine	35370	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000015	Ritonavir	3976	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	2df62914-80a9-4120-9784-d1dc1bfdc31814	no	yes	yes	yes	A
+MOL-000016	Oseltamivir	65028	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	853a39e4-9363-4bf3-892c-cbbea8a3d15714	no	no	yes	yes	A
+MOL-000017	Acyclovir	2022	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_en|curated_zh	964e8ef7-48a5-410a-932f-0c9238a4752d14	no	no	yes	yes	A
+MOL-000018	Remdesivir	121304016	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	14bb6c75-ccfe-47b2-b81c-2d9dac44c2d114	no	no	yes	yes	A
+MOL-000019	Zidovudine	35370	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	279b653d-6f20-4c1f-89cd-d16c76176d8414	no	no	yes	yes	A
 MOL-000020	Tamoxifen	2733526	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	no	yes	yes	B
 MOL-000021	Paclitaxel	36314	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|mineru_paper_text|pubchem_text	cf999197-b775-45b4-939c-de1a1702367509	yes	yes	yes	yes	A
 MOL-000022	Methotrexate	126941	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	yes	yes	yes	B
@@ -211,31 +211,31 @@ MOL-000209	Spectinomycin	15541	Antibiotic	rdkit_canonical	rdkit_computed	curated
 MOL-000210	Fusidic Acid	3000226	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000211	Mupirocin	446596	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000212	Nitrofurazone	5447130	Antibiotic	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000213	Efavirenz	64139	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000214	Tenofovir	464205	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000215	Emtricitabine	60877	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000216	Dolutegravir	54726191	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000217	Bictegravir	90311989	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000218	Raltegravir	54671008	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000219	Elvitegravir	5277135	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000220	Abacavir	441300	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000221	Lamivudine	60825	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000222	Stavudine	18283	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000223	Didanosine	135398739	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000224	Nevirapine	4463	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000225	Etravirine	193962	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000226	Rilpivirine	6451164	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000213	Efavirenz	64139	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	ff43d172-bc30-4dbd-ac15-81c3db5eb3a014	no	no	yes	yes	A
+MOL-000214	Tenofovir	464205	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	ac13eb3a-2b99-464c-a017-708966980e8914	no	no	yes	yes	A
+MOL-000215	Emtricitabine	60877	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	b2ad3502-0e7e-4eef-b85e-ead77b315bf614	no	no	yes	yes	A
+MOL-000216	Dolutegravir	54726191	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	8ba0bd0c-cb8b-4516-ac35-dca24c8da93e14	no	no	yes	yes	A
+MOL-000217	Bictegravir	90311989	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	292f6852-9075-4f99-8c74-fa882f18578414	no	no	yes	yes	A
+MOL-000218	Raltegravir	54671008	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	cae65be2-3206-40fb-86cb-3833943613a314	no	no	yes	yes	A
+MOL-000219	Elvitegravir	5277135	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	486159b8-d7d1-49b4-a402-68e357837fab14	no	no	yes	yes	A
+MOL-000220	Abacavir	441300	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	8c4d1eb9-9ae1-4707-80a1-ab89641793e114	no	no	yes	yes	A
+MOL-000221	Lamivudine	60825	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	91ae76a7-3a58-4e52-9a07-b9861ecd341914	no	no	yes	yes	A
+MOL-000222	Stavudine	18283	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	94d428cd-fd0e-48fe-b7ef-466df1f844db14	no	no	yes	yes	A
+MOL-000223	Didanosine	135398739	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	f7580882-f341-4423-8754-e9f70b7108c914	no	no	yes	yes	A
+MOL-000224	Nevirapine	4463	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	22f2d30e-3d34-4023-be6b-64b553c9e7f014	no	no	yes	yes	A
+MOL-000225	Etravirine	193962	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	b316a6fc-cd05-4bb3-aa6d-abd8ad3fa5cd14	no	no	yes	yes	A
+MOL-000226	Rilpivirine	6451164	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	13938eda-1580-47d4-9d27-69b22a01955f14	no	no	yes	yes	A
 MOL-000227	Darunavir	213039	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000228	Lopinavir	92727	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000229	Atazanavir	148192	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000230	Fosamprenavir	131536	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000229	Atazanavir	148192	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	87823d3b-0b88-412b-a5cb-23c43a3b9ee614	no	no	yes	yes	A
+MOL-000230	Fosamprenavir	131536	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	c21c480d-f5f1-4c6e-87af-9d37152c12dc14	no	no	yes	yes	A
 MOL-000231	Tipranavir	54682461	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000232	Maraviroc	3002977	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000232	Maraviroc	3002977	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	74cd51c5-b884-488c-8f7d-15035ea6396214	no	no	yes	yes	A
 MOL-000233	Enfuvirtide	16130199	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	no	C
-MOL-000234	Dolutegravir Sodium	46216142	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000235	Sofosbuvir	45375808	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000236	Ledipasvir	67505836	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000237	Daclatasvir	25154714	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000234	Dolutegravir Sodium	46216142	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	5846ba23-4f23-4320-99d3-2a5837039fe114	no	no	yes	yes	A
+MOL-000235	Sofosbuvir	45375808	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	0a83c8c8-a2b6-4e01-8820-86ae1bdd66eb14	no	no	yes	yes	A
+MOL-000236	Ledipasvir	67505836	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	4b05756d-79b6-431f-9b29-84c1c82f745f14	no	no	yes	yes	A
+MOL-000237	Daclatasvir	25154714	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	a63e320b-b637-4318-8e08-82ffa5b4167f14	no	no	yes	yes	A
 MOL-000238	Simeprevir	24873435	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
 MOL-000239	Ombitasvir	54767916	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000240	Paritaprevir	45110509	Antiviral Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
