@@ -34,8 +34,8 @@ MOL-000032	Crizotinib	11626560	Targeted Therapy	rdkit_canonical	rdkit_computed	c
 MOL-000033	Metformin	4091	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|mineru_paper_text|pubchem_text	b5eec853-2d47-4d82-9df3-3f3e5f20420d09	yes	yes	yes	yes	A
 MOL-000034	Glibenclamide	3488	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000035	Sitagliptin	4369359	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
-MOL-000036	Pioglitazone	4829	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000037	Empagliflozin	11949646	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
+MOL-000036	Pioglitazone	4829	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	2bd0a793-e15a-406c-bc0f-af8cf54d011514	no	no	yes	yes	A
+MOL-000037	Empagliflozin	11949646	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	9ddbf7f9-6dc0-482b-89d6-dda8b94b2e6414	no	no	yes	yes	A
 MOL-000038	Fluoxetine	3386	Antidepressant	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	yes	yes	yes	B
 MOL-000039	Sertraline	68617	Antidepressant	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	no	yes	yes	B
 MOL-000040	Paroxetine	43815	Antidepressant	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		yes	no	yes	yes	B
@@ -372,31 +372,31 @@ MOL-000370	Tucidinostat	12136798	Targeted Therapy	rdkit_canonical	rdkit_computed
 MOL-000371	Sonidegib	24775005	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000372	Vismodegib	24776445	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000373	Siponimod	44599207	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
-MOL-000374	Glimepiride	3476	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000375	Glipizide	3478	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000376	Gliclazide	3475	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000374	Glimepiride	3476	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	0f0aa4f3-3a83-4627-821f-c452e654ade514	no	no	yes	yes	A
+MOL-000375	Glipizide	3478	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	1d932236-6645-41ac-bc0d-e9a9a93484a114	no	no	yes	yes	A
+MOL-000376	Gliclazide	3475	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	21681f0d-4dac-4118-bccd-c767fb0d75c014	no	no	yes	yes	A
 MOL-000377	Tolbutamide	5505	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000378	Chlorpropamide	2727	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000378	Chlorpropamide	2727	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	7911505d-210d-4292-93d2-03390600cde714	no	no	yes	yes	A
 MOL-000379	Dapagliflozin	9887712	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000380	Canagliflozin	24812758	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000381	Ertugliflozin	44814423	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
-MOL-000382	Ipragliflozin	10453870	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
-MOL-000383	Tofogliflozin	46908929	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
-MOL-000384	Luseogliflozin	11988953	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
-MOL-000385	Semaglutide	56843331	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	no	C
+MOL-000380	Canagliflozin	24812758	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	99eab120-6849-4286-ac11-460a1533365614	no	no	yes	yes	A
+MOL-000381	Ertugliflozin	44814423	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	81fbe796-8ef0-40e6-832d-e8ca181f591f14	no	no	yes	yes	A
+MOL-000382	Ipragliflozin	10453870	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	b5935ecf-544e-4669-9ed6-0e5dc9d171c614	no	no	yes	yes	A
+MOL-000383	Tofogliflozin	46908929	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	ce46efb5-163c-4be1-b0a0-574ac292b40614	no	no	yes	yes	A
+MOL-000384	Luseogliflozin	11988953	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	2caa2ff4-9e30-4ae4-83ad-fbd77e72611214	no	no	yes	yes	A
+MOL-000385	Semaglutide	56843331	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	55074333-99a1-451f-9e89-c44a9979663814	no	no	yes	no	A
 MOL-000386	Liraglutide	16134956	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	no	C
-MOL-000387	Exenatide	45588096	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	no	C
-MOL-000388	Lixisenatide	90472060	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	no	C
-MOL-000389	Vildagliptin	6918537	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
-MOL-000390	Saxagliptin	11243969	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000391	Alogliptin	11450633	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000387	Exenatide	45588096	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	44e6b291-bd2e-45f8-9b78-0e10468609da14	no	no	yes	no	A
+MOL-000388	Lixisenatide	90472060	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	0d22a661-64be-4dc8-9c53-520152e6ecb814	no	no	yes	no	A
+MOL-000389	Vildagliptin	6918537	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	ebb0bc3d-ff0b-44a6-b1eb-58bd57df59e314	no	no	yes	yes	A
+MOL-000390	Saxagliptin	11243969	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	aee20371-ee32-4aa5-b297-22607570d23e14	no	no	yes	yes	A
+MOL-000391	Alogliptin	11450633	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	a3e5d015-4b22-4235-bc68-a51add97b7eb14	no	no	yes	yes	A
 MOL-000392	Linagliptin	10096344	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000393	Gemigliptin	11953153	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000394	Teneligliptin	11949652	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
-MOL-000395	Anagliptin	44513473	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
+MOL-000393	Gemigliptin	11953153	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	2ccd59e3-b586-4759-8c96-a1a442bf627414	no	no	yes	yes	A
+MOL-000394	Teneligliptin	11949652	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	1a5bacae-809b-49e2-a11d-0877d027167a14	no	no	yes	yes	A
+MOL-000395	Anagliptin	44513473	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	6e3d2b42-4f64-4bb1-9a41-3db6ec4e542914	no	no	yes	yes	A
 MOL-000396	Omarigliptin	46209133	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
-MOL-000397	Rosiglitazone	77999	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000398	Troglitazone	5591	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000397	Rosiglitazone	77999	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	e710ea4a-94a8-49be-91a4-1bd36ec80d0514	no	no	yes	yes	A
+MOL-000398	Troglitazone	5591	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	c212cc13-9ac1-40de-a8dc-5a56740be9ee14	no	no	yes	yes	A
 MOL-000399	Acarbose	9811704	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
 MOL-000400	Miglitol	441314	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
 MOL-000401	Voglibose	444020	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C

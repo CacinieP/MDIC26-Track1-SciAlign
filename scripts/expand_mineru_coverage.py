@@ -387,8 +387,7 @@ def main():
     # Save updated dataset (atomic write via temp file + rename)
     import tempfile
     for target_path, write_fn in [
-        (DATASET_JSONL, lambda f: [f.write(json.dumps(r, ensure_ascii=False) + "
-") for r in records]),
+        (DATASET_JSONL, lambda f: [f.write(json.dumps(r, ensure_ascii=False) + "\n") for r in records]),
         (DATASET_JSON, lambda f: json.dump(records, f, ensure_ascii=False, indent=2)),
     ]:
         tmp_fd, tmp_path = tempfile.mkstemp(suffix=".tmp", dir=str(target_path.parent))

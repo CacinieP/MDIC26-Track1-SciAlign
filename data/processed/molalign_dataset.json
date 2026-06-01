@@ -4922,7 +4922,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed pioglitazone_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Pioglitazone (Antidiabetic Drug).",
+          "input": "data/raw/papers/pioglitazone_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/pioglitazone_antidiabetic_drug.md",
+          "task_id": "2bd0a793-e15a-406c-bc0f-af8cf54d011514",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a08b0222-d3fa-43dd-a359-49b0f043606a/full.md",
+          "content_length": 51372,
+          "pmc_id": "PMC13116796",
+          "detail": "task_id=2bd0a793-e15a-406c-bc0f-af8cf54d011514; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/a08b0222-d3fa-43dd-a359-49b0f043606a/full.md; content_length=51372"
+        }
+      ],
       "created_at": "2026-05-31T12:01:14Z",
       "updated_at": "2026-05-31T12:01:14Z",
       "version": "1.0.0"
@@ -5045,7 +5057,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed empagliflozin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Empagliflozin (Antidiabetic Drug).",
+          "input": "data/raw/papers/empagliflozin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/empagliflozin_antidiabetic_drug.md",
+          "task_id": "9ddbf7f9-6dc0-482b-89d6-dda8b94b2e6414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/74ee0dc0-8d0c-473e-9040-59dc4998bd9e/full.md",
+          "content_length": 49837,
+          "pmc_id": "PMC13090579",
+          "detail": "task_id=9ddbf7f9-6dc0-482b-89d6-dda8b94b2e6414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/74ee0dc0-8d0c-473e-9040-59dc4998bd9e/full.md; content_length=49837"
+        }
+      ],
       "created_at": "2026-05-31T12:01:17Z",
       "updated_at": "2026-05-31T12:01:17Z",
       "version": "1.0.0"
@@ -47650,7 +47674,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed glimepiride_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Glimepiride (Antidiabetic Drug).",
+          "input": "data/raw/papers/glimepiride_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/glimepiride_antidiabetic_drug.md",
+          "task_id": "0f0aa4f3-3a83-4627-821f-c452e654ade514",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0ec7377e-72c8-476e-8bf6-4860a8ff5028/full.md",
+          "content_length": 50605,
+          "pmc_id": "PMC13077774",
+          "detail": "task_id=0f0aa4f3-3a83-4627-821f-c452e654ade514; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0ec7377e-72c8-476e-8bf6-4860a8ff5028/full.md; content_length=50605"
+        }
+      ],
       "created_at": "2026-05-31T12:15:51Z",
       "updated_at": "2026-05-31T12:15:51Z",
       "version": "1.0.0"
@@ -47773,7 +47809,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed glipizide_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Glipizide (Antidiabetic Drug).",
+          "input": "data/raw/papers/glipizide_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/glipizide_antidiabetic_drug.md",
+          "task_id": "1d932236-6645-41ac-bc0d-e9a9a93484a114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d6060aed-1870-4a0a-a2a8-0bf14b0c9c26/full.md",
+          "content_length": 63045,
+          "pmc_id": "PMC12958991",
+          "detail": "task_id=1d932236-6645-41ac-bc0d-e9a9a93484a114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d6060aed-1870-4a0a-a2a8-0bf14b0c9c26/full.md; content_length=63045"
+        }
+      ],
       "created_at": "2026-05-31T12:15:54Z",
       "updated_at": "2026-05-31T12:15:54Z",
       "version": "1.0.0"
@@ -47896,7 +47944,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed gliclazide_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Gliclazide (Antidiabetic Drug).",
+          "input": "data/raw/papers/gliclazide_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/gliclazide_antidiabetic_drug.md",
+          "task_id": "21681f0d-4dac-4118-bccd-c767fb0d75c014",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1144b584-f51c-48cb-ad36-4cce84be2dfb/full.md",
+          "content_length": 29333,
+          "pmc_id": "PMC12996347",
+          "detail": "task_id=21681f0d-4dac-4118-bccd-c767fb0d75c014; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1144b584-f51c-48cb-ad36-4cce84be2dfb/full.md; content_length=29333"
+        }
+      ],
       "created_at": "2026-05-31T12:16:00Z",
       "updated_at": "2026-05-31T12:16:00Z",
       "version": "1.0.0"
@@ -48142,7 +48202,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed chlorpropamide_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Chlorpropamide (Antidiabetic Drug).",
+          "input": "data/raw/papers/chlorpropamide_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/chlorpropamide_antidiabetic_drug.md",
+          "task_id": "7911505d-210d-4292-93d2-03390600cde714",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/7d886407-8056-4e0c-ab20-1b0821bfa4e0/full.md",
+          "content_length": 6962,
+          "pmc_id": "PMC12951831",
+          "detail": "task_id=7911505d-210d-4292-93d2-03390600cde714; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/7d886407-8056-4e0c-ab20-1b0821bfa4e0/full.md; content_length=6962"
+        }
+      ],
       "created_at": "2026-05-31T12:16:23Z",
       "updated_at": "2026-05-31T12:16:23Z",
       "version": "1.0.0"
@@ -48389,7 +48461,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed canagliflozin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Canagliflozin (Antidiabetic Drug).",
+          "input": "data/raw/papers/canagliflozin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/canagliflozin_antidiabetic_drug.md",
+          "task_id": "99eab120-6849-4286-ac11-460a1533365614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b76c4b89-2c7f-4205-968c-7d657345572f/full.md",
+          "content_length": 53176,
+          "pmc_id": "PMC13180688",
+          "detail": "task_id=99eab120-6849-4286-ac11-460a1533365614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b76c4b89-2c7f-4205-968c-7d657345572f/full.md; content_length=53176"
+        }
+      ],
       "created_at": "2026-05-31T12:16:27Z",
       "updated_at": "2026-05-31T12:16:27Z",
       "version": "1.0.0"
@@ -48512,7 +48596,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed ertugliflozin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Ertugliflozin (Antidiabetic Drug).",
+          "input": "data/raw/papers/ertugliflozin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/ertugliflozin_antidiabetic_drug.md",
+          "task_id": "81fbe796-8ef0-40e6-832d-e8ca181f591f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4ad470be-7a37-4fb5-ab08-ff67871065fe/full.md",
+          "content_length": 53760,
+          "pmc_id": "PMC13022961",
+          "detail": "task_id=81fbe796-8ef0-40e6-832d-e8ca181f591f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4ad470be-7a37-4fb5-ab08-ff67871065fe/full.md; content_length=53760"
+        }
+      ],
       "created_at": "2026-05-31T12:16:28Z",
       "updated_at": "2026-05-31T12:16:28Z",
       "version": "1.0.0"
@@ -48635,7 +48731,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed ipragliflozin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Ipragliflozin (Antidiabetic Drug).",
+          "input": "data/raw/papers/ipragliflozin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/ipragliflozin_antidiabetic_drug.md",
+          "task_id": "b5935ecf-544e-4669-9ed6-0e5dc9d171c614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b24b3afa-5306-47d1-9c3c-818514d11b07/full.md",
+          "content_length": 53270,
+          "pmc_id": "PMC12744807",
+          "detail": "task_id=b5935ecf-544e-4669-9ed6-0e5dc9d171c614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/b24b3afa-5306-47d1-9c3c-818514d11b07/full.md; content_length=53270"
+        }
+      ],
       "created_at": "2026-05-31T12:16:30Z",
       "updated_at": "2026-05-31T12:16:30Z",
       "version": "1.0.0"
@@ -48758,7 +48866,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed tofogliflozin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Tofogliflozin (Antidiabetic Drug).",
+          "input": "data/raw/papers/tofogliflozin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/tofogliflozin_antidiabetic_drug.md",
+          "task_id": "ce46efb5-163c-4be1-b0a0-574ac292b40614",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/12bdd5f5-3e85-413f-bc36-1f8c617f2b9e/full.md",
+          "content_length": 46653,
+          "pmc_id": "PMC12715907",
+          "detail": "task_id=ce46efb5-163c-4be1-b0a0-574ac292b40614; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/12bdd5f5-3e85-413f-bc36-1f8c617f2b9e/full.md; content_length=46653"
+        }
+      ],
       "created_at": "2026-05-31T12:16:32Z",
       "updated_at": "2026-05-31T12:16:32Z",
       "version": "1.0.0"
@@ -48881,7 +49001,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed luseogliflozin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Luseogliflozin (Antidiabetic Drug).",
+          "input": "data/raw/papers/luseogliflozin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/luseogliflozin_antidiabetic_drug.md",
+          "task_id": "2caa2ff4-9e30-4ae4-83ad-fbd77e72611214",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/24257a0a-9229-4253-8b44-a72f759ca833/full.md",
+          "content_length": 62998,
+          "pmc_id": "PMC12681282",
+          "detail": "task_id=2caa2ff4-9e30-4ae4-83ad-fbd77e72611214; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/24257a0a-9229-4253-8b44-a72f759ca833/full.md; content_length=62998"
+        }
+      ],
       "created_at": "2026-05-31T12:16:34Z",
       "updated_at": "2026-05-31T12:16:34Z",
       "version": "1.0.0"
@@ -49001,7 +49133,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed semaglutide_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Semaglutide (Antidiabetic Drug).",
+          "input": "data/raw/papers/semaglutide_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/semaglutide_antidiabetic_drug.md",
+          "task_id": "55074333-99a1-451f-9e89-c44a9979663814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/7baab7de-a13a-421d-9666-c4ea037d0eee/full.md",
+          "content_length": 43185,
+          "pmc_id": "PMC13191398",
+          "detail": "task_id=55074333-99a1-451f-9e89-c44a9979663814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/7baab7de-a13a-421d-9666-c4ea037d0eee/full.md; content_length=43185"
+        }
+      ],
       "created_at": "2026-05-31T12:16:56Z",
       "updated_at": "2026-05-31T12:16:56Z",
       "version": "1.0.0"
@@ -49241,7 +49385,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed exenatide_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Exenatide (Antidiabetic Drug).",
+          "input": "data/raw/papers/exenatide_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/exenatide_antidiabetic_drug.md",
+          "task_id": "44e6b291-bd2e-45f8-9b78-0e10468609da14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1910cbd5-0b87-4fa1-95d5-e30c341cb2fa/full.md",
+          "content_length": 40274,
+          "pmc_id": "PMC13090280",
+          "detail": "task_id=44e6b291-bd2e-45f8-9b78-0e10468609da14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1910cbd5-0b87-4fa1-95d5-e30c341cb2fa/full.md; content_length=40274"
+        }
+      ],
       "created_at": "2026-05-31T12:17:57Z",
       "updated_at": "2026-05-31T12:17:57Z",
       "version": "1.0.0"
@@ -49361,7 +49517,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed lixisenatide_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Lixisenatide (Antidiabetic Drug).",
+          "input": "data/raw/papers/lixisenatide_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/lixisenatide_antidiabetic_drug.md",
+          "task_id": "0d22a661-64be-4dc8-9c53-520152e6ecb814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/78d19527-c6e5-4ca9-a607-38bea1ed24d1/full.md",
+          "content_length": 47857,
+          "pmc_id": "PMC12992176",
+          "detail": "task_id=0d22a661-64be-4dc8-9c53-520152e6ecb814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/78d19527-c6e5-4ca9-a607-38bea1ed24d1/full.md; content_length=47857"
+        }
+      ],
       "created_at": "2026-05-31T12:18:41Z",
       "updated_at": "2026-05-31T12:18:41Z",
       "version": "1.0.0"
@@ -49484,7 +49652,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed vildagliptin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Vildagliptin (Antidiabetic Drug).",
+          "input": "data/raw/papers/vildagliptin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/vildagliptin_antidiabetic_drug.md",
+          "task_id": "ebb0bc3d-ff0b-44a6-b1eb-58bd57df59e314",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bf3b8cb6-dd68-4f94-a59d-b973a09cb6fa/full.md",
+          "content_length": 77204,
+          "pmc_id": "PMC13194605",
+          "detail": "task_id=ebb0bc3d-ff0b-44a6-b1eb-58bd57df59e314; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bf3b8cb6-dd68-4f94-a59d-b973a09cb6fa/full.md; content_length=77204"
+        }
+      ],
       "created_at": "2026-05-31T12:18:48Z",
       "updated_at": "2026-05-31T12:18:48Z",
       "version": "1.0.0"
@@ -49607,7 +49787,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed saxagliptin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Saxagliptin (Antidiabetic Drug).",
+          "input": "data/raw/papers/saxagliptin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/saxagliptin_antidiabetic_drug.md",
+          "task_id": "aee20371-ee32-4aa5-b297-22607570d23e14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bd1492ac-8c4d-435b-a85f-9f331163d132/full.md",
+          "content_length": 70689,
+          "pmc_id": "PMC13009257",
+          "detail": "task_id=aee20371-ee32-4aa5-b297-22607570d23e14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bd1492ac-8c4d-435b-a85f-9f331163d132/full.md; content_length=70689"
+        }
+      ],
       "created_at": "2026-05-31T12:18:50Z",
       "updated_at": "2026-05-31T12:18:50Z",
       "version": "1.0.0"
@@ -49730,7 +49922,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed alogliptin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Alogliptin (Antidiabetic Drug).",
+          "input": "data/raw/papers/alogliptin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/alogliptin_antidiabetic_drug.md",
+          "task_id": "a3e5d015-4b22-4235-bc68-a51add97b7eb14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/9f9db308-0cda-4739-aeda-100b4bb717e3/full.md",
+          "content_length": 74963,
+          "pmc_id": "PMC12799724",
+          "detail": "task_id=a3e5d015-4b22-4235-bc68-a51add97b7eb14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/9f9db308-0cda-4739-aeda-100b4bb717e3/full.md; content_length=74963"
+        }
+      ],
       "created_at": "2026-05-31T12:18:52Z",
       "updated_at": "2026-05-31T12:18:52Z",
       "version": "1.0.0"
@@ -49976,7 +50180,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed gemigliptin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Gemigliptin (Antidiabetic Drug).",
+          "input": "data/raw/papers/gemigliptin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/gemigliptin_antidiabetic_drug.md",
+          "task_id": "2ccd59e3-b586-4759-8c96-a1a442bf627414",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ed8f8327-b5db-43a7-be9e-111f7c7ded66/full.md",
+          "content_length": 42054,
+          "pmc_id": "PMC12518504",
+          "detail": "task_id=2ccd59e3-b586-4759-8c96-a1a442bf627414; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/ed8f8327-b5db-43a7-be9e-111f7c7ded66/full.md; content_length=42054"
+        }
+      ],
       "created_at": "2026-05-31T12:18:56Z",
       "updated_at": "2026-05-31T12:18:56Z",
       "version": "1.0.0"
@@ -50099,7 +50315,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed teneligliptin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Teneligliptin (Antidiabetic Drug).",
+          "input": "data/raw/papers/teneligliptin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/teneligliptin_antidiabetic_drug.md",
+          "task_id": "1a5bacae-809b-49e2-a11d-0877d027167a14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8b4299db-4d2b-45f3-aae9-99f7f2899e6d/full.md",
+          "content_length": 59299,
+          "pmc_id": "PMC12648778",
+          "detail": "task_id=1a5bacae-809b-49e2-a11d-0877d027167a14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8b4299db-4d2b-45f3-aae9-99f7f2899e6d/full.md; content_length=59299"
+        }
+      ],
       "created_at": "2026-05-31T12:18:59Z",
       "updated_at": "2026-05-31T12:18:59Z",
       "version": "1.0.0"
@@ -50222,7 +50450,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed anagliptin_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Anagliptin (Antidiabetic Drug).",
+          "input": "data/raw/papers/anagliptin_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/anagliptin_antidiabetic_drug.md",
+          "task_id": "6e3d2b42-4f64-4bb1-9a41-3db6ec4e542914",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/53e1e2e5-145f-4757-842d-4bf15b14395b/full.md",
+          "content_length": 28686,
+          "pmc_id": "PMC12539324",
+          "detail": "task_id=6e3d2b42-4f64-4bb1-9a41-3db6ec4e542914; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/53e1e2e5-145f-4757-842d-4bf15b14395b/full.md; content_length=28686"
+        }
+      ],
       "created_at": "2026-05-31T12:19:04Z",
       "updated_at": "2026-05-31T12:19:04Z",
       "version": "1.0.0"
@@ -50468,7 +50708,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed rosiglitazone_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Rosiglitazone (Antidiabetic Drug).",
+          "input": "data/raw/papers/rosiglitazone_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/rosiglitazone_antidiabetic_drug.md",
+          "task_id": "e710ea4a-94a8-49be-91a4-1bd36ec80d0514",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4704c396-583f-4390-aeae-bc5e8b95eb5a/full.md",
+          "content_length": 41665,
+          "pmc_id": "PMC13091264",
+          "detail": "task_id=e710ea4a-94a8-49be-91a4-1bd36ec80d0514; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4704c396-583f-4390-aeae-bc5e8b95eb5a/full.md; content_length=41665"
+        }
+      ],
       "created_at": "2026-05-31T12:19:08Z",
       "updated_at": "2026-05-31T12:19:08Z",
       "version": "1.0.0"
@@ -50591,7 +50843,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed troglitazone_antidiabetic_drug.pdf via MinerU Agent API and aligned Markdown to Troglitazone (Antidiabetic Drug).",
+          "input": "data/raw/papers/troglitazone_antidiabetic_drug.pdf",
+          "output": "data/raw/parsed_mineru_api/troglitazone_antidiabetic_drug.md",
+          "task_id": "c212cc13-9ac1-40de-a8dc-5a56740be9ee14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f3b8257b-cab0-4916-9bbd-b1c74807d1e7/full.md",
+          "content_length": 50277,
+          "pmc_id": "PMC12652496",
+          "detail": "task_id=c212cc13-9ac1-40de-a8dc-5a56740be9ee14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f3b8257b-cab0-4916-9bbd-b1c74807d1e7/full.md; content_length=50277"
+        }
+      ],
       "created_at": "2026-05-31T12:19:10Z",
       "updated_at": "2026-05-31T12:19:10Z",
       "version": "1.0.0"
