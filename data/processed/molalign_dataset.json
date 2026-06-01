@@ -3921,7 +3921,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed gefitinib_targeted_therapy.pdf via MinerU Agent API and aligned Markdown to Gefitinib (Targeted Therapy).",
+          "input": "data/raw/papers/gefitinib_targeted_therapy.pdf",
+          "output": "data/raw/parsed_mineru_api/gefitinib_targeted_therapy.md",
+          "task_id": "4459da30-23d6-4a88-8eb7-7e86e46d6a7e14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/db65b3e6-40cf-4553-ada6-2d46768d0fd4/full.md",
+          "content_length": 54047,
+          "pmc_id": "PMC13036320",
+          "detail": "task_id=4459da30-23d6-4a88-8eb7-7e86e46d6a7e14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/db65b3e6-40cf-4553-ada6-2d46768d0fd4/full.md; content_length=54047"
+        }
+      ],
       "created_at": "2026-05-31T12:00:55Z",
       "updated_at": "2026-05-31T12:00:55Z",
       "version": "1.0.0"
@@ -4045,7 +4057,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed erlotinib_targeted_therapy.pdf via MinerU Agent API and aligned Markdown to Erlotinib (Targeted Therapy).",
+          "input": "data/raw/papers/erlotinib_targeted_therapy.pdf",
+          "output": "data/raw/parsed_mineru_api/erlotinib_targeted_therapy.md",
+          "task_id": "43fb43bd-3bb8-41cf-90f4-1e7ed1c09bd814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/19f7af49-ef6d-44c2-9929-1c1a2d51291d/full.md",
+          "content_length": 71504,
+          "pmc_id": "PMC13108728",
+          "detail": "task_id=43fb43bd-3bb8-41cf-90f4-1e7ed1c09bd814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/19f7af49-ef6d-44c2-9929-1c1a2d51291d/full.md; content_length=71504"
+        }
+      ],
       "created_at": "2026-05-31T12:00:58Z",
       "updated_at": "2026-05-31T12:00:58Z",
       "version": "1.0.0"
@@ -4417,7 +4441,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed crizotinib_targeted_therapy.pdf via MinerU Agent API and aligned Markdown to Crizotinib (Targeted Therapy).",
+          "input": "data/raw/papers/crizotinib_targeted_therapy.pdf",
+          "output": "data/raw/parsed_mineru_api/crizotinib_targeted_therapy.md",
+          "task_id": "0452bc0d-7ec2-452d-b907-13cf5624bfdd14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f63bb35b-02c2-4254-b8ba-899b2b0dabfb/full.md",
+          "content_length": 80328,
+          "pmc_id": "PMC13188610",
+          "detail": "task_id=0452bc0d-7ec2-452d-b907-13cf5624bfdd14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f63bb35b-02c2-4254-b8ba-899b2b0dabfb/full.md; content_length=80328"
+        }
+      ],
       "created_at": "2026-05-31T12:01:04Z",
       "updated_at": "2026-05-31T12:01:04Z",
       "version": "1.0.0"
@@ -43307,7 +43343,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed axitinib_targeted_therapy.pdf via MinerU Agent API and aligned Markdown to Axitinib (Targeted Therapy).",
+          "input": "data/raw/papers/axitinib_targeted_therapy.pdf",
+          "output": "data/raw/parsed_mineru_api/axitinib_targeted_therapy.md",
+          "task_id": "c2c79ed1-43f8-4c24-9f91-4b37281301ca14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/89949477-1e6f-4eb7-80df-2a06c66b90f1/full.md",
+          "content_length": 28238,
+          "pmc_id": "PMC13067197",
+          "detail": "task_id=c2c79ed1-43f8-4c24-9f91-4b37281301ca14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/89949477-1e6f-4eb7-80df-2a06c66b90f1/full.md; content_length=28238"
+        }
+      ],
       "created_at": "2026-05-31T12:14:19Z",
       "updated_at": "2026-05-31T12:14:19Z",
       "version": "1.0.0"
@@ -43430,7 +43478,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed tivozanib_targeted_therapy.pdf via MinerU Agent API and aligned Markdown to Tivozanib (Targeted Therapy).",
+          "input": "data/raw/papers/tivozanib_targeted_therapy.pdf",
+          "output": "data/raw/parsed_mineru_api/tivozanib_targeted_therapy.md",
+          "task_id": "ef02bbd4-e136-4484-b865-cb6b4c6f0c5214",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/eb19fd45-037d-43b2-9e1a-4a3c4f6a45f3/full.md",
+          "content_length": 55162,
+          "pmc_id": "PMC12730253",
+          "detail": "task_id=ef02bbd4-e136-4484-b865-cb6b4c6f0c5214; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/eb19fd45-037d-43b2-9e1a-4a3c4f6a45f3/full.md; content_length=55162"
+        }
+      ],
       "created_at": "2026-05-31T12:14:21Z",
       "updated_at": "2026-05-31T12:14:21Z",
       "version": "1.0.0"
@@ -43554,7 +43614,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed palbociclib_targeted_therapy.pdf via MinerU Agent API and aligned Markdown to Palbociclib (Targeted Therapy).",
+          "input": "data/raw/papers/palbociclib_targeted_therapy.pdf",
+          "output": "data/raw/parsed_mineru_api/palbociclib_targeted_therapy.md",
+          "task_id": "4759b06e-9459-4c9a-82e6-7f158556c19814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1839e50a-dd87-4443-8248-baea7a01ce29/full.md",
+          "content_length": 62814,
+          "pmc_id": "PMC13076679",
+          "detail": "task_id=4759b06e-9459-4c9a-82e6-7f158556c19814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1839e50a-dd87-4443-8248-baea7a01ce29/full.md; content_length=62814"
+        }
+      ],
       "created_at": "2026-05-31T12:14:23Z",
       "updated_at": "2026-05-31T12:14:23Z",
       "version": "1.0.0"
@@ -43677,7 +43749,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed ribociclib_targeted_therapy.pdf via MinerU Agent API and aligned Markdown to Ribociclib (Targeted Therapy).",
+          "input": "data/raw/papers/ribociclib_targeted_therapy.pdf",
+          "output": "data/raw/parsed_mineru_api/ribociclib_targeted_therapy.md",
+          "task_id": "432b13b3-a2be-4d82-9f83-4a44d9203cdb14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c27ce251-e909-4ff6-bf72-bd7b200d4967/full.md",
+          "content_length": 56014,
+          "pmc_id": "PMC13056735",
+          "detail": "task_id=432b13b3-a2be-4d82-9f83-4a44d9203cdb14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c27ce251-e909-4ff6-bf72-bd7b200d4967/full.md; content_length=56014"
+        }
+      ],
       "created_at": "2026-05-31T12:14:26Z",
       "updated_at": "2026-05-31T12:14:26Z",
       "version": "1.0.0"
@@ -43800,7 +43884,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed abemaciclib_targeted_therapy.pdf via MinerU Agent API and aligned Markdown to Abemaciclib (Targeted Therapy).",
+          "input": "data/raw/papers/abemaciclib_targeted_therapy.pdf",
+          "output": "data/raw/parsed_mineru_api/abemaciclib_targeted_therapy.md",
+          "task_id": "7fb4034b-689c-47ec-a0f1-65bcf947e6a814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e44ec66c-e874-40c1-a5ba-2eeec75104f4/full.md",
+          "content_length": 45971,
+          "pmc_id": "PMC13084465",
+          "detail": "task_id=7fb4034b-689c-47ec-a0f1-65bcf947e6a814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e44ec66c-e874-40c1-a5ba-2eeec75104f4/full.md; content_length=45971"
+        }
+      ],
       "created_at": "2026-05-31T12:14:28Z",
       "updated_at": "2026-05-31T12:14:28Z",
       "version": "1.0.0"
@@ -43924,7 +44020,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed olaparib_targeted_therapy.pdf via MinerU Agent API and aligned Markdown to Olaparib (Targeted Therapy).",
+          "input": "data/raw/papers/olaparib_targeted_therapy.pdf",
+          "output": "data/raw/parsed_mineru_api/olaparib_targeted_therapy.md",
+          "task_id": "b057aab0-b637-476c-94cb-ae29ea337aa214",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/eaf9fcbf-2e27-4a88-aa2e-c3a95c5747a7/full.md",
+          "content_length": 31834,
+          "pmc_id": "PMC13187586",
+          "detail": "task_id=b057aab0-b637-476c-94cb-ae29ea337aa214; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/eaf9fcbf-2e27-4a88-aa2e-c3a95c5747a7/full.md; content_length=31834"
+        }
+      ],
       "created_at": "2026-05-31T12:14:29Z",
       "updated_at": "2026-05-31T12:14:29Z",
       "version": "1.0.0"
@@ -44170,7 +44278,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed niraparib_targeted_therapy.pdf via MinerU Agent API and aligned Markdown to Niraparib (Targeted Therapy).",
+          "input": "data/raw/papers/niraparib_targeted_therapy.pdf",
+          "output": "data/raw/parsed_mineru_api/niraparib_targeted_therapy.md",
+          "task_id": "d25beb06-880b-4461-a2ac-6e8fe752df2c14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/39904dc0-5f65-4d9d-80b1-81dd55781142/full.md",
+          "content_length": 57725,
+          "pmc_id": "PMC13114077",
+          "detail": "task_id=d25beb06-880b-4461-a2ac-6e8fe752df2c14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/39904dc0-5f65-4d9d-80b1-81dd55781142/full.md; content_length=57725"
+        }
+      ],
       "created_at": "2026-05-31T12:14:33Z",
       "updated_at": "2026-05-31T12:14:33Z",
       "version": "1.0.0"
@@ -44293,7 +44413,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed talazoparib_targeted_therapy.pdf via MinerU Agent API and aligned Markdown to Talazoparib (Targeted Therapy).",
+          "input": "data/raw/papers/talazoparib_targeted_therapy.pdf",
+          "output": "data/raw/parsed_mineru_api/talazoparib_targeted_therapy.md",
+          "task_id": "dda7579a-dac1-4424-8466-28b1f3006c5f14",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/33e5f968-b26a-4e3a-bffc-77cce9f24625/full.md",
+          "content_length": 74386,
+          "pmc_id": "PMC13099559",
+          "detail": "task_id=dda7579a-dac1-4424-8466-28b1f3006c5f14; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/33e5f968-b26a-4e3a-bffc-77cce9f24625/full.md; content_length=74386"
+        }
+      ],
       "created_at": "2026-05-31T12:14:35Z",
       "updated_at": "2026-05-31T12:14:35Z",
       "version": "1.0.0"
@@ -44417,7 +44549,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed vemurafenib_targeted_therapy.pdf via MinerU Agent API and aligned Markdown to Vemurafenib (Targeted Therapy).",
+          "input": "data/raw/papers/vemurafenib_targeted_therapy.pdf",
+          "output": "data/raw/parsed_mineru_api/vemurafenib_targeted_therapy.md",
+          "task_id": "f0edca6b-47cb-40b2-a093-150f41a0a16814",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6d3c03d5-7b78-43ec-a64c-150ba2a737e9/full.md",
+          "content_length": 57338,
+          "pmc_id": "PMC13040209",
+          "detail": "task_id=f0edca6b-47cb-40b2-a093-150f41a0a16814; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6d3c03d5-7b78-43ec-a64c-150ba2a737e9/full.md; content_length=57338"
+        }
+      ],
       "created_at": "2026-05-31T12:14:36Z",
       "updated_at": "2026-05-31T12:14:36Z",
       "version": "1.0.0"
@@ -44540,7 +44684,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed dabrafenib_targeted_therapy.pdf via MinerU Agent API and aligned Markdown to Dabrafenib (Targeted Therapy).",
+          "input": "data/raw/papers/dabrafenib_targeted_therapy.pdf",
+          "output": "data/raw/parsed_mineru_api/dabrafenib_targeted_therapy.md",
+          "task_id": "7f0d1391-5e73-4e68-bc01-f122783a366714",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c148e069-eecd-4ceb-a659-859511bcbc69/full.md",
+          "content_length": 24748,
+          "pmc_id": "PMC13033457",
+          "detail": "task_id=7f0d1391-5e73-4e68-bc01-f122783a366714; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c148e069-eecd-4ceb-a659-859511bcbc69/full.md; content_length=24748"
+        }
+      ],
       "created_at": "2026-05-31T12:14:38Z",
       "updated_at": "2026-05-31T12:14:38Z",
       "version": "1.0.0"
@@ -44663,7 +44819,19 @@
     "alignment_metadata": {
       "alignment_confidence": 0.85,
       "validation_status": "automated_pass",
-      "mineru_usage": [],
+      "mineru_usage": [
+        {
+          "tool": "MinerU Agent API",
+          "task": "Parsed trametinib_targeted_therapy.pdf via MinerU Agent API and aligned Markdown to Trametinib (Targeted Therapy).",
+          "input": "data/raw/papers/trametinib_targeted_therapy.pdf",
+          "output": "data/raw/parsed_mineru_api/trametinib_targeted_therapy.md",
+          "task_id": "ed4de1f2-b42d-459a-a970-f18830ea0df114",
+          "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/df1b9812-555d-4e54-b142-f87a94cc8835/full.md",
+          "content_length": 21519,
+          "pmc_id": "PMC13076836",
+          "detail": "task_id=ed4de1f2-b42d-459a-a970-f18830ea0df114; markdown_url=https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/df1b9812-555d-4e54-b142-f87a94cc8835/full.md; content_length=21519"
+        }
+      ],
       "created_at": "2026-05-31T12:14:40Z",
       "updated_at": "2026-05-31T12:14:40Z",
       "version": "1.0.0"

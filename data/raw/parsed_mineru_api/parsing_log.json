@@ -1751,7 +1751,177 @@
       "title": "Short-Term Clinical and Immunologic Outcomes Conditional on SVR12 in Hepatitis C Virus-Associated Cryoglobulinemic Vasculitis Treated With Direct-Acting Antivirals: A Systematic Review and Meta-Analys",
       "record_id": "MOL-000237",
       "molecule": "Daclatasvir"
+    },
+    "gefitinib_targeted_therapy.pdf": {
+      "task_id": "4459da30-23d6-4a88-8eb7-7e86e46d6a7e14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/db65b3e6-40cf-4553-ada6-2d46768d0fd4/full.md",
+      "content_length": 54047,
+      "pmc_id": "PMC13036320",
+      "pmc_num": 13036320,
+      "title": "Rezivertinib in &lt;i&gt;EGFR&lt;/i&gt;-Mutated Non-Small Cell Lung Cancer Patients with Central Nervous System Metastasis: Central Nervous System Efficacy from the Phase III REZOR Study.",
+      "record_id": "MOL-000028",
+      "molecule": "Gefitinib"
+    },
+    "erlotinib_targeted_therapy.pdf": {
+      "task_id": "43fb43bd-3bb8-41cf-90f4-1e7ed1c09bd814",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/19f7af49-ef6d-44c2-9929-1c1a2d51291d/full.md",
+      "content_length": 71504,
+      "pmc_id": "PMC13108728",
+      "pmc_num": 13108728,
+      "title": "Targeting pancreatic cancer with combined inhibition of EGFR and RAF.",
+      "record_id": "MOL-000029",
+      "molecule": "Erlotinib"
+    },
+    "sorafenib_targeted_therapy.pdf": {
+      "task_id": "9e704c31-7bdb-4a4b-9884-932a73ade30d14",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13197303",
+      "pmc_num": 13197303,
+      "title": "Advancing Systemic Treatment beyond First Line for Advanced Hepatocellular Carcinoma.",
+      "record_id": "MOL-000030",
+      "molecule": "Sorafenib"
+    },
+    "crizotinib_targeted_therapy.pdf": {
+      "task_id": "0452bc0d-7ec2-452d-b907-13cf5624bfdd14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/f63bb35b-02c2-4254-b8ba-899b2b0dabfb/full.md",
+      "content_length": 80328,
+      "pmc_id": "PMC13188610",
+      "pmc_num": 13188610,
+      "title": "Optimizing treatment and sequencing strategies for maximal survival and net health benefits in ALK-positive NSCLC: a systematic review and reconstructed individual patient data meta-analysis.",
+      "record_id": "MOL-000032",
+      "molecule": "Crizotinib"
+    },
+    "citalopram_antidepressant.pdf": {
+      "task_id": "ecf35f26-a8c3-4fea-a092-789211c6ea5e14",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC12885477",
+      "pmc_num": 12885477,
+      "title": "Citalopram exhibits immune-dependent anti-tumor effects by modulating C5aR1&lt;sup&gt;+&lt;/sup&gt; TAMs.",
+      "record_id": "MOL-000043",
+      "molecule": "Citalopram"
+    },
+    "axitinib_targeted_therapy.pdf": {
+      "task_id": "c2c79ed1-43f8-4c24-9f91-4b37281301ca14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/89949477-1e6f-4eb7-80df-2a06c66b90f1/full.md",
+      "content_length": 28238,
+      "pmc_id": "PMC13067197",
+      "pmc_num": 13067197,
+      "title": "Dual Pathway Inhibition in Patients With mRCC: A Case Series From Kuwait Highlighting the Role of Avelumab and Axitinib.",
+      "record_id": "MOL-000336",
+      "molecule": "Axitinib"
+    },
+    "tivozanib_targeted_therapy.pdf": {
+      "task_id": "ef02bbd4-e136-4484-b865-cb6b4c6f0c5214",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/eb19fd45-037d-43b2-9e1a-4a3c4f6a45f3/full.md",
+      "content_length": 55162,
+      "pmc_id": "PMC12730253",
+      "pmc_num": 12730253,
+      "title": "First-Line Treatment with Tivozanib for Metastatic Renal Cell Carcinoma in Real-World Settings Across Germany: Results of the Prospective, Non-Interventional, Post-Approval Study T-Rex.",
+      "record_id": "MOL-000337",
+      "molecule": "Tivozanib"
+    },
+    "palbociclib_targeted_therapy.pdf": {
+      "task_id": "4759b06e-9459-4c9a-82e6-7f158556c19814",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/1839e50a-dd87-4443-8248-baea7a01ce29/full.md",
+      "content_length": 62814,
+      "pmc_id": "PMC13076679",
+      "pmc_num": 13076679,
+      "title": "Pseudo-senescence induced by palbociclib does not sensitise pleural mesothelioma cells to combinations with senolytics.",
+      "record_id": "MOL-000338",
+      "molecule": "Palbociclib"
+    },
+    "ribociclib_targeted_therapy.pdf": {
+      "task_id": "432b13b3-a2be-4d82-9f83-4a44d9203cdb14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c27ce251-e909-4ff6-bf72-bd7b200d4967/full.md",
+      "content_length": 56014,
+      "pmc_id": "PMC13056735",
+      "pmc_num": 13056735,
+      "title": "Ribociclib is not a substrate or inhibitor of Oatp1b-mediated uptake in vivo.",
+      "record_id": "MOL-000339",
+      "molecule": "Ribociclib"
+    },
+    "abemaciclib_targeted_therapy.pdf": {
+      "task_id": "7fb4034b-689c-47ec-a0f1-65bcf947e6a814",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e44ec66c-e874-40c1-a5ba-2eeec75104f4/full.md",
+      "content_length": 45971,
+      "pmc_id": "PMC13084465",
+      "pmc_num": 13084465,
+      "title": "The Inhibitory Effect of Anastrozole on the Metabolism of Abemaciclib In Vitro and In Vivo",
+      "record_id": "MOL-000340",
+      "molecule": "Abemaciclib"
+    },
+    "olaparib_targeted_therapy.pdf": {
+      "task_id": "b057aab0-b637-476c-94cb-ae29ea337aa214",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/eaf9fcbf-2e27-4a88-aa2e-c3a95c5747a7/full.md",
+      "content_length": 31834,
+      "pmc_id": "PMC13187586",
+      "pmc_num": 13187586,
+      "title": "Efficacy of olaparib in advanced cancers with somatic or germline mutations in BAP1, BARD1, BRIP1 and PALB2.",
+      "record_id": "MOL-000341",
+      "molecule": "Olaparib"
+    },
+    "rucaparib_targeted_therapy.pdf": {
+      "task_id": "8c4ce466-0e4d-46f2-a597-6d06401605fa14",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC12986000",
+      "pmc_num": 12986000,
+      "title": "Targeting VEGF, PARP, and FRα Pathways in Ovarian Cancer: Clinical Advances with Bevacizumab, Rucaparib, and Mirvetuximab Soravtansine",
+      "record_id": "MOL-000342",
+      "molecule": "Rucaparib"
+    },
+    "niraparib_targeted_therapy.pdf": {
+      "task_id": "d25beb06-880b-4461-a2ac-6e8fe752df2c14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/39904dc0-5f65-4d9d-80b1-81dd55781142/full.md",
+      "content_length": 57725,
+      "pmc_id": "PMC13114077",
+      "pmc_num": 13114077,
+      "title": "DYRK1B Inhibition by AZ191 Sensitizes High-Grade Serous Ovarian Cancer to Niraparib Through Promoting Apoptosis and Ferroptosis.",
+      "record_id": "MOL-000343",
+      "molecule": "Niraparib"
+    },
+    "talazoparib_targeted_therapy.pdf": {
+      "task_id": "dda7579a-dac1-4424-8466-28b1f3006c5f14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/33e5f968-b26a-4e3a-bffc-77cce9f24625/full.md",
+      "content_length": 74386,
+      "pmc_id": "PMC13099559",
+      "pmc_num": 13099559,
+      "title": "Resistance to neoadjuvant talazoparib in triple-negative breast cancer by BRN2-induced ATR/STAT3 pathways or SHLD2 subclone expansion.",
+      "record_id": "MOL-000344",
+      "molecule": "Talazoparib"
+    },
+    "vemurafenib_targeted_therapy.pdf": {
+      "task_id": "f0edca6b-47cb-40b2-a093-150f41a0a16814",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6d3c03d5-7b78-43ec-a64c-150ba2a737e9/full.md",
+      "content_length": 57338,
+      "pmc_id": "PMC13040209",
+      "pmc_num": 13040209,
+      "title": "Exploratory Analysis of Biomarkers and Treatment Outcomes from the COLUMBUS Study in BRAF V600E/K-Mutant Advanced or Metastatic Melanoma.",
+      "record_id": "MOL-000345",
+      "molecule": "Vemurafenib"
+    },
+    "dabrafenib_targeted_therapy.pdf": {
+      "task_id": "7f0d1391-5e73-4e68-bc01-f122783a366714",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c148e069-eecd-4ceb-a659-859511bcbc69/full.md",
+      "content_length": 24748,
+      "pmc_id": "PMC13033457",
+      "pmc_num": 13033457,
+      "title": "Incidence and management of pyrexia syndrome in patients treated with dabrafenib and trametinib: a retrospective study.",
+      "record_id": "MOL-000346",
+      "molecule": "Dabrafenib"
+    },
+    "trametinib_targeted_therapy.pdf": {
+      "task_id": "ed4de1f2-b42d-459a-a970-f18830ea0df114",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/df1b9812-555d-4e54-b142-f87a94cc8835/full.md",
+      "content_length": 21519,
+      "pmc_id": "PMC13076836",
+      "pmc_num": 13076836,
+      "title": "Efficacy of azacitidine and trametinib against leptomeningeal melanosis associated with congenital melanocytic nevus syndrome.",
+      "record_id": "MOL-000347",
+      "molecule": "Trametinib"
     }
   },
-  "last_expansion": "2026-06-01T08:23:28Z"
+  "last_expansion": "2026-06-01T08:52:14Z"
 }

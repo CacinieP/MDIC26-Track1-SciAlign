@@ -26,11 +26,11 @@ MOL-000024	Cisplatin	5702198	Anticancer Drug	rdkit_canonical	rdkit_computed	cura
 MOL-000025	5-Fluorouracil	3385	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		yes	no	yes	yes	B
 MOL-000026	Imatinib	5291	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	161714fc-6d94-4842-8725-7568f1ff838f14	no	yes	yes	yes	A
 MOL-000027	Cyclophosphamide	2907	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	10f718c6-4898-4bb9-be8d-75b869cf6e9a14	no	no	yes	yes	A
-MOL-000028	Gefitinib	123631	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	yes	yes	yes	B
-MOL-000029	Erlotinib	176870	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
+MOL-000028	Gefitinib	123631	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	4459da30-23d6-4a88-8eb7-7e86e46d6a7e14	no	yes	yes	yes	A
+MOL-000029	Erlotinib	176870	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text	43fb43bd-3bb8-41cf-90f4-1e7ed1c09bd814	no	no	yes	yes	A
 MOL-000030	Sorafenib	216239	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
 MOL-000031	Sunitinib	5329102	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
-MOL-000032	Crizotinib	11626560	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000032	Crizotinib	11626560	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	0452bc0d-7ec2-452d-b907-13cf5624bfdd14	no	no	yes	yes	A
 MOL-000033	Metformin	4091	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|mineru_paper_text|pubchem_text	b5eec853-2d47-4d82-9df3-3f3e5f20420d09	yes	yes	yes	yes	A
 MOL-000034	Glibenclamide	3488	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000035	Sitagliptin	4369359	Antidiabetic Drug	rdkit_canonical	rdkit_computed	curated_literature	curated_zh|pubchem_text		no	no	yes	yes	B
@@ -334,18 +334,18 @@ MOL-000332	Regorafenib	11167602	Targeted Therapy	rdkit_canonical	rdkit_computed	
 MOL-000333	Cabozantinib	25102847	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000334	Lenvatinib	9823820	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000335	Vandetanib	3081361	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000336	Axitinib	6450551	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000337	Tivozanib	9911830	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000338	Palbociclib	5330286	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000339	Ribociclib	44631912	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000340	Abemaciclib	46220502	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000341	Olaparib	23725625	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000336	Axitinib	6450551	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	c2c79ed1-43f8-4c24-9f91-4b37281301ca14	no	no	yes	yes	A
+MOL-000337	Tivozanib	9911830	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	ef02bbd4-e136-4484-b865-cb6b4c6f0c5214	no	no	yes	yes	A
+MOL-000338	Palbociclib	5330286	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	4759b06e-9459-4c9a-82e6-7f158556c19814	no	no	yes	yes	A
+MOL-000339	Ribociclib	44631912	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	432b13b3-a2be-4d82-9f83-4a44d9203cdb14	no	no	yes	yes	A
+MOL-000340	Abemaciclib	46220502	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	7fb4034b-689c-47ec-a0f1-65bcf947e6a814	no	no	yes	yes	A
+MOL-000341	Olaparib	23725625	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	b057aab0-b637-476c-94cb-ae29ea337aa214	no	no	yes	yes	A
 MOL-000342	Rucaparib	9931954	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000343	Niraparib	24958200	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000344	Talazoparib	135565082	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000345	Vemurafenib	42611257	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000346	Dabrafenib	44462760	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000347	Trametinib	11707110	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000343	Niraparib	24958200	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	d25beb06-880b-4461-a2ac-6e8fe752df2c14	no	no	yes	yes	A
+MOL-000344	Talazoparib	135565082	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	dda7579a-dac1-4424-8466-28b1f3006c5f14	no	no	yes	yes	A
+MOL-000345	Vemurafenib	42611257	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	f0edca6b-47cb-40b2-a093-150f41a0a16814	no	no	yes	yes	A
+MOL-000346	Dabrafenib	44462760	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	7f0d1391-5e73-4e68-bc01-f122783a366714	no	no	yes	yes	A
+MOL-000347	Trametinib	11707110	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	ed4de1f2-b42d-459a-a970-f18830ea0df114	no	no	yes	yes	A
 MOL-000348	Cobimetinib	16222096	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000349	Binimetinib	10288191	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000350	Encorafenib	50922675	Targeted Therapy	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
