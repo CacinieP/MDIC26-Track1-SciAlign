@@ -293,29 +293,29 @@ MOL-000291	Leuprolide	657181	Anticancer Drug	rdkit_canonical	rdkit_computed	cura
 MOL-000292	Goserelin	5311128	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	52e26578-3acf-43e0-962c-1f66f8787a6114	no	no	yes	no	A
 MOL-000293	Degarelix	16136245	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	c636c701-a7a6-437b-9b48-2cbbefea7e7014	no	no	yes	no	A
 MOL-000294	Etoposide	36462	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	01a0b059-82e0-48c6-9148-208422a63c2a14	no	no	yes	yes	A
-MOL-000295	Teniposide	452548	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000296	Irinotecan	60838	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000295	Teniposide	452548	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	734bd41c-e924-42ce-8d05-beeb0353e74c14	no	no	yes	yes	A
+MOL-000296	Irinotecan	60838	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	d7ea8f95-68d3-4f6d-b453-ad11286f925c14	no	no	yes	yes	A
 MOL-000297	Topotecan	60700	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000298	Vinblastine	13342	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	yes	C
-MOL-000299	Vincristine	5978	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000300	Vinorelbine	5311497	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000301	Docetaxel	148124	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000302	Cabazitaxel	9854073	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000303	Daunorubicin	30323	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000304	Epirubicin	41867	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000305	Idarubicin	42890	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000306	Mitoxantrone	4212	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000307	Bleomycin	5360373	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh		no	no	yes	no	C
-MOL-000308	Dactinomycin	457193	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000309	Mitomycin	5746	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000310	Hydroxycarbamide	3657	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000311	Bortezomib	387447	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000312	Carfilzomib	11556711	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000313	Ixazomib	25183872	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000314	Lenalidomide	216326	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000315	Pomalidomide	134780	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000316	Thalidomide	5426	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
-MOL-000317	Vorinostat	5311	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
+MOL-000298	Vinblastine	13342	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	8288ad43-a6d9-4834-a3d2-392cc2f3ef3914	no	no	yes	yes	A
+MOL-000299	Vincristine	5978	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	1ec99349-090a-4de6-bc03-5fe90b8d395f14	no	no	yes	yes	A
+MOL-000300	Vinorelbine	5311497	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	d4aebb3b-2f0c-4c92-b516-b55b08c431d014	no	no	yes	yes	A
+MOL-000301	Docetaxel	148124	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	d43cb4f0-e5dc-4f44-ba2a-b03fa6632d5c14	no	no	yes	yes	A
+MOL-000302	Cabazitaxel	9854073	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	1e631e98-a2bd-4600-86b8-baa514dca99914	no	no	yes	yes	A
+MOL-000303	Daunorubicin	30323	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	7c725b04-2198-4d11-88db-583c4998561914	no	no	yes	yes	A
+MOL-000304	Epirubicin	41867	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	4f9456f2-5e77-48db-8ba3-8b8af7b7177d14	no	no	yes	yes	A
+MOL-000305	Idarubicin	42890	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	61cfd67f-2108-42f1-8d90-5dc6eb0080a614	no	no	yes	yes	A
+MOL-000306	Mitoxantrone	4212	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	7eddea59-2733-49b0-a4ee-a085f5ab927314	no	no	yes	yes	A
+MOL-000307	Bleomycin	5360373	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_en|curated_zh	ece4f28b-3bf3-4103-9f7c-f1df4d68c18a14	no	no	yes	no	A
+MOL-000308	Dactinomycin	457193	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	a0f883f5-b5ee-42ff-95c8-c80cb084fc6914	no	no	yes	yes	A
+MOL-000309	Mitomycin	5746	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	fb4dced5-3d50-4688-b9f8-66b963c574af14	no	no	yes	yes	A
+MOL-000310	Hydroxycarbamide	3657	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	cd58f42c-29b4-4062-89b8-6b4f98d88c2414	no	no	yes	yes	A
+MOL-000311	Bortezomib	387447	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	9d92a576-56ce-41c2-9ea4-f120d9b8eda214	no	no	yes	yes	A
+MOL-000312	Carfilzomib	11556711	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	ded1e8c5-04e9-4161-8b6d-274c145948cd14	no	no	yes	yes	A
+MOL-000313	Ixazomib	25183872	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	00b4200f-1441-4efa-a386-f1ce7445e99a14	no	no	yes	yes	A
+MOL-000314	Lenalidomide	216326	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	c525f8c4-2c83-465b-9dca-ade8eb51273e14	no	no	yes	yes	A
+MOL-000315	Pomalidomide	134780	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	2f6202e2-3f21-40ba-a48e-90d7397020f014	no	no	yes	yes	A
+MOL-000316	Thalidomide	5426	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	ff96e64f-78ab-4124-9526-87cb2e984f2614	no	no	yes	yes	A
+MOL-000317	Vorinostat	5311	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text	bc1b1b80-1343-469f-b2c0-9fa3c4b67f6e14	no	no	yes	yes	A
 MOL-000318	Romidepsin	5352062	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000319	Panobinostat	6918837	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C
 MOL-000320	Venetoclax	49846579	Anticancer Drug	rdkit_canonical	rdkit_computed	curated_mixed	curated_zh|pubchem_text		no	no	yes	yes	C

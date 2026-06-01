@@ -2211,7 +2211,237 @@
       "title": "Looking behind the Solubilization Curtain: Microdialysis Provides Near-Real-Time Noncolloidal Drug Concentrations during In Vitro Lipolysis.",
       "record_id": "MOL-000134",
       "molecule": "Indomethacin Sodium"
+    },
+    "teniposide_anticancer_drug.pdf": {
+      "task_id": "734bd41c-e924-42ce-8d05-beeb0353e74c14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/40c1ea42-e4a8-458b-a741-09d6b2ccce5d/full.md",
+      "content_length": 66209,
+      "pmc_id": "PMC12808447",
+      "pmc_num": 12808447,
+      "title": "STING activation by teniposide: a potential direct mechanism beyond cGAS stimulation.",
+      "record_id": "MOL-000295",
+      "molecule": "Teniposide"
+    },
+    "irinotecan_anticancer_drug.pdf": {
+      "task_id": "d7ea8f95-68d3-4f6d-b453-ad11286f925c14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/8ee63de2-50f0-42a1-9a0f-8b92f7903907/full.md",
+      "content_length": 55542,
+      "pmc_id": "PMC13072242",
+      "pmc_num": 13072242,
+      "title": "Association Between Irinotecan-Containing Regimens and Functional and Nutritional Impairment in Advanced Colorectal Cancer: An Exploratory PG-SGA Analysis.",
+      "record_id": "MOL-000296",
+      "molecule": "Irinotecan"
+    },
+    "topotecan_anticancer_drug.pdf": {
+      "task_id": "492f01d4-6697-4190-be0d-a9da4c52d10f14",
+      "markdown_url": null,
+      "content_length": 0,
+      "pmc_id": "PMC13114712",
+      "pmc_num": 13114712,
+      "title": "The Influence of TDP1 Inhibitor Usnic Acid Derivative OL9-116 on the Effects of Topotecan in Human Cells.",
+      "record_id": "MOL-000297",
+      "molecule": "Topotecan"
+    },
+    "vinblastine_anticancer_drug.pdf": {
+      "task_id": "8288ad43-a6d9-4834-a3d2-392cc2f3ef3914",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/c2953506-9e4b-42be-9f0a-49c9048f213e/full.md",
+      "content_length": 28726,
+      "pmc_id": "PMC13051858",
+      "pmc_num": 13051858,
+      "title": "Treatment Outcomes of Advanced Stage Classical Hodgkin Lymphoma in the Setting of Vinblastine and Dacarbazine Shortages: A Case Series.",
+      "record_id": "MOL-000298",
+      "molecule": "Vinblastine"
+    },
+    "vincristine_anticancer_drug.pdf": {
+      "task_id": "1ec99349-090a-4de6-bc03-5fe90b8d395f14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/e297ad6f-6f60-4833-ae14-d9a97f83dfde/full.md",
+      "content_length": 36277,
+      "pmc_id": "PMC13065686",
+      "pmc_num": 13065686,
+      "title": "Case Report: Successful management of acute vincristine overdose in a cat with metastatic gastric lymphoma using therapeutic plasma exchange.",
+      "record_id": "MOL-000299",
+      "molecule": "Vincristine"
+    },
+    "vinorelbine_anticancer_drug.pdf": {
+      "task_id": "d4aebb3b-2f0c-4c92-b516-b55b08c431d014",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/85e302aa-0abf-4693-b0b1-7972fe8978d4/full.md",
+      "content_length": 78363,
+      "pmc_id": "PMC13190992",
+      "pmc_num": 13190992,
+      "title": "Metronomic chemotherapy combined with immunotherapy in solid tumor: a systematic review.",
+      "record_id": "MOL-000300",
+      "molecule": "Vinorelbine"
+    },
+    "docetaxel_anticancer_drug.pdf": {
+      "task_id": "d43cb4f0-e5dc-4f44-ba2a-b03fa6632d5c14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/3c6bc74e-e664-4644-a846-2521750ecced/full.md",
+      "content_length": 54905,
+      "pmc_id": "PMC13101699",
+      "pmc_num": 13101699,
+      "title": "Inhibition of PTCH1 drug efflux activity enhances chemotherapy efficacy against triple negative breast cancers.",
+      "record_id": "MOL-000301",
+      "molecule": "Docetaxel"
+    },
+    "cabazitaxel_anticancer_drug.pdf": {
+      "task_id": "1e631e98-a2bd-4600-86b8-baa514dca99914",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/76412005-49dc-46c7-b052-68cf39c2646f/full.md",
+      "content_length": 50484,
+      "pmc_id": "PMC12992898",
+      "pmc_num": 12992898,
+      "title": "Treatment Strategies in Metastatic Castration-Resistant Prostate Cancer: A Narrative Review of Considerations in the Post-ARTA, Post-Docetaxel Setting.",
+      "record_id": "MOL-000302",
+      "molecule": "Cabazitaxel"
+    },
+    "daunorubicin_anticancer_drug.pdf": {
+      "task_id": "7c725b04-2198-4d11-88db-583c4998561914",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/525b5fba-f675-4ced-8b70-2bc50ec38d28/full.md",
+      "content_length": 23952,
+      "pmc_id": "PMC13026126",
+      "pmc_num": 13026126,
+      "title": "Reversal Effects of 20(R)- and 20(S)-Ginsenoside-Rg3 on Daunorubicin Uptake in Multidrug-Resistant Leukemia Cells Studied in the Single-Cell Biochip.",
+      "record_id": "MOL-000303",
+      "molecule": "Daunorubicin"
+    },
+    "epirubicin_anticancer_drug.pdf": {
+      "task_id": "4f9456f2-5e77-48db-8ba3-8b8af7b7177d14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/98274d8f-e129-42de-84a6-8eb4a96daa24/full.md",
+      "content_length": 41653,
+      "pmc_id": "PMC13072809",
+      "pmc_num": 13072809,
+      "title": "Clinical and Radiological Outcomes Comparison of Degradable Starch Microspheres TACE with Idarubicin vs. Epirubicin Protocol in Patients with HCC.",
+      "record_id": "MOL-000304",
+      "molecule": "Epirubicin"
+    },
+    "idarubicin_anticancer_drug.pdf": {
+      "task_id": "61cfd67f-2108-42f1-8d90-5dc6eb0080a614",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/dbd8b659-63c1-4892-a686-b71498999df3/full.md",
+      "content_length": 17974,
+      "pmc_id": "PMC12909460",
+      "pmc_num": 12909460,
+      "title": "Asciminib and pulsed ATRA as post-remission therapy in T315I mutated PML-RARA-positive blast crisis of chronic myeloid leukemia.",
+      "record_id": "MOL-000305",
+      "molecule": "Idarubicin"
+    },
+    "mitoxantrone_anticancer_drug.pdf": {
+      "task_id": "7eddea59-2733-49b0-a4ee-a085f5ab927314",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/9dc329d1-7a10-4bdd-9e67-386614784831/full.md",
+      "content_length": 71146,
+      "pmc_id": "PMC12917589",
+      "pmc_num": 12917589,
+      "title": "Decoding the interplay between protic ionic liquids and drug: spectrophotometric, electrochemical, and DFT exploration of mitoxantrone.",
+      "record_id": "MOL-000306",
+      "molecule": "Mitoxantrone"
+    },
+    "bleomycin_anticancer_drug.pdf": {
+      "task_id": "ece4f28b-3bf3-4103-9f7c-f1df4d68c18a14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/6e253c95-aaf8-4130-b2cb-51be103b3b24/full.md",
+      "content_length": 54797,
+      "pmc_id": "PMC13117696",
+      "pmc_num": 13117696,
+      "title": "Lung Microbiome Dysbiosis in Pulmonary Fibrosis Induced by Multi-Walled Carbon Nanotubes and Bleomycin in Rats.",
+      "record_id": "MOL-000307",
+      "molecule": "Bleomycin"
+    },
+    "dactinomycin_anticancer_drug.pdf": {
+      "task_id": "a0f883f5-b5ee-42ff-95c8-c80cb084fc6914",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/047011a2-99d8-4765-9462-19cb9a6b94d2/full.md",
+      "content_length": 14023,
+      "pmc_id": "PMC13099341",
+      "pmc_num": 13099341,
+      "title": "Successful management approach for Wilms tumor metastatic to the skull treated with regimen I chemotherapy in 10th week: A case report.",
+      "record_id": "MOL-000308",
+      "molecule": "Dactinomycin"
+    },
+    "mitomycin_anticancer_drug.pdf": {
+      "task_id": "fb4dced5-3d50-4688-b9f8-66b963c574af14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/0cfb73c2-c218-418b-93f8-ff1398d60b97/full.md",
+      "content_length": 18360,
+      "pmc_id": "PMC13051902",
+      "pmc_num": 13051902,
+      "title": "Mitomycin Gel for the Pyelocaliceal System in Patients With Urinary Diversion: First Reported Cases and Operative Technique.",
+      "record_id": "MOL-000309",
+      "molecule": "Mitomycin"
+    },
+    "hydroxycarbamide_anticancer_drug.pdf": {
+      "task_id": "cd58f42c-29b4-4062-89b8-6b4f98d88c2414",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/961d88f9-1d58-4674-8e59-9ecf7ade3f7b/full.md",
+      "content_length": 6979,
+      "pmc_id": "PMC12621211",
+      "pmc_num": 12621211,
+      "title": "Dermoscopy of drug-induced melanonychia after hydroxycarbamide: case descriptions of patients with polycythaemia vera.",
+      "record_id": "MOL-000310",
+      "molecule": "Hydroxycarbamide"
+    },
+    "bortezomib_anticancer_drug.pdf": {
+      "task_id": "9d92a576-56ce-41c2-9ea4-f120d9b8eda214",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/76de5826-feb9-4c84-9d88-ff49fcef4ccc/full.md",
+      "content_length": 47766,
+      "pmc_id": "PMC13078374",
+      "pmc_num": 13078374,
+      "title": "Adding Bortezomib and Bendamustine to High-Dose Melphalan in Autologous Haematopoietic Stem Cell Transplantation for Relapsed Multiple Myeloma-A Single Centre Retrospective Study.",
+      "record_id": "MOL-000311",
+      "molecule": "Bortezomib"
+    },
+    "carfilzomib_anticancer_drug.pdf": {
+      "task_id": "ded1e8c5-04e9-4161-8b6d-274c145948cd14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/26c05ee3-5a53-4f43-b5a4-287bd6fdbea6/full.md",
+      "content_length": 48754,
+      "pmc_id": "PMC12949909",
+      "pmc_num": 12949909,
+      "title": "Cardiovascular Adverse Events Associated With Carfilzomib, Bortezomib, and Ixazomib: A Disproportionality Analysis Using the Japanese Adverse Drug Event Report Database With Anticancer Agents as the R",
+      "record_id": "MOL-000312",
+      "molecule": "Carfilzomib"
+    },
+    "ixazomib_anticancer_drug.pdf": {
+      "task_id": "00b4200f-1441-4efa-a386-f1ce7445e99a14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/cc7d1a6a-9e8e-4f30-aa38-2492f64dbb05/full.md",
+      "content_length": 48754,
+      "pmc_id": "PMC12949909",
+      "pmc_num": 12949909,
+      "title": "Cardiovascular Adverse Events Associated With Carfilzomib, Bortezomib, and Ixazomib: A Disproportionality Analysis Using the Japanese Adverse Drug Event Report Database With Anticancer Agents as the R",
+      "record_id": "MOL-000313",
+      "molecule": "Ixazomib"
+    },
+    "lenalidomide_anticancer_drug.pdf": {
+      "task_id": "c525f8c4-2c83-465b-9dca-ade8eb51273e14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/19370ba4-8114-4f71-8a81-4368e1d03d13/full.md",
+      "content_length": 2893,
+      "pmc_id": "PMC13102199",
+      "pmc_num": 13102199,
+      "title": "Correction: Combining lenalidomide with IL-2 family of cytokines enhances activating receptor and perforin/granzyme expression in NK cells.",
+      "record_id": "MOL-000314",
+      "molecule": "Lenalidomide"
+    },
+    "pomalidomide_anticancer_drug.pdf": {
+      "task_id": "2f6202e2-3f21-40ba-a48e-90d7397020f014",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/bebc401f-bf4c-4a5e-8ca9-c729236e8243/full.md",
+      "content_length": 23294,
+      "pmc_id": "PMC12923485",
+      "pmc_num": 12923485,
+      "title": "Pomalidomide re-exposure after drug-related severe hypothyroidism: a case report.",
+      "record_id": "MOL-000315",
+      "molecule": "Pomalidomide"
+    },
+    "thalidomide_anticancer_drug.pdf": {
+      "task_id": "ff96e64f-78ab-4124-9526-87cb2e984f2614",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/d408e5bf-eafa-43ea-8538-f9684b52ff0c/full.md",
+      "content_length": 90574,
+      "pmc_id": "PMC13194658",
+      "pmc_num": 13194658,
+      "title": "Efficacy and safety of thalidomide in β-thalassaemia: a systematic review and meta-analysis.",
+      "record_id": "MOL-000316",
+      "molecule": "Thalidomide"
+    },
+    "vorinostat_anticancer_drug.pdf": {
+      "task_id": "bc1b1b80-1343-469f-b2c0-9fa3c4b67f6e14",
+      "markdown_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-06-01/4ecc4974-ab2c-4d0b-bd66-b03c3e8cba50/full.md",
+      "content_length": 65415,
+      "pmc_id": "PMC13054463",
+      "pmc_num": 13054463,
+      "title": "Identification of Histone Deacetylase Inhibitor Targeting Type I Interferon and B Cell Abnormalities in Systemic Lupus Erythematosus.",
+      "record_id": "MOL-000317",
+      "molecule": "Vorinostat"
     }
   },
-  "last_expansion": "2026-06-01T09:22:23Z"
+  "last_expansion": "2026-06-01T09:57:19Z"
 }
